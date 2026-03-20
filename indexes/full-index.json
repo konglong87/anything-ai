@@ -1,0 +1,490 @@
+[
+  {
+    "title": "Start Here: AI Cognition Basics",
+    "path": "0-start-here/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "从这里开始：AI认知入门",
+    "path": "0-start-here/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "为什么不需要AI焦虑",
+    "path": "0-start-here/ai-anxiety.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15min",
+    "tools": [],
+    "tags": [
+      "AI anxiety",
+      "mindset",
+      "career development"
+    ]
+  },
+  {
+    "title": "为什么不需要AI焦虑",
+    "path": "0-start-here/ai-anxiety.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15min",
+    "tools": [],
+    "tags": [
+      "AI焦虑",
+      "心态调整",
+      "职业发展"
+    ]
+  },
+  {
+    "title": "Learning Path Overview",
+    "path": "0-start-here/learning-path.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [],
+    "tags": [
+      "learning path",
+      "learning method",
+      "beginner"
+    ]
+  },
+  {
+    "title": "学习路径总览",
+    "path": "0-start-here/learning-path.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [],
+    "tags": [
+      "学习路径",
+      "学习方法",
+      "零基础"
+    ]
+  },
+  {
+    "title": "What is AI",
+    "path": "0-start-here/what-is-ai.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15min",
+    "tools": [],
+    "tags": [
+      "AI fundamentals",
+      "artificial intelligence",
+      "beginner"
+    ]
+  },
+  {
+    "title": "AI是什么",
+    "path": "0-start-here/what-is-ai.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15min",
+    "tools": [],
+    "tags": [
+      "AI基础",
+      "人工智能",
+      "入门"
+    ]
+  },
+  {
+    "title": "Understand AI: Deep Principles",
+    "path": "1-understand-ai/README.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "2hour"
+  },
+  {
+    "title": "理解AI：深入原理",
+    "path": "1-understand-ai/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "2hour"
+  },
+  {
+    "title": "Tool Selection Matrix",
+    "path": "2-choose-tools/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "15min"
+  },
+  {
+    "title": "工具选择矩阵",
+    "path": "2-choose-tools/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "15min"
+  },
+  {
+    "title": "AI Tool Selection Matrix",
+    "path": "2-choose-tools/tool-matrix.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tools": [],
+    "tags": [
+      "tool selection",
+      "comparison",
+      "best practices"
+    ]
+  },
+  {
+    "title": "AI工具选择矩阵",
+    "path": "2-choose-tools/tool-matrix.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tools": [],
+    "tags": [
+      "工具选择",
+      "对比",
+      "最佳实践"
+    ]
+  },
+  {
+    "title": "Advanced Topics",
+    "path": "4-advanced-topics/README.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "1hour"
+  },
+  {
+    "title": "进阶主题",
+    "path": "4-advanced-topics/README.md",
+    "difficulty": "advanced",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "1hour"
+  },
+  {
+    "title": "Prompt Library",
+    "path": "prompts/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min"
+  },
+  {
+    "title": "提示词库",
+    "path": "prompts/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min"
+  },
+  {
+    "title": "External Resources Index",
+    "path": "resources/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10min"
+  },
+  {
+    "title": "外部资源索引",
+    "path": "resources/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10min"
+  },
+  {
+    "title": "Industry Application Cases",
+    "path": "roles/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10min"
+  },
+  {
+    "title": "行业应用案例库",
+    "path": "roles/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10min"
+  },
+  {
+    "title": "Admin AI Application Guide",
+    "path": "roles/admin/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "admin"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "行政AI应用指南",
+    "path": "roles/admin/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "admin"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "Content Creator AI Application Guide",
+    "path": "roles/content-creator/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "content-creator"
+    ],
+    "type": "guide",
+    "duration": "45min"
+  },
+  {
+    "title": "内容创作者AI应用指南",
+    "path": "roles/content-creator/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "content-creator"
+    ],
+    "type": "guide",
+    "duration": "45min"
+  },
+  {
+    "title": "UI Designer AI Application Guide",
+    "path": "roles/designer/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "designer"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "UI设计师AI应用指南",
+    "path": "roles/designer/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "designer"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "Finance AI Application Guide",
+    "path": "roles/finance/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "finance"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "财务AI应用指南",
+    "path": "roles/finance/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "finance"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "HR AI Application Guide",
+    "path": "roles/hr/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "hr"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "HR AI应用指南",
+    "path": "roles/hr/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "hr"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "Programmer AI Application Guide",
+    "path": "roles/programmer/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "45min"
+  },
+  {
+    "title": "程序员AI应用指南",
+    "path": "roles/programmer/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "45min"
+  },
+  {
+    "title": "Sales AI Application Guide",
+    "path": "roles/sales/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "sales"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "销售AI应用指南",
+    "path": "roles/sales/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "sales"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "Student AI Application Guide",
+    "path": "roles/student/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "学生AI应用指南",
+    "path": "roles/student/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "费曼学习法AI应用（学生版）",
+    "path": "roles/student/feynman-technique.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student"
+    ],
+    "type": "tutorial",
+    "duration": "20min",
+    "tools": [
+      "chatgpt",
+      "claude",
+      "deepseek"
+    ],
+    "tags": [
+      "费曼学习法",
+      "学习方法",
+      "自我测试"
+    ]
+  },
+  {
+    "title": "Teacher AI Application Guide",
+    "path": "roles/teacher/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "teacher"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "教师AI应用指南",
+    "path": "roles/teacher/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "teacher"
+    ],
+    "type": "guide",
+    "duration": "30min"
+  },
+  {
+    "title": "费曼学习法AI应用（教师版）",
+    "path": "roles/teacher/feynman-technique.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "teacher"
+    ],
+    "type": "tutorial",
+    "duration": "20min",
+    "tools": [
+      "chatgpt",
+      "claude",
+      "deepseek"
+    ],
+    "tags": [
+      "费曼学习法",
+      "教学方法",
+      "测试学习效果"
+    ]
+  }
+]
