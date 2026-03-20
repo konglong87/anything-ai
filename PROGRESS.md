@@ -108,10 +108,10 @@
 ### 📋 待办事项
 
 #### 优先级1：核心内容
-- [ ] 0-start-here/what-is-ai.md + what-is-ai.en.md
-- [ ] 0-start-here/ai-anxiety.md + ai-anxiety.en.md
-- [ ] 0-start-here/learning-path.md + learning-path.en.md
-- [ ] 2-choose-tools/tool-matrix.md + tool-matrix.en.md
+- [x] 0-start-here/what-is-ai.md + what-is-ai.en.md ✅ 2026-03-20
+- [x] 0-start-here/ai-anxiety.md + ai-anxiety.en.md ✅ 2026-03-20
+- [x] 0-start-here/learning-path.md + learning-path.en.md ✅ 2026-03-20
+- [x] 2-choose-tools/tool-matrix.md + tool-matrix.en.md ✅ 2026-03-20
 
 #### 优先级2：详细案例
 - [ ] roles/programmer/code-assistant.md（中英文）
@@ -136,11 +136,12 @@
 **Phase 4-5**：⏸️ 0%
 
 ### 文件统计
-- 配置文件：5个（新增CLAUDE.md）
-- README文件：26个（13中文 + 13英文）
+- 配置文件：5个
+- README文件：27个（含主README中英文）
+- 核心文章：8个（4中文 + 4英文）
 - 模板文件：6个（3中文 + 3英文）
 - 设计文档：2个
-- **总计**：39个文件
+- **总计**：48个文件
 
 ### 内容覆盖
 - 主要阶段：5个（0、1、2、3/roles、4）
@@ -193,13 +194,19 @@
 
 **完成**：
 - ✅ 确定项目架构和初衷
-- ✅ 创建主README（中英文）
+- ✅ 创建主README（中英文）- 含核心价值观和AI时代应对建议
 - ✅ 搭建完整目录结构
 - ✅ 创建所有阶段README骨架
 - ✅ 创建所有行业角色README骨架
 - ✅ 创建内容模板系统（中英文双语）
 - ✅ 更新Git地址：git@github.com:konglong87/anything-ai.git
 - ✅ 创建项目规则文档（CLAUDE.md）
+- ✅ 完成核心文章"AI是什么"（中英文双语）
+- ✅ 完成核心文章"为什么不需要AI焦虑"（中英文双语）
+- ✅ 完成核心文章"学习路径总览"（中英文双语）
+- ✅ 完成"AI工具选择矩阵"（中英文双语）
+- ✅ 补充AI原理解读内容（通俗理解AI本质）
+- ✅ 补充主README核心价值观和应对建议
 
 **关键决策**：
 - 采用"先宏观后微观"的工作节奏
