@@ -25,17 +25,21 @@
 - 所有阶段README骨架
 - 所有行业角色README骨架
 
-**Phase 2: 内容模板系统** 🔄（进行中）
+**Phase 2: 内容模板系统** ✅（已完成）
 - 创建内容标准模板
 - 建立内容创作规范
 
-**Phase 3: 核心内容填充** ⏸️
+**Phase 3: 核心内容填充** ✅（已完成）
 - 先填充最重要的内容
 - 按优先级逐步完成
 
-**Phase 4-5: 自动化和社区** ⏸️
+**Phase 4: 自动化工具** ✅（已完成）
 - 开发自动化工具
-- 配置社区协作流程
+- 构建索引系统
+
+**Phase 5: VitePress静态网站** ✅（已完成）
+- 配置VitePress
+- 部署到GitHub Pages
 
 ---
 
@@ -112,7 +116,7 @@
 ```
 1. 索引重新构建 → npm run index
 2. 标签重新构建 → npm run index (包含标签索引)
-3. 网站重新渲染 → npm run build (待配置)
+3. 网站重新渲染 → npm run build
 ```
 
 **为什么重要**：
@@ -120,9 +124,11 @@
 - 确保标签系统准确
 - 让静态网站保持最新状态
 
-**自动化目标**：
-- 未来配置Git hooks自动触发
-- 提交时自动更新索引和网站
+**自动化状态**：
+- ✅ GitHub Actions已配置自动部署
+- ✅ Push到main分支时自动触发构建
+- ✅ 自动执行check → index → docs:build流程
+- ✅ 自动部署到GitHub Pages
 
 ---
 
@@ -136,13 +142,28 @@
 - ✅ 进度追踪文档（PROGRESS.md）
 - ✅ 设计文档和实施计划
 
-### 进行中（Phase 2）
-- 🔄 内容模板系统（concept-template、tool-guide-template、case-template）
+### 已完成（Phase 2）
+- ✅ 内容模板系统（concept-template、tool-guide-template、case-template）
 
-### 下一步（Phase 3）
-- ⏸️ 核心文章（AI是什么、AI焦虑、学习路径）
-- ⏸️ 工具矩阵详细内容
-- ⏸️ 行业案例详细内容
+### 已完成（Phase 3）
+- ✅ 核心文章（AI是什么、AI焦虑、学习路径）
+- ✅ 工具矩阵详细内容
+- ✅ 行业案例详细内容
+
+### 已完成（Phase 4）
+- ✅ 自动化工具系统
+- ✅ 索引生成脚本
+- ✅ 内容验证工具
+
+### 已完成（Phase 5）
+- ✅ VitePress配置
+- ✅ GitHub Actions自动部署
+- ✅ GitHub Pages网站
+
+### 下一步
+- ⏸️ 扩展更多行业案例
+- ⏸️ 完善工具指南
+- ⏸️ 充实提示词库
 
 ---
 
@@ -235,6 +256,32 @@ refactor: 重构
 - `main` - 主分支
 - `feature/*` - 功能分支
 - `docs/*` - 文档分支
+
+---
+
+## 🌐 网站部署
+
+### 本地开发
+```bash
+npm run docs:dev
+```
+访问：http://localhost:5173/anything-ai/
+
+### 生产构建
+```bash
+npm run build
+```
+
+### 部署地址
+- 网站：https://konglong87.github.io/anything-ai/
+- 状态：https://github.com/konglong87/anything-ai/actions
+
+### 部署流程
+1. Push到main分支
+2. GitHub Actions自动触发
+3. 执行构建（check → index → docs:build）
+4. 部署到GitHub Pages
+5. 自动更新网站内容
 
 ---
 
