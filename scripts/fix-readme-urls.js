@@ -28,9 +28,21 @@ function fixReadmeUrls(dir) {
       // 找到 README.html，创建 index.html 重定向
       const indexPath = path.join(dir, 'index.html');
 
-      if (!fs.existsSync(indexPath)) {
-        // 创建一个简单的HTML文件，自动重定向到 README.html
-        const redirectHtml = `<!DOCTYPE html>
+      // 对于根目录的特殊处理：直接复制README.html为index.html
+      const isRoot = (dir === distDir);
+      if (isRoot) {
+        // 根目录：直接复制README.html为index.html，避免重定向循环
+        if (!fs.existsSync(indexPath)) {
+          const readmeContent = fs.readFileSync(fullPath, 'utf-8');
+          // 移除VitePress的SPA路由脚本，改为普通HTML
+          const fixedContent = readmeContent.replace(/<script type="module"[^>]*>[\s\S]*?<\/script>/g, '');
+          fs.writeFileSync(indexPath, fixedContent, 'utf-8');
+          console.log(`✅ 创建首页 index.html（复制自README.html）`);
+        }
+      } else {
+        // 其他目录：创建重定向文件
+        if (!fs.existsSync(indexPath)) {
+          const redirectHtml = `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -45,8 +57,9 @@ function fixReadmeUrls(dir) {
   <p>Redirecting to <a href="./README.html">./README.html</a>...</p>
 </body>
 </html>`;
-        fs.writeFileSync(indexPath, redirectHtml, 'utf-8');
-        console.log(`✅ 创建重定向 index.html: ${path.relative(distDir, dir) || '/'}`);
+          fs.writeFileSync(indexPath, redirectHtml, 'utf-8');
+          console.log(`✅ 创建重定向 index.html: ${path.relative(distDir, dir)}`);
+        }
       }
     }
   }
