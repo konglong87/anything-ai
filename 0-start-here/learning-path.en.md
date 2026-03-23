@@ -22,7 +22,8 @@ version: 1.0
 ## 🤔 What is a Learning Path
 
 **In Simple Terms**:
-An AI learning path is like a "capability evolution map"—telling you what to learn from zero foundation to skilled AI user, in what order, and to what extent. Not aimlessly "learning whatever you see," but systematically building your AI skill tree.
+An AI learning path is like a "capability evolution map"—telling you what to learn from zero foundation to skilled AI user, in what order, and to what extent. 
+Not aimlessly "learning whatever you see," but systematically building your AI skill tree.
 
 **Core Principles**:
 1. **Practicality First**: Learn to use first, understand deeply later
