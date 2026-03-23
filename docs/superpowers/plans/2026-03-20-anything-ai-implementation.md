@@ -313,7 +313,7 @@ MIT License - 自由使用、修改和分发
 
 ### 参考资源
 
-本项目从以下优秀资源中汲取灵感：
+本项目参考优秀项目：：
 - [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 - [awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting)
 - [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
