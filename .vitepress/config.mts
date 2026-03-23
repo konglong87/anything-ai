@@ -30,13 +30,13 @@ export default defineConfig({
       link: '/',
       themeConfig: {
         nav: [
-          { text: '从这里开始', link: '/0-start-here/' },
-          { text: '理解AI', link: '/1-understand-ai/' },
-          { text: '选择工具', link: '/2-choose-tools/' },
-          { text: '行业案例', link: '/roles/' },
-          { text: '进阶主题', link: '/4-advanced-topics/' },
-          { text: '提示词库', link: '/prompts/' },
-          { text: '外部资源', link: '/resources/' }
+          { text: '从这里开始', link: '/0-start-here/README' },
+          { text: '理解AI', link: '/1-understand-ai/README' },
+          { text: '选择工具', link: '/2-choose-tools/README' },
+          { text: '行业案例', link: '/roles/README' },
+          { text: '进阶主题', link: '/4-advanced-topics/README' },
+          { text: '提示词库', link: '/prompts/README' },
+          { text: '外部资源', link: '/resources/README' }
         ],
         sidebar: {
           '/': [
@@ -53,7 +53,7 @@ export default defineConfig({
               text: '理解AI',
               collapsed: true,
               items: [
-                { text: '深入原理', link: '/1-understand-ai/' }
+                { text: '深入原理', link: '/1-understand-ai/README' }
               ]
             },
             {
@@ -67,36 +67,36 @@ export default defineConfig({
               text: '行业案例',
               collapsed: true,
               items: [
-                { text: '程序员', link: '/roles/programmer/' },
-                { text: '内容创作者', link: '/roles/content-creator/' },
-                { text: '教师', link: '/roles/teacher/' },
-                { text: '学生', link: '/roles/student/' },
-                { text: '财务', link: '/roles/finance/' },
-                { text: 'HR', link: '/roles/hr/' },
-                { text: '销售', link: '/roles/sales/' },
-                { text: '设计师', link: '/roles/designer/' },
-                { text: '行政', link: '/roles/admin/' }
+                { text: '程序员', link: '/roles/programmer/README' },
+                { text: '内容创作者', link: '/roles/content-creator/README' },
+                { text: '教师', link: '/roles/teacher/README' },
+                { text: '学生', link: '/roles/student/README' },
+                { text: '财务', link: '/roles/finance/README' },
+                { text: 'HR', link: '/roles/hr/README' },
+                { text: '销售', link: '/roles/sales/README' },
+                { text: '设计师', link: '/roles/designer/README' },
+                { text: '行政', link: '/roles/admin/README' }
               ]
             },
             {
               text: '进阶主题',
               collapsed: true,
               items: [
-                { text: '概览', link: '/4-advanced-topics/' }
+                { text: '概览', link: '/4-advanced-topics/README' }
               ]
             },
             {
               text: '提示词库',
               collapsed: true,
               items: [
-                { text: '概览', link: '/prompts/' }
+                { text: '概览', link: '/prompts/README' }
               ]
             },
             {
               text: '外部资源',
               collapsed: true,
               items: [
-                { text: '概览', link: '/resources/' }
+                { text: '概览', link: '/resources/README' }
               ]
             }
           ]
@@ -109,13 +109,13 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Start Here', link: '/en/0-start-here/' },
-          { text: 'Understand AI', link: '/en/1-understand-ai/' },
-          { text: 'Choose Tools', link: '/en/2-choose-tools/' },
-          { text: 'Industry Cases', link: '/en/roles/' },
-          { text: 'Advanced Topics', link: '/en/4-advanced-topics/' },
-          { text: 'Prompts', link: '/en/prompts/' },
-          { text: 'Resources', link: '/en/resources/' }
+          { text: 'Start Here', link: '/en/0-start-here/README' },
+          { text: 'Understand AI', link: '/en/1-understand-ai/README' },
+          { text: 'Choose Tools', link: '/en/2-choose-tools/README' },
+          { text: 'Industry Cases', link: '/en/roles/README' },
+          { text: 'Advanced Topics', link: '/en/4-advanced-topics/README' },
+          { text: 'Prompts', link: '/en/prompts/README' },
+          { text: 'Resources', link: '/en/resources/README' }
         ],
         sidebar: {
           '/en/': [
@@ -132,7 +132,7 @@ export default defineConfig({
               text: 'Understand AI',
               collapsed: true,
               items: [
-                { text: 'Deep Principles', link: '/en/1-understand-ai/' }
+                { text: 'Deep Principles', link: '/en/1-understand-ai/README' }
               ]
             },
             {
@@ -146,36 +146,36 @@ export default defineConfig({
               text: 'Industry Cases',
               collapsed: true,
               items: [
-                { text: 'Programmer', link: '/en/roles/programmer/' },
-                { text: 'Content Creator', link: '/en/roles/content-creator/' },
-                { text: 'Teacher', link: '/en/roles/teacher/' },
-                { text: 'Student', link: '/en/roles/student/' },
-                { text: 'Finance', link: '/en/roles/finance/' },
-                { text: 'HR', link: '/en/roles/hr/' },
-                { text: 'Sales', link: '/en/roles/sales/' },
-                { text: 'Designer', link: '/en/roles/designer/' },
-                { text: 'Admin', link: '/en/roles/admin/' }
+                { text: 'Programmer', link: '/en/roles/programmer/README' },
+                { text: 'Content Creator', link: '/en/roles/content-creator/README' },
+                { text: 'Teacher', link: '/en/roles/teacher/README' },
+                { text: 'Student', link: '/en/roles/student/README' },
+                { text: 'Finance', link: '/en/roles/finance/README' },
+                { text: 'HR', link: '/en/roles/hr/README' },
+                { text: 'Sales', link: '/en/roles/sales/README' },
+                { text: 'Designer', link: '/en/roles/designer/README' },
+                { text: 'Admin', link: '/en/roles/admin/README' }
               ]
             },
             {
               text: 'Advanced Topics',
               collapsed: true,
               items: [
-                { text: 'Overview', link: '/en/4-advanced-topics/' }
+                { text: 'Overview', link: '/en/4-advanced-topics/README' }
               ]
             },
             {
               text: 'Prompts',
               collapsed: true,
               items: [
-                { text: 'Overview', link: '/en/prompts/' }
+                { text: 'Overview', link: '/en/prompts/README' }
               ]
             },
             {
               text: 'Resources',
               collapsed: true,
               items: [
-                { text: 'Overview', link: '/en/resources/' }
+                { text: 'Overview', link: '/en/resources/README' }
               ]
             }
           ]
