@@ -178,18 +178,34 @@ version: 1.0
 **Best Combo**: **MIC intelligent learning + DeepSeek Q&A**
 
 **Why This Combo**:
-- MIC (Tsinghua open-source) designed for students, intelligent learning assistant
-- DeepSeek answers questions, completely free
+- MIC (OpenMAIC, Tsinghua open-source) is a multi-agent AI classroom platform designed for education
+- Includes AI teachers, AI teaching assistants, and AI classmates to simulate real classroom interaction
+- Automatically generates complete courses from any topic or document (slides, quizzes, interactive simulations)
+- Validated with 700+ students at Tsinghua University, 100K+ interaction records, costs only 1/1000th of traditional MOOCs
+- DeepSeek answers questions, completely free, suitable for daily Q&A
 - Low learning curve, effective
+
+**Project Links**:
+- Website: https://open.maic.chat/
+- GitHub: https://github.com/THU-MAIC/OpenMAIC
 
 **Actual Workflow**:
 ```
 1. Use MIC to create study plans
+   Example: Input "I want to learn bubble sort", AI teacher automatically generates complete course
+
 2. Use DeepSeek to answer difficult questions
    Prompt: "Please explain this math concept..."
 
 3. Use MIC for knowledge consolidation
+   Reinforce understanding through AI classmate discussions and quizzes
 ```
+
+**Application Scenarios**:
+- Higher Education: University students quickly generate final exam review courses
+- K12 Education: Math Olympiad thinking training, understanding abstract concepts
+- Lifelong Learning: Zero-background 30-minute programming crash course
+- Paper Learning: Automatically analyze latest papers like DeepSeek
 
 **Monthly Cost Estimate**: **$0 (MIC free + DeepSeek free)**
 

@@ -98,7 +98,7 @@
 | 👨‍💻 **程序员** | 代码助手、代码审查、TDD | **Claude写架构 + Codex写实现** | [程序员专区](./roles/programmer/) |
 | ✍️ **内容创作者** | 爆款标题、文章写作、视频脚本 | **DeepSeek文案 + 豆包日常** | [创作者专区](./roles/content-creator/) |
 | 👨‍🏫 **教师** | 备课、出题、个性化教学 | ChatGPT + Claude | [教师专区](./roles/teacher/) |
-| 🎓 **学生** | 学习辅助、笔记整理 | MIC + ChatGPT | [学生专区](./roles/student/) |
+| 🎓 **学生** | 学习辅助、笔记整理 | MIC (OpenMAIC清华开源) + ChatGPT | [学生专区](./roles/student/) |
 | 📊 **财务** | 报表分析、数据处理 | DeepSeek + 豆包 | [财务专区](./roles/finance/) |
 | 💼 **销售** | 客户沟通、提案撰写 | DeepSeek + ChatGPT | [销售专区](./roles/sales/) |
 | 👥 **HR** | 招聘筛选、员工培训 | 豆包 + Claude | [HR专区](./roles/hr/) |

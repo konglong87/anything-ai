@@ -94,7 +94,7 @@
 | 👨‍💻 **Programmer** | Code assistant, Code review, TDD | **Claude for architecture + Codex for implementation** | [Programmer Zone](./roles/programmer/) |
 | ✍️ **Content Creator** | Viral titles, Article writing, Video scripts | **DeepSeek for content + Doubao for daily** | [Creator Zone](./roles/content-creator/) |
 | 👨‍🏫 **Teacher** | Lesson prep, Quiz creation, Personalized teaching | ChatGPT + Claude | [Teacher Zone](./roles/teacher/) |
-| 🎓 **Student** | Study assistant, Note organization | MIC + ChatGPT | [Student Zone](./roles/student/) |
+| 🎓 **Student** | Study assistant, Note organization | MIC (OpenMAIC Tsinghua Open Source) + ChatGPT | [Student Zone](./roles/student/) |
 | 📊 **Finance** | Report analysis, Data processing | DeepSeek + Doubao | [Finance Zone](./roles/finance/) |
 | 💼 **Sales** | Client communication, Proposal writing | DeepSeek + ChatGPT | [Sales Zone](./roles/sales/) |
 | 👥 **HR** | Recruitment screening, Employee training | Doubao + Claude | [HR Zone](./roles/hr/) |

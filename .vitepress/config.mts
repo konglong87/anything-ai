@@ -27,7 +27,7 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      link: '/',
+      link: '/README.html',
       themeConfig: {
         nav: [
           { text: '从这里开始', link: '/0-start-here/README.html' },
