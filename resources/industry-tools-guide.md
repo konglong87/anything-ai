@@ -1,5 +1,20 @@
-# AI行业工具指南360行 🚀
-**行行有AI，AI赋能万业**
+---
+title: "360行AI工具指南"
+title_en: "AI Tools Guide for 360 Industries"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 30min
+tags: [行业工具, 工具推荐, AI应用]
+author: "Anything-AI Team"
+created: 2026-03-20
+updated: 2026-03-23
+version: 1.1
+---
+
+# 360行AI工具指南 🚀
+
+> **行行有AI，AI赋能万业**
 
 ---
 
