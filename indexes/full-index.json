@@ -136,6 +136,410 @@
     "duration": "2hour"
   },
   {
+    "title": "Agent Architecture",
+    "path": "1-understand-ai/agent-intro/agent-architecture.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "Architecture",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Agent架构",
+    "path": "1-understand-ai/agent-intro/agent-architecture.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "Architecture",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Agent Case Studies",
+    "path": "1-understand-ai/agent-intro/agent-cases.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "case",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "Case Study",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Agent实践案例",
+    "path": "1-understand-ai/agent-intro/agent-cases.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "case",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "Case Study",
+      "LLM"
+    ]
+  },
+  {
+    "title": "What is an Agent",
+    "path": "1-understand-ai/agent-intro/agent-intro.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Agent是什么",
+    "path": "1-understand-ai/agent-intro/agent-intro.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "AI",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Hallucination Phenomenon",
+    "path": "1-understand-ai/how-ai-thinks/hallucination.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Hallucination",
+      "Limitations"
+    ]
+  },
+  {
+    "title": "幻觉现象",
+    "path": "1-understand-ai/how-ai-thinks/hallucination.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Hallucination",
+      "Limitations"
+    ]
+  },
+  {
+    "title": "Memory Mechanisms",
+    "path": "1-understand-ai/how-ai-thinks/memory-mechanisms.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Memory",
+      "RAG"
+    ]
+  },
+  {
+    "title": "记忆机制",
+    "path": "1-understand-ai/how-ai-thinks/memory-mechanisms.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Memory",
+      "RAG"
+    ]
+  },
+  {
+    "title": "Probabilistic Prediction",
+    "path": "1-understand-ai/how-ai-thinks/probabilistic-prediction.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Probability",
+      "Prediction"
+    ]
+  },
+  {
+    "title": "概率预测",
+    "path": "1-understand-ai/how-ai-thinks/probabilistic-prediction.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Probability",
+      "Prediction"
+    ]
+  },
+  {
+    "title": "Reasoning Capabilities",
+    "path": "1-understand-ai/how-ai-thinks/reasoning.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Reasoning",
+      "Chain of Thought"
+    ]
+  },
+  {
+    "title": "推理能力",
+    "path": "1-understand-ai/how-ai-thinks/reasoning.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Reasoning",
+      "Chain of Thought"
+    ]
+  },
+  {
+    "title": "Attention Mechanism Explained",
+    "path": "1-understand-ai/llm-basics/attention-mechanism.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Attention",
+      "Transformer"
+    ]
+  },
+  {
+    "title": "注意力机制详解",
+    "path": "1-understand-ai/llm-basics/attention-mechanism.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Attention",
+      "Transformer"
+    ]
+  },
+  {
+    "title": "Context Window",
+    "path": "1-understand-ai/llm-basics/context-window.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Context Window",
+      "Memory"
+    ]
+  },
+  {
+    "title": "上下文窗口",
+    "path": "1-understand-ai/llm-basics/context-window.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Context Window",
+      "Memory"
+    ]
+  },
+  {
+    "title": "Pretraining and Finetuning",
+    "path": "1-understand-ai/llm-basics/pretraining-finetuning.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Pretraining",
+      "Finetuning"
+    ]
+  },
+  {
+    "title": "预训练与微调",
+    "path": "1-understand-ai/llm-basics/pretraining-finetuning.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Pretraining",
+      "Finetuning"
+    ]
+  },
+  {
+    "title": "Tokenization",
+    "path": "1-understand-ai/llm-basics/tokenization.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Tokenization",
+      "NLP"
+    ]
+  },
+  {
+    "title": "Tokenization",
+    "path": "1-understand-ai/llm-basics/tokenization.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Tokenization",
+      "NLP"
+    ]
+  },
+  {
+    "title": "Introduction to Transformer Architecture",
+    "path": "1-understand-ai/llm-basics/transformer-intro.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Transformer",
+      "NLP"
+    ]
+  },
+  {
+    "title": "Transformer架构简介",
+    "path": "1-understand-ai/llm-basics/transformer-intro.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [],
+    "tags": [
+      "LLM",
+      "Transformer",
+      "NLP"
+    ]
+  },
+  {
     "title": "Tool Selection Matrix",
     "path": "2-choose-tools/README.en.md",
     "difficulty": "beginner",
@@ -188,6 +592,228 @@
     ]
   },
   {
+    "title": "ChatGPT User Guide",
+    "path": "2-choose-tools/tools/chatgpt/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "25 min",
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "ChatGPT",
+      "AI",
+      "Tools"
+    ]
+  },
+  {
+    "title": "ChatGPT使用指南",
+    "path": "2-choose-tools/tools/chatgpt/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "25 min",
+    "tools": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "ChatGPT",
+      "AI",
+      "Tools"
+    ]
+  },
+  {
+    "title": "Claude Usage Guide",
+    "path": "2-choose-tools/tools/claude/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "Claude",
+      "AI assistant",
+      "usage tips",
+      "Anthropic"
+    ]
+  },
+  {
+    "title": "Claude使用指南",
+    "path": "2-choose-tools/tools/claude/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "Claude",
+      "AI助手",
+      "使用技巧",
+      "Anthropic"
+    ]
+  },
+  {
+    "title": "GitHub Copilot User Guide",
+    "path": "2-choose-tools/tools/copilot/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "GitHub Copilot"
+    ],
+    "tags": [
+      "Copilot",
+      "AI",
+      "Editor"
+    ]
+  },
+  {
+    "title": "GitHub Copilot使用指南",
+    "path": "2-choose-tools/tools/copilot/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "GitHub Copilot"
+    ],
+    "tags": [
+      "Copilot",
+      "AI",
+      "Editor"
+    ]
+  },
+  {
+    "title": "Cursor User Guide",
+    "path": "2-choose-tools/tools/cursor/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Cursor"
+    ],
+    "tags": [
+      "Cursor",
+      "AI",
+      "Editor"
+    ]
+  },
+  {
+    "title": "Cursor使用指南",
+    "path": "2-choose-tools/tools/cursor/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Cursor"
+    ],
+    "tags": [
+      "Cursor",
+      "AI",
+      "Editor"
+    ]
+  },
+  {
+    "title": "DeepSeek User Guide",
+    "path": "2-choose-tools/tools/deepseek/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "deepseek"
+    ],
+    "tags": [
+      "DeepSeek",
+      "AI Assistant",
+      "Programming",
+      "Reasoning",
+      "Open Source Model"
+    ]
+  },
+  {
+    "title": "DeepSeek使用指南",
+    "path": "2-choose-tools/tools/deepseek/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "deepseek"
+    ],
+    "tags": [
+      "DeepSeek",
+      "AI助手",
+      "编程",
+      "推理",
+      "开源模型"
+    ]
+  },
+  {
+    "title": "Doubao User Guide",
+    "path": "2-choose-tools/tools/doubao/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tools": [
+      "Doubao"
+    ],
+    "tags": [
+      "Doubao",
+      "AI",
+      "Tools"
+    ]
+  },
+  {
+    "title": "豆包使用指南",
+    "path": "2-choose-tools/tools/doubao/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tools": [
+      "豆包"
+    ],
+    "tags": [
+      "豆包",
+      "AI",
+      "Tools"
+    ]
+  },
+  {
     "title": "Advanced Topics",
     "path": "4-advanced-topics/README.en.md",
     "difficulty": "advanced",
@@ -206,6 +832,316 @@
     ],
     "type": "guide",
     "duration": "1hour"
+  },
+  {
+    "title": "Agent Development",
+    "path": "4-advanced-topics/agent-development.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "LLM",
+      "Automation"
+    ]
+  },
+  {
+    "title": "Agent开发",
+    "path": "4-advanced-topics/agent-development.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Agent",
+      "LLM",
+      "Automation"
+    ]
+  },
+  {
+    "title": "Computer Vision",
+    "path": "4-advanced-topics/cv.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "Computer Vision",
+      "CV",
+      "Image Processing"
+    ]
+  },
+  {
+    "title": "计算机视觉",
+    "path": "4-advanced-topics/cv.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "Computer Vision",
+      "CV",
+      "Image Processing"
+    ]
+  },
+  {
+    "title": "Deep Learning",
+    "path": "4-advanced-topics/deep-learning.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "Deep Learning",
+      "Neural Networks"
+    ]
+  },
+  {
+    "title": "深度学习",
+    "path": "4-advanced-topics/deep-learning.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "Deep Learning",
+      "Neural Networks"
+    ]
+  },
+  {
+    "title": "Machine Learning Basics",
+    "path": "4-advanced-topics/ml-basics.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Machine Learning",
+      "Basics"
+    ]
+  },
+  {
+    "title": "机器学习基础",
+    "path": "4-advanced-topics/ml-basics.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Machine Learning",
+      "Basics"
+    ]
+  },
+  {
+    "title": "Model Deployment",
+    "path": "4-advanced-topics/model-deployment.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Deployment",
+      "LLM",
+      "Production"
+    ]
+  },
+  {
+    "title": "模型部署",
+    "path": "4-advanced-topics/model-deployment.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Deployment",
+      "LLM",
+      "Production"
+    ]
+  },
+  {
+    "title": "Model Fine-tuning",
+    "path": "4-advanced-topics/model-fine-tuning.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Fine-tuning",
+      "LLM",
+      "Training"
+    ]
+  },
+  {
+    "title": "模型微调",
+    "path": "4-advanced-topics/model-fine-tuning.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Fine-tuning",
+      "LLM",
+      "Training"
+    ]
+  },
+  {
+    "title": "Natural Language Processing",
+    "path": "4-advanced-topics/nlp.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "NLP",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "title": "自然语言处理",
+    "path": "4-advanced-topics/nlp.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "NLP",
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "title": "Prompt Engineering",
+    "path": "4-advanced-topics/prompt-engineering.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Prompt Engineering",
+      "LLM"
+    ]
+  },
+  {
+    "title": "提示词工程",
+    "path": "4-advanced-topics/prompt-engineering.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Prompt Engineering",
+      "LLM"
+    ]
+  },
+  {
+    "title": "RAG (Retrieval-Augmented Generation)",
+    "path": "4-advanced-topics/rag.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "RAG",
+      "Retrieval",
+      "LLM"
+    ]
+  },
+  {
+    "title": "RAG（检索增强生成）",
+    "path": "4-advanced-topics/rag.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "RAG",
+      "Retrieval",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning",
+    "path": "4-advanced-topics/rl.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Reinforcement Learning",
+      "RL"
+    ]
+  },
+  {
+    "title": "强化学习",
+    "path": "4-advanced-topics/rl.md",
+    "difficulty": "advanced",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "60 min",
+    "tools": [],
+    "tags": [
+      "Reinforcement Learning",
+      "RL"
+    ]
   },
   {
     "title": "Prompt Library",
@@ -228,6 +1164,260 @@
     "duration": "5min"
   },
   {
+    "title": "Analysis Scenario Prompts",
+    "path": "prompts/by-scene/analysis-prompts.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "analyst",
+      "researcher"
+    ],
+    "type": "guide",
+    "duration": "25 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Analysis",
+      "Data"
+    ]
+  },
+  {
+    "title": "分析场景提示词",
+    "path": "prompts/by-scene/analysis-prompts.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "analyst",
+      "researcher"
+    ],
+    "type": "guide",
+    "duration": "25 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Analysis",
+      "Data"
+    ]
+  },
+  {
+    "title": "Coding Scenario Prompts",
+    "path": "prompts/by-scene/coding-prompts.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Coding",
+      "Programming"
+    ]
+  },
+  {
+    "title": "编程场景提示词",
+    "path": "prompts/by-scene/coding-prompts.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Coding",
+      "Programming"
+    ]
+  },
+  {
+    "title": "Learning Scenario Prompts",
+    "path": "prompts/by-scene/learning-prompts.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "teacher",
+      "learner"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Learning",
+      "Education"
+    ]
+  },
+  {
+    "title": "学习场景提示词",
+    "path": "prompts/by-scene/learning-prompts.md",
+    "difficulty": "beginner",
+    "roles": [
+      "student",
+      "teacher",
+      "learner"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Learning",
+      "Education"
+    ]
+  },
+  {
+    "title": "Research Writing Scenario Prompts",
+    "path": "prompts/by-scene/research-writing-prompts.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "researcher",
+      "academic",
+      "writer"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Research",
+      "Writing",
+      "Academic"
+    ]
+  },
+  {
+    "title": "研究写作场景提示词",
+    "path": "prompts/by-scene/research-writing-prompts.md",
+    "difficulty": "advanced",
+    "roles": [
+      "researcher",
+      "academic",
+      "writer"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Research",
+      "Writing",
+      "Academic"
+    ]
+  },
+  {
+    "title": "Writing Scenario Prompts",
+    "path": "prompts/by-scene/writing-prompts.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "content-creator",
+      "writer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Writing",
+      "Content"
+    ]
+  },
+  {
+    "title": "写作场景提示词",
+    "path": "prompts/by-scene/writing-prompts.md",
+    "difficulty": "beginner",
+    "roles": [
+      "content-creator",
+      "writer"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "Prompts",
+      "Writing",
+      "Content"
+    ]
+  },
+  {
+    "title": "System Prompt Guide",
+    "path": "prompts/system-prompts.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "System Prompts",
+      "AI",
+      "Best Practices"
+    ]
+  },
+  {
+    "title": "系统提示词指南",
+    "path": "prompts/system-prompts.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek"
+    ],
+    "tags": [
+      "System Prompts",
+      "AI",
+      "Best Practices"
+    ]
+  },
+  {
     "title": "External Resources Index",
     "path": "resources/README.en.md",
     "difficulty": "beginner",
@@ -246,6 +1436,396 @@
     ],
     "type": "guide",
     "duration": "10min"
+  },
+  {
+    "title": "AI Application Resources",
+    "path": "resources/ai-tools/ai-apps-resources.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Apps",
+      "Resources",
+      "Tools"
+    ]
+  },
+  {
+    "title": "AI应用资源",
+    "path": "resources/ai-tools/ai-apps-resources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Apps",
+      "Resources",
+      "Tools"
+    ]
+  },
+  {
+    "title": "AI Tools Index",
+    "path": "resources/ai-tools/ai-tools-index.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Tools",
+      "Index",
+      "Resources"
+    ]
+  },
+  {
+    "title": "AI工具索引",
+    "path": "resources/ai-tools/ai-tools-index.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Tools",
+      "Index",
+      "Resources"
+    ]
+  },
+  {
+    "title": "AI Tools Resources",
+    "path": "resources/ai-tools/ai-tools-resources.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Tools",
+      "Resources",
+      "Tools"
+    ]
+  },
+  {
+    "title": "AI工具资源",
+    "path": "resources/ai-tools/ai-tools-resources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Tools",
+      "Resources",
+      "Tools"
+    ]
+  },
+  {
+    "title": "AI Developer Tools Collection",
+    "path": "resources/ai-tools/awesome-ai-devtools.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tags": [
+      "AI",
+      "Developer Tools",
+      "IDE",
+      "Automation"
+    ]
+  },
+  {
+    "title": "AI开发者工具集合",
+    "path": "resources/ai-tools/awesome-ai-devtools.md",
+    "difficulty": "beginner",
+    "roles": [
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tags": [
+      "AI",
+      "Developer Tools",
+      "IDE",
+      "Automation"
+    ]
+  },
+  {
+    "title": "External Learning Resources",
+    "path": "resources/external/external-resources.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "Resources",
+      "LLM",
+      "Courses"
+    ]
+  },
+  {
+    "title": "外部学习资源",
+    "path": "resources/external/external-resources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "Resources",
+      "LLM",
+      "Courses"
+    ]
+  },
+  {
+    "title": "Generative AI Resources",
+    "path": "resources/generative-ai/awesome-ai-resources.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Generative AI",
+      "Resources",
+      "Tools"
+    ]
+  },
+  {
+    "title": "AI进阶学习资源索引",
+    "path": "resources/generative-ai/awesome-ai-resources.md",
+    "difficulty": "advanced",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI",
+      "Resources",
+      "Advanced"
+    ]
+  },
+  {
+    "title": "AI Advanced Learning Resources Index",
+    "path": "resources/generative-ai/awesome-generative-ai-resources.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI",
+      "Resources",
+      "Advanced"
+    ]
+  },
+  {
+    "title": "现代生成式AI资源",
+    "path": "resources/generative-ai/awesome-generative-ai-resources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "Generative AI",
+      "Resources",
+      "Projects"
+    ]
+  },
+  {
+    "title": "Modern Generative AI Resources",
+    "path": "resources/generative-ai/generative-ai-resources.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "Generative AI",
+      "Resources",
+      "Projects"
+    ]
+  },
+  {
+    "title": "生成式AI资源",
+    "path": "resources/generative-ai/generative-ai-resources.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [],
+    "tags": [
+      "Generative AI",
+      "Resources",
+      "Tools"
+    ]
+  },
+  {
+    "title": "Claude Skills and Tools Resources",
+    "path": "resources/specialized/agent-skills-resources.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "Claude",
+      "Skills",
+      "Tools"
+    ]
+  },
+  {
+    "title": "Claude技能和工具资源",
+    "path": "resources/specialized/agent-skills-resources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [
+      "Claude"
+    ],
+    "tags": [
+      "Claude",
+      "Skills",
+      "Tools"
+    ]
+  },
+  {
+    "title": "AI Painting Resources",
+    "path": "resources/specialized/ai-painting-resources.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Painting",
+      "Image Generation",
+      "Resources"
+    ]
+  },
+  {
+    "title": "AI绘画资源",
+    "path": "resources/specialized/ai-painting-resources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10 min",
+    "tools": [],
+    "tags": [
+      "AI Painting",
+      "Image Generation",
+      "Resources"
+    ]
+  },
+  {
+    "title": "AI Academic Writing Assistant",
+    "path": "resources/specialized/ai-research-writing.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "researcher",
+      "student"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tags": [
+      "AI",
+      "Academic Writing",
+      "Research",
+      "Prompts"
+    ]
+  },
+  {
+    "title": "AI学术写作助手",
+    "path": "resources/specialized/ai-research-writing.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "researcher",
+      "student"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tags": [
+      "AI",
+      "Academic Writing",
+      "Research",
+      "Prompts"
+    ]
+  },
+  {
+    "title": "LangChain Resources",
+    "path": "resources/specialized/langchain-resources.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "LangChain",
+      "LLM",
+      "Framework"
+    ]
+  },
+  {
+    "title": "LangChain资源",
+    "path": "resources/specialized/langchain-resources.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "45 min",
+    "tools": [],
+    "tags": [
+      "LangChain",
+      "LLM",
+      "Framework"
+    ]
   },
   {
     "title": "Industry Application Cases",
@@ -348,6 +1928,40 @@
     "duration": "30min"
   },
   {
+    "title": "AI Fortune Teller Application Guide",
+    "path": "roles/fortune-teller/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "fortune-teller"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "AI Fortune Telling",
+      "DeepSeek",
+      "Zi Wei Dou Shu",
+      "Ba Zi",
+      "Numerology"
+    ]
+  },
+  {
+    "title": "AI算命师应用指南",
+    "path": "roles/fortune-teller/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "fortune-teller"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "AI算命",
+      "DeepSeek",
+      "紫微斗数",
+      "八字",
+      "命理分析"
+    ]
+  },
+  {
     "title": "HR AI Application Guide",
     "path": "roles/hr/README.en.md",
     "difficulty": "beginner",
@@ -386,6 +2000,90 @@
     ],
     "type": "guide",
     "duration": "45min"
+  },
+  {
+    "title": "AI Programming Assistant Real Cases",
+    "path": "roles/programmer/code-assistant.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "deepseek",
+      "chatgpt"
+    ],
+    "tags": [
+      "programming",
+      "AI assistant",
+      "code generation",
+      "real cases"
+    ]
+  },
+  {
+    "title": "AI编程助手实战案例",
+    "path": "roles/programmer/code-assistant.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "deepseek",
+      "chatgpt"
+    ],
+    "tags": [
+      "编程",
+      "AI助手",
+      "代码生成",
+      "实战案例"
+    ]
+  },
+  {
+    "title": "AI Code Review Real Cases",
+    "path": "roles/programmer/code-review.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "deepseek",
+      "chatgpt"
+    ],
+    "tags": [
+      "code review",
+      "bug detection",
+      "performance optimization",
+      "security"
+    ]
+  },
+  {
+    "title": "AI代码审查实战案例",
+    "path": "roles/programmer/code-review.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "deepseek",
+      "chatgpt"
+    ],
+    "tags": [
+      "代码审查",
+      "bug发现",
+      "性能优化",
+      "安全检查"
+    ]
   },
   {
     "title": "Sales AI Application Guide",
@@ -485,6 +2183,118 @@
       "费曼学习法",
       "教学方法",
       "测试学习效果"
+    ]
+  },
+  {
+    "title": "Vibe Coding Beginner's Guide",
+    "path": "roles/vibe-coding/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "vibe-coding"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tags": [
+      "vibe coding",
+      "AI programming",
+      "workflow",
+      "flow state"
+    ]
+  },
+  {
+    "title": "氛围编程入门指南",
+    "path": "roles/vibe-coding/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "vibe-coding"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tags": [
+      "氛围编程",
+      "AI编程",
+      "工作流",
+      "Flow状态"
+    ]
+  },
+  {
+    "title": "Vibe Coding Tools Recommendation",
+    "path": "roles/vibe-coding/tools.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "vibe-coding"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tags": [
+      "vibe coding",
+      "AI tools",
+      "Cursor",
+      "Copilot",
+      "Claude Code",
+      "tool comparison"
+    ]
+  },
+  {
+    "title": "氛围编程工具推荐",
+    "path": "roles/vibe-coding/tools.md",
+    "difficulty": "beginner",
+    "roles": [
+      "vibe-coding"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tags": [
+      "氛围编程",
+      "AI工具",
+      "Cursor",
+      "Copilot",
+      "Claude Code",
+      "工具对比"
+    ]
+  },
+  {
+    "title": "Vibe Coding Workflow Detailed Guide",
+    "path": "roles/vibe-coding/workflow.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "vibe-coding"
+    ],
+    "type": "guide",
+    "duration": "25min",
+    "tags": [
+      "vibe coding",
+      "workflow",
+      "iteration cycle",
+      "AI collaboration"
+    ]
+  },
+  {
+    "title": "氛围编程工作流程详解",
+    "path": "roles/vibe-coding/workflow.md",
+    "difficulty": "beginner",
+    "roles": [
+      "vibe-coding"
+    ],
+    "type": "guide",
+    "duration": "25min",
+    "tags": [
+      "氛围编程",
+      "工作流",
+      "迭代循环",
+      "AI协作"
+    ]
+  },
+  {
+    "title": "TODO - 2026年3月",
+    "path": "todo/todo_2026_03.md",
+    "difficulty": "beginner",
+    "roles": [],
+    "type": "guide",
+    "duration": "5 min",
+    "tags": [
+      "TODO",
+      "Project"
     ]
   }
 ]

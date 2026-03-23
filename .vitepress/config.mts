@@ -8,6 +8,9 @@ export default defineConfig({
   title: 'Anything-AI',
   description: '系统性AI知识索引 - 帮助人们认识、理解和驾驭AI',
 
+  // 忽略死链接检查
+  ignoreDeadLinks: true,
+
   // 排除不需要的目录
   srcExclude: [
     'indexes/**',

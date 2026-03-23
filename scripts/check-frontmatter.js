@@ -28,6 +28,7 @@ const entries = parseAllMarkdown();
 const contentEntries = entries.filter(e =>
   !e.relativePath.includes('_templates') &&
   !e.relativePath.includes('indexes/') &&
+  !e.relativePath.startsWith('memory/') &&
   !['CLAUDE.md', 'PROGRESS.md', 'README.md', 'README.en.md'].includes(e.relativePath) &&
   !e.relativePath.startsWith('docs/')
 );

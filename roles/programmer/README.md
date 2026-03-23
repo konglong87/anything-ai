@@ -16,6 +16,7 @@ duration: 45min
 - AI辅助代码审查最佳实践
 - TDD + AI 的完美工作流
 - 避免AI幻觉的关键技巧
+- GitHub Copilot高级使用技巧
 
 ## 📚 完整工具指南
 
@@ -55,18 +56,284 @@ duration: 45min
 - 修复建议
 - 预防措施
 
+## 🤖 GitHub Copilot使用指南
+
+### Copilot核心功能
+
+**1. 智能代码补全**
+- 实时代码建议
+- 上下文感知
+- 多行代码生成
+- 函数自动完成
+
+**2. 代码生成**
+- 根据注释生成代码
+- 根据函数签名生成实现
+- 根据测试生成代码
+- 根据描述生成功能
+
+**3. 代码解释**
+- 解释代码功能
+- 说明算法逻辑
+- 指出潜在问题
+- 提供改进建议
+
+**4. 测试生成**
+- 生成单元测试
+- 生成测试用例
+- 生成测试数据
+- 生成断言
+
+### Copilot使用技巧
+
+**安装和配置**
+1. 访问 https://github.com/features/copilot
+2. 订阅Copilot服务
+3. 在IDE中安装Copilot插件
+4. 登录GitHub账户
+5. 开始使用
+
+**支持的IDE**
+- Visual Studio Code
+- Visual Studio
+- JetBrains IDEs
+- Neovim
+- Emacs
+
+**代码补全技巧**
+- 编写清晰的函数名
+- 添加有意义的注释
+- 提供类型注解
+- 编写文档字符串
+
+**代码生成技巧**
+- 编写清晰的描述
+- 分步骤实现
+- 提供示例
+- 迭代优化
+
+**测试生成技巧**
+- 编写清晰的测试描述
+- 指定测试框架
+- 说明测试目标
+- 要求覆盖边界条件
+
+### Copilot最佳实践
+
+**项目配置**
+- 创建`.github/copilot-instructions.md`文件
+- 定义项目规范
+- 添加代码风格指南
+- 说明常用模式
+
+**日常开发**
+- 编写清晰的函数签名
+- 添加文档字符串
+- 使用Copilot生成实现
+- 审查和修改代码
+- 运行测试
+- 迭代优化
+
+**团队协作**
+- 共享Copilot配置
+- 统一代码风格
+- 建立最佳实践
+- 定期分享技巧
+
+**学习和探索**
+- 使用Copilot生成示例代码
+- 研究生成的代码
+- 理解实现方式
+- 实践应用
+- 记录学习笔记
+
+### Copilot适用场景
+
+**最适合的场景**
+1. 日常编程
+   - 代码补全
+   - 代码生成
+   - Bug修复
+   - 重构优化
+
+2. 快速原型开发
+   - 快速生成代码
+   - 实现测试用例
+   - 生成样板代码
+
+3. 学习编程
+   - 学习新语言
+   - 理解代码模式
+   - 探索新框架
+
+4. 团队协作
+   - 统一代码风格
+   - 提高开发效率
+   - 知识共享
+
+**不太适合的场景**
+1. 复杂算法设计
+   - 需要深入思考
+   - 需要领域知识
+   - 需要创新思维
+
+2. 架构设计
+   - 需要全局视角
+   - 需要经验判断
+   - 需要权衡取舍
+
+3. 安全敏感代码
+   - 需要安全审计
+   - 需要严格测试
+   - 需要专家审查
+
+### Copilot实战案例
+
+**案例1：快速开发REST API**
+```python
+# 步骤1：定义数据模型
+from pydantic import BaseModel
+
+class User(BaseModel):
+    id: int
+    name: str
+    email: str
+
+# 步骤2：使用Copilot生成API端点
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.post("/users/")
+async def create_user(user: User):
+    # Copilot生成实现
+    ...
+
+# 步骤3：审查和优化
+# 添加数据库集成
+# 实现错误处理
+# 添加验证逻辑
+
+# 步骤4：生成测试
+# 使用Copilot生成测试用例
+# 验证API功能
+```
+
+**案例2：实现测试用例**
+```python
+# 原始代码
+def calculate_discount(price, discount_rate):
+    if price <= 0:
+        raise ValueError("Price must be positive")
+    if discount_rate < 0 or discount_rate > 1:
+        raise ValueError("Discount rate must be between 0 and 1")
+    return price * (1 - discount_rate)
+
+# 使用Copilot生成测试
+import pytest
+
+def test_calculate_discount_normal():
+    assert calculate_discount(100, 0.1) == 90
+    assert calculate_discount(50, 0.2) == 40
+
+def test_calculate_discount_boundary():
+    assert calculate_discount(100, 0) == 100
+    assert calculate_discount(100, 1) == 0
+
+def test_calculate_discount_invalid():
+    with pytest.raises(ValueError):
+        calculate_discount(0, 0.1)
+    with pytest.raises(ValueError):
+        calculate_discount(-100, 0.1)
+```
+
+**案例3：代码重构**
+```python
+# 原始代码
+def process_data(data):
+    result = []
+    for item in data:
+        if item['type'] == 'A':
+            result.append(item['value'] * 2)
+        elif item['type'] == 'B':
+            result.append(item['value'] * 3)
+        elif item['type'] == 'C':
+            result.append(item['value'] * 4)
+        else:
+            result.append(item['value'])
+    return result
+
+# 使用Copilot重构
+from typing import List, Dict
+
+def process_data(data: List[Dict]) -> List:
+    """
+    根据类型处理数据
+
+    Args:
+        data: 包含类型和值的数据列表
+
+    Returns:
+        处理后的数据列表
+    """
+    type_multiplier = {
+        'A': 2,
+        'B': 3,
+        'C': 4
+    }
+
+    result = []
+    for item in data:
+        multiplier = type_multiplier.get(item['type'], 1)
+        result.append(item['value'] * multiplier)
+
+    return result
+```
+
+### Copilot价格方案
+
+**个人版**
+- 价格：$10/月 或 $100/年
+- 功能：
+  - 基础代码补全
+  - 多语言支持
+  - IDE集成
+  - 免费试用60天
+
+**商业版**
+- 价格：$19/用户/月
+- 功能：
+  - 所有个人版功能
+  - 企业级支持
+  - 管理控制台
+  - 安全和合规
+
+**学生版**
+- 价格：免费
+- 功能：
+  - 所有个人版功能
+  - 需要GitHub学生包
+
 ## 🛠️ 推荐工具组合
 
 - **架构设计**：Claude
-- **代码实现**：Codex / Claude
+- **代码实现**：GitHub Copilot / Cursor / Claude
 - **代码审查**：DeepSeek / Claude
-- **日常编码**：Claude / Cursor
+- **日常编码**：Claude / Cursor / GitHub Copilot
+- **测试生成**：GitHub Copilot / Claude
 
 ## 📊 效率提升
 
 - 编码速度：提升50-70%
 - Bug数量：减少30-40%
 - 代码质量：显著提升
+- 测试覆盖率：提高40-60%
+
+## 🔗 相关资源
+
+- [GitHub Copilot使用指南](../../2-choose-tools/tools/copilot/README.md) - 详细使用指南
+- [Cursor使用指南](../../2-choose-tools/tools/cursor/README.md) - Cursor编辑器配置
+- [编程场景提示词](../../prompts/by-scene/coding-prompts.md) - 编程提示词技巧
 
 ---
 
