@@ -2,7 +2,9 @@
 
 /**
  * 修复 GitHub Pages URL 问题
- * 策略：创建 index.html 自动重定向到 README.html
+ * 策略：
+ * 1. 创建 index.html 自动重定向到 README.html
+ * 2. 修改 404.html，添加URL自动修复机制
  */
 
 const fs = require('fs');
@@ -50,6 +52,67 @@ function fixReadmeUrls(dir) {
   }
 }
 
+/**
+ * 修改 404.html，添加URL自动修复机制
+ */
+function fix404Page() {
+  const file404Path = path.join(distDir, '404.html');
+
+  if (!fs.existsSync(file404Path)) {
+    console.log('⚠️  404.html 不存在，跳过处理');
+    return;
+  }
+
+  let content404 = fs.readFileSync(file404Path, 'utf-8');
+
+  // 注入URL自动修复脚本
+  const autoFixScript = `
+<script>
+// URL自动修复机制：检测目录路径并自动重定向
+(function() {
+  const path = window.location.pathname;
+  const base = '/anything-ai/';
+
+  // 去除base路径
+  const relativePath = path.replace(base, '');
+
+  // 如果路径以/结尾（目录路径），尝试重定向到README.html
+  if (relativePath.endsWith('/')) {
+    const readmePath = path + 'README.html';
+    const indexPath = path + 'index.html';
+
+    // 优先尝试README.html
+    fetch(readmePath, { method: 'HEAD' })
+      .then(response => {
+        if (response.ok) {
+          // 找到README.html，直接跳转
+          window.location.replace(readmePath);
+        } else {
+          // 回退到index.html
+          return fetch(indexPath, { method: 'HEAD' });
+        }
+      })
+      .then(response => {
+        if (response && response.ok) {
+          window.location.replace(indexPath);
+        }
+      })
+      .catch(() => {
+        // 静默失败，保持在404页面
+      });
+  }
+})();
+</script>
+`;
+
+  // 在 </head> 之前插入脚本
+  if (!content404.includes('URL自动修复机制')) {
+    content404 = content404.replace('</head>', autoFixScript + '</head>');
+    fs.writeFileSync(file404Path, content404, 'utf-8');
+    console.log('✅ 已注入URL自动修复脚本到 404.html');
+  }
+}
+
 // 开始处理
 console.log('🔧 修复 GitHub Pages URL 问题...\n');
 
@@ -59,5 +122,6 @@ if (!fs.existsSync(distDir)) {
 }
 
 fixReadmeUrls(distDir);
+fix404Page();
 
-console.log('\n✅ 所有 index.html 重定向文件已创建');
+console.log('\n✅ 所有修复完成！');
