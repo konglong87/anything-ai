@@ -30,7 +30,7 @@ export default defineConfig({
       link: '/',
       themeConfig: {
         nav: [
-          { text: '从这里开始', link: '/0-start-here/' },
+          { text: '从这里开始', link: '/0-start-here/README.html' },
           { text: '理解AI', link: '/1-understand-ai/README.html' },
           { text: '选择工具', link: '/2-choose-tools/README.html' },
           { text: '行业案例', link: '/roles/README.html' },
@@ -109,7 +109,7 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Start Here', link: '/en/0-start-here/' },
+          { text: 'Start Here', link: '/en/0-start-here/README.html' },
           { text: 'Understand AI', link: '/en/1-understand-ai/README.html' },
           { text: 'Choose Tools', link: '/en/2-choose-tools/README.html' },
           { text: 'Industry Cases', link: '/en/roles/README.html' },
