@@ -21,6 +21,8 @@
 
 ## 10min
 
+- [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [External Resources Index](resources/README.md) - 10min (beginner)
 - [外部资源索引](resources/README.md) - 10min (beginner)
 - [Industry Application Cases](roles/README.md) - 10min (beginner)
@@ -51,6 +53,10 @@
 - [AI是什么](0-start-here/what-is-ai.md) - 15min (beginner)
 - [Tool Selection Matrix](2-choose-tools/README.md) - 15min (beginner)
 - [工具选择矩阵](2-choose-tools/README.md) - 15min (beginner)
+- [内容创作者AI工具大全](roles/content-creator/ai-tools.md) - 15min (beginner)
+- [设计师AI工具大全](roles/designer/ai-tools.md) - 15min (beginner)
+- [财务人员AI工具大全](roles/finance/ai-tools.md) - 15min (beginner)
+- [程序员AI工具大全](roles/programmer/ai-tools.md) - 15min (beginner)
 
 ## 1hour
 
@@ -82,6 +88,7 @@
 
 ## 20min
 
+- [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [AI Tool Selection Matrix](2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)
@@ -133,6 +140,7 @@
 - [从这里开始：AI认知入门](0-start-here/README.md) - 30min (beginner)
 - [Learning Path Overview](0-start-here/learning-path.md) - 30min (beginner)
 - [学习路径总览](0-start-here/learning-path.md) - 30min (beginner)
+- [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 - [Admin AI Application Guide](roles/admin/README.md) - 30min (beginner)
 - [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 - [UI Designer AI Application Guide](roles/designer/README.md) - 30min (beginner)

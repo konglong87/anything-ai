@@ -10,6 +10,10 @@
 - [Admin AI Application Guide](roles/admin/README.md) - 30min (beginner)
 - [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 
+## advanced-user
+
+- [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
+
 ## analyst
 
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
@@ -21,14 +25,17 @@
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [Content Creator AI Application Guide](roles/content-creator/README.md) - 45min (beginner)
 - [内容创作者AI应用指南](roles/content-creator/README.md) - 45min (beginner)
+- [内容创作者AI工具大全](roles/content-creator/ai-tools.md) - 15min (beginner)
 
 ## designer
 
 - [UI Designer AI Application Guide](roles/designer/README.md) - 30min (beginner)
 - [UI设计师AI应用指南](roles/designer/README.md) - 30min (beginner)
+- [设计师AI工具大全](roles/designer/ai-tools.md) - 15min (beginner)
 
 ## developer
 
+- [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 
@@ -62,6 +69,8 @@
 - [计算机视觉](4-advanced-topics/cv.md) - 45 min (intermediate)
 - [Deep Learning](4-advanced-topics/deep-learning.md) - 45 min (intermediate)
 - [深度学习](4-advanced-topics/deep-learning.md) - 45 min (intermediate)
+- [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [Machine Learning Basics](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
 - [机器学习基础](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
 - [Natural Language Processing](4-advanced-topics/nlp.md) - 45 min (intermediate)
@@ -90,6 +99,7 @@
 - [现代生成式AI资源](resources/generative-ai/awesome-generative-ai-resources.md) - 10 min (beginner)
 - [Modern Generative AI Resources](resources/generative-ai/generative-ai-resources.md) - 10 min (beginner)
 - [生成式AI资源](resources/generative-ai/generative-ai-resources.md) - 30 min (intermediate)
+- [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Claude技能和工具资源](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [AI Painting Resources](resources/specialized/ai-painting-resources.md) - 10 min (beginner)
@@ -101,6 +111,7 @@
 
 - [Finance AI Application Guide](roles/finance/README.md) - 30min (beginner)
 - [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
+- [财务人员AI工具大全](roles/finance/ai-tools.md) - 15min (beginner)
 
 ## fortune-teller
 
@@ -161,6 +172,7 @@
 - [LangChain资源](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [Programmer AI Application Guide](roles/programmer/README.md) - 45min (beginner)
 - [程序员AI应用指南](roles/programmer/README.md) - 45min (beginner)
+- [程序员AI工具大全](roles/programmer/ai-tools.md) - 15min (beginner)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI编程助手实战案例](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](roles/programmer/code-review.md) - 30min (intermediate)

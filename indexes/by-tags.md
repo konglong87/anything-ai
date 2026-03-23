@@ -89,6 +89,10 @@
 
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 
+## AI应用
+
+- [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
+
 ## AI焦虑
 
 - [为什么不需要AI焦虑](0-start-here/ai-anxiety.md) - 15min (beginner)
@@ -683,8 +687,11 @@
 - [理解AI：深入原理](1-understand-ai/README.md) - 2hour (intermediate)
 - [Tool Selection Matrix](2-choose-tools/README.md) - 15min (beginner)
 - [工具选择矩阵](2-choose-tools/README.md) - 15min (beginner)
+- [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [Advanced Topics](4-advanced-topics/README.md) - 1hour (advanced)
 - [进阶主题](4-advanced-topics/README.md) - 1hour (advanced)
+- [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [Prompt Library](prompts/README.md) - 5min (beginner)
 - [提示词库](prompts/README.md) - 5min (beginner)
 - [External Resources Index](resources/README.md) - 10min (beginner)
@@ -695,14 +702,18 @@
 - [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 - [Content Creator AI Application Guide](roles/content-creator/README.md) - 45min (beginner)
 - [内容创作者AI应用指南](roles/content-creator/README.md) - 45min (beginner)
+- [内容创作者AI工具大全](roles/content-creator/ai-tools.md) - 15min (beginner)
 - [UI Designer AI Application Guide](roles/designer/README.md) - 30min (beginner)
 - [UI设计师AI应用指南](roles/designer/README.md) - 30min (beginner)
+- [设计师AI工具大全](roles/designer/ai-tools.md) - 15min (beginner)
 - [Finance AI Application Guide](roles/finance/README.md) - 30min (beginner)
 - [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
+- [财务人员AI工具大全](roles/finance/ai-tools.md) - 15min (beginner)
 - [HR AI Application Guide](roles/hr/README.md) - 30min (beginner)
 - [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
 - [Programmer AI Application Guide](roles/programmer/README.md) - 45min (beginner)
 - [程序员AI应用指南](roles/programmer/README.md) - 45min (beginner)
+- [程序员AI工具大全](roles/programmer/ai-tools.md) - 15min (beginner)
 - [Sales AI Application Guide](roles/sales/README.md) - 30min (beginner)
 - [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
 - [Student AI Application Guide](roles/student/README.md) - 30min (beginner)
@@ -783,6 +794,10 @@
 
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 
+## 工具推荐
+
+- [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
+
 ## 工具选择
 
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
@@ -837,6 +852,10 @@
 ## 自我测试
 
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)
+
+## 行业工具
+
+- [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 
 ## 豆包
 
