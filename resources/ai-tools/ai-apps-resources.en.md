@@ -2,7 +2,7 @@
 title: AI Application Resources
 difficulty: beginner
 roles: [everyone]
-type: resource
+type: guide
 duration: 10 min
 tags: [AI Apps, Resources, Tools]
 tools: []

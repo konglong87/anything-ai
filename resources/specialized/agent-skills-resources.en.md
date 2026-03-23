@@ -2,7 +2,7 @@
 title: Claude Skills and Tools Resources
 difficulty: beginner
 roles: [everyone]
-type: resource
+type: guide
 duration: 10 min
 tags: [Claude, Skills, Tools]
 tools: [Claude]

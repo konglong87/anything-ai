@@ -2,7 +2,7 @@
 title: 现代生成式AI资源
 difficulty: beginner
 roles: [everyone]
-type: resource
+type: guide
 duration: 10 min
 tags: [Generative AI, Resources, Projects]
 tools: []

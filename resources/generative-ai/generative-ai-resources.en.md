@@ -2,7 +2,7 @@
 title: Modern Generative AI Resources
 difficulty: beginner
 roles: [everyone]
-type: resource
+type: guide
 duration: 10 min
 tags: [Generative AI, Resources, Projects]
 tools: []

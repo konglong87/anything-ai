@@ -2,7 +2,7 @@
 title: AI Painting Resources
 difficulty: beginner
 roles: [everyone]
-type: resource
+type: guide
 duration: 10 min
 tags: [AI Painting, Image Generation, Resources]
 tools: []

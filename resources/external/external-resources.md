@@ -2,7 +2,7 @@
 title: 外部学习资源
 difficulty: beginner
 roles: [everyone]
-type: resource
+type: guide
 duration: 10 min
 tags: [Resources, LLM, Courses]
 tools: []
