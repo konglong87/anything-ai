@@ -2,7 +2,7 @@
 
 /**
  * 修复 GitHub Pages URL 问题
- * 策略：复制 README.html 为 index.html，确保目录访问正常
+ * 策略：创建 index.html 自动重定向到 README.html
  */
 
 const fs = require('fs');
@@ -11,7 +11,7 @@ const path = require('path');
 const distDir = path.join(__dirname, '..', '.vitepress', 'dist');
 
 /**
- * 递归查找所有 README.html 文件并复制为 index.html
+ * 递归查找所有 README.html 文件并创建 index.html 重定向
  */
 function fixReadmeUrls(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -23,12 +23,28 @@ function fixReadmeUrls(dir) {
       // 递归处理子目录
       fixReadmeUrls(fullPath);
     } else if (entry.name === 'README.html') {
-      // 找到 README.html，复制为 index.html
+      // 找到 README.html，创建 index.html 重定向
       const indexPath = path.join(dir, 'index.html');
 
       if (!fs.existsSync(indexPath)) {
-        fs.copyFileSync(fullPath, indexPath);
-        console.log(`✅ 创建 index.html: ${path.relative(distDir, dir) || '/'}`);
+        // 创建一个简单的HTML文件，自动重定向到 README.html
+        const redirectHtml = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // SPA兼容：直接替换路径，不触发VitePress路由
+    window.location.replace('./README.html');
+  </script>
+  <meta http-equiv="refresh" content="0; url=./README.html">
+</head>
+<body>
+  <p>Redirecting to <a href="./README.html">./README.html</a>...</p>
+</body>
+</html>`;
+        fs.writeFileSync(indexPath, redirectHtml, 'utf-8');
+        console.log(`✅ 创建重定向 index.html: ${path.relative(distDir, dir) || '/'}`);
       }
     }
   }
@@ -44,4 +60,4 @@ if (!fs.existsSync(distDir)) {
 
 fixReadmeUrls(distDir);
 
-console.log('\n✅ 所有 README.html 已复制为 index.html');
+console.log('\n✅ 所有 index.html 重定向文件已创建');
