@@ -17,6 +17,18 @@ duration: 45min
 - TDD + AI 的完美工作流
 - 避免AI幻觉的关键技巧
 
+## 📚 完整工具指南
+
+### ⭐ [AI工具大全](./ai-tools.md)
+**强烈推荐** - 覆盖编程辅助、代码审查、AI大模型、AI Agent等所有开发工具
+
+包含：
+- 💻 编程辅助工具（GitHub Copilot、Cursor、Windsurf等）
+- 🤖 AI大模型平台（Claude、GPT-4、DeepSeek等）
+- 🚀 AI Agent智能体（OpenClaw、WorkBuddy、QClaw等）
+- 🔧 AI Skills工具链详解
+- 💡 程序员最佳实践和工具组合
+
 ## 📚 核心内容
 
 ### 代码助手

@@ -12,6 +12,18 @@ duration: 10min
 
 ## 📚 资源分类
 
+### 各角色工具指南
+
+**⭐ 强烈推荐** - 已整合到各角色目录：
+- [内容创作者AI工具大全](../roles/content-creator/ai-tools.md)
+- [程序员AI工具大全](../roles/programmer/ai-tools.md)
+- [设计师AI工具大全](../roles/designer/ai-tools.md)
+- [财务人员AI工具大全](../roles/finance/ai-tools.md)
+
+**进阶功能指南**：
+- [AI Skills与工具链详解](../4-advanced-topics/ai-skills-guide.md)
+- [深度研究功能使用指南](../4-advanced-topics/deep-research-guide.md)
+
 ### Awesome Lists
 
 - awesome-chatgpt-prompts-zh

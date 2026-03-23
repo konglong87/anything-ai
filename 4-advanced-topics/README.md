@@ -18,6 +18,20 @@ duration: 1hour
 
 ## 📚 核心主题
 
+### ⭐ [AI Skills与工具链详解](./ai-skills-guide.md)
+**强烈推荐** - Claude Code Skills完全指南
+- Skills概念和核心特点
+- 效率工具类、内容创作类、知识管理类Skills详解
+- 如何使用Skills和最佳实践
+- Skills开发指南
+
+### ⭐ [深度研究功能使用指南](./deep-research-guide.md)
+**强烈推荐** - AI深度研究功能完全指南
+- 什么是深度研究
+- 豆包、通义千问等工具的深度研究功能
+- 使用场景和技巧
+- 最佳实践和案例
+
 ### 提示词工程
 
 - 提示词设计原则
