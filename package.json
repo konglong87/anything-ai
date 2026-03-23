@@ -33,7 +33,8 @@
     "check": "node scripts/check-frontmatter.js",
     "check:links": "node scripts/check-links.js",
     "stats": "node scripts/stats.js",
-    "build": "npm run check && npm run index && npm run docs:build",
+    "fix-urls": "node scripts/fix-readme-urls.js",
+    "build": "npm run check && npm run index && npm run docs:build && npm run fix-urls",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "devDependencies": {

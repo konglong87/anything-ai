@@ -8,6 +8,9 @@ export default defineConfig({
   title: 'Anything-AI',
   description: '系统性AI知识索引 - 帮助人们认识、理解和驾驭AI',
 
+  // 清洁URL配置 - 生成 index.html 而不是 README.html
+  cleanUrls: true,
+
   // 忽略死链接检查
   ignoreDeadLinks: true,
 
