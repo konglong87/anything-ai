@@ -4,6 +4,13 @@
 
 - [ChatGPT User Guide](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
 - [ChatGPT使用指南](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
+- [ChatGPT User Guide](en/2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
+- [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
+- [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
+- [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+- [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
+- [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -19,6 +26,13 @@
 
 ## Claude
 
+- [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
+- [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
+- [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+- [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
+- [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
+- [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -38,9 +52,16 @@
 
 - [Cursor User Guide](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor使用指南](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [Cursor User Guide](en/2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 
 ## DeepSeek
 
+- [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
+- [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
+- [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+- [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
+- [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -57,14 +78,18 @@
 ## Doubao
 
 - [Doubao User Guide](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
+- [Doubao User Guide](en/2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 
 ## GitHub Copilot
 
 - [GitHub Copilot User Guide](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [GitHub Copilot使用指南](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
+- [GitHub Copilot User Guide](en/2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 
 ## chatgpt
 
+- [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
+- [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI编程助手实战案例](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](roles/programmer/code-review.md) - 30min (intermediate)
@@ -76,6 +101,9 @@
 
 - [Claude Usage Guide](2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
+- [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI编程助手实战案例](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](roles/programmer/code-review.md) - 30min (intermediate)
@@ -87,6 +115,9 @@
 
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
+- [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI编程助手实战案例](roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](roles/programmer/code-review.md) - 30min (intermediate)
@@ -107,6 +138,30 @@
 - [进阶主题](4-advanced-topics/README.md) - 1hour (advanced)
 - [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
+- [Understand AI: Deep Principles](en/1-understand-ai/README.md) - 2hour (intermediate)
+- [Tool Selection Matrix](en/2-choose-tools/README.md) - 15min (beginner)
+- [Advanced Topics](en/4-advanced-topics/README.md) - 1hour (advanced)
+- [Deep Research Feature Guide](en/4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [Anything-AI - Systematic AI Knowledge Index](en/README.md) - 10min (beginner)
+- [Prompt Library](en/prompts/README.md) - 5min (beginner)
+- [External Resources Index](en/resources/README.md) - 10min (beginner)
+- [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI Academic Writing Assistant](en/resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [Industry Application Cases](en/roles/README.md) - 10min (beginner)
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
+- [Content Creator AI Application Guide](en/roles/content-creator/README.md) - 45min (beginner)
+- [UI Designer AI Application Guide](en/roles/designer/README.md) - 30min (beginner)
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
+- [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
+- [Programmer AI Application Guide](en/roles/programmer/README.md) - 45min (beginner)
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
+- [Student AI Application Guide](en/roles/student/README.md) - 30min (beginner)
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
+- [Vibe Coding Beginner's Guide](en/roles/vibe-coding/README.md) - 20min (beginner)
+- [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
+- [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
 - [Prompt Library](prompts/README.md) - 5min (beginner)
 - [提示词库](prompts/README.md) - 5min (beginner)
 - [External Resources Index](resources/README.md) - 10min (beginner)

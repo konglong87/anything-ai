@@ -1,3 +1,11 @@
+---
+title: "Anything-AI - Systematic AI Knowledge Index"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 10min
+---
+
 # 🤖 Anything-AI
 
 > **Anything is AI, AI Native, Agent Native**

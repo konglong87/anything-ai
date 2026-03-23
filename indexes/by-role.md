@@ -2,11 +2,13 @@
 
 ## academic
 
+- [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 
 ## admin
 
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
 - [Admin AI Application Guide](roles/admin/README.md) - 30min (beginner)
 - [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 
@@ -16,11 +18,14 @@
 
 ## analyst
 
+- [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 
 ## content-creator
 
+- [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
+- [Content Creator AI Application Guide](en/roles/content-creator/README.md) - 45min (beginner)
 - [Writing Scenario Prompts](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [Content Creator AI Application Guide](roles/content-creator/README.md) - 45min (beginner)
@@ -29,6 +34,7 @@
 
 ## designer
 
+- [UI Designer AI Application Guide](en/roles/designer/README.md) - 30min (beginner)
 - [UI Designer AI Application Guide](roles/designer/README.md) - 30min (beginner)
 - [UI设计师AI应用指南](roles/designer/README.md) - 30min (beginner)
 - [设计师AI工具大全](roles/designer/ai-tools.md) - 15min (beginner)
@@ -36,6 +42,7 @@
 ## developer
 
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
+- [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 
@@ -79,6 +86,39 @@
 - [提示词工程](4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
 - [强化学习](4-advanced-topics/rl.md) - 60 min (advanced)
+- [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
+- [为什么不需要AI焦虑](en/0-start-here/ai-anxiety.md) - 15min (beginner)
+- [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)
+- [What is AI](en/0-start-here/what-is-ai.md) - 15min (beginner)
+- [Understand AI: Deep Principles](en/1-understand-ai/README.md) - 2hour (intermediate)
+- [Tool Selection Matrix](en/2-choose-tools/README.md) - 15min (beginner)
+- [AI Tool Selection Matrix](en/2-choose-tools/tool-matrix.md) - 20min (beginner)
+- [ChatGPT User Guide](en/2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
+- [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [Doubao User Guide](en/2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
+- [Advanced Topics](en/4-advanced-topics/README.md) - 1hour (advanced)
+- [Computer Vision](en/4-advanced-topics/cv.md) - 45 min (intermediate)
+- [Deep Learning](en/4-advanced-topics/deep-learning.md) - 45 min (intermediate)
+- [Deep Research Feature Guide](en/4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [Machine Learning Basics](en/4-advanced-topics/ml-basics.md) - 30 min (intermediate)
+- [Natural Language Processing](en/4-advanced-topics/nlp.md) - 45 min (intermediate)
+- [Prompt Engineering](en/4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
+- [Reinforcement Learning](en/4-advanced-topics/rl.md) - 60 min (advanced)
+- [Anything-AI - Systematic AI Knowledge Index](en/README.md) - 10min (beginner)
+- [Prompt Library](en/prompts/README.md) - 5min (beginner)
+- [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
+- [External Resources Index](en/resources/README.md) - 10min (beginner)
+- [AI Application Resources](en/resources/ai-tools/ai-apps-resources.md) - 10 min (beginner)
+- [AI Tools Index](en/resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
+- [AI Tools Resources](en/resources/ai-tools/ai-tools-resources.md) - 10 min (beginner)
+- [External Learning Resources](en/resources/external/external-resources.md) - 10 min (beginner)
+- [Generative AI Resources](en/resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
+- [AI Advanced Learning Resources Index](en/resources/generative-ai/awesome-generative-ai-resources.md) - 10 min (advanced)
+- [Modern Generative AI Resources](en/resources/generative-ai/generative-ai-resources.md) - 10 min (beginner)
+- [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
+- [AI Painting Resources](en/resources/specialized/ai-painting-resources.md) - 10 min (beginner)
+- [Industry Application Cases](en/roles/README.md) - 10min (beginner)
 - [Prompt Library](prompts/README.md) - 5min (beginner)
 - [提示词库](prompts/README.md) - 5min (beginner)
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
@@ -109,22 +149,26 @@
 
 ## finance
 
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
 - [Finance AI Application Guide](roles/finance/README.md) - 30min (beginner)
 - [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
 - [财务人员AI工具大全](roles/finance/ai-tools.md) - 15min (beginner)
 
 ## fortune-teller
 
+- [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
 - [AI Fortune Teller Application Guide](roles/fortune-teller/README.md) - 30min (beginner)
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
 
 ## hr
 
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
 - [HR AI Application Guide](roles/hr/README.md) - 30min (beginner)
 - [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
 
 ## learner
 
+- [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 
@@ -166,6 +210,29 @@
 - [模型微调](4-advanced-topics/model-fine-tuning.md) - 60 min (advanced)
 - [RAG (Retrieval-Augmented Generation)](4-advanced-topics/rag.md) - 60 min (advanced)
 - [RAG（检索增强生成）](4-advanced-topics/rag.md) - 60 min (advanced)
+- [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
+- [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
+- [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Hallucination Phenomenon](en/1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
+- [Memory Mechanisms](en/1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
+- [Probabilistic Prediction](en/1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
+- [Reasoning Capabilities](en/1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
+- [Attention Mechanism Explained](en/1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
+- [Context Window](en/1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
+- [Pretraining and Finetuning](en/1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
+- [Tokenization](en/1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
+- [Introduction to Transformer Architecture](en/1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+- [GitHub Copilot User Guide](en/2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
+- [Cursor User Guide](en/2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [Model Deployment](en/4-advanced-topics/model-deployment.md) - 60 min (advanced)
+- [Model Fine-tuning](en/4-advanced-topics/model-fine-tuning.md) - 60 min (advanced)
+- [RAG (Retrieval-Augmented Generation)](en/4-advanced-topics/rag.md) - 60 min (advanced)
+- [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
+- [LangChain Resources](en/resources/specialized/langchain-resources.md) - 45 min (intermediate)
+- [Programmer AI Application Guide](en/roles/programmer/README.md) - 45min (beginner)
+- [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
+- [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [编程场景提示词](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [LangChain Resources](resources/specialized/langchain-resources.md) - 45 min (intermediate)
@@ -180,6 +247,9 @@
 
 ## researcher
 
+- [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
+- [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [AI Academic Writing Assistant](en/resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
@@ -189,6 +259,7 @@
 
 ## sales
 
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
 - [Sales AI Application Guide](roles/sales/README.md) - 30min (beginner)
 - [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
 
@@ -214,6 +285,19 @@
 - [Tokenization](1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
 - [Introduction to Transformer Architecture](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+- [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Hallucination Phenomenon](en/1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
+- [Memory Mechanisms](en/1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
+- [Probabilistic Prediction](en/1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
+- [Reasoning Capabilities](en/1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
+- [Attention Mechanism Explained](en/1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
+- [Context Window](en/1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
+- [Pretraining and Finetuning](en/1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
+- [Tokenization](en/1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
+- [Introduction to Transformer Architecture](en/1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+- [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+- [AI Academic Writing Assistant](en/resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [Student AI Application Guide](en/roles/student/README.md) - 30min (beginner)
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
@@ -224,6 +308,8 @@
 
 ## teacher
 
+- [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Teacher AI Application Guide](roles/teacher/README.md) - 30min (beginner)
@@ -232,6 +318,9 @@
 
 ## vibe-coding
 
+- [Vibe Coding Beginner's Guide](en/roles/vibe-coding/README.md) - 20min (beginner)
+- [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
+- [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
 - [Vibe Coding Beginner's Guide](roles/vibe-coding/README.md) - 20min (beginner)
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
@@ -241,6 +330,8 @@
 
 ## writer
 
+- [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [Writing Scenario Prompts](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
