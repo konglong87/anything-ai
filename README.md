@@ -190,8 +190,9 @@
 - ✅ 中文地道，创意强
 - [详细指南](./2-choose-tools/tools/deepseek/)
 
-**ChatGPT/GPT-4o**（通用对话、生态完善）
+**ChatGPT/GPT-5.4**（通用对话、生态完善）
 - ✅ 最擅长：通用问答、学习入门、英文内容
+- ✅ 最新模型：GPT-5.4 mini/nano（2026.3.18发布）
 - ✅ 插件生态强大
 - ⚠️ 价格高（Plus $20/月）
 - [详细指南](./2-choose-tools/tools/chatgpt/)
