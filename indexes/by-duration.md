@@ -40,6 +40,8 @@
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Doubao User Guide](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 - [豆包使用指南](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
+- [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 
 ## 15min
 
@@ -75,6 +77,8 @@
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Writing Scenario Prompts](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
 ## 20min
 

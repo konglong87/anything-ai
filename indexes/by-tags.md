@@ -14,8 +14,12 @@
 - [豆包使用指南](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
+- [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI进阶学习资源索引](resources/generative-ai/awesome-ai-resources.md) - 10 min (advanced)
 - [AI Advanced Learning Resources Index](resources/generative-ai/awesome-generative-ai-resources.md) - 10 min (advanced)
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
 ## AI Apps
 
@@ -102,6 +106,11 @@
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 
+## Academic Writing
+
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+
 ## Advanced
 
 - [AI进阶学习资源索引](resources/generative-ai/awesome-ai-resources.md) - 10 min (advanced)
@@ -142,6 +151,8 @@
 
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 
 ## Ba Zi
 
@@ -250,6 +261,11 @@
 - [Model Deployment](4-advanced-topics/model-deployment.md) - 60 min (advanced)
 - [模型部署](4-advanced-topics/model-deployment.md) - 60 min (advanced)
 
+## Developer Tools
+
+- [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+
 ## Doubao
 
 - [Doubao User Guide](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
@@ -296,6 +312,11 @@
 
 - [Hallucination Phenomenon](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [幻觉现象](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
+
+## IDE
+
+- [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 
 ## Image Generation
 
@@ -459,6 +480,8 @@
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [Writing Scenario Prompts](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
 ## RAG
 
@@ -487,6 +510,8 @@
 
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
 ## Resources
 

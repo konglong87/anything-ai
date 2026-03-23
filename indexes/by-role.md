@@ -27,6 +27,11 @@
 - [UI Designer AI Application Guide](roles/designer/README.md) - 30min (beginner)
 - [UI设计师AI应用指南](roles/designer/README.md) - 30min (beginner)
 
+## developer
+
+- [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+
 ## everyone
 
 - [Start Here: AI Cognition Basics](0-start-here/README.md) - 30min (beginner)
@@ -167,6 +172,8 @@
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
 ## sales
 
@@ -197,6 +204,8 @@
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+- [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 - [Student AI Application Guide](roles/student/README.md) - 30min (beginner)
 - [学生AI应用指南](roles/student/README.md) - 30min (beginner)
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)

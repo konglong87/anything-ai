@@ -1534,6 +1534,38 @@
     ]
   },
   {
+    "title": "AI Developer Tools Collection",
+    "path": "resources/ai-tools/awesome-ai-devtools.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tags": [
+      "AI",
+      "Developer Tools",
+      "IDE",
+      "Automation"
+    ]
+  },
+  {
+    "title": "AI开发者工具集合",
+    "path": "resources/ai-tools/awesome-ai-devtools.md",
+    "difficulty": "beginner",
+    "roles": [
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tags": [
+      "AI",
+      "Developer Tools",
+      "IDE",
+      "Automation"
+    ]
+  },
+  {
     "title": "External Learning Resources",
     "path": "resources/external/external-resources.en.md",
     "difficulty": "beginner",
@@ -1727,6 +1759,40 @@
       "AI Painting",
       "Image Generation",
       "Resources"
+    ]
+  },
+  {
+    "title": "AI Academic Writing Assistant",
+    "path": "resources/specialized/ai-research-writing.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "researcher",
+      "student"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tags": [
+      "AI",
+      "Academic Writing",
+      "Research",
+      "Prompts"
+    ]
+  },
+  {
+    "title": "AI学术写作助手",
+    "path": "resources/specialized/ai-research-writing.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "researcher",
+      "student"
+    ],
+    "type": "guide",
+    "duration": "20 min",
+    "tags": [
+      "AI",
+      "Academic Writing",
+      "Research",
+      "Prompts"
     ]
   },
   {
