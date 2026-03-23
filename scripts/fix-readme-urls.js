@@ -2,7 +2,7 @@
 
 /**
  * 修复 GitHub Pages URL 问题
- * 将所有 README.html 复制为 index.html，使得目录访问可以正常工作
+ * 策略：复制 README.html 为 index.html，确保目录访问正常
  */
 
 const fs = require('fs');
