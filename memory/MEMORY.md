@@ -171,6 +171,92 @@ https://konglong87.github.io/anything-ai/en/1-understand-ai/README.html → 200 
 
 ---
 
+## 🔀 2026-03-24：VitePress 多语言切换配置修复
+
+### 问题：语言切换URL错误导致404
+
+**现象**：
+1. Logo跳转到 `/` 但页面404（开发环境需要明确文件路径）
+2. 语言切换URL错误：`/en/anything-ai/`（双重base路径）
+3. Logo跳转和语言切换都失败
+
+**根本原因**：
+1. **错误配置**：root locale设置了 `link: '/'`
+2. VitePress在计算语言切换路径时，会把base路径重复添加
+3. root locale是默认语言，不应该有link配置
+
+### 错误配置示例
+
+```typescript
+// ❌ 错误：root locale不应该有link
+locales: {
+  root: {
+    label: '简体中文',
+    lang: 'zh-CN',
+    link: '/',  // ❌ 导致语言切换URL错误
+  },
+  en: {
+    label: 'English',
+    lang: 'en-US',
+    link: '/en/',  // ✅ 非root locale需要link
+  }
+}
+```
+
+### 正确配置
+
+```typescript
+// ✅ 正确：root locale不要设置link
+locales: {
+  root: {
+    label: '简体中文',
+    lang: 'zh-CN',
+    // ✅ 移除link配置，root locale默认就是根路径
+  },
+  en: {
+    label: 'English',
+    lang: 'en-US',
+    link: '/en/',  // ✅ 非root locale必须设置link
+  }
+}
+```
+
+### 语言切换工作原理
+
+**正确的URL行为**：
+- 中文切换到英文：`/README.html` → `/en/README.html`
+- 英文切换到中文：`/en/README.html` → `/README.html`
+- Logo跳转（中文）：点击后跳转到 `/`，通过index.html重定向到 `README.html`
+- Logo跳转（英文）：点击后跳转到 `/en/`，通过en/index.html重定向到 `en/README.html`
+
+**关键机制**：
+1. `locales.en.link: '/en/'` 指定英文语言的基础路径
+2. VitePress自动在语言切换时计算正确的目标URL
+3. 目录路径（`/en/`）通过index.html重定向到README.html
+4. root locale默认就是根路径，不需要link配置
+
+### 关键教训
+
+**VitePress多语言配置铁律**：
+- ❌ **root locale不要设置link**（会导致语言切换URL错误）
+- ✅ 只有非root locale需要设置link
+- ✅ link使用目录路径（`/en/`），不要带文件名
+- ✅ 依靠index.html重定向文件处理目录路径
+- ✅ 测试时要在开发环境验证语言切换URL
+
+**调试技巧**：
+1. 本地开发测试：`npm run docs:dev`
+2. 检查语言切换URL：点击语言菜单，观察浏览器地址栏
+3. 检查Logo跳转：点击Logo，观察URL变化
+4. 如果URL出现双重base路径（如 `/en/anything-ai/`），检查root locale的link配置
+
+### 修改的文件
+
+1. `.vitepress/config.mts` - 移除root locale的link配置
+2. 提交ID：待提交
+
+---
+
 ## 🎯 项目核心原则
 
 1. **系统学习，不要碎片化** - AI 知识体系庞大，需要系统学习
@@ -180,4 +266,4 @@ https://konglong87.github.io/anything-ai/en/1-understand-ai/README.html → 200 
 
 ---
 
-**最后更新**：2026-03-23
+**最后更新**：2026-03-24

@@ -104,10 +104,33 @@
 ### 规则3：双语要求
 
 **所有文档必须中英文双语**：
-- 中文版：`filename.md`
-- 英文版：`filename.en.md`
+- 中文版：`filename.md`（根目录）
+- 英文版：`en/filename.md`（en目录）
 - 内容对齐，结构一致
 - 按各自语言习惯表达
+
+**⚠️ VitePress多语言配置铁律（重要！）**：
+- ❌ **root locale不要设置link**（会导致语言切换URL错误）
+- ✅ 只有非root locale需要设置link
+- ✅ 英文源文件必须在独立的 `en/` 目录下
+- ✅ 不能使用 `.en.md` 后缀混在根目录
+- ✅ 测试语言切换：确保URL正确（如 `/en/README.html` 而非 `/en/anything-ai/`）
+
+**正确的配置示例**：
+```typescript
+locales: {
+  root: {
+    label: '简体中文',
+    lang: 'zh-CN',
+    // ✅ 不要设置link，root locale默认就是根路径
+  },
+  en: {
+    label: 'English',
+    lang: 'en-US',
+    link: '/en/',  // ✅ 非root locale必须设置link
+  }
+}
+```
 
 ### ⚠️ 规则4：内容更新后的强制SOP（非常重要！）
 
@@ -357,7 +380,7 @@ npm run build
 
 **记住**：
 1. ⭐ **工作模式：创建 → Review → 再创建 → Review → 循环**
-2. 先宏观，后微观
+2. 先宏观，后微观；先设计框架，后填写具体内容；
 3. 所有文档中英文双语
 4. 内容必须经过搜索、验证、审查
 5. 只写事实，保证最好用、最真实
