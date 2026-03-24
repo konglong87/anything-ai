@@ -61,14 +61,22 @@ export default defineConfig({
               text: '理解AI',
               collapsed: true,
               items: [
-                { text: '深入原理', link: '/1-understand-ai/README.html' }
+                { text: '概览', link: '/1-understand-ai/README.html' },
+                { text: 'LLM基础', link: '/1-understand-ai/llm-basics/transformer-intro' },
+                { text: 'AI如何思考', link: '/1-understand-ai/how-ai-thinks/reasoning' },
+                { text: 'Agent入门', link: '/1-understand-ai/agent-intro/agent-intro' }
               ]
             },
             {
               text: '选择工具',
               collapsed: true,
               items: [
-                { text: '工具选择矩阵', link: '/2-choose-tools/tool-matrix' }
+                { text: '概览', link: '/2-choose-tools/README.html' },
+                { text: '工具选择矩阵', link: '/2-choose-tools/tool-matrix' },
+                { text: 'Claude详细指南', link: '/2-choose-tools/tools/claude/README.html' },
+                { text: 'DeepSeek详细指南', link: '/2-choose-tools/tools/deepseek/README.html' },
+                { text: 'ChatGPT详细指南', link: '/2-choose-tools/tools/chatgpt/README.html' },
+                { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' }
               ]
             },
             {
@@ -113,14 +121,22 @@ export default defineConfig({
               text: '提示词库',
               collapsed: true,
               items: [
-                { text: '概览', link: '/prompts/README.html' }
+                { text: '概览', link: '/prompts/README.html' },
+                { text: '写作提示词', link: '/prompts/by-scene/writing-prompts' },
+                { text: '编程提示词', link: '/prompts/by-scene/coding-prompts' },
+                { text: '学习提示词', link: '/prompts/by-scene/learning-prompts' },
+                { text: '分析提示词', link: '/prompts/by-scene/analysis-prompts' },
+                { text: '研究写作提示词', link: '/prompts/by-scene/research-writing-prompts' }
               ]
             },
             {
               text: '外部资源',
               collapsed: true,
               items: [
-                { text: '概览', link: '/resources/README.html' }
+                { text: '概览', link: '/resources/README.html' },
+                { text: 'AI工具资源', link: '/resources/ai-tools/ai-tools-index' },
+                { text: '生成式AI资源', link: '/resources/generative-ai/generative-ai-resources' },
+                { text: '外部资源链接', link: '/resources/external/external-resources' }
               ]
             },
             {
@@ -166,14 +182,22 @@ export default defineConfig({
               text: 'Understand AI',
               collapsed: true,
               items: [
-                { text: 'Deep Principles', link: '/en/1-understand-ai/README.html' }
+                { text: 'Overview', link: '/en/1-understand-ai/README.html' },
+                { text: 'LLM Basics', link: '/en/1-understand-ai/llm-basics/transformer-intro' },
+                { text: 'How AI Thinks', link: '/en/1-understand-ai/how-ai-thinks/reasoning' },
+                { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' }
               ]
             },
             {
               text: 'Choose Tools',
               collapsed: true,
               items: [
-                { text: 'Tool Matrix', link: '/en/2-choose-tools/tool-matrix' }
+                { text: 'Overview', link: '/en/2-choose-tools/README.html' },
+                { text: 'Tool Matrix', link: '/en/2-choose-tools/tool-matrix' },
+                { text: 'Claude Guide', link: '/en/2-choose-tools/tools/claude/README.html' },
+                { text: 'DeepSeek Guide', link: '/en/2-choose-tools/tools/deepseek/README.html' },
+                { text: 'ChatGPT Guide', link: '/en/2-choose-tools/tools/chatgpt/README.html' },
+                { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' }
               ]
             },
             {
@@ -215,14 +239,22 @@ export default defineConfig({
               text: 'Prompts',
               collapsed: true,
               items: [
-                { text: 'Overview', link: '/en/prompts/README.html' }
+                { text: 'Overview', link: '/en/prompts/README.html' },
+                { text: 'Writing Prompts', link: '/en/prompts/by-scene/writing-prompts' },
+                { text: 'Coding Prompts', link: '/en/prompts/by-scene/coding-prompts' },
+                { text: 'Learning Prompts', link: '/en/prompts/by-scene/learning-prompts' },
+                { text: 'Analysis Prompts', link: '/en/prompts/by-scene/analysis-prompts' },
+                { text: 'Research Writing', link: '/en/prompts/by-scene/research-writing-prompts' }
               ]
             },
             {
               text: 'Resources',
               collapsed: true,
               items: [
-                { text: 'Overview', link: '/en/resources/README.html' }
+                { text: 'Overview', link: '/en/resources/README.html' },
+                { text: 'AI Tools Resources', link: '/en/resources/ai-tools/ai-tools-index' },
+                { text: 'Generative AI', link: '/en/resources/generative-ai/generative-ai-resources' },
+                { text: 'External Links', link: '/en/resources/external/external-resources' }
               ]
             },
             {
