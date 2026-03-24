@@ -1,7 +1,17 @@
+---
+title: "CC Switch 国内大模型切换教程"
+difficulty: intermediate
+roles: [programmer, developer]
+type: guide
+duration: 20min
+tools: [claude-code, deepseek, qianwen]
+tags: [Claude Code, 国内模型, DeepSeek, 通义千问, 文心一言]
+---
+
 # CC Switch 国内大模型切换教程
 
 > **GitHub**: [farion1231/cc-switch](https://github.com/farion1231/cc-switch)
-> 
+>
 > **分类**: 工具配置 | 模型切换 | 国内使用
 
 ## 📖 简介

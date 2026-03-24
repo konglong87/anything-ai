@@ -1,3 +1,13 @@
+---
+title: "awesome-agent-skills Skill 详细指南"
+difficulty: intermediate
+roles: [programmer]
+type: guide
+duration: 90min
+tools: [claude, langchain, autogpt]
+tags: [agent, automation, workflow]
+---
+
 # awesome-agent-skills Skill 详细指南
 
 > **GitHub**: [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)

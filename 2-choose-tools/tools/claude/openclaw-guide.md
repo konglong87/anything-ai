@@ -1,7 +1,17 @@
+---
+title: "OpenClaw 完整使用教程"
+difficulty: advanced
+roles: [programmer, developer]
+type: guide
+duration: 45min
+tools: [openclaw, local-deployment]
+tags: [OpenClaw, 本地部署, AI工具, 离线使用]
+---
+
 # OpenClaw 完整使用教程
 
 > **参考**: [liyupi/ai-guide](https://github.com/liyupi/ai-guide)
-> 
+>
 > **分类**: 本地部署 | AI工具 | 开发环境
 
 ## 📖 简介

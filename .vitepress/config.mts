@@ -22,12 +22,18 @@ export default defineConfig({
     'CLAUDE.md'
   ],
 
+  // 路由重写规则（修复根路径和英文路径404）
+  rewrites: {
+    'README.md': 'index.md',
+    'en/README.md': 'en/index.md'
+  },
+
   // i18n多语言配置
   locales: {
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      link: '/README.html',
+      link: '/',
       themeConfig: {
         nav: [
           { text: '从这里开始', link: '/0-start-here/README.html' },

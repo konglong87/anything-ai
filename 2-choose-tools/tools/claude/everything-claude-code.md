@@ -1,3 +1,13 @@
+---
+title: "Claude Code 完全指南"
+difficulty: intermediate
+roles: [programmer]
+type: guide
+duration: 90min
+tools: [claude-code]
+tags: [claude, best-practices, programming]
+---
+
 # Claude Code 完全指南
 
 > **整合来源**: [everything-claude-code](https://github.com/affaan-m/everything-claude-code)

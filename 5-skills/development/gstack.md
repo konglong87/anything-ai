@@ -1,3 +1,13 @@
+---
+title: "GStack 详细指南"
+difficulty: beginner
+roles: [programmer]
+type: guide
+duration: 60min
+tools: [gstack, nodejs]
+tags: [project-scaffolding, tech-stack, development]
+---
+
 # GStack 详细指南
 
 > **GitHub**: [garrytan/gstack](https://github.com/garrytan/gstack)

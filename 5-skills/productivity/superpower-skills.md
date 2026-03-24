@@ -1,3 +1,13 @@
+---
+title: "Superpower Skills 详细指南"
+difficulty: intermediate
+roles: [all]
+type: guide
+duration: 70min
+tools: [claude, chatgpt]
+tags: [ai-skills, automation, tools]
+---
+
 # Superpower Skills 详细指南
 
 > **GitHub**: [superpower/skills](https://github.com/superpower/skills)

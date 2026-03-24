@@ -1,7 +1,17 @@
+---
+title: "资源文件说明"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 5min
+tools: []
+tags: [Assets, 资源文件, 图片]
+---
+
 # 资源文件说明
 
 > **目录**: assets/
-> 
+>
 > **分类**: 图片资源 | 文档资源 | 其他资源
 
 ## 📁 目录结构

@@ -1,3 +1,13 @@
+---
+title: "Agent Skills 完整目录"
+difficulty: beginner
+roles: [programmer, all]
+type: tool-reference
+duration: 45min
+tools: []
+tags: [agent, skills, catalog]
+---
+
 # Agent Skills 完整目录
 
 > **来源**: [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)

@@ -1,3 +1,13 @@
+---
+title: "AI-Research-SKILLs Skill 详细指南"
+difficulty: advanced
+roles: [researcher, student]
+type: guide
+duration: 80min
+tools: [claude, zotero]
+tags: [research, academic, literature-review]
+---
+
 # AI-Research-SKILLs Skill 详细指南
 
 > **GitHub**: [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)

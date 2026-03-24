@@ -1,3 +1,13 @@
+---
+title: "obsidian-skills Skill 详细指南"
+difficulty: beginner
+roles: [all]
+type: guide
+duration: 60min
+tools: [claude, obsidian]
+tags: [knowledge-management, notes, obsidian]
+---
+
 # obsidian-skills Skill 详细指南
 
 > **GitHub**: [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)

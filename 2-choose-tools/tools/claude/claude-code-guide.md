@@ -1,3 +1,13 @@
+---
+title: "Claude Code 完整使用指南"
+difficulty: beginner
+roles: [programmer]
+type: guide
+duration: 60min
+tools: [claude-code]
+tags: [claude, ai-programming, code-generation, code-review]
+---
+
 # Claude Code 完整使用指南
 
 > **官方文档**: [Claude Code](https://docs.anthropic.com/claude)

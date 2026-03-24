@@ -1,3 +1,13 @@
+---
+title: "planning-with-files Skill 详细指南"
+difficulty: beginner
+roles: [all]
+type: guide
+duration: 50min
+tools: [claude]
+tags: [planning, file-organization, task-management]
+---
+
 # planning-with-files Skill 详细指南
 
 > **GitHub**: [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)
