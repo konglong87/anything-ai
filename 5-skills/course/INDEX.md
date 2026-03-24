@@ -1,8 +1,8 @@
 ---
 title: "技能包设计模式课程索引"
-difficulty: mixed
+difficulty: advanced
 roles: [developer, architect]
-type: index
+type: guide
 duration: 8h
 tools: [claude-code, superpowers, gstack]
 tags: [skills, design-patterns, course, index]

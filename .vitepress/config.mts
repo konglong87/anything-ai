@@ -41,8 +41,10 @@ export default defineConfig({
           { text: '选择工具', link: '/2-choose-tools/README.html' },
           { text: '行业案例', link: '/roles/README.html' },
           { text: '进阶主题', link: '/4-advanced-topics/README.html' },
+          { text: 'AI Skills', link: '/5-skills/README.html' },
           { text: '提示词库', link: '/prompts/README.html' },
-          { text: '外部资源', link: '/resources/README.html' }
+          { text: '外部资源', link: '/resources/README.html' },
+          { text: '资源下载', link: '/assets/README.html' }
         ],
         sidebar: {
           '/': [
@@ -88,7 +90,23 @@ export default defineConfig({
               text: '进阶主题',
               collapsed: true,
               items: [
-                { text: '概览', link: '/4-advanced-topics/README.html' }
+                { text: '概览', link: '/4-advanced-topics/README.html' },
+                { text: '提示词工程', link: '/4-advanced-topics/prompt-engineering' },
+                { text: '模型微调', link: '/4-advanced-topics/model-fine-tuning' },
+                { text: 'RAG', link: '/4-advanced-topics/rag' },
+                { text: 'Agent开发', link: '/4-advanced-topics/agent-development' },
+                { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' }
+              ]
+            },
+            {
+              text: 'AI Skills',
+              collapsed: true,
+              items: [
+                { text: 'Skills精选', link: '/5-skills/README.html' },
+                { text: '完整索引', link: '/5-skills/INDEX.html' },
+                { text: '研究类', link: '/5-skills/research/README.html' },
+                { text: '开发类', link: '/5-skills/development/README.html' },
+                { text: '规划类', link: '/5-skills/planning/README.html' }
               ]
             },
             {
@@ -103,6 +121,14 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/resources/README.html' }
+              ]
+            },
+            {
+              text: '资源下载',
+              collapsed: true,
+              items: [
+                { text: '资源索引', link: '/assets/README.html' },
+                { text: 'PDF教程', link: '/assets/pdf/readme.html' }
               ]
             }
           ]
@@ -120,8 +146,10 @@ export default defineConfig({
           { text: 'Choose Tools', link: '/en/2-choose-tools/README.html' },
           { text: 'Industry Cases', link: '/en/roles/README.html' },
           { text: 'Advanced Topics', link: '/en/4-advanced-topics/README.html' },
+          { text: 'AI Skills', link: '/en/5-skills/README.html' },
           { text: 'Prompts', link: '/en/prompts/README.html' },
-          { text: 'Resources', link: '/en/resources/README.html' }
+          { text: 'Resources', link: '/en/resources/README.html' },
+          { text: 'Downloads', link: '/en/assets/README.html' }
         ],
         sidebar: {
           '/en/': [
@@ -167,7 +195,20 @@ export default defineConfig({
               text: 'Advanced Topics',
               collapsed: true,
               items: [
-                { text: 'Overview', link: '/en/4-advanced-topics/README.html' }
+                { text: 'Overview', link: '/en/4-advanced-topics/README.html' },
+                { text: 'Prompt Engineering', link: '/en/4-advanced-topics/prompt-engineering' },
+                { text: 'Model Fine-tuning', link: '/en/4-advanced-topics/model-fine-tuning' },
+                { text: 'RAG', link: '/en/4-advanced-topics/rag' },
+                { text: 'Agent Development', link: '/en/4-advanced-topics/agent-development' },
+                { text: 'Deep Research Guide', link: '/en/4-advanced-topics/deep-research-guide' }
+              ]
+            },
+            {
+              text: 'AI Skills',
+              collapsed: true,
+              items: [
+                { text: 'Skills Collection', link: '/en/5-skills/README.html' },
+                { text: 'Full Index', link: '/en/5-skills/INDEX.html' }
               ]
             },
             {
@@ -182,6 +223,14 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Overview', link: '/en/resources/README.html' }
+              ]
+            },
+            {
+              text: 'Downloads',
+              collapsed: true,
+              items: [
+                { text: 'Assets Index', link: '/en/assets/README.html' },
+                { text: 'PDF Tutorials', link: '/en/assets/pdf/readme.html' }
               ]
             }
           ]

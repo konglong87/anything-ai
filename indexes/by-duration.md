@@ -360,6 +360,8 @@
 
 ## 8h
 
+- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
 - [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 

@@ -1479,6 +1479,28 @@
     ]
   },
   {
+    "title": "技能包设计模式课程索引",
+    "path": "5-skills/course/INDEX.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "course",
+      "index"
+    ]
+  },
+  {
     "title": "第2章：入口模式 - 统一调度中心",
     "path": "5-skills/course/chapter-02-entry-pattern.md",
     "difficulty": "intermediate",
@@ -1622,6 +1644,28 @@
       "anti-patterns",
       "design-principles",
       "skills"
+    ]
+  },
+  {
+    "title": "Skill Design Patterns Course Index",
+    "path": "5-skills/course/en/INDEX.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "course",
+      "index"
     ]
   },
   {

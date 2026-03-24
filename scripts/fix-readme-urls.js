@@ -78,10 +78,10 @@ function fix404Page() {
 
   let content404 = fs.readFileSync(file404Path, 'utf-8');
 
-  // 注入URL自动修复脚本
+  // 注入URL自动修复脚本（增强版）
   const autoFixScript = `
 <script>
-// URL自动修复机制：检测目录路径并自动重定向
+// URL自动修复机制：检测并修复多种URL问题
 (function() {
   const path = window.location.pathname;
   const base = '/anything-ai/';
@@ -89,7 +89,7 @@ function fix404Page() {
   // 去除base路径
   const relativePath = path.replace(base, '');
 
-  // 如果路径以/结尾（目录路径），尝试重定向到README.html
+  // 1. 如果路径以/结尾（目录路径），尝试重定向到README.html
   if (relativePath.endsWith('/')) {
     const readmePath = path + 'README.html';
     const indexPath = path + 'index.html';
@@ -108,6 +108,33 @@ function fix404Page() {
       .then(response => {
         if (response && response.ok) {
           window.location.replace(indexPath);
+        }
+      })
+      .catch(() => {
+        // 静默失败，保持在404页面
+      });
+    return;
+  }
+
+  // 2. 如果路径没有.html后缀，尝试添加.html
+  if (!relativePath.endsWith('.html') && !relativePath.endsWith('.md')) {
+    // 先尝试添加.html
+    const htmlPath = path + '.html';
+
+    fetch(htmlPath, { method: 'HEAD' })
+      .then(response => {
+        if (response.ok) {
+          // 找到.html文件，直接跳转
+          window.location.replace(htmlPath);
+        } else {
+          // 尝试作为目录，添加/README.html
+          const dirReadmePath = path + '/README.html';
+          return fetch(dirReadmePath, { method: 'HEAD' });
+        }
+      })
+      .then(response => {
+        if (response && response.ok) {
+          window.location.replace(path + '/README.html');
         }
       })
       .catch(() => {
