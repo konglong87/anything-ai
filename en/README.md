@@ -99,17 +99,17 @@ duration: 10min
 
 | Role | Core Scenarios | Best AI Combo | Quick Access |
 |------|---------------|--------------|--------------|
-| 👨‍💻 **Programmer** | Code assistant, Code review, TDD | **Claude for architecture + Codex for implementation** | [Programmer Zone](./roles/programmer/) |
-| ✍️ **Content Creator** | Viral titles, Article writing, Video scripts | **DeepSeek for content + Doubao for daily** | [Creator Zone](./roles/content-creator/) |
-| 👨‍🏫 **Teacher** | Lesson prep, Quiz creation, Personalized teaching | ChatGPT + Claude | [Teacher Zone](./roles/teacher/) |
-| 🎓 **Student** | Study assistant, Note organization | MIC + ChatGPT | [Student Zone](./roles/student/) |
-| 📊 **Finance** | Report analysis, Data processing | DeepSeek + Doubao | [Finance Zone](./roles/finance/) |
-| 💼 **Sales** | Client communication, Proposal writing | DeepSeek + ChatGPT | [Sales Zone](./roles/sales/) |
-| 👥 **HR** | Recruitment screening, Employee training | Doubao + Claude | [HR Zone](./roles/hr/) |
-| 🎨 **UI Designer** | Design inspiration, Asset generation | Gemini + Midjourney | [Designer Zone](./roles/designer/) |
-| 📚 **Admin** | Document organization, Meeting notes | **Doubao (completely free)** | [Admin Zone](./roles/admin/) |
+| 👨‍💻 **Programmer** | Code assistant, Code review, TDD | **Claude for architecture + Codex for implementation** | [Programmer Zone](./roles/programmer/README.html) |
+| ✍️ **Content Creator** | Viral titles, Article writing, Video scripts | **DeepSeek for content + Doubao for daily** | [Creator Zone](./roles/content-creator/README.html) |
+| 👨‍🏫 **Teacher** | Lesson prep, Quiz creation, Personalized teaching | ChatGPT + Claude | [Teacher Zone](./roles/teacher/README.html) |
+| 🎓 **Student** | Study assistant, Note organization | MIC + ChatGPT | [Student Zone](./roles/student/README.html) |
+| 📊 **Finance** | Report analysis, Data processing | DeepSeek + Doubao | [Finance Zone](./roles/finance/README.html) |
+| 💼 **Sales** | Client communication, Proposal writing | DeepSeek + ChatGPT | [Sales Zone](./roles/sales/README.html) |
+| 👥 **HR** | Recruitment screening, Employee training | Doubao + Claude | [HR Zone](./roles/hr/README.html) |
+| 🎨 **UI Designer** | Design inspiration, Asset generation | Gemini + Midjourney | [Designer Zone](./roles/designer/README.html) |
+| 📚 **Admin** | Document organization, Meeting notes | **Doubao (completely free)** | [Admin Zone](./roles/admin/README.html) |
 
-**Don't see your industry?** [View all roles](./roles/) or [Submit a request](https://github.com/your-repo/issues)
+**Don't see your industry?** [View all roles](./roles/README.html) or [Submit a request](https://github.com/your-repo/issues)
 
 ---
 
