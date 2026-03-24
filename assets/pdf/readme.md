@@ -21,7 +21,7 @@ duration: 10min
 - 实战案例与最佳实践
 - 版本 v1.3.1（持续更新中）
 
-**下载链接**：[点击下载](./OpenClaw从入门到精通-v1.3.1.pdf)
+**下载链接**：[点击下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/OpenClaw从入门到精通-v1.3.1.pdf)
 
 ---
 
@@ -34,7 +34,7 @@ duration: 10min
 - 常见问题解答
 - 快速参考手册
 
-**下载链接**：[点击下载](./OpenClaw使用手册.pdf)
+**下载链接**：[点击下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/OpenClaw使用手册.pdf)
 
 ---
 

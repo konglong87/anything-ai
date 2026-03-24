@@ -21,7 +21,7 @@ This directory contains detailed tutorial documentation for the OpenClaw platfor
 - Practical cases and best practices
 - Version v1.3.1 (continuously updated)
 
-**Download Link**: [Click to Download](../OpenClaw从入门到精通-v1.3.1.pdf)
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/OpenClaw从入门到精通-v1.3.1.pdf)
 
 ---
 
@@ -34,7 +34,7 @@ This directory contains detailed tutorial documentation for the OpenClaw platfor
 - FAQ section
 - Quick reference manual
 
-**Download Link**: [Click to Download](../OpenClaw使用手册.pdf)
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/OpenClaw使用手册.pdf)
 
 ---
 
