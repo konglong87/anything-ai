@@ -1479,6 +1479,342 @@
     ]
   },
   {
+    "title": "第2章：入口模式 - 统一调度中心",
+    "path": "5-skills/course/chapter-02-entry-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "60min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "entry-pattern",
+      "routing",
+      "dispatch",
+      "skills"
+    ]
+  },
+  {
+    "title": "第3章：模板方法模式 - 流程编排的艺术",
+    "path": "5-skills/course/chapter-03-template-method-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "75min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "template-method",
+      "workflow",
+      "orchestration",
+      "skills"
+    ]
+  },
+  {
+    "title": "第4章：责任链模式 - 质量保障链",
+    "path": "5-skills/course/chapter-04-chain-of-responsibility.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "70min",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "chain-of-responsibility",
+      "quality-assurance",
+      "validation",
+      "skills"
+    ]
+  },
+  {
+    "title": "第5章：策略模式 - 灵活决策机制",
+    "path": "5-skills/course/chapter-05-strategy-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "65min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "strategy-pattern",
+      "decision-making",
+      "flexibility",
+      "skills"
+    ]
+  },
+  {
+    "title": "第6章：并行模式 - 效率最大化",
+    "path": "5-skills/course/chapter-06-parallel-pattern.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "60min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "parallel-pattern",
+      "efficiency",
+      "concurrency",
+      "skills"
+    ]
+  },
+  {
+    "title": "第7章：守护模式 - 安全边界设计",
+    "path": "5-skills/course/chapter-07-08-guardian-and-best-practices.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "55min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "guardian-pattern",
+      "security",
+      "safety",
+      "skills"
+    ]
+  },
+  {
+    "title": "第8章：最佳实践与反模式 - 经验总结",
+    "path": "5-skills/course/chapter-08-best-practices.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "50min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "best-practices",
+      "anti-patterns",
+      "design-principles",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 2: Entry Pattern - Unified Dispatch Center",
+    "path": "5-skills/course/en/chapter-02-entry-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "60min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "entry-pattern",
+      "routing",
+      "dispatch",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 3: Template Method Pattern - The Art of Workflow Orchestration",
+    "path": "5-skills/course/en/chapter-03-template-method-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "75min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "template-method",
+      "workflow",
+      "orchestration",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain",
+    "path": "5-skills/course/en/chapter-04-chain-of-responsibility.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "70min",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "chain-of-responsibility",
+      "quality-assurance",
+      "validation",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism",
+    "path": "5-skills/course/en/chapter-05-strategy-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "65min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "strategy-pattern",
+      "decision-making",
+      "flexibility",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 6: Parallel Pattern - Efficiency Maximization",
+    "path": "5-skills/course/en/chapter-06-parallel-pattern.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "60min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "parallel-pattern",
+      "efficiency",
+      "concurrency",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 7: Guardian Pattern - Security Boundary Design",
+    "path": "5-skills/course/en/chapter-07-08-guardian-and-best-practices.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "55min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "guardian-pattern",
+      "security",
+      "safety",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 8: Best Practices and Anti-Patterns - Lessons Learned",
+    "path": "5-skills/course/en/chapter-08-best-practices.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "50min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "best-practices",
+      "anti-patterns",
+      "design-principles",
+      "skills"
+    ]
+  },
+  {
+    "title": "Skill Design Patterns: From Theory to Practice",
+    "path": "5-skills/course/en/skills-package-design-patterns.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "architecture",
+      "best-practices"
+    ]
+  },
+  {
+    "title": "技能包设计模式：从理论到实践",
+    "path": "5-skills/course/skills-package-design-patterns.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "architecture",
+      "best-practices"
+    ]
+  },
+  {
     "title": "开发相关Skills",
     "path": "5-skills/development/README.md",
     "difficulty": "beginner",
@@ -1677,6 +2013,26 @@
       "资源文件",
       "图片"
     ]
+  },
+  {
+    "title": "OpenClaw PDF Tutorial Resources",
+    "path": "assets/pdf/en/readme.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10min"
+  },
+  {
+    "title": "OpenClaw 小龙虾 PDF 教程资源",
+    "path": "assets/pdf/readme.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "10min"
   },
   {
     "title": "Start Here: AI Cognition Basics",

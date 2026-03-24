@@ -111,6 +111,9 @@
 
 **没找到你的行业？** [查看全部角色](./roles/README.html) 或 [提交需求](https://github.com/your-repo/issues)
 
+**📥 PDF教程资源**：
+- [OpenClaw 小龙虾教程](./assets/pdf/readme.md) - 从入门到精通完整教程（免费下载）
+
 ---
 
 ### 🎯 按目标找内容

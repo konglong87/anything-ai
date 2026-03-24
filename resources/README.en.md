@@ -46,6 +46,14 @@ duration: 10min
   - Logic checking, removing AI-generated feel
   - Suitable for researchers and students
 
+### PDF Tutorial Resources
+
+- **[OpenClaw Tutorial Collection](../assets/pdf/en/readme.md)** - Complete OpenClaw platform tutorial collection
+  - 📖 **From Beginner to Master** - Systematic learning for OpenClaw
+  - 📗 **User Manual** - Quick reference and operation guide
+  - 🎯 **Target Audience** - Beginners to advanced users
+  - 🔗 **Official Resources** - Feishu, DingTalk community contributions
+
 ### Classic Papers
 
 - Transformer

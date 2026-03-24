@@ -103,6 +103,9 @@
 
 **Don't see your industry?** [View all roles](./roles/) or [Submit a request](https://github.com/your-repo/issues)
 
+**📥 PDF Tutorial Resources**:
+- [OpenClaw Tutorial Collection](./assets/pdf/en/readme.md) - Complete tutorial from beginner to master (free download)
+
 ---
 
 ### 🎯 Browse by Goal
