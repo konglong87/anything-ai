@@ -3,6 +3,7 @@
 > **Anything is AI, AI Native, Agent Native**
 >
 > 实践出真知，时间是检验真理的唯一标准
+> 未来都是AI Agent，智能体
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
