@@ -114,7 +114,8 @@ export default defineConfig({
                 { text: '完整索引', link: '/5-skills/INDEX.html' },
                 { text: '研究类', link: '/5-skills/research/README.html' },
                 { text: '开发类', link: '/5-skills/development/README.html' },
-                { text: '规划类', link: '/5-skills/planning/README.html' }
+                { text: '规划类', link: '/5-skills/planning/README.html' },
+                { text: '课程学习', link: '/5-skills/course/README.html' }
               ]
             },
             {
@@ -232,7 +233,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Skills Collection', link: '/en/5-skills/README.html' },
-                { text: 'Full Index', link: '/en/5-skills/INDEX.html' }
+                { text: 'Full Index', link: '/en/5-skills/INDEX.html' },
+                { text: 'Course', link: '/en/5-skills/course/README.html' }
               ]
             },
             {
