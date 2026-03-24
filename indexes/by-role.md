@@ -39,7 +39,7 @@
 ## architect
 
 - [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
@@ -83,7 +83,7 @@
 - [Claude Code 示例集合](2-choose-tools/tools/claude/claude-code-examples.md) - 30min (beginner)
 - [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)

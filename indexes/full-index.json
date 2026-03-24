@@ -1480,7 +1480,7 @@
   },
   {
     "title": "技能包设计模式课程索引",
-    "path": "5-skills/course/INDEX.md",
+    "path": "5-skills/course/README.md",
     "difficulty": "advanced",
     "roles": [
       "developer",
@@ -1856,6 +1856,28 @@
       "design-patterns",
       "architecture",
       "best-practices"
+    ]
+  },
+  {
+    "title": "技能包设计模式课程索引",
+    "path": "5-skills/course/README.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "course",
+      "index"
     ]
   },
   {

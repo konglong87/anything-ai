@@ -936,7 +936,7 @@
 
 ## course
 
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
 
 ## decision-making
@@ -946,7 +946,7 @@
 
 ## design-patterns
 
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
 - [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
@@ -1014,7 +1014,7 @@
 ## index
 
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
 
 ## iteration cycle
@@ -1141,7 +1141,7 @@
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
 - [AI Skills 精选集合](5-skills/README.md) - 45min (beginner)
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)

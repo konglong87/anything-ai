@@ -18,7 +18,7 @@
 - [RAG（检索增强生成）](4-advanced-topics/rag.md) - 60 min (advanced)
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
 - [强化学习](4-advanced-topics/rl.md) - 60 min (advanced)
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 - [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
 - [Chapter 6: Parallel Pattern - Efficiency Maximization](5-skills/course/en/chapter-06-parallel-pattern.md) - 60min (advanced)

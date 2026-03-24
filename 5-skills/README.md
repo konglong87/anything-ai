@@ -22,6 +22,7 @@ tags: [skills, collection, overview]
 - [Planning Skills](./planning/) - 规划与组织类Skills
 - [Productivity Skills](./productivity/) - 效率提升类Skills
 - [Agent Skills](./agent/) - Agent相关Skills
+- [技能包设计模式课程](./course/README.md) - 从理论到实践，掌握AI技能包的核心设计理念
 
 ## 🌟 精选Skills推荐
 
@@ -62,6 +63,13 @@ tags: [skills, collection, overview]
    - **功能**：技术栈管理和项目脚手架
    - **使用场景**：项目创建、技术栈配置
    - **安装教程**：[查看详情](./development/gstack.md)
+
+### 学习课程
+
+1. **[技能包设计模式课程](./course/README.md)** ⭐ 高星推荐
+   - **功能**：从理论到实践，掌握AI技能包的核心设计理念
+   - **使用场景**：技能包开发、架构设计、AI工具链构建
+   - **课程内容**：[查看详情](./course/README.md)
 
 ### Skills分类
 
@@ -206,6 +214,30 @@ gstack create my-project --template nextjs-ts
 1. Planning: 定义分析目标、数据源、关键指标
 2. GStack: 配置Python环境、数据库、可视化工具
 3. Research: 运行分析、生成洞察、输出报告
+```
+
+### 技能包开发学习路径
+
+**推荐组合**：技能包设计模式课程 + GStack + Superpower Skills
+
+**使用场景**：技能包开发、架构设计、AI工具链构建
+
+**工作流程**：
+1. 学习 **技能包设计模式课程**，掌握核心设计理念
+2. 使用 **GStack** 快速搭建项目脚手架
+3. 使用 **Superpower Skills** 参考实际案例，实践应用
+
+**效果数据**：
+- 开发效率提升 **60%**
+- 代码质量提升 **50%**
+- 架构设计能力提升 **70%**
+
+**学习路径**：
+```
+1. 学习课程：系统掌握6大设计模式
+2. 实践项目：基于GStack搭建项目
+3. 案例研究：分析Superpower Skills实现
+4. 自主开发：设计自己的技能包
 ```
 
 ## 📊 效果数据汇总

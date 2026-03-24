@@ -137,7 +137,7 @@
 - [Claude Code 完整使用指南](2-choose-tools/tools/claude/claude-code-guide.md) - 60min (beginner)
 - [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
 - [Claude Code 完全指南](2-choose-tools/tools/claude/everything-claude-code.md) - 90min (intermediate)
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
@@ -173,7 +173,7 @@
 
 ## gstack
 
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 - [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
 - [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](5-skills/course/en/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
@@ -209,7 +209,7 @@
 
 ## superpowers
 
-- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
+- [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)

@@ -72,6 +72,22 @@ tags: [skills, index, catalog]
 
 ---
 
+### 📚 课程学习类 (Course)
+- [技能包设计模式课程](./course/README.md) - 从理论到实践，掌握AI技能包的核心设计理念
+  - 入口模式：统一调度中心
+  - 模板方法模式：流程编排
+  - 责任链模式：质量保障
+  - 策略模式：灵活决策
+  - 并行模式：效率最大化
+  - 守护模式：安全边界
+  - 最佳实践与反模式
+
+**适用场景**：技能包开发、架构设计、AI工具链构建
+
+**详细文档**：[课程索引](./course/README.md)
+
+---
+
 ## 🎯 按使用场景索引
 
 ### 快速开发项目
@@ -79,7 +95,8 @@ tags: [skills, index, catalog]
 2. [Gstack (Claude Code Skills)](./development/gstack-claude-code.md) - YC创业方法论，产品设计和全流程开发
 3. [Planning with Files](./planning/planning-with-files.md) - 规划任务
 4. [Superpower Skills](./productivity/superpower-skills.md) - 自动化工作流
-5. [Obsidian Skills](./research/obsidian-skills.md) - 管理文档
+5. [技能包设计模式课程](./course/README.md) - 掌握技能包设计理念
+6. [Obsidian Skills](./research/obsidian-skills.md) - 管理文档
 
 ### 研究与写作
 1. [AI Research Skills](./research/ai-research-skills.md) - 研究分析
@@ -102,6 +119,7 @@ tags: [skills, index, catalog]
 ### 项目管理
 - [Planning with Files](./planning/planning-with-files.md) ⭐⭐⭐⭐⭐
 - [GStack](./development/gstack.md) ⭐⭐⭐⭐
+- [技能包设计模式课程](./course/README.md) ⭐⭐⭐⭐⭐
 
 ### 自动化
 - [Superpower Skills](./productivity/superpower-skills.md) ⭐⭐⭐⭐⭐
