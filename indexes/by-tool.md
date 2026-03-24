@@ -86,8 +86,18 @@
 - [GitHub Copilot使用指南](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [GitHub Copilot User Guide](en/2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 
+## agent-frameworks
+
+- [Agent Skills](5-skills/agent/README.md) - 40min (intermediate)
+
+## autogpt
+
+- [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+
 ## chatgpt
 
+- [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
+- [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
@@ -101,6 +111,15 @@
 
 - [Claude Usage Guide](2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
+- [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+- [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
+- [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
+- [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
+- [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
+- [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
 - [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
@@ -111,8 +130,17 @@
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## claude-code
+
+- [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+- [Claude Code 示例集合](2-choose-tools/tools/claude/claude-code-examples.md) - 30min (beginner)
+- [Claude Code 完整使用指南](2-choose-tools/tools/claude/claude-code-guide.md) - 60min (beginner)
+- [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
+- [Claude Code 完全指南](2-choose-tools/tools/claude/everything-claude-code.md) - 90min (intermediate)
+
 ## deepseek
 
+- [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
@@ -125,6 +153,36 @@
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## gstack
+
+- [开发相关Skills](5-skills/development/README.md) - 35min (beginner)
+- [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
+- [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
+
+## langchain
+
+- [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+
+## local-deployment
+
+- [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
+
+## nodejs
+
+- [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
+
+## obsidian
+
+- [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
+
+## openclaw
+
+- [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
+
+## qianwen
+
+- [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+
 ## undefined
 
 - [Start Here: AI Cognition Basics](0-start-here/README.md) - 30min (beginner)
@@ -134,6 +192,8 @@
 - [Tool Selection Matrix](2-choose-tools/README.md) - 15min (beginner)
 - [工具选择矩阵](2-choose-tools/README.md) - 15min (beginner)
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
+- [Claude Code 进阶技巧](2-choose-tools/tools/claude/claude-code-advanced.md) - 45 (intermediate)
+- [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
 - [Advanced Topics](4-advanced-topics/README.md) - 1hour (advanced)
 - [进阶主题](4-advanced-topics/README.md) - 1hour (advanced)
 - [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
@@ -204,6 +264,10 @@
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
 - [TODO - 2026年3月](todo/todo_2026_03.md) - 5 min (beginner)
+
+## zotero
+
+- [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
 
 ## 豆包
 

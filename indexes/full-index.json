@@ -677,6 +677,203 @@
     ]
   },
   {
+    "title": "CC Switch 国内大模型切换教程",
+    "path": "2-choose-tools/tools/claude/cc-switch-guide.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tools": [
+      "claude-code",
+      "deepseek",
+      "qianwen"
+    ],
+    "tags": [
+      "Claude Code",
+      "国内模型",
+      "DeepSeek",
+      "通义千问",
+      "文心一言"
+    ]
+  },
+  {
+    "title": "Claude Code 进阶技巧",
+    "path": "2-choose-tools/tools/claude/claude-code-advanced.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": 45,
+    "tags": [
+      "claude-code",
+      "advanced",
+      "workflow",
+      "automation"
+    ]
+  },
+  {
+    "title": "Claude Code 示例集合",
+    "path": "2-choose-tools/tools/claude/claude-code-examples.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "developer",
+      "student"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "claude-code",
+      "examples",
+      "tutorial",
+      "code-samples"
+    ]
+  },
+  {
+    "title": "Claude Code 高级应用",
+    "path": "2-choose-tools/tools/claude/claude-code-expert.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "tech-lead",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": 60,
+    "tags": [
+      "claude-code",
+      "expert",
+      "enterprise",
+      "project-management"
+    ]
+  },
+  {
+    "title": "Claude Code 完整使用指南",
+    "path": "2-choose-tools/tools/claude/claude-code-guide.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "claude",
+      "ai-programming",
+      "code-generation",
+      "code-review"
+    ]
+  },
+  {
+    "title": "Claude Code 快速开始指南",
+    "path": "2-choose-tools/tools/claude/claude-code-quickstart.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "tutorial",
+    "duration": "10min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "Claude Code",
+      "快速开始",
+      "安装配置",
+      "使用教程"
+    ]
+  },
+  {
+    "title": "Claude Code 完全指南",
+    "path": "2-choose-tools/tools/claude/everything-claude-code.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "90min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "claude",
+      "best-practices",
+      "programming"
+    ]
+  },
+  {
+    "title": "Gstack User Guide",
+    "path": "2-choose-tools/tools/claude/gstack-guide.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "entrepreneur"
+    ],
+    "type": "tool-reference",
+    "duration": "30min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "Claude Code",
+      "Skills",
+      "Full-stack Development",
+      "YC Startup Methodology"
+    ]
+  },
+  {
+    "title": "Gstack 使用指南",
+    "path": "2-choose-tools/tools/claude/gstack-guide.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "entrepreneur"
+    ],
+    "type": "tool-reference",
+    "duration": "30min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "Claude Code",
+      "Skills",
+      "全流程开发",
+      "YC创业方法论"
+    ]
+  },
+  {
+    "title": "OpenClaw 完整使用教程",
+    "path": "2-choose-tools/tools/claude/openclaw-guide.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "openclaw",
+      "local-deployment"
+    ],
+    "tags": [
+      "OpenClaw",
+      "本地部署",
+      "AI工具",
+      "离线使用"
+    ]
+  },
+  {
     "title": "GitHub Copilot User Guide",
     "path": "2-choose-tools/tools/copilot/README.en.md",
     "difficulty": "beginner",
@@ -959,6 +1156,25 @@
     "duration": "10min"
   },
   {
+    "title": "提示词工程与高级主题整合指南",
+    "path": "4-advanced-topics/learning-path-integration.md",
+    "difficulty": "advanced",
+    "roles": [
+      "all"
+    ],
+    "type": "tutorial",
+    "duration": "120min",
+    "tools": [
+      "claude",
+      "chatgpt"
+    ],
+    "tags": [
+      "prompt-engineering",
+      "advanced-topics",
+      "learning-path"
+    ]
+  },
+  {
     "title": "Machine Learning Basics",
     "path": "4-advanced-topics/ml-basics.en.md",
     "difficulty": "intermediate",
@@ -1172,6 +1388,294 @@
     "tags": [
       "Reinforcement Learning",
       "RL"
+    ]
+  },
+  {
+    "title": "AI Skills 完整索引",
+    "path": "5-skills/INDEX.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [],
+    "tags": [
+      "skills",
+      "index",
+      "catalog"
+    ]
+  },
+  {
+    "title": "AI Skills 精选集合",
+    "path": "5-skills/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "concept",
+    "duration": "45min",
+    "tools": [],
+    "tags": [
+      "skills",
+      "collection",
+      "overview"
+    ]
+  },
+  {
+    "title": "Agent Skills",
+    "path": "5-skills/agent/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "all"
+    ],
+    "type": "concept",
+    "duration": "40min",
+    "tools": [
+      "agent-frameworks"
+    ],
+    "tags": [
+      "agent",
+      "automation",
+      "ai-assistant"
+    ]
+  },
+  {
+    "title": "awesome-agent-skills Skill 详细指南",
+    "path": "5-skills/agent/awesome-agent-skills.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "90min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "automation",
+      "workflow"
+    ]
+  },
+  {
+    "title": "Agent Skills 完整目录",
+    "path": "5-skills/agent/skills-catalog.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "all"
+    ],
+    "type": "tool-reference",
+    "duration": "45min",
+    "tools": [],
+    "tags": [
+      "agent",
+      "skills",
+      "catalog"
+    ]
+  },
+  {
+    "title": "开发相关Skills",
+    "path": "5-skills/development/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "35min",
+    "tools": [
+      "gstack"
+    ],
+    "tags": [
+      "development",
+      "code-generation",
+      "tools"
+    ]
+  },
+  {
+    "title": "Gstack (Claude Code Skills) 详细指南",
+    "path": "5-skills/development/gstack-claude-code.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "entrepreneur"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tools": [
+      "claude",
+      "gstack"
+    ],
+    "tags": [
+      "claude-code",
+      "YC-methodology",
+      "full-stack-development",
+      "startup"
+    ]
+  },
+  {
+    "title": "GStack 详细指南",
+    "path": "5-skills/development/gstack.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tools": [
+      "gstack",
+      "nodejs"
+    ],
+    "tags": [
+      "project-scaffolding",
+      "tech-stack",
+      "development"
+    ]
+  },
+  {
+    "title": "规划与组织类Skills",
+    "path": "5-skills/planning/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [],
+    "tags": [
+      "planning",
+      "project-management",
+      "task-organization"
+    ]
+  },
+  {
+    "title": "planning-with-files Skill 详细指南",
+    "path": "5-skills/planning/planning-with-files.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "guide",
+    "duration": "50min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "planning",
+      "file-organization",
+      "task-management"
+    ]
+  },
+  {
+    "title": "效率提升类Skills",
+    "path": "5-skills/productivity/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "concept",
+    "duration": "35min",
+    "tools": [],
+    "tags": [
+      "productivity",
+      "automation",
+      "workflow"
+    ]
+  },
+  {
+    "title": "Superpower Skills 详细指南",
+    "path": "5-skills/productivity/superpower-skills.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "all"
+    ],
+    "type": "guide",
+    "duration": "70min",
+    "tools": [
+      "claude",
+      "chatgpt"
+    ],
+    "tags": [
+      "ai-skills",
+      "automation",
+      "tools"
+    ]
+  },
+  {
+    "title": "研究与分析类Skills",
+    "path": "5-skills/research/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "researcher",
+      "student",
+      "all"
+    ],
+    "type": "concept",
+    "duration": "40min",
+    "tools": [],
+    "tags": [
+      "research",
+      "analysis",
+      "academic"
+    ]
+  },
+  {
+    "title": "AI-Research-SKILLs Skill 详细指南",
+    "path": "5-skills/research/ai-research-skills.md",
+    "difficulty": "advanced",
+    "roles": [
+      "researcher",
+      "student"
+    ],
+    "type": "guide",
+    "duration": "80min",
+    "tools": [
+      "claude",
+      "zotero"
+    ],
+    "tags": [
+      "research",
+      "academic",
+      "literature-review"
+    ]
+  },
+  {
+    "title": "obsidian-skills Skill 详细指南",
+    "path": "5-skills/research/obsidian-skills.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tools": [
+      "claude",
+      "obsidian"
+    ],
+    "tags": [
+      "knowledge-management",
+      "notes",
+      "obsidian"
+    ]
+  },
+  {
+    "title": "资源文件说明",
+    "path": "assets/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tools": [],
+    "tags": [
+      "Assets",
+      "资源文件",
+      "图片"
     ]
   },
   {
@@ -3524,6 +4028,22 @@
     "tags": [
       "TODO",
       "Project"
+    ]
+  },
+  {
+    "title": "2026-03-23 任务清单",
+    "path": "todo/todo_2026_03_23.md",
+    "difficulty": "beginner",
+    "roles": [
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "10min",
+    "tools": [],
+    "tags": [
+      "任务",
+      "计划",
+      "TODO"
     ]
   }
 ]
