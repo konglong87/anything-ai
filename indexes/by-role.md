@@ -16,11 +16,29 @@
 
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 
+## all
+
+- [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
+- [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
+- [AI Skills 精选集合](5-skills/README.md) - 45min (beginner)
+- [Agent Skills](5-skills/agent/README.md) - 40min (intermediate)
+- [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
+- [规划与组织类Skills](5-skills/planning/README.md) - 30min (beginner)
+- [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
+- [效率提升类Skills](5-skills/productivity/README.md) - 35min (beginner)
+- [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
+- [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)
+- [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
+
 ## analyst
 
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
+
+## architect
+
+- [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
 
 ## content-creator
 
@@ -42,9 +60,21 @@
 ## developer
 
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
+- [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+- [Claude Code 进阶技巧](2-choose-tools/tools/claude/claude-code-advanced.md) - 45 (intermediate)
+- [Claude Code 示例集合](2-choose-tools/tools/claude/claude-code-examples.md) - 30min (beginner)
+- [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
+- [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 - [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [2026-03-23 任务清单](todo/todo_2026_03_23.md) - 10min (beginner)
+
+## entrepreneur
+
+- [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
 
 ## everyone
 
@@ -86,6 +116,7 @@
 - [提示词工程](4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
 - [强化学习](4-advanced-topics/rl.md) - 60 min (advanced)
+- [资源文件说明](assets/README.md) - 5min (beginner)
 - [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
 - [为什么不需要AI焦虑](en/0-start-here/ai-anxiety.md) - 15min (beginner)
 - [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)
@@ -198,6 +229,16 @@
 - [Tokenization](1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
 - [Introduction to Transformer Architecture](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+- [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+- [Claude Code 进阶技巧](2-choose-tools/tools/claude/claude-code-advanced.md) - 45 (intermediate)
+- [Claude Code 示例集合](2-choose-tools/tools/claude/claude-code-examples.md) - 30min (beginner)
+- [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
+- [Claude Code 完整使用指南](2-choose-tools/tools/claude/claude-code-guide.md) - 60min (beginner)
+- [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
+- [Claude Code 完全指南](2-choose-tools/tools/claude/everything-claude-code.md) - 90min (intermediate)
+- [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 - [GitHub Copilot User Guide](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [GitHub Copilot使用指南](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [Cursor User Guide](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
@@ -210,6 +251,12 @@
 - [模型微调](4-advanced-topics/model-fine-tuning.md) - 60 min (advanced)
 - [RAG (Retrieval-Augmented Generation)](4-advanced-topics/rag.md) - 60 min (advanced)
 - [RAG（检索增强生成）](4-advanced-topics/rag.md) - 60 min (advanced)
+- [Agent Skills](5-skills/agent/README.md) - 40min (intermediate)
+- [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+- [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
+- [开发相关Skills](5-skills/development/README.md) - 35min (beginner)
+- [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
+- [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
@@ -247,6 +294,8 @@
 
 ## researcher
 
+- [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)
+- [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [AI Academic Writing Assistant](en/resources/specialized/ai-research-writing.md) - 20 min (intermediate)
@@ -285,6 +334,9 @@
 - [Tokenization](1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
 - [Introduction to Transformer Architecture](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+- [Claude Code 示例集合](2-choose-tools/tools/claude/claude-code-examples.md) - 30min (beginner)
+- [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)
+- [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Hallucination Phenomenon](en/1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [Memory Mechanisms](en/1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
@@ -315,6 +367,10 @@
 - [Teacher AI Application Guide](roles/teacher/README.md) - 30min (beginner)
 - [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
+
+## tech-lead
+
+- [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
 
 ## vibe-coding
 

@@ -724,6 +724,30 @@ func hasPermission(user, resource) {
 
 ---
 
+## 进阶技能包
+
+### Gstack - YC创业方法论技能包
+
+**简介**：YC总裁Garry Tan开源的Claude Code技能包，内置26个斜杠命令，覆盖产品、架构、设计、测试、发布全流程。
+
+**核心功能**：
+- `/office-hours`：YC创业导师视角，深挖需求真实性
+- `/plan-ceo-review`：CEO/投资人视角，审定产品愿景
+- `/plan-eng-review`：工程视角，确认技术架构
+- `/plan-design-review`：UI设计评估
+- `/review`：代码和安全审查
+- `/qa`：自动化测试
+- `/ship`：一键发布
+
+**适用场景**：
+- ✅ 0→1 MVP产品设计与落地
+- ✅ 项目沙盘推演、业务方案验证
+- ✅ 小团队/独立开发者快速输出设计成果
+
+**详细指南**：[Gstack使用指南](./gstack-guide.md)
+
+---
+
 ## 下一步
 
 **立即行动**：
@@ -731,11 +755,13 @@ func hasPermission(user, resource) {
 2. 尝试本文的示例提示词
 3. 测试不同的模型（Opus/Sonnet/Haiku）
 4. 探索Claude Code命令行工具
+5. 进阶使用Gstack技能包
 
 **深入学习**：
 - Anthropic官方文档
 - Claude API文档
 - 最佳实践案例库
+- Gstack技能包文档
 
 ---
 
@@ -744,3 +770,4 @@ func hasPermission(user, resource) {
 - Claude AI Plans 2026 Guide (GlobalGPT, 2026)
 - Claude Pricing Analysis (Finout, 2026)
 - AI Coding Assistants Comparison (AIToolVS, 2026)
+- Gstack开源项目 (2026)
