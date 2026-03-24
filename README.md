@@ -9,22 +9,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/konglong87/anything-ai?style=social)](https://github.com/konglong87/anything-ai/stargazers)
 
-## 📑 目录
-
-- [项目简介](#-这个项目是什么)
-- [为什么需要](#-为什么需要这个项目)
-- [快速导航](#-快速导航)
-  - [按角色找内容](#-按角色找内容各行各业快速入口)
-  - [按目标找内容](#-按目标找内容)
-  - [按工具找场景](#-按工具找场景)
-- [内容特色](#-内容特色)
-- [实际案例](#-实际案例)
-- [核心价值](#-核心价值)
-- [如何贡献](#-如何贡献)
-- [项目状态](#-项目状态)
-- [致谢](#-致谢与参考)
-- [核心理念](#-核心理念)
-
 ---
 
 ## 💡 这个项目是什么
