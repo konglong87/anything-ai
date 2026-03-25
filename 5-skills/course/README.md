@@ -58,7 +58,7 @@ tags: [skills, design-patterns, course, index]
 
 **🔗 快速链接**：
 - [中文版](./skills-package-design-patterns.md)
-- [English Version](./en/skills-package-design-patterns.md)
+- [English Version](/en/5-skills/course/README.md)
 
 **✅ 学习目标**：
 - 理解技能包生态系统的价值

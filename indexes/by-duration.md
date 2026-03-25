@@ -290,13 +290,13 @@
 ## 50min
 
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
-- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](5-skills/course/en/chapter-08-best-practices.md) - 50min (intermediate)
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
+- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 
 ## 55min
 
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
-- [Chapter 7: Guardian Pattern - Security Boundary Design](5-skills/course/en/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+- [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 
 ## 5min
 
@@ -332,27 +332,27 @@
 - [Claude Code 完整使用指南](2-choose-tools/tools/claude/claude-code-guide.md) - 60min (beginner)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
-- [Chapter 2: Entry Pattern - Unified Dispatch Center](5-skills/course/en/chapter-02-entry-pattern.md) - 60min (intermediate)
-- [Chapter 6: Parallel Pattern - Efficiency Maximization](5-skills/course/en/chapter-06-parallel-pattern.md) - 60min (advanced)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
 - [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
 - [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
+- [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
+- [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 
 ## 65min
 
 - [第5章：策略模式 - 灵活决策机制](5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
-- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](5-skills/course/en/chapter-05-strategy-pattern.md) - 65min (intermediate)
+- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
 
 ## 70min
 
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
-- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](5-skills/course/en/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
+- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 
 ## 75min
 
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
-- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](5-skills/course/en/chapter-03-template-method-pattern.md) - 75min (intermediate)
+- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](en/5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 
 ## 80min
 
@@ -360,10 +360,12 @@
 
 ## 8h
 
+- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
-- [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
-- [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
+- [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
+- [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
 ## 90min
 

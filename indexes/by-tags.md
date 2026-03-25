@@ -821,12 +821,12 @@
 ## anti-patterns
 
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
-- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](5-skills/course/en/chapter-08-best-practices.md) - 50min (intermediate)
+- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 
 ## architecture
 
-- [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
 ## artificial intelligence
 
@@ -857,9 +857,9 @@
 
 - [Claude Code 完全指南](2-choose-tools/tools/claude/everything-claude-code.md) - 90min (intermediate)
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
-- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](5-skills/course/en/chapter-08-best-practices.md) - 50min (intermediate)
-- [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
+- [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
 ## bug detection
 
@@ -883,7 +883,7 @@
 ## chain-of-responsibility
 
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
-- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](5-skills/course/en/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
+- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 
 ## claude
 
@@ -932,29 +932,33 @@
 ## concurrency
 
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
-- [Chapter 6: Parallel Pattern - Efficiency Maximization](5-skills/course/en/chapter-06-parallel-pattern.md) - 60min (advanced)
+- [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 
 ## course
 
+- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
-- [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
+- [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
+- [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
 
 ## decision-making
 
 - [第5章：策略模式 - 灵活决策机制](5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
-- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](5-skills/course/en/chapter-05-strategy-pattern.md) - 65min (intermediate)
+- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
 
 ## design-patterns
 
+- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
-- [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
-- [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
+- [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
+- [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
 ## design-principles
 
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
-- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](5-skills/course/en/chapter-08-best-practices.md) - 50min (intermediate)
+- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 
 ## development
 
@@ -964,12 +968,12 @@
 ## dispatch
 
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
-- [Chapter 2: Entry Pattern - Unified Dispatch Center](5-skills/course/en/chapter-02-entry-pattern.md) - 60min (intermediate)
+- [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 
 ## efficiency
 
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
-- [Chapter 6: Parallel Pattern - Efficiency Maximization](5-skills/course/en/chapter-06-parallel-pattern.md) - 60min (advanced)
+- [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 
 ## enterprise
 
@@ -978,7 +982,7 @@
 ## entry-pattern
 
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
-- [Chapter 2: Entry Pattern - Unified Dispatch Center](5-skills/course/en/chapter-02-entry-pattern.md) - 60min (intermediate)
+- [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 
 ## examples
 
@@ -995,7 +999,7 @@
 ## flexibility
 
 - [第5章：策略模式 - 灵活决策机制](5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
-- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](5-skills/course/en/chapter-05-strategy-pattern.md) - 65min (intermediate)
+- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
 
 ## flow state
 
@@ -1009,13 +1013,15 @@
 ## guardian-pattern
 
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
-- [Chapter 7: Guardian Pattern - Security Boundary Design](5-skills/course/en/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+- [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 
 ## index
 
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
+- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
-- [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
+- [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
+- [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
 
 ## iteration cycle
 
@@ -1060,7 +1066,7 @@
 ## orchestration
 
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
-- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](5-skills/course/en/chapter-03-template-method-pattern.md) - 75min (intermediate)
+- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](en/5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 
 ## overview
 
@@ -1069,7 +1075,7 @@
 ## parallel-pattern
 
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
-- [Chapter 6: Parallel Pattern - Efficiency Maximization](5-skills/course/en/chapter-06-parallel-pattern.md) - 60min (advanced)
+- [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 
 ## performance optimization
 
@@ -1107,7 +1113,7 @@
 ## quality-assurance
 
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
-- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](5-skills/course/en/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
+- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 
 ## real cases
 
@@ -1122,17 +1128,17 @@
 ## routing
 
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
-- [Chapter 2: Entry Pattern - Unified Dispatch Center](5-skills/course/en/chapter-02-entry-pattern.md) - 60min (intermediate)
+- [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 
 ## safety
 
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
-- [Chapter 7: Guardian Pattern - Security Boundary Design](5-skills/course/en/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+- [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 
 ## security
 
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
-- [Chapter 7: Guardian Pattern - Security Boundary Design](5-skills/course/en/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+- [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Code Review Real Cases](roles/programmer/code-review.md) - 30min (intermediate)
 
@@ -1141,6 +1147,7 @@
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
 - [AI Skills 精选集合](5-skills/README.md) - 45min (beginner)
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
+- [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
@@ -1149,16 +1156,17 @@
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
-- [Skill Design Patterns Course Index](5-skills/course/en/INDEX.md) - 8h (advanced)
-- [Chapter 2: Entry Pattern - Unified Dispatch Center](5-skills/course/en/chapter-02-entry-pattern.md) - 60min (intermediate)
-- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](5-skills/course/en/chapter-03-template-method-pattern.md) - 75min (intermediate)
-- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](5-skills/course/en/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
-- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](5-skills/course/en/chapter-05-strategy-pattern.md) - 65min (intermediate)
-- [Chapter 6: Parallel Pattern - Efficiency Maximization](5-skills/course/en/chapter-06-parallel-pattern.md) - 60min (advanced)
-- [Chapter 7: Guardian Pattern - Security Boundary Design](5-skills/course/en/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
-- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](5-skills/course/en/chapter-08-best-practices.md) - 50min (intermediate)
-- [Skill Design Patterns: From Theory to Practice](5-skills/course/en/skills-package-design-patterns.md) - 8h (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
+- [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
+- [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
+- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](en/5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
+- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
+- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
+- [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
+- [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+- [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
+- [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
 ## startup
 
@@ -1167,7 +1175,7 @@
 ## strategy-pattern
 
 - [第5章：策略模式 - 灵活决策机制](5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
-- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](5-skills/course/en/chapter-05-strategy-pattern.md) - 65min (intermediate)
+- [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
 
 ## task-management
 
@@ -1184,7 +1192,7 @@
 ## template-method
 
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
-- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](5-skills/course/en/chapter-03-template-method-pattern.md) - 75min (intermediate)
+- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](en/5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 
 ## tool comparison
 
@@ -1275,7 +1283,7 @@
 ## validation
 
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
-- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](5-skills/course/en/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
+- [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 
 ## vibe coding
 
@@ -1291,8 +1299,8 @@
 - [Claude Code 进阶技巧](2-choose-tools/tools/claude/claude-code-advanced.md) - 45 (intermediate)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
-- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](5-skills/course/en/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [效率提升类Skills](5-skills/productivity/README.md) - 35min (beginner)
+- [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](en/5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [Vibe Coding Beginner's Guide](en/roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
 - [Vibe Coding Beginner's Guide](roles/vibe-coding/README.md) - 20min (beginner)

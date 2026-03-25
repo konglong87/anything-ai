@@ -1480,6 +1480,28 @@
   },
   {
     "title": "技能包设计模式课程索引",
+    "path": "5-skills/course/INDEX.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "course",
+      "index"
+    ]
+  },
+  {
+    "title": "技能包设计模式课程索引",
     "path": "5-skills/course/README.md",
     "difficulty": "advanced",
     "roles": [
@@ -1647,196 +1669,6 @@
     ]
   },
   {
-    "title": "Skill Design Patterns Course Index",
-    "path": "5-skills/course/en/INDEX.md",
-    "difficulty": "advanced",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "guide",
-    "duration": "8h",
-    "tools": [
-      "claude-code",
-      "superpowers",
-      "gstack"
-    ],
-    "tags": [
-      "skills",
-      "design-patterns",
-      "course",
-      "index"
-    ]
-  },
-  {
-    "title": "Chapter 2: Entry Pattern - Unified Dispatch Center",
-    "path": "5-skills/course/en/chapter-02-entry-pattern.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "60min",
-    "tools": [
-      "claude-code",
-      "superpowers"
-    ],
-    "tags": [
-      "entry-pattern",
-      "routing",
-      "dispatch",
-      "skills"
-    ]
-  },
-  {
-    "title": "Chapter 3: Template Method Pattern - The Art of Workflow Orchestration",
-    "path": "5-skills/course/en/chapter-03-template-method-pattern.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "75min",
-    "tools": [
-      "claude-code",
-      "superpowers"
-    ],
-    "tags": [
-      "template-method",
-      "workflow",
-      "orchestration",
-      "skills"
-    ]
-  },
-  {
-    "title": "Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain",
-    "path": "5-skills/course/en/chapter-04-chain-of-responsibility.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "70min",
-    "tools": [
-      "claude-code",
-      "superpowers",
-      "gstack"
-    ],
-    "tags": [
-      "chain-of-responsibility",
-      "quality-assurance",
-      "validation",
-      "skills"
-    ]
-  },
-  {
-    "title": "Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism",
-    "path": "5-skills/course/en/chapter-05-strategy-pattern.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "65min",
-    "tools": [
-      "claude-code",
-      "superpowers"
-    ],
-    "tags": [
-      "strategy-pattern",
-      "decision-making",
-      "flexibility",
-      "skills"
-    ]
-  },
-  {
-    "title": "Chapter 6: Parallel Pattern - Efficiency Maximization",
-    "path": "5-skills/course/en/chapter-06-parallel-pattern.md",
-    "difficulty": "advanced",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "60min",
-    "tools": [
-      "claude-code",
-      "superpowers"
-    ],
-    "tags": [
-      "parallel-pattern",
-      "efficiency",
-      "concurrency",
-      "skills"
-    ]
-  },
-  {
-    "title": "Chapter 7: Guardian Pattern - Security Boundary Design",
-    "path": "5-skills/course/en/chapter-07-08-guardian-and-best-practices.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "55min",
-    "tools": [
-      "claude-code"
-    ],
-    "tags": [
-      "guardian-pattern",
-      "security",
-      "safety",
-      "skills"
-    ]
-  },
-  {
-    "title": "Chapter 8: Best Practices and Anti-Patterns - Lessons Learned",
-    "path": "5-skills/course/en/chapter-08-best-practices.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "50min",
-    "tools": [
-      "claude-code"
-    ],
-    "tags": [
-      "best-practices",
-      "anti-patterns",
-      "design-principles",
-      "skills"
-    ]
-  },
-  {
-    "title": "Skill Design Patterns: From Theory to Practice",
-    "path": "5-skills/course/en/skills-package-design-patterns.md",
-    "difficulty": "intermediate",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "tutorial",
-    "duration": "8h",
-    "tools": [
-      "claude-code",
-      "superpowers",
-      "gstack"
-    ],
-    "tags": [
-      "skills",
-      "design-patterns",
-      "architecture",
-      "best-practices"
-    ]
-  },
-  {
     "title": "技能包设计模式：从理论到实践",
     "path": "5-skills/course/skills-package-design-patterns.md",
     "difficulty": "intermediate",
@@ -1856,28 +1688,6 @@
       "design-patterns",
       "architecture",
       "best-practices"
-    ]
-  },
-  {
-    "title": "技能包设计模式课程索引",
-    "path": "5-skills/course/README.md",
-    "difficulty": "advanced",
-    "roles": [
-      "developer",
-      "architect"
-    ],
-    "type": "guide",
-    "duration": "8h",
-    "tools": [
-      "claude-code",
-      "superpowers",
-      "gstack"
-    ],
-    "tags": [
-      "skills",
-      "design-patterns",
-      "course",
-      "index"
     ]
   },
   {
@@ -2680,6 +2490,218 @@
     "tags": [
       "Reinforcement Learning",
       "RL"
+    ]
+  },
+  {
+    "title": "Skill Design Patterns Course Index",
+    "path": "en/5-skills/course/INDEX.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "course",
+      "index"
+    ]
+  },
+  {
+    "title": "Skills Package Design Patterns Course Index",
+    "path": "en/5-skills/course/README.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "course",
+      "index"
+    ]
+  },
+  {
+    "title": "Chapter 2: Entry Pattern - Unified Dispatch Center",
+    "path": "en/5-skills/course/chapter-02-entry-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "60min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "entry-pattern",
+      "routing",
+      "dispatch",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 3: Template Method Pattern - The Art of Workflow Orchestration",
+    "path": "en/5-skills/course/chapter-03-template-method-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "75min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "template-method",
+      "workflow",
+      "orchestration",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain",
+    "path": "en/5-skills/course/chapter-04-chain-of-responsibility.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "70min",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "chain-of-responsibility",
+      "quality-assurance",
+      "validation",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism",
+    "path": "en/5-skills/course/chapter-05-strategy-pattern.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "65min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "strategy-pattern",
+      "decision-making",
+      "flexibility",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 6: Parallel Pattern - Efficiency Maximization",
+    "path": "en/5-skills/course/chapter-06-parallel-pattern.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "60min",
+    "tools": [
+      "claude-code",
+      "superpowers"
+    ],
+    "tags": [
+      "parallel-pattern",
+      "efficiency",
+      "concurrency",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 7: Guardian Pattern - Security Boundary Design",
+    "path": "en/5-skills/course/chapter-07-08-guardian-and-best-practices.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "55min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "guardian-pattern",
+      "security",
+      "safety",
+      "skills"
+    ]
+  },
+  {
+    "title": "Chapter 8: Best Practices and Anti-Patterns - Lessons Learned",
+    "path": "en/5-skills/course/chapter-08-best-practices.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "50min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "best-practices",
+      "anti-patterns",
+      "design-principles",
+      "skills"
+    ]
+  },
+  {
+    "title": "Skill Design Patterns: From Theory to Practice",
+    "path": "en/5-skills/course/skills-package-design-patterns.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "architect"
+    ],
+    "type": "tutorial",
+    "duration": "8h",
+    "tools": [
+      "claude-code",
+      "superpowers",
+      "gstack"
+    ],
+    "tags": [
+      "skills",
+      "design-patterns",
+      "architecture",
+      "best-practices"
     ]
   },
   {
