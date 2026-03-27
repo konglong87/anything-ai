@@ -35,7 +35,14 @@ function scanMarkdownFiles(dir, fileList = []) {
 
   files.forEach(file => {
     const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
+
+    // 使用 lstatSync 而不是 statSync，这样可以检测符号链接
+    const stat = fs.lstatSync(filePath);
+
+    // 跳过符号链接
+    if (stat.isSymbolicLink()) {
+      return;
+    }
 
     if (stat.isDirectory()) {
       // 跳过隐藏目录和node_modules
