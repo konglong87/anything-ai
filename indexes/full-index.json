@@ -234,6 +234,93 @@
     ]
   },
   {
+    "title": "AI工程范式演进",
+    "path": "1-understand-ai/ai-engineering-paradigms/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "product-manager",
+      "ai-engineer"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "GPT",
+      "AI Agents"
+    ],
+    "tags": [
+      "AI Engineering",
+      "Prompt Engineering",
+      "Context Engineering",
+      "Harness Engineering"
+    ]
+  },
+  {
+    "title": "Context Engineering - 上下文工程",
+    "path": "1-understand-ai/ai-engineering-paradigms/context-engineering/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "ai-engineer",
+      "product-manager"
+    ],
+    "type": "concept",
+    "duration": "20 min",
+    "tools": [
+      "Claude",
+      "AI Agents",
+      "Knowledge Base"
+    ],
+    "tags": [
+      "Context Engineering",
+      "Context Window",
+      "Knowledge Management"
+    ]
+  },
+  {
+    "title": "Harness Engineering - 驾驭AI工程",
+    "path": "1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md",
+    "difficulty": "advanced",
+    "roles": [
+      "developer",
+      "ai-engineer",
+      "architect"
+    ],
+    "type": "concept",
+    "duration": "25 min",
+    "tools": [
+      "Claude",
+      "AI Agents",
+      "Automation"
+    ],
+    "tags": [
+      "Harness Engineering",
+      "AI Architecture",
+      "Agent System"
+    ]
+  },
+  {
+    "title": "Prompt Engineering - 提示词工程",
+    "path": "1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15 min",
+    "tools": [
+      "Claude",
+      "GPT",
+      "AI Assistants"
+    ],
+    "tags": [
+      "Prompt Engineering",
+      "AI Communication",
+      "Prompt Design"
+    ]
+  },
+  {
     "title": "Hallucination Phenomenon",
     "path": "1-understand-ai/how-ai-thinks/hallucination.en.md",
     "difficulty": "beginner",
@@ -3134,6 +3221,26 @@
     "duration": "30min"
   },
   {
+    "title": "Product Manager AI Application Guide",
+    "path": "en/roles/product-manager/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "product-manager"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tools": [
+      "Claude",
+      "AI Skills"
+    ],
+    "tags": [
+      "Product Manager",
+      "PM",
+      "Skills",
+      "Workflow"
+    ]
+  },
+  {
     "title": "Programmer AI Application Guide",
     "path": "en/roles/programmer/README.md",
     "difficulty": "beginner",
@@ -4147,6 +4254,26 @@
     ],
     "type": "guide",
     "duration": "30min"
+  },
+  {
+    "title": "产品经理 AI 应用指南",
+    "path": "roles/product-manager/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "product-manager"
+    ],
+    "type": "guide",
+    "duration": "15 min",
+    "tools": [
+      "Claude",
+      "AI Skills"
+    ],
+    "tags": [
+      "产品经理",
+      "PM",
+      "Skills",
+      "工作流"
+    ]
   },
   {
     "title": "Programmer AI Application Guide",

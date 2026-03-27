@@ -2,6 +2,7 @@
 
 ## advanced
 
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
@@ -50,6 +51,7 @@
 - [AI是什么](0-start-here/what-is-ai.md) - 15min (beginner)
 - [What is an Agent](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Agent是什么](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Hallucination Phenomenon](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [幻觉现象](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [Probabilistic Prediction](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
@@ -129,6 +131,7 @@
 - [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
 - [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
 - [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [Programmer AI Application Guide](en/roles/programmer/README.md) - 45min (beginner)
 - [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
 - [Student AI Application Guide](en/roles/student/README.md) - 30min (beginner)
@@ -178,6 +181,7 @@
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
 - [HR AI Application Guide](roles/hr/README.md) - 30min (beginner)
 - [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 - [Programmer AI Application Guide](roles/programmer/README.md) - 45min (beginner)
 - [程序员AI应用指南](roles/programmer/README.md) - 45min (beginner)
 - [程序员AI工具大全](roles/programmer/ai-tools.md) - 15min (beginner)
@@ -205,6 +209,8 @@
 - [Agent架构](1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [Agent实践案例](1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Memory Mechanisms](1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
 - [记忆机制](1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
 - [Reasoning Capabilities](1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)

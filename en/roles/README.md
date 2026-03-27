@@ -15,6 +15,7 @@ duration: 10min
 ### 💼 Business & Technology
 
 - 👨‍💻 **Programmer** - Code assistant, code review, TDD
+- 📋 **Product Manager** - Requirement analysis, PRD generation, data-driven decisions
 - 📊 **Finance** - Report analysis, data processing
 - 💼 **Sales** - Client communication, proposal writing
 - 👥 **HR** - Recruitment screening, employee training

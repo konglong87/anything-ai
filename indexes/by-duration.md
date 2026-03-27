@@ -52,6 +52,7 @@
 
 - [What is an Agent](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Agent是什么](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Probabilistic Prediction](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
 - [概率预测](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
 - [Context Window](1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
@@ -69,8 +70,10 @@
 - [Introduction to Transformer Architecture](en/1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Doubao User Guide](en/2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 - [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 
 ## 15min
 
@@ -96,6 +99,8 @@
 
 ## 20 min
 
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Hallucination Phenomenon](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [幻觉现象](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [Memory Mechanisms](1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
@@ -147,6 +152,7 @@
 
 - [Agent Architecture](1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent架构](1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Pretraining and Finetuning](1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
 - [预训练与微调](1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
 - [ChatGPT User Guide](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)

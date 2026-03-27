@@ -16,6 +16,12 @@
 
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 
+## ai-engineer
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
 ## all
 
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
@@ -38,6 +44,7 @@
 
 ## architect
 
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Claude Code 高级应用](2-choose-tools/tools/claude/claude-code-expert.md) - 60 (advanced)
 - [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
@@ -79,6 +86,9 @@
 
 ## developer
 
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
 - [Claude Code 进阶技巧](2-choose-tools/tools/claude/claude-code-advanced.md) - 45 (intermediate)
@@ -128,6 +138,7 @@
 - [AI是什么](0-start-here/what-is-ai.md) - 15min (beginner)
 - [Understand AI: Deep Principles](1-understand-ai/README.md) - 2hour (intermediate)
 - [理解AI：深入原理](1-understand-ai/README.md) - 2hour (intermediate)
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Tool Selection Matrix](2-choose-tools/README.md) - 15min (beginner)
 - [工具选择矩阵](2-choose-tools/README.md) - 15min (beginner)
 - [AI Tool Selection Matrix](2-choose-tools/tool-matrix.md) - 20min (beginner)
@@ -244,6 +255,13 @@
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
+
+## product-manager
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 
 ## programmer
 

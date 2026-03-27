@@ -1,5 +1,24 @@
 # 按工具索引
 
+## AI Agents
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
+## AI Assistants
+
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+
+## AI Skills
+
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
+## Automation
+
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
 ## ChatGPT
 
 - [ChatGPT User Guide](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
@@ -26,6 +45,10 @@
 
 ## Claude
 
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
@@ -33,6 +56,7 @@
 - [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
 - [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -47,6 +71,7 @@
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Claude技能和工具资源](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 
 ## Cursor
 
@@ -80,11 +105,20 @@
 - [Doubao User Guide](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 - [Doubao User Guide](en/2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 
+## GPT
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+
 ## GitHub Copilot
 
 - [GitHub Copilot User Guide](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [GitHub Copilot使用指南](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [GitHub Copilot User Guide](en/2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
+
+## Knowledge Base
+
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 
 ## agent-frameworks
 

@@ -36,10 +36,22 @@
 - [AI Application Resources](resources/ai-tools/ai-apps-resources.md) - 10 min (beginner)
 - [AI应用资源](resources/ai-tools/ai-apps-resources.md) - 10 min (beginner)
 
+## AI Architecture
+
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
 ## AI Assistant
 
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+
+## AI Communication
+
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+
+## AI Engineering
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 
 ## AI Fortune Telling
 
@@ -161,6 +173,10 @@
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
 
+## Agent System
+
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
 ## Analysis
 
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
@@ -276,8 +292,14 @@
 - [Writing Scenario Prompts](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 
+## Context Engineering
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+
 ## Context Window
 
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Context Window](1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
 - [上下文窗口](1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
 - [Context Window](en/1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
@@ -401,6 +423,11 @@
 - [幻觉现象](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [Hallucination Phenomenon](en/1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 
+## Harness Engineering
+
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
 ## IDE
 
 - [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
@@ -424,6 +451,10 @@
 - [AI Tools Index](en/resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
 - [AI Tools Index](resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
 - [AI工具索引](resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
+
+## Knowledge Management
+
+- [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 
 ## LLM
 
@@ -556,6 +587,11 @@
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 
+## PM
+
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
 ## Prediction
 
 - [Probabilistic Prediction](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
@@ -573,6 +609,10 @@
 - [Probabilistic Prediction](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
 - [概率预测](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
 - [Probabilistic Prediction](en/1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
+
+## Product Manager
+
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 
 ## Production
 
@@ -598,8 +638,14 @@
 - [现代生成式AI资源](resources/generative-ai/awesome-generative-ai-resources.md) - 10 min (beginner)
 - [Modern Generative AI Resources](resources/generative-ai/generative-ai-resources.md) - 10 min (beginner)
 
+## Prompt Design
+
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+
 ## Prompt Engineering
 
+- [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Prompt Engineering](4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
 - [提示词工程](4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
 - [Prompt Engineering](en/4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
@@ -701,8 +747,10 @@
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Claude技能和工具资源](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 
 ## System Prompts
 
@@ -756,6 +804,10 @@
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Attention Mechanism Explained](en/1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
 - [Introduction to Transformer Architecture](en/1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+
+## Workflow
+
+- [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 
 ## Writing
 
@@ -1306,6 +1358,10 @@
 - [Vibe Coding Beginner's Guide](roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
 
+## 产品经理
+
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
 ## 人工智能
 
 - [AI是什么](0-start-here/what-is-ai.md) - 15min (beginner)
@@ -1381,6 +1437,7 @@
 
 ## 工作流
 
+- [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
 
