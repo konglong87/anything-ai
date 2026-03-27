@@ -5,10 +5,14 @@
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
 ## AI Assistants
 
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 
 ## AI Skills
 
@@ -18,6 +22,7 @@
 ## Automation
 
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
 ## ChatGPT
 
@@ -49,6 +54,10 @@
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
@@ -109,6 +118,8 @@
 
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 
 ## GitHub Copilot
 
@@ -119,6 +130,7 @@
 ## Knowledge Base
 
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 
 ## agent-frameworks
 

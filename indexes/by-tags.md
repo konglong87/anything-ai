@@ -39,6 +39,7 @@
 ## AI Architecture
 
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
 ## AI Assistant
 
@@ -48,10 +49,12 @@
 ## AI Communication
 
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 
 ## AI Engineering
 
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 
 ## AI Fortune Telling
 
@@ -176,6 +179,7 @@
 ## Agent System
 
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
 ## Analysis
 
@@ -296,12 +300,15 @@
 
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 
 ## Context Window
 
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Context Window](1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
 - [上下文窗口](1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Context Window](en/1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
 
 ## Copilot
@@ -427,6 +434,8 @@
 
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
 ## IDE
 
@@ -455,6 +464,7 @@
 ## Knowledge Management
 
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 
 ## LLM
 
@@ -641,6 +651,7 @@
 ## Prompt Design
 
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 
 ## Prompt Engineering
 
@@ -648,6 +659,8 @@
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Prompt Engineering](4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
 - [提示词工程](4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Prompt Engineering](en/4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
 
 ## Prompts

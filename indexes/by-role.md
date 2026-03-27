@@ -21,6 +21,9 @@
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
 ## all
 
@@ -56,6 +59,7 @@
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
 - [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
 - [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
@@ -105,6 +109,9 @@
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
 - [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
 - [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
@@ -175,6 +182,7 @@
 - [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)
 - [What is AI](en/0-start-here/what-is-ai.md) - 15min (beginner)
 - [Understand AI: Deep Principles](en/1-understand-ai/README.md) - 2hour (intermediate)
+- [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Tool Selection Matrix](en/2-choose-tools/README.md) - 15min (beginner)
 - [AI Tool Selection Matrix](en/2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [ChatGPT User Guide](en/2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
@@ -260,6 +268,8 @@
 
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
+- [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
 

@@ -62,6 +62,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/1-understand-ai/README.html' },
+                { text: 'AI工程范式', link: '/1-understand-ai/ai-engineering-paradigms/README.html' },
                 { text: 'LLM基础', link: '/1-understand-ai/llm-basics/transformer-intro' },
                 { text: 'AI如何思考', link: '/1-understand-ai/how-ai-thinks/reasoning' },
                 { text: 'Agent入门', link: '/1-understand-ai/agent-intro/agent-intro' }
@@ -184,6 +185,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Overview', link: '/en/1-understand-ai/README.html' },
+                { text: 'AI Engineering Paradigms', link: '/en/1-understand-ai/ai-engineering-paradigms/README.html' },
                 { text: 'LLM Basics', link: '/en/1-understand-ai/llm-basics/transformer-intro' },
                 { text: 'How AI Thinks', link: '/en/1-understand-ai/how-ai-thinks/reasoning' },
                 { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' }
