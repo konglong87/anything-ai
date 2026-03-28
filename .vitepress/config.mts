@@ -111,6 +111,7 @@ export default defineConfig({
               text: 'AI Skills',
               collapsed: true,
               items: [
+ { text: 'ECC 技能包', link: '/5-skills/tdd-workflow/README.html' },
                 { text: 'Skills精选', link: '/5-skills/README.html' },
                 { text: '完整索引', link: '/5-skills/INDEX.html' },
                 { text: '研究类', link: '/5-skills/research/README.html' },
@@ -138,6 +139,7 @@ export default defineConfig({
                 { text: '概览', link: '/resources/README.html' },
                 { text: 'AI工具资源', link: '/resources/ai-tools/ai-tools-index' },
                 { text: '生成式AI资源', link: '/resources/generative-ai/generative-ai-resources' },
+ { text: 'Everything Claude Code精选', link: '/resources/external/everything-claude-code/README.html' },
                 { text: '外部资源链接', link: '/resources/external/external-resources' }
               ]
             },
@@ -256,6 +258,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Overview', link: '/en/resources/README.html' },
+ { text: 'Everything Claude Code', link: '/en/resources/external/everything-claude-code/README.en.html' },
                 { text: 'AI Tools Resources', link: '/en/resources/ai-tools/ai-tools-index' },
                 { text: 'Generative AI', link: '/en/resources/generative-ai/generative-ai-resources' },
                 { text: 'External Links', link: '/en/resources/external/external-resources' }

@@ -1566,6 +1566,22 @@
     ]
   },
   {
+    "title": "编码标准 - 通用编码规范",
+    "path": "5-skills/coding-standards/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tags": [
+      "编码标准",
+      "最佳实践",
+      "ECC"
+    ]
+  },
+  {
     "title": "技能包设计模式课程索引",
     "path": "5-skills/course/INDEX.md",
     "difficulty": "advanced",
@@ -1959,6 +1975,40 @@
       "knowledge-management",
       "notes",
       "obsidian"
+    ]
+  },
+  {
+    "title": "安全审查 - 安全检查清单",
+    "path": "5-skills/security-review/README.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tags": [
+      "安全",
+      "OWASP",
+      "审查",
+      "ECC"
+    ]
+  },
+  {
+    "title": "TDD 工作流 - 测试驱动开发",
+    "path": "5-skills/tdd-workflow/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tags": [
+      "TDD",
+      "测试",
+      "开发",
+      "ECC"
     ]
   },
   {
@@ -3882,6 +3932,40 @@
     ]
   },
   {
+    "title": "Everything Claude Code - Curated Resources",
+    "path": "resources/external/everything-claude-code/README.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "ECC",
+      "Claude Code",
+      "skills",
+      "agents"
+    ]
+  },
+  {
+    "title": "Everything Claude Code 精选资源",
+    "path": "resources/external/everything-claude-code/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "ECC",
+      "Claude Code",
+      "技能包",
+      "子代理"
+    ]
+  },
+  {
     "title": "External Learning Resources",
     "path": "resources/external/external-resources.en.md",
     "difficulty": "beginner",
@@ -4127,6 +4211,38 @@
     ]
   },
   {
+    "title": "编码规则 - Coding Rules",
+    "path": "resources/specialized/coding-rules/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tags": [
+      "规则",
+      "编码",
+      "ECC"
+    ]
+  },
+  {
+    "title": "通用编码规则",
+    "path": "resources/specialized/coding-rules/common/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "15min",
+    "tags": [
+      "规则",
+      "通用",
+      "ECC"
+    ]
+  },
+  {
     "title": "LangChain Resources",
     "path": "resources/specialized/langchain-resources.en.md",
     "difficulty": "intermediate",
@@ -4197,6 +4313,23 @@
     ],
     "type": "guide",
     "duration": "30min"
+  },
+  {
+    "title": "代码审查员 - Code Reviewer",
+    "path": "roles/code-reviewer/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tags": [
+      "代码审查",
+      "质量",
+      "安全",
+      "ECC"
+    ]
   },
   {
     "title": "Content Creator AI Application Guide",
@@ -4341,6 +4474,23 @@
     ],
     "type": "guide",
     "duration": "30min"
+  },
+  {
+    "title": "实现规划师 - Planner",
+    "path": "roles/planner/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "规划",
+      "架构",
+      "实施",
+      "ECC"
+    ]
   },
   {
     "title": "产品经理 AI 应用指南",
@@ -4497,6 +4647,23 @@
     "duration": "30min"
   },
   {
+    "title": "安全审计员 - Security Reviewer",
+    "path": "roles/security-reviewer/README.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tags": [
+      "安全",
+      "审计",
+      "OWASP",
+      "ECC"
+    ]
+  },
+  {
     "title": "Student AI Application Guide",
     "path": "roles/student/README.en.md",
     "difficulty": "beginner",
@@ -4534,6 +4701,23 @@
       "费曼学习法",
       "学习方法",
       "自我测试"
+    ]
+  },
+  {
+    "title": "TDD 指导员 - TDD Guide",
+    "path": "roles/tdd-guide/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "TDD",
+      "测试",
+      "开发",
+      "ECC"
     ]
   },
   {

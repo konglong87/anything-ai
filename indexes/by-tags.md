@@ -275,6 +275,8 @@
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
+- [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+- [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 
@@ -373,6 +375,20 @@
 
 - [Doubao User Guide](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
 - [Doubao User Guide](en/2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
+
+## ECC
+
+- [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
+- [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
+- [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+- [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+- [编码规则 - Coding Rules](resources/specialized/coding-rules/README.md) - 20min (intermediate)
+- [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
+- [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
+- [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
+- [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
+- [TDD 指导员 - TDD Guide](roles/tdd-guide/README.md) - 30min (intermediate)
 
 ## Editor
 
@@ -588,6 +604,11 @@
 - [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
 - [AI Fortune Teller Application Guide](roles/fortune-teller/README.md) - 30min (beginner)
 
+## OWASP
+
+- [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
+- [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
+
 ## Open Source Model
 
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
@@ -771,6 +792,11 @@
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
 
+## TDD
+
+- [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [TDD 指导员 - TDD Guide](roles/tdd-guide/README.md) - 30min (intermediate)
+
 ## TODO
 
 - [TODO - 2026年3月](todo/todo_2026_03.md) - 5 min (beginner)
@@ -866,6 +892,10 @@
 - [Agent Skills](5-skills/agent/README.md) - 40min (intermediate)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
+
+## agents
+
+- [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 
 ## ai-assistant
 
@@ -1232,6 +1262,7 @@
 - [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 
 ## startup
 
@@ -1381,6 +1412,7 @@
 
 ## 代码审查
 
+- [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
 - [AI代码审查实战案例](roles/programmer/code-review.md) - 30min (intermediate)
 
 ## 代码生成
@@ -1423,6 +1455,10 @@
 
 - [资源文件说明](assets/README.md) - 5min (beginner)
 
+## 子代理
+
+- [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+
 ## 学习方法
 
 - [学习路径总览](0-start-here/learning-path.md) - 30min (beginner)
@@ -1431,6 +1467,12 @@
 ## 学习路径
 
 - [学习路径总览](0-start-here/learning-path.md) - 30min (beginner)
+
+## 安全
+
+- [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
+- [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
+- [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
 
 ## 安全检查
 
@@ -1443,6 +1485,18 @@
 ## 实战案例
 
 - [AI编程助手实战案例](roles/programmer/code-assistant.md) - 30min (intermediate)
+
+## 实施
+
+- [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
+
+## 审查
+
+- [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
+
+## 审计
+
+- [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
 
 ## 对比
 
@@ -1466,6 +1520,11 @@
 
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
 
+## 开发
+
+- [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [TDD 指导员 - TDD Guide](roles/tdd-guide/README.md) - 30min (intermediate)
+
 ## 开源模型
 
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
@@ -1482,6 +1541,10 @@
 
 - [AI代码审查实战案例](roles/programmer/code-review.md) - 30min (intermediate)
 
+## 技能包
+
+- [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+
 ## 推理
 
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
@@ -1497,16 +1560,26 @@
 ## 最佳实践
 
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
+- [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
 
 ## 本地部署
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
+
+## 架构
+
+- [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
 
 ## 氛围编程
 
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
+
+## 测试
+
+- [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [TDD 指导员 - TDD Guide](roles/tdd-guide/README.md) - 30min (intermediate)
 
 ## 测试学习效果
 
@@ -1519,6 +1592,14 @@
 ## 紫微斗数
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
+
+## 编码
+
+- [编码规则 - Coding Rules](resources/specialized/coding-rules/README.md) - 20min (intermediate)
+
+## 编码标准
+
+- [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
 
 ## 编程
 
@@ -1537,6 +1618,15 @@
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 
+## 规划
+
+- [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
+
+## 规则
+
+- [编码规则 - Coding Rules](resources/specialized/coding-rules/README.md) - 20min (intermediate)
+- [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
+
 ## 计划
 
 - [2026-03-23 任务清单](todo/todo_2026_03_23.md) - 10min (beginner)
@@ -1544,6 +1634,10 @@
 ## 豆包
 
 - [豆包使用指南](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
+
+## 质量
+
+- [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
 
 ## 费曼学习法
 
@@ -1561,6 +1655,10 @@
 ## 通义千问
 
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+
+## 通用
+
+- [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
 
 ## 零基础
 

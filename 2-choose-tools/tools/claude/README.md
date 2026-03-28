@@ -20,6 +20,27 @@ Claude是Anthropic开发的大语言模型（LLM），以其安全性、可操�
 
 ---
 
+## 🚀 Everything Claude Code 精选资源
+
+> **快速链接**: [ECC 精选资源](../../../resources/external/everything-claude-code/) | [技能包](../../../5-skills/tdd-workflow/) | [子代理](../../../roles/code-reviewer/)
+
+Everything Claude Code (ECC) 是一个 Claude Code 性能优化系统，提供：
+
+- **125+ 技能包** - TDD、安全审查、编码标准等
+- **28+ 子代理** - 代码审查、实现规划、安全审计等
+- **34+ 编码规则** - 通用、测试、安全、设计模式
+- **60+ 命令** - 快速执行各种开发任务
+
+**Anything-AI 已从 ECC 精选核心内容**：
+- ✅ [TDD 工作流](../../../5-skills/tdd-workflow/)
+- ✅ [编码标准](../../../5-skills/coding-standards/)
+- ✅ [安全审查](../../../5-skills/security-review/)
+- ✅ [代码审查员](../../../roles/code-reviewer/)
+
+**想深入学习？** 访问 [ECC 精选资源](../../../resources/external/everything-claude-code/) 了解完整内容。
+
+---
+
 ## 什么是Claude？
 
 ### 核心特点
