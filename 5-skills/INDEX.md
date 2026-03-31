@@ -27,10 +27,12 @@ tags: [skills, index, catalog]
 ### 💻 开发相关类 (Development)
 - [GStack](./development/gstack.md) - 技术栈管理，项目脚手架
 - [Gstack (Claude Code Skills)](./development/gstack-claude-code.md) - YC创业方法论，Claude Code技能包，26个斜杠命令覆盖全流程
+- [Impeccable](./impeccable-skill/README.md) - 零设计基础也能写出专业级前端页面，18个命令覆盖前端开发全流程
 
 **适用场景**：
 - GStack：项目创建、技术栈配置、快速开发
 - Gstack (Claude Code)：0→1 MVP设计、产品审查、架构设计、安全审计
+- Impeccable：前端页面优化、响应式设计、动效添加、代码审核、工程化
 
 **详细文档**：[开发类Skills目录](./development/README.md)
 
@@ -93,10 +95,11 @@ tags: [skills, index, catalog]
 ### 快速开发项目
 1. [GStack](./development/gstack.md) - 创建项目脚手架
 2. [Gstack (Claude Code Skills)](./development/gstack-claude-code.md) - YC创业方法论，产品设计和全流程开发
-3. [Planning with Files](./planning/planning-with-files.md) - 规划任务
-4. [Superpower Skills](./productivity/superpower-skills.md) - 自动化工作流
-5. [技能包设计模式课程](./course/README.md) - 掌握技能包设计理念
-6. [Obsidian Skills](./research/obsidian-skills.md) - 管理文档
+3. [Impeccable](./impeccable-skill/README.md) - 前端页面优化，专业级效果
+4. [Planning with Files](./planning/planning-with-files.md) - 规划任务
+5. [Superpower Skills](./productivity/superpower-skills.md) - 自动化工作流
+6. [技能包设计模式课程](./course/README.md) - 掌握技能包设计理念
+7. [Obsidian Skills](./research/obsidian-skills.md) - 管理文档
 
 ### 研究与写作
 1. [AI Research Skills](./research/ai-research-skills.md) - 研究分析

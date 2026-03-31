@@ -1852,6 +1852,52 @@
     ]
   },
   {
+    "title": "Impeccable - Professional Frontend Pages with Zero Design Background",
+    "path": "5-skills/impeccable-skill/README.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "frontend-developer",
+      "backend-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "Claude Code",
+      "Frontend Development",
+      "UI Design",
+      "Responsive",
+      "Animation",
+      "Engineering"
+    ]
+  },
+  {
+    "title": "Impeccable - 零设计基础也能写出专业级前端页面",
+    "path": "5-skills/impeccable-skill/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "frontend-developer",
+      "backend-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "Claude Code",
+      "前端开发",
+      "UI设计",
+      "响应式",
+      "动效",
+      "工程化"
+    ]
+  },
+  {
     "title": "规划与组织类Skills",
     "path": "5-skills/planning/README.md",
     "difficulty": "beginner",

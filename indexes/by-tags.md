@@ -187,6 +187,10 @@
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 
+## Animation
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
 ## Anthropic
 
 - [Claude Usage Guide](2-choose-tools/tools/claude/README.md) - 45min (beginner)
@@ -274,6 +278,8 @@
 - [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
@@ -405,6 +411,10 @@
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 
+## Engineering
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
 ## Fine-tuning
 
 - [Model Fine-tuning](4-advanced-topics/model-fine-tuning.md) - 60 min (advanced)
@@ -426,6 +436,10 @@
 - [LangChain Resources](en/resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [LangChain Resources](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [LangChain资源](resources/specialized/langchain-resources.md) - 45 min (intermediate)
+
+## Frontend Development
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
 ## Full-stack Development
 
@@ -770,6 +784,10 @@
 - [AI Painting Resources](resources/specialized/ai-painting-resources.md) - 10 min (beginner)
 - [AI绘画资源](resources/specialized/ai-painting-resources.md) - 10 min (beginner)
 
+## Responsive
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
 ## Retrieval
 
 - [RAG (Retrieval-Augmented Generation)](4-advanced-topics/rag.md) - 60 min (advanced)
@@ -843,6 +861,14 @@
 - [Transformer架构简介](1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
 - [Attention Mechanism Explained](en/1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
 - [Introduction to Transformer Architecture](en/1-understand-ai/llm-basics/transformer-intro.md) - 15 min (beginner)
+
+## UI Design
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
+## UI设计
+
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
 ## Workflow
 
@@ -1443,9 +1469,21 @@
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
 
+## 前端开发
+
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
+## 动效
+
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
 ## 命理分析
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
+
+## 响应式
+
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
 ## 国内模型
 
@@ -1519,6 +1557,10 @@
 ## 工具选择
 
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
+
+## 工程化
+
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
 ## 开发
 

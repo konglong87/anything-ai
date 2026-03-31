@@ -213,6 +213,8 @@
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [规划与组织类Skills](5-skills/planning/README.md) - 30min (beginner)
 - [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
 - [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)

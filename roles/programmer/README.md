@@ -321,6 +321,79 @@ def process_data(data: List[Dict]) -> List:
 - **代码审查**：DeepSeek / Claude
 - **日常编码**：Claude / Cursor / GitHub Copilot
 - **测试生成**：GitHub Copilot / Claude
+- **前端页面优化**：Impeccable Skill (Claude Code)
+
+## 🎨 前端开发专用Skill：Impeccable
+
+> **零设计基础也能写出专业级前端页面**
+
+如果你是后端程序员，想要快速优化前端页面质量，强烈推荐使用 **[Impeccable](../../5-skills/impeccable-skill/README.md)**。
+
+### 核心功能
+
+**设计增强模块**：
+- `/adapt` - 响应式设计和跨设备适配
+- `/arrange` - 改善布局、间距和视觉节奏
+- `/bolder` - 增强视觉冲击力和个性
+- `/colorize` - 添加战略性色彩
+- `/quieter` - 调低过于激进的视觉效果
+
+**交互与动效模块**：
+- `/animate` - 添加有意义的动画和微交互
+- `/delight` - 增加令人愉悦的瞬间和个性
+- `/overdrive` - 超越常规的技术实现
+
+**审核与优化模块**：
+- `/audit` - 技术质量检查（可访问性、性能等）
+- `/critique` - UX评估和设计反馈
+- `/optimize` - UI性能诊断和优化
+
+**工程化模块**：
+- `/distill` - 简化设计，去除不必要的复杂性
+- `/extract` - 提取可复用的组件和设计令牌
+- `/harden` - 提高界面韧性和错误处理
+- `/normalize` - 与设计系统标准对齐
+- `/polish` - 最终质量打磨
+
+**内容与引导模块**：
+- `/clarify` - 改善UX文案和标签
+- `/typeset` - 改进字体排印和可读性
+- `/onboard` - 设计入职流程和空状态
+
+### 实战案例
+
+**5步把简陋页面改成专业级落地页**：
+
+```bash
+# 第一步：规范布局
+/arrange index.html
+
+# 第二步：专业配色
+/colorize index.html
+
+# 第三步：全设备适配
+/adapt index.html
+
+# 第四步：细节打磨
+/animate index.html
+/typeset index.html
+
+# 第五步：全面审核
+/audit index.html
+/polish index.html
+```
+
+整个过程不到10分钟，就能把基础页面改成专业级。
+
+### 安装方式
+
+在Claude Code中执行：
+
+```bash
+/skill add pbakaus/impeccable
+```
+
+**详细文档**：[Impeccable完整指南](../../5-skills/impeccable-skill/README.md)
 
 ## 📊 效率提升
 

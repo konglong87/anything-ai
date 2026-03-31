@@ -71,6 +71,11 @@
 - [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
+## backend-developer
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
 ## content-creator
 
 - [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
@@ -263,6 +268,11 @@
 - [AI Fortune Teller Application Guide](roles/fortune-teller/README.md) - 30min (beginner)
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
 
+## frontend-developer
+
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
 ## hr
 
 - [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
@@ -339,6 +349,8 @@
 - [开发相关Skills](5-skills/development/README.md) - 35min (beginner)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
 - [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)

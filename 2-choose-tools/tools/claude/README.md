@@ -747,6 +747,49 @@ func hasPermission(user, resource) {
 
 ## 进阶技能包
 
+### Impeccable - 前端开发神级Skill
+
+**简介**：零设计基础也能写出专业级前端页面的Claude Code技能包，内置18个命令，覆盖设计、交互、审核、工程化全流程。
+
+**核心功能**：
+
+**设计增强**：
+- `/adapt`：响应式设计和跨设备适配
+- `/arrange`：改善布局、间距和视觉节奏
+- `/colorize`：添加战略性色彩
+- `/bolder`：增强视觉冲击力
+- `/quieter`：调低过于激进的视觉效果
+
+**交互动效**：
+- `/animate`：添加有意义的动画和微交互
+- `/delight`：增加令人愉悦的瞬间
+- `/overdrive`：超越常规的技术实现
+
+**审核优化**：
+- `/audit`：技术质量检查（可访问性、性能）
+- `/critique`：UX评估和设计反馈
+- `/optimize`：UI性能诊断和优化
+
+**工程化**：
+- `/extract`：提取可复用组件
+- `/normalize`：与设计系统标准对齐
+- `/polish`：最终质量打磨
+
+**适用场景**：
+- ✅ 后端程序员做前端页面
+- ✅ 个人项目、工具落地页
+- ✅ 时间有限，没空磨UI细节
+- ✅ 快速原型、MVP开发
+
+**安装方式**：
+```bash
+/skill add pbakaus/impeccable
+```
+
+**详细指南**：[Impeccable完整指南](../../../5-skills/impeccable-skill/README.md)
+
+---
+
 ### Gstack - YC创业方法论技能包
 
 **简介**：YC总裁Garry Tan开源的Claude Code技能包，内置26个斜杠命令，覆盖产品、架构、设计、测试、发布全流程。

@@ -112,6 +112,7 @@ export default defineConfig({
               collapsed: true,
               items: [
  { text: 'ECC 技能包', link: '/5-skills/tdd-workflow/README.html' },
+          { text: 'Impeccable - 前端优化', link: '/5-skills/impeccable-skill/README.html' },
                 { text: 'Skills精选', link: '/5-skills/README.html' },
                 { text: '完整索引', link: '/5-skills/INDEX.html' },
                 { text: '研究类', link: '/5-skills/research/README.html' },
@@ -237,6 +238,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Skills Collection', link: '/en/5-skills/README.html' },
+          { text: 'Impeccable - Frontend', link: '/en/5-skills/impeccable-skill/README.en.html' },
                 { text: 'Full Index', link: '/en/5-skills/INDEX.html' },
                 { text: 'Course', link: '/en/5-skills/course/README.html' }
               ]

@@ -90,6 +90,8 @@
 - [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
 - [开发相关Skills](5-skills/development/README.md) - 35min (beginner)
 - [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
+- [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [规划与组织类Skills](5-skills/planning/README.md) - 30min (beginner)
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
 - [效率提升类Skills](5-skills/productivity/README.md) - 35min (beginner)
