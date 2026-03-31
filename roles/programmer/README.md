@@ -323,6 +323,19 @@ def process_data(data: List[Dict]) -> List:
 - **测试生成**：GitHub Copilot / Claude
 - **前端页面优化**：Impeccable Skill (Claude Code)
 
+## 🚀 Claude Code最新技巧（2026年3月）
+
+Claude Code创始人Boris Cherny最新分享的15条进阶技巧，展示了CC在移动开发、自动化、大规模并行处理等方面的突破。
+
+**核心功能**：
+- **移动端支持**：iOS/Android远程控制会话
+- **自动化循环**：/loop和/schedule实现AI持续工作
+- **大规模并行**：/batch同时运行上千个agent做代码迁移
+- **跨设备切换**：Remote Control无缝切换工作环境
+- **消息桥接**：Telegram/Discord推送消息到运行中的会话
+
+**详细指南**：[Claude Code最新15条技巧](../../2-choose-tools/tools/claude/boris-15-tips-2026-03.md)
+
 ## 🎨 前端开发专用Skill：Impeccable
 
 > **零设计基础也能写出专业级前端页面**

@@ -169,6 +169,8 @@
 - [Agent实践案例](1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Agent是什么](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
@@ -215,6 +217,7 @@
 
 ## Automation
 
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
@@ -238,6 +241,11 @@
 - [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
+
+## Boris Cherny
+
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
 ## CV
 
@@ -274,6 +282,8 @@
 
 ## Claude Code
 
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
 - [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
@@ -467,6 +477,11 @@
 - [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
+## Hooks
+
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+
 ## IDE
 
 - [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
@@ -588,6 +603,10 @@
 - [上下文窗口](1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
 - [Memory Mechanisms](en/1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
 - [Context Window](en/1-understand-ai/llm-basics/context-window.md) - 15 min (beginner)
+
+## Mobile
+
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
 ## NLP
 
@@ -819,6 +838,10 @@
 
 - [TODO - 2026年3月](todo/todo_2026_03.md) - 5 min (beginner)
 - [2026-03-23 任务清单](todo/todo_2026_03_23.md) - 10min (beginner)
+
+## Tips
+
+- [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
 ## Tokenization
 
@@ -1452,6 +1475,7 @@
 ## 使用技巧
 
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
 ## 使用教程
 
@@ -1631,6 +1655,10 @@
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 
+## 移动开发
+
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+
 ## 紫微斗数
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
@@ -1651,6 +1679,10 @@
 ## 职业发展
 
 - [为什么不需要AI焦虑](0-start-here/ai-anxiety.md) - 15min (beginner)
+
+## 自动化
+
+- [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
 ## 自我测试
 

@@ -75,6 +75,7 @@ export default defineConfig({
                 { text: '概览', link: '/2-choose-tools/README.html' },
                 { text: '工具选择矩阵', link: '/2-choose-tools/tool-matrix' },
                 { text: 'Claude详细指南', link: '/2-choose-tools/tools/claude/README.html' },
+ { text: 'Claude Code最新15条技巧', link: '/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
                 { text: 'DeepSeek详细指南', link: '/2-choose-tools/tools/deepseek/README.html' },
                 { text: 'ChatGPT详细指南', link: '/2-choose-tools/tools/chatgpt/README.html' },
                 { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' }
@@ -201,6 +202,7 @@ export default defineConfig({
                 { text: 'Overview', link: '/en/2-choose-tools/README.html' },
                 { text: 'Tool Matrix', link: '/en/2-choose-tools/tool-matrix' },
                 { text: 'Claude Guide', link: '/en/2-choose-tools/tools/claude/README.html' },
+ { text: 'Claude Code 15 Latest Tips', link: '/en/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
                 { text: 'DeepSeek Guide', link: '/en/2-choose-tools/tools/deepseek/README.html' },
                 { text: 'ChatGPT Guide', link: '/en/2-choose-tools/tools/chatgpt/README.html' },
                 { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' }

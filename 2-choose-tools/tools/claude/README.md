@@ -745,6 +745,23 @@ func hasPermission(user, resource) {
 
 ---
 
+## 进阶使用技巧
+
+### Boris Cherny最新15条使用技巧（2026年3月）
+
+Claude Code创始人Boris Cherny在2026年3月分享了最新的15条使用技巧，展示了CC在移动端、自动化、并行处理等方面的惊人进化。
+
+**核心亮点**：
+- 🚀 **移动端支持**：iOS/Android App控制正在运行的会话
+- 🔄 **跨设备切换**：Remote Control和Teleport实现无缝切换
+- ⚙️ **自动化循环**：/loop和/schedule让AI持续运转
+- 🎯 **大规模并行**：/batch同时运行上千个agent
+- 🌐 **消息桥接**：通过Telegram/Discord推送消息
+
+**详细指南**：[Boris 15条最新技巧完整版](./boris-15-tips-2026-03.md)
+
+---
+
 ## 进阶技能包
 
 ### Impeccable - 前端开发神级Skill

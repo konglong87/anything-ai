@@ -764,6 +764,50 @@
     ]
   },
   {
+    "title": "Claude Code Founder's 15 Latest Tips (March 2026)",
+    "path": "2-choose-tools/tools/claude/boris-15-tips-2026-03.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "Claude Code",
+      "Tips",
+      "Boris Cherny",
+      "Mobile",
+      "Automation",
+      "Hooks",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Claude Code创始人15条最新使用技巧（2026年3月）",
+    "path": "2-choose-tools/tools/claude/boris-15-tips-2026-03.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code"
+    ],
+    "tags": [
+      "Claude Code",
+      "使用技巧",
+      "Boris Cherny",
+      "移动开发",
+      "自动化",
+      "Hooks",
+      "Agent"
+    ]
+  },
+  {
     "title": "CC Switch 国内大模型切换教程",
     "path": "2-choose-tools/tools/claude/cc-switch-guide.md",
     "difficulty": "intermediate",
