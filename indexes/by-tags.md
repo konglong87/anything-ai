@@ -30,6 +30,13 @@
 - [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 - [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
+## AI Agent
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## AI Apps
 
 - [AI Application Resources](en/resources/ai-tools/ai-apps-resources.md) - 10 min (beginner)
@@ -477,6 +484,13 @@
 - [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 
+## Hermes
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## Hooks
 
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
@@ -589,6 +603,11 @@
 - [幻觉现象](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 - [Hallucination Phenomenon](en/1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
 
+## Long-term Memory
+
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## Machine Learning
 
 - [Machine Learning Basics](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
@@ -632,6 +651,13 @@
 - [深度学习](4-advanced-topics/deep-learning.md) - 45 min (intermediate)
 - [Deep Learning](en/4-advanced-topics/deep-learning.md) - 45 min (intermediate)
 
+## Nous Research
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## Numerology
 
 - [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
@@ -641,6 +667,11 @@
 
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
+
+## Open Source
+
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
 ## Open Source Model
 
@@ -813,10 +844,17 @@
 - [RAG（检索增强生成）](4-advanced-topics/rag.md) - 60 min (advanced)
 - [RAG (Retrieval-Augmented Generation)](en/4-advanced-topics/rag.md) - 60 min (advanced)
 
+## Self-hosted
+
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## Skills
 
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 - [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
@@ -1591,6 +1629,11 @@
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
 - [TDD 指导员 - TDD Guide](roles/tdd-guide/README.md) - 30min (intermediate)
 
+## 开源
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## 开源模型
 
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
@@ -1688,6 +1731,11 @@
 
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)
 
+## 自托管
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## 行业工具
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
@@ -1733,6 +1781,11 @@
 ## 通用
 
 - [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
+
+## 长期记忆
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
 ## 零基础
 

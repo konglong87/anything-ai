@@ -237,6 +237,13 @@
 - [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
+## hermes-agent
+
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
 ## langchain
 
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
@@ -244,6 +251,11 @@
 ## local-deployment
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
+
+## mcp
+
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
 ## nodejs
 
@@ -279,6 +291,11 @@
 - [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
 - [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+
+## terminal
+
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
 ## undefined
 

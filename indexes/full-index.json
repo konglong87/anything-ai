@@ -1153,6 +1153,55 @@
     ]
   },
   {
+    "title": "Hermes Agent 使用指南",
+    "path": "2-choose-tools/tools/hermes/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer",
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "hermes-agent"
+    ],
+    "tags": [
+      "Hermes",
+      "AI Agent",
+      "自托管",
+      "开源",
+      "长期记忆",
+      "Nous Research"
+    ]
+  },
+  {
+    "title": "Hermes Agent 完整指南",
+    "path": "3-ai-agents/hermes-agent/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer",
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tools": [
+      "hermes-agent",
+      "mcp",
+      "terminal"
+    ],
+    "tags": [
+      "Hermes",
+      "AI Agent",
+      "自托管",
+      "开源",
+      "长期记忆",
+      "Skills",
+      "Nous Research"
+    ]
+  },
+  {
     "title": "Advanced Topics",
     "path": "4-advanced-topics/README.en.md",
     "difficulty": "advanced",
@@ -2629,6 +2678,55 @@
       "Doubao",
       "AI",
       "Tools"
+    ]
+  },
+  {
+    "title": "Hermes Agent Guide",
+    "path": "en/2-choose-tools/tools/hermes/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer",
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "45min",
+    "tools": [
+      "hermes-agent"
+    ],
+    "tags": [
+      "Hermes",
+      "AI Agent",
+      "Self-hosted",
+      "Open Source",
+      "Long-term Memory",
+      "Nous Research"
+    ]
+  },
+  {
+    "title": "Hermes Agent Complete Guide",
+    "path": "en/3-ai-agents/hermes-agent/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer",
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "60min",
+    "tools": [
+      "hermes-agent",
+      "mcp",
+      "terminal"
+    ],
+    "tags": [
+      "Hermes",
+      "AI Agent",
+      "Self-hosted",
+      "Open Source",
+      "Long-term Memory",
+      "Skills",
+      "Nous Research"
     ]
   },
   {

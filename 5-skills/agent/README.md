@@ -31,6 +31,18 @@ tags: [agent, automation, ai-assistant]
 - **使用场景**: 快速查找所需Skills、了解最新工具
 - **详细文档**: [查看详情](./skills-catalog.md)
 
+### 3. Hermes Agent ⭐
+- **GitHub**: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+- **功能**: 开源、自托管的 AI Agent，支持长期记忆与 Skills
+- **核心特性**:
+  - 跨会话长期记忆
+  - 可复用 Skills 技能系统
+  - 多平台消息网关（Telegram、Discord、飞书等）
+  - 40+ 内置工具（终端、文件、浏览器等）
+  - 支持 Qwen、Claude、Gemini 等多种模型
+- **使用场景**: 长期任务执行、自动化工作流、多平台协作
+- **详细文档**: [查看完整指南](../../3-ai-agents/hermes-agent/)
+
 ## 💡 使用建议
 
 ### 选择合适的Skill

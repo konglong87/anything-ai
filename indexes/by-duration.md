@@ -292,11 +292,13 @@
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [AI Skills 精选集合](5-skills/README.md) - 45min (beginner)
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
 - [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
 - [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [Content Creator AI Application Guide](en/roles/content-creator/README.md) - 45min (beginner)
 - [Programmer AI Application Guide](en/roles/programmer/README.md) - 45min (beginner)
 - [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
@@ -353,6 +355,7 @@
 ## 60min
 
 - [Claude Code 完整使用指南](2-choose-tools/tools/claude/claude-code-guide.md) - 60min (beginner)
+- [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
@@ -360,6 +363,7 @@
 - [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 - [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 

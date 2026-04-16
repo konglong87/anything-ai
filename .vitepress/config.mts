@@ -78,7 +78,8 @@ export default defineConfig({
  { text: 'Claude Code最新15条技巧', link: '/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
                 { text: 'DeepSeek详细指南', link: '/2-choose-tools/tools/deepseek/README.html' },
                 { text: 'ChatGPT详细指南', link: '/2-choose-tools/tools/chatgpt/README.html' },
-                { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' }
+                { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' },
+                { text: 'Hermes Agent', link: '/2-choose-tools/tools/hermes/README.html' }
               ]
             },
             {
@@ -106,6 +107,13 @@ export default defineConfig({
                 { text: 'RAG', link: '/4-advanced-topics/rag' },
                 { text: 'Agent开发', link: '/4-advanced-topics/agent-development' },
                 { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' }
+              ]
+            },
+            {
+              text: 'AI Agents',
+              collapsed: true,
+              items: [
+                { text: 'Hermes Agent', link: '/3-ai-agents/hermes-agent/README.html' }
               ]
             },
             {
@@ -205,7 +213,8 @@ export default defineConfig({
  { text: 'Claude Code 15 Latest Tips', link: '/en/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
                 { text: 'DeepSeek Guide', link: '/en/2-choose-tools/tools/deepseek/README.html' },
                 { text: 'ChatGPT Guide', link: '/en/2-choose-tools/tools/chatgpt/README.html' },
-                { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' }
+                { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' },
+                { text: 'Hermes Agent', link: '/en/2-choose-tools/tools/hermes/README.html' }
               ]
             },
             {
@@ -233,6 +242,13 @@ export default defineConfig({
                 { text: 'RAG', link: '/en/4-advanced-topics/rag' },
                 { text: 'Agent Development', link: '/en/4-advanced-topics/agent-development' },
                 { text: 'Deep Research Guide', link: '/en/4-advanced-topics/deep-research-guide' }
+              ]
+            },
+            {
+              text: 'AI Agents',
+              collapsed: true,
+              items: [
+                { text: 'Hermes Agent', link: '/en/3-ai-agents/hermes-agent/README.html' }
               ]
             },
             {
