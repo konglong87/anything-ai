@@ -314,6 +314,26 @@ def process_data(data: List[Dict]) -> List:
   - 所有个人版功能
   - 需要GitHub学生包
 
+## 🤖 Agent开发系统学习
+
+**推荐教程**：[Agent设计模式完整教程](../../5-skills/agent/design-patterns/README.md)
+
+**核心价值**：
+- 系统掌握21个设计模式，从基础到高级
+- 学习多Agent协作、MCP协议、安全模式等核心内容
+- 实战案例丰富，包含编程Agent实践
+
+**学习建议**：
+1. 基础模式（1-3章）：提示词链、路由、并行化
+2. 进阶模式（4-6章）：反思、工具使用、规划
+3. 高级模式（7-10章）：多Agent协作、记忆管理、MCP
+4. 实践应用：附录C框架概览、附录G编程Agent
+
+**推荐工具**：
+- [Claude Agent开发](../../2-choose-tools/tools/claude/README.md)
+- LangChain框架（附录C）
+- AgentSpace实战（附录D）
+
 ## 🛠️ 推荐工具组合
 
 - **架构设计**：Claude
@@ -322,6 +342,7 @@ def process_data(data: List[Dict]) -> List:
 - **日常编码**：Claude / Cursor / GitHub Copilot
 - **测试生成**：GitHub Copilot / Claude
 - **前端页面优化**：Impeccable Skill (Claude Code)
+- **Agent开发**：Claude Code / LangChain / AgentSpace
 
 ## 🚀 Claude Code最新技巧（2026年3月）
 
