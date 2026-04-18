@@ -1,3 +1,16 @@
+---
+title: "Quick Overview of Agentic Frameworks"
+difficulty: beginner
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [langchain, autogpt, crewai, adk]
+tags: [agent, framework, overview, beginner]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Appendix C - Quick overview of Agentic Frameworks
 
 ## LangChain

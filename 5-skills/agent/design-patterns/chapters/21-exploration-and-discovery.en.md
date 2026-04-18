@@ -1,3 +1,16 @@
+---
+title: "Exploration and Discovery"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, exploration, discovery, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Chapter 21: Exploration and Discovery
 
 This chapter explores patterns that enable intelligent agents to actively seek out novel information, uncover new possibilities, and identify unknown unknowns within their operational environment. Exploration and discovery differ from reactive behaviors or optimization within a predefined solution space. Instead, they focus on agents proactively venturing into unfamiliar territories, experimenting with new approaches, and generating new knowledge or understanding. This pattern is crucial for agents operating in open-ended, complex, or rapidly evolving domains where static knowledge or pre-programmed solutions are insufficient. It emphasizes the agent's capacity to expand its understanding and capabilities.

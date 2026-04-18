@@ -1,3 +1,16 @@
+---
+title: "反思"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, reflection, self-improvement, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 4 章：反思
 
 ## 反思模式概述

@@ -1,3 +1,16 @@
+---
+title: "优先级排序"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, design-pattern, prioritization, decision-making, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 20 章：优先级排序
 
 在复杂、动态的环境中，智能体常常面临大量潜在行动、相互冲突的目标以及有限的资源。如果没有明确的流程来确定后续行动，智能体可能会遇到效率低下、操作延迟或无法实现关键目标的问题。优先级排序模式通过使智能体根据重要性、紧迫性、依赖关系和既定标准来评估和排序任务、目标或行动，从而解决这一挑战。这确保智能体将精力集中在最关键的任务上，从而提高有效性和目标一致性。

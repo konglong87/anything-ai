@@ -1,3 +1,16 @@
+---
+title: "Memory Management"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt, mem0]
+tags: [agent, design-pattern, memory, context-management, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Chapter 8: Memory Management
 
 Effective memory management is crucial for intelligent agents to retain information. Agents require different types of memory, much like humans, to operate efficiently. This chapter delves into memory management, specifically addressing the immediate (short-term) and persistent (long-term) memory requirements of agents.

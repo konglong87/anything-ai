@@ -1,3 +1,16 @@
+---
+title: "知识检索"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, rag, vectordb]
+tags: [agent, design-pattern, knowledge-retrieval, rag, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 14 章：知识检索（RAG）
 
 LLM 在生成类人文本方面展现出了强大的能力。然而，它们的知识库通常局限于训练时使用的数据，这限制了它们对实时信息、特定公司数据或高度专业化细节的访问。知识检索（RAG，即检索增强生成）技术正是为了解决这一局限性而设计的。RAG 使 LLM 能够访问和整合外部信息、实时数据和特定上下文内容，从而显著提高其输出的准确性、相关性和事实基础。

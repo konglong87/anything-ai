@@ -1,3 +1,16 @@
+---
+title: "异常处理与恢复"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, design-pattern, exception-handling, recovery, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 12 章：异常处理和恢复
 
 要使 AI 智能体在各种现实世界环境中可靠运行，它们必须能够管理不可预见的情况、错误和故障。正如人类能够适应意外障碍一样，智能体也需要强大的系统来检测问题、启动恢复程序，或至少确保受控失败。这一基本需求构成了异常处理和恢复模式的基础。

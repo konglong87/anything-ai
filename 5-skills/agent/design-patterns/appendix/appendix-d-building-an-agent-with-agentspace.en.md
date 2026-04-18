@@ -1,3 +1,16 @@
+---
+title: "Building an Agent with Agentspace"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [agentspace, claude]
+tags: [agent, agentspace, tutorial, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Appendix D - Building an Agent with AgentSpace
 
 ## Overview

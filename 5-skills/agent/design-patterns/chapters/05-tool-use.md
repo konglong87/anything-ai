@@ -1,3 +1,16 @@
+---
+title: "工具使用"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt, function-calling]
+tags: [agent, design-pattern, tool-use, api-integration, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 5 章：工具使用
 
 ## 工具使用模式概述

@@ -1,3 +1,16 @@
+---
+title: "Under the Hood"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude]
+tags: [agent, architecture, advanced, internals]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Appendix F - Under the Hood: An Inside Look at the Agents’Reasoning Engines
 
 The emergence of intelligent Agents represents a pivotal shift in artificial intelligence. These are systems designed to plan, strategize, and execute complex tasks, and at the cognitive core of each lies a LLM. This LLM is not merely a sophisticated text generator; it serves as the foundational reasoning engine, the central "mind" that empowers the Agent to make decisions, formulate plans, and interact with its environment.

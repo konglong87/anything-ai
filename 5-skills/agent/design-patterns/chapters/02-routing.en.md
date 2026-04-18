@@ -1,3 +1,16 @@
+---
+title: "Routing"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, design-pattern, routing, decision-making, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Chapter 2: Routing
 
 ## Routing Pattern Overview

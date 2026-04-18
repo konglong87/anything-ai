@@ -1,3 +1,16 @@
+---
+title: "编码智能体"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude, cursor, github-copilot]
+tags: [agent, coding, development, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 附录 G - 编码智能体
 
 ## Vibe 编码：入门路径

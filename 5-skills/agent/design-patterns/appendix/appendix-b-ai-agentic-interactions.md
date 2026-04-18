@@ -1,3 +1,16 @@
+---
+title: "AI智能体交互"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, interaction, design-pattern, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 附录 B - AI 智能体交互：从图形用户界面到真实世界环境
 
 AI 智能体正日益通过与数字界面和物理世界的交互来执行复杂任务。它们在这些多样化环境中感知、处理和行动的能力，正在从根本上重塑自动化、人机交互和智能系统的格局。本附录深入探讨智能体如何与计算机及其环境交互，并重点介绍相关技术进展与代表性项目。

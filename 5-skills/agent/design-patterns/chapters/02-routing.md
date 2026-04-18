@@ -1,3 +1,16 @@
+---
+title: "路由"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, design-pattern, routing, decision-making, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 2 章：路由
 
 ## 路由模式概述

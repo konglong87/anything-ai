@@ -1,3 +1,16 @@
+---
+title: "智能体间通信"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, communication, multi-agent, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 15 章：智能体间通信（A2A）
 
 尽管单个 AI 智能体具备先进能力，但在处理复杂、多方面问题时仍然常常面临局限性。为了克服这一限制，智能体间通信（A2A）使得不同 AI 智能体（可能基于不同框架构建）能够进行有效协作。这种协作涉及无缝协调、任务委派和信息交换。

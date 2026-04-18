@@ -1,3 +1,16 @@
+---
+title: "资源感知优化"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, design-pattern, optimization, resource-management, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 16 章：资源感知优化
 
 资源感知优化使智能体在运行过程中能够动态监控和管理计算、时间和财务资源。这与简单的规划不同,规划主要关注动作序列的安排。资源感知优化要求智能体在动作执行方面做出决策,以便在指定的资源预算内达成目标或优化效率。这涉及在更准确但昂贵的模型与更快速、成本更低的模型之间进行权衡,或者决定是分配额外的计算资源来获得更精细的响应,还是返回更快但细节较少的答案。

@@ -1,3 +1,16 @@
+---
+title: "底层原理"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude]
+tags: [agent, architecture, advanced, internals]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 附录 F - 深入探究：智能体推理引擎的内部机制
 
 智能体的出现标志着人工智能领域的重大转折。这些系统专门用于规划、制定策略和执行复杂任务，而每个智能体的认知核心都是一个大语言模型（LLM）。这个 LLM 不仅仅是一个复杂的文本生成器；它充当着基础推理引擎的角色，是赋予智能体决策能力、制定计划并与环境交互能力的中央「心智」。

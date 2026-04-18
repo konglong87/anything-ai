@@ -1,3 +1,16 @@
+---
+title: "人机协作"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, human-in-the-loop, collaboration, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 13 章：人机协同
 
 人机协同（Human-in-the-Loop，HITL）模式是智能体开发和部署中的关键策略。它有意识地将人类认知的独特优势——如判断力、创造力和对细微差别的理解——与 AI 的计算能力和效率相结合。这种战略性整合不仅是一种选择，在许多情况下更是一种必然，尤其是随着 AI 系统越来越深入地嵌入关键决策流程中。

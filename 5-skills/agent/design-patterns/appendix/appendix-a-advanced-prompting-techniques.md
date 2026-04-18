@@ -1,3 +1,16 @@
+---
+title: "高级提示技术"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude]
+tags: [agent, prompting, advanced, techniques]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 
 # 附录 A：高级提示技术
 

@@ -1,3 +1,16 @@
+---
+title: "规划"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt, adk]
+tags: [agent, design-pattern, planning, task-decomposition, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 6 章：规划
 
 智能行为通常不仅需要对即时输入做出反应，还需要远见卓识、将复杂任务分解为更小的可管理步骤，以及制定实现预期结果的策略。这就是规划模式发挥作用的地方。从本质上讲，规划是指一个智能体或智能体系统构思一系列行动，从初始状态向目标状态推进的能力。

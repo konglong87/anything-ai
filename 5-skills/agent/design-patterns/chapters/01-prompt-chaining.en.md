@@ -1,3 +1,16 @@
+---
+title: "Prompt Chaining"
+difficulty: beginner
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, prompt-chaining, basic, workflow]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Chapter 1: Prompt Chaining
 
 ## Prompt Chaining Pattern Overview

@@ -1,3 +1,16 @@
+---
+title: "学习与适应"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, learning, adaptation, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 9 章：学习和适应
 
 学习和适应能力对于提升人工智能智能体的能力至关重要。这些过程让智能体能够突破预设参数的限制，通过经验和环境交互实现自主提升。借助学习和适应，智能体无需持续的人工干预，就能有效应对新情况并优化自身表现。本章将深入探讨支撑智能体学习和适应的原理与机制。

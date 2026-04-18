@@ -1,3 +1,16 @@
+---
+title: "记忆管理"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt, mem0]
+tags: [agent, design-pattern, memory, context-management, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 8 章：记忆管理
 
 有效的记忆管理对于智能体管理信息至关重要。与人类类似，智能体需要不同类型的记忆才能高效运行。本章深入探讨记忆管理，重点关注智能体的短期记忆和持久（长期）记忆需求。

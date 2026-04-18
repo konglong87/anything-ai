@@ -1,3 +1,16 @@
+---
+title: "Coding Agents"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude, cursor, github-copilot]
+tags: [agent, coding, development, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Appendix G - Coding Agents
 
 ## Vibe Coding: A Starting Point

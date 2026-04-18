@@ -1,3 +1,16 @@
+---
+title: "CLI上的AI智能体"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude, terminal, cli]
+tags: [agent, cli, terminal, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 附录 E - 命令行界面中的 AI Agent
 
 ## 引言

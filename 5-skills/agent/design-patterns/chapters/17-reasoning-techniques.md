@@ -1,3 +1,16 @@
+---
+title: "推理技术"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, cot]
+tags: [agent, design-pattern, reasoning, chain-of-thought, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 17 章：推理技术
 
 本章深入探讨智能体的高级推理方法，重点关注多步骤逻辑推理和复杂问题解决。这些技术超越了简单的顺序操作，使智能体的内部推理过程变得透明可见。通过这种方式，智能体能够将复杂问题分解为更小的子问题、考虑中间推理步骤，并得出更加可靠和准确的结论。这些高级方法的核心原则是在推理过程中分配更多的计算资源。这意味着给予智能体或底层 LLM 更多的处理时间或推理步骤来处理查询并生成响应。与快速单次处理不同，智能体可以进行迭代改进、探索多种解决方案或利用外部工具。这种延长推理时间的方法通常能显著提升准确性、连贯性和鲁棒性，特别是在处理需要深入分析和仔细审议的复杂问题时。

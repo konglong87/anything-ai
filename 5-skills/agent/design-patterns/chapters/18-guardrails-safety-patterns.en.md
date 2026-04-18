@@ -1,3 +1,16 @@
+---
+title: "Guardrails and Safety Patterns"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, guardrails]
+tags: [agent, design-pattern, safety, guardrails, security, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Chapter 18: Guardrails/Safety Patterns
 
 Guardrails, also referred to as safety patterns, are crucial mechanisms that ensure intelligent agents operate safely, ethically, and as intended, particularly as these agents become more autonomous and integrated into critical systems. They serve as a protective layer, guiding the agent's behavior and output to prevent harmful, biased, irrelevant, or otherwise undesirable responses. These guardrails can be implemented at various stages, including Input Validation/Sanitization to filter malicious content, Output Filtering/Post-processing to analyze generated responses for toxicity or bias, Behavioral Constraints (Prompt-level) through direct instructions, Tool Use Restrictions to limit agent capabilities, External Moderation APIs for content moderation, and Human Oversight/Intervention via "Human-in-the-Loop" mechanisms.

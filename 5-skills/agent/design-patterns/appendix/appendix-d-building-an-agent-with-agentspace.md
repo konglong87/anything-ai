@@ -1,3 +1,16 @@
+---
+title: "使用Agentspace构建智能体"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [agentspace, claude]
+tags: [agent, agentspace, tutorial, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 附录 D - 使用 AgentSpace 构建智能体
 
 ## 概述

@@ -1,3 +1,16 @@
+---
+title: "Tool Use"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt, function-calling]
+tags: [agent, design-pattern, tool-use, api-integration, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Chapter 5: Tool Use (Function Calling)
 
 ## Tool Use Pattern Overview

@@ -1,3 +1,16 @@
+---
+title: "AI Agents on the CLI"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude, terminal, cli]
+tags: [agent, cli, terminal, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Appendix E - AI Agents on the CLI
 
 ## Introduction

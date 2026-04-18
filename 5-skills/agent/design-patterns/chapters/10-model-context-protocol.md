@@ -1,3 +1,16 @@
+---
+title: "模型上下文协议"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, mcp]
+tags: [agent, design-pattern, mcp, context-protocol, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 10 章：模型上下文协议 (MCP)
 
 要使 LLM 作为智能体运作，其能力必须超越多模态生成。与外部环境交互不可或缺，包括访问实时数据、使用外部软件以及执行特定操作任务。模型上下文协议（Model Context Protocol，简称 MCP）通过提供标准化接口使 LLM 能与外部资源交互，是实现一致性和可预测性集成的关键机制。

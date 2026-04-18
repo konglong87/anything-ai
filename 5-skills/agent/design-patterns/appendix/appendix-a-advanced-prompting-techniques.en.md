@@ -1,3 +1,16 @@
+---
+title: "Advanced Prompting Techniques"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: appendix
+duration: 30min
+tools: [claude]
+tags: [agent, prompting, advanced, techniques]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # Appendix A: Advanced Prompting Techniques
 
 ## Introduction to Prompting

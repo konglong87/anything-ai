@@ -1,3 +1,16 @@
+---
+title: "护栏与安全模式"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, guardrails]
+tags: [agent, design-pattern, safety, guardrails, security, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 18 章：Guardrails/安全模式
 
 Guardrails（防护栏），也称为安全模式，是确保智能体安全、符合道德规范并按预期运行的关键机制，特别是在智能体自主并集成到关键系统中的情况下。它们作为保护层，引导智能体的行为和输出，防止有害、有偏见、无关或其他不良响应。这些防护栏可以在多个阶段实施，包括输入验证/清理以过滤恶意内容、输出过滤/后处理以分析生成响应中的毒性或偏见、通过直接指令设置行为约束（提示词级别）、工具使用限制以约束智能体能力、智能体核心的外部审核 API，以及通过"人机协同"机制实现的人工监督/干预。

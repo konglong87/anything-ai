@@ -1,3 +1,16 @@
+---
+title: "目标设定与监控"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain]
+tags: [agent, design-pattern, goal-setting, monitoring, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 11 章：目标设定与监控
 
 要使 AI 智能体真正有效且有目的性，它们不仅需要处理信息或使用工具的能力，还需要明确的方向感和判断自身是否真正成功的方法。这就是目标设定与监控模式发挥作用的地方。该模式的核心是为智能体设定具体的工作目标，并为其配备跟踪进度和确定这些目标是否已实现的手段。

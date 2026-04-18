@@ -1,3 +1,16 @@
+---
+title: "评估与监控"
+difficulty: intermediate
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, langsmith]
+tags: [agent, design-pattern, evaluation, monitoring, intermediate]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 19 章：评估和监控
 
 本章探讨使智能体能够系统地评估其性能、监控目标进展以及检测操作异常的方法论。虽然第 11 章概述了目标设定和监控，第 17 章讨论了推理机制，但本章侧重于对智能体效率、效能和合规性要求进行持续的（通常是外部的）测量。这包括定义指标、建立反馈循环以及实施报告系统，以确保智能体的性能在操作环境中与期望保持一致（见图 1）。

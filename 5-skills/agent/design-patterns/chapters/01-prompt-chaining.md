@@ -1,3 +1,16 @@
+---
+title: "提示词链"
+difficulty: beginner
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, prompt-chaining, basic, workflow]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 1 章：提示词链
 
 ## 提示词链模式概述

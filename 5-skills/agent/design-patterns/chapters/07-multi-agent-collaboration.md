@@ -1,3 +1,16 @@
+---
+title: "多智能体协作"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt, crewai, adk]
+tags: [agent, design-pattern, multi-agent, collaboration, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 7 章：多智能体协作
 
 虽然单体智能体对于定义明确的问题可能行之有效，但在面对复杂的多领域任务时，其能力往往受到限制。多智能体协作模式通过将系统构建为由不同专门化智能体组成的协作集合来解决这些限制。这种方法基于任务分解原则，将高级目标拆解为离散的子问题，然后将每个子问题分配给拥有最适合该任务的特定工具、数据访问或推理能力的智能体。

@@ -1,3 +1,16 @@
+---
+title: "探索与发现"
+difficulty: advanced
+roles: [programmer, researcher, ai-developer]
+type: pattern
+duration: 30min
+tools: [claude, langchain, autogpt]
+tags: [agent, design-pattern, exploration, discovery, advanced]
+source:
+  chinese: "https://github.com/xindoo/agentic-design-patterns"
+  english: "https://github.com/Mathews-Tom/Agentic-Design-Patterns"
+---
+
 # 第 21 章：探索和发现
 
 本章探讨了使智能体能够主动寻求新信息、发现新可能性并识别其操作环境中未知因素的模式。探索和发现不同于被动行为或在预定义解决方案空间内的优化。相反，它们侧重于智能体主动进入陌生领域、尝试新方法并生成新知识或理解。这种模式对于在开放式、复杂或快速演变的领域中运行的智能体至关重要，在这些领域中，静态知识或预编程的解决方案是不够的。它强调智能体扩展其理解和能力的能力。
