@@ -193,7 +193,7 @@ Credential Handling: Agents typically authenticate using secure credentials like
 
 A2A is a protocol that complements Anthropic's Model Context Protocol (MCP) (see Fig. 1). While MCP focuses on structuring context for agents and their interaction with external data and tools, A2A facilitates coordination and communication among agents, enabling task delegation and collaboration.
 
-![Comparison A2A and MCP Protocols](../assets/Comparison_A2A_and_MCP_Protocols.png)
+![Comparison A2A and MCP Protocols](../images/chapter-15/image1.png)
 
 Fig.1: Comparison A2A and MCP Protocols
 
@@ -333,7 +333,7 @@ Further exploration of A2A is recommended through the code demonstration at [htt
 
 **Visual Summary:**
 
-![A2A Inter-Agent Communication Pattern](../assets/A2A_Inter-Agent_Communication_Pattern.png)
+![A2A Inter-Agent Communication Pattern](../images/chapter-15/image2.png)
 
 Fig.2: A2A inter-agent communication pattern
 

@@ -261,7 +261,7 @@ if __name__ == "__main__":
 
 Along with this brief, you provide a strict quality checklist, which represents the objectives the final code must meet—criteria like "the solution must be simple," "it must be functionally correct," or "it needs to handle unexpected edge cases."
 
-![Goal Setting and Monitor example](../assets/Goal_Setting_and_Monitoring.png)
+![Goal Setting and Monitor example](../images/chapter-11/image1.png)
 
 Fig.1: Goal Setting and Monitor example
 
@@ -299,7 +299,7 @@ I leave to the interested reader the task of adding these more sophisticated con
 
 **Visual summary**:
 
-![Goal Design Pattern](../assets/Goal_Design_Pattern.png)
+![Goal Design Pattern](../images/chapter-11/image2.png)
 
 Fig.2: Goal design patterns
 

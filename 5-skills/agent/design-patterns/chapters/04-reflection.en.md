@@ -278,11 +278,11 @@ Before concluding, it's important to consider that while the Reflection pattern 
 
 **Visual summary:**
 
-![Reflection Design Pattern, Self-Reflection](../assets/Reflection_Design_Pattern_Self_Reflection.png)
+![Reflection Design Pattern, Self-Reflection](../images/chapter-4/image1.png)
 
 Fig. 1: Reflection design pattern, self-reflection
 
-![Reflection Design Pattern, Producer and Critique Agent](../assets/Reflection_Design_Pattern_Producer_and_Critique_Agent.png)
+![Reflection Design Pattern, Producer and Critique Agent](../images/chapter-4/image2.png)
 
 Fig.2: Reflection design pattern, producer and critique agent
 

@@ -1642,6 +1642,1374 @@
     ]
   },
   {
+    "title": "Agent Design Patterns Complete Course",
+    "path": "5-skills/agent/design-patterns/README.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "10h",
+    "tools": [
+      "claude",
+      "langchain",
+      "agent-frameworks"
+    ],
+    "tags": [
+      "agent",
+      "design-patterns",
+      "systematic-learning"
+    ]
+  },
+  {
+    "title": "Agent设计模式完整教程",
+    "path": "5-skills/agent/design-patterns/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "10h",
+    "tools": [
+      "claude",
+      "langchain",
+      "agent-frameworks"
+    ],
+    "tags": [
+      "agent",
+      "design-patterns",
+      "systematic-learning"
+    ]
+  },
+  {
+    "title": "Advanced Prompting Techniques",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "agent",
+      "prompting",
+      "advanced",
+      "techniques"
+    ]
+  },
+  {
+    "title": "高级提示技术",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "agent",
+      "prompting",
+      "advanced",
+      "techniques"
+    ]
+  },
+  {
+    "title": "AI Agentic Interactions",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "interaction",
+      "design-pattern",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "AI智能体交互",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "interaction",
+      "design-pattern",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Quick Overview of Agentic Frameworks",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "langchain",
+      "autogpt",
+      "crewai",
+      "adk"
+    ],
+    "tags": [
+      "agent",
+      "framework",
+      "overview",
+      "beginner"
+    ]
+  },
+  {
+    "title": "智能体框架快速概览",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "langchain",
+      "autogpt",
+      "crewai",
+      "adk"
+    ],
+    "tags": [
+      "agent",
+      "framework",
+      "overview",
+      "beginner"
+    ]
+  },
+  {
+    "title": "Building an Agent with Agentspace",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "agentspace",
+      "claude"
+    ],
+    "tags": [
+      "agent",
+      "agentspace",
+      "tutorial",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "使用Agentspace构建智能体",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "agentspace",
+      "claude"
+    ],
+    "tags": [
+      "agent",
+      "agentspace",
+      "tutorial",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "AI Agents on the CLI",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "terminal",
+      "cli"
+    ],
+    "tags": [
+      "agent",
+      "cli",
+      "terminal",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "CLI上的AI智能体",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "terminal",
+      "cli"
+    ],
+    "tags": [
+      "agent",
+      "cli",
+      "terminal",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Under the Hood",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-f-under-the-hood.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "agent",
+      "architecture",
+      "advanced",
+      "internals"
+    ]
+  },
+  {
+    "title": "底层原理",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-f-under-the-hood.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude"
+    ],
+    "tags": [
+      "agent",
+      "architecture",
+      "advanced",
+      "internals"
+    ]
+  },
+  {
+    "title": "Coding Agents",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "cursor",
+      "github-copilot"
+    ],
+    "tags": [
+      "agent",
+      "coding",
+      "development",
+      "advanced"
+    ]
+  },
+  {
+    "title": "编码智能体",
+    "path": "5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "cursor",
+      "github-copilot"
+    ],
+    "tags": [
+      "agent",
+      "coding",
+      "development",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Prompt Chaining",
+    "path": "5-skills/agent/design-patterns/chapters/01-prompt-chaining.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "prompt-chaining",
+      "basic",
+      "workflow"
+    ]
+  },
+  {
+    "title": "提示词链",
+    "path": "5-skills/agent/design-patterns/chapters/01-prompt-chaining.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "prompt-chaining",
+      "basic",
+      "workflow"
+    ]
+  },
+  {
+    "title": "Routing",
+    "path": "5-skills/agent/design-patterns/chapters/02-routing.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "routing",
+      "decision-making",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "路由",
+    "path": "5-skills/agent/design-patterns/chapters/02-routing.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "routing",
+      "decision-making",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Parallelization",
+    "path": "5-skills/agent/design-patterns/chapters/03-parallelization.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "parallelization",
+      "performance",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "并行化",
+    "path": "5-skills/agent/design-patterns/chapters/03-parallelization.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "parallelization",
+      "performance",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Reflection",
+    "path": "5-skills/agent/design-patterns/chapters/04-reflection.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "reflection",
+      "self-improvement",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "反思",
+    "path": "5-skills/agent/design-patterns/chapters/04-reflection.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "reflection",
+      "self-improvement",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Tool Use",
+    "path": "5-skills/agent/design-patterns/chapters/05-tool-use.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "function-calling"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "tool-use",
+      "api-integration",
+      "advanced"
+    ]
+  },
+  {
+    "title": "工具使用",
+    "path": "5-skills/agent/design-patterns/chapters/05-tool-use.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "function-calling"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "tool-use",
+      "api-integration",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Planning",
+    "path": "5-skills/agent/design-patterns/chapters/06-planning.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "adk"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "planning",
+      "task-decomposition",
+      "advanced"
+    ]
+  },
+  {
+    "title": "规划",
+    "path": "5-skills/agent/design-patterns/chapters/06-planning.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "adk"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "planning",
+      "task-decomposition",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Multi-Agent Collaboration",
+    "path": "5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "crewai",
+      "adk"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "multi-agent",
+      "collaboration",
+      "advanced"
+    ]
+  },
+  {
+    "title": "多智能体协作",
+    "path": "5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "crewai",
+      "adk"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "multi-agent",
+      "collaboration",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Memory Management",
+    "path": "5-skills/agent/design-patterns/chapters/08-memory-management.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "mem0"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "memory",
+      "context-management",
+      "advanced"
+    ]
+  },
+  {
+    "title": "记忆管理",
+    "path": "5-skills/agent/design-patterns/chapters/08-memory-management.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt",
+      "mem0"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "memory",
+      "context-management",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Learning and Adaptation",
+    "path": "5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "learning",
+      "adaptation",
+      "advanced"
+    ]
+  },
+  {
+    "title": "学习与适应",
+    "path": "5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "learning",
+      "adaptation",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Model Context Protocol",
+    "path": "5-skills/agent/design-patterns/chapters/10-model-context-protocol.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "mcp"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "mcp",
+      "context-protocol",
+      "advanced"
+    ]
+  },
+  {
+    "title": "模型上下文协议",
+    "path": "5-skills/agent/design-patterns/chapters/10-model-context-protocol.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "mcp"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "mcp",
+      "context-protocol",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Goal Setting and Monitoring",
+    "path": "5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "goal-setting",
+      "monitoring",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "目标设定与监控",
+    "path": "5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "goal-setting",
+      "monitoring",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Exception Handling and Recovery",
+    "path": "5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "exception-handling",
+      "recovery",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "异常处理与恢复",
+    "path": "5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "exception-handling",
+      "recovery",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Human in the Loop",
+    "path": "5-skills/agent/design-patterns/chapters/13-human-in-the-loop.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "human-in-the-loop",
+      "collaboration",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "人机协作",
+    "path": "5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "human-in-the-loop",
+      "collaboration",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Knowledge Retrieval",
+    "path": "5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "rag",
+      "vectordb"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "knowledge-retrieval",
+      "rag",
+      "advanced"
+    ]
+  },
+  {
+    "title": "知识检索",
+    "path": "5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "rag",
+      "vectordb"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "knowledge-retrieval",
+      "rag",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Inter-Agent Communication",
+    "path": "5-skills/agent/design-patterns/chapters/15-inter-agent-communication.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "communication",
+      "multi-agent",
+      "advanced"
+    ]
+  },
+  {
+    "title": "智能体间通信",
+    "path": "5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "communication",
+      "multi-agent",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Resource-Aware Optimization",
+    "path": "5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "optimization",
+      "resource-management",
+      "advanced"
+    ]
+  },
+  {
+    "title": "资源感知优化",
+    "path": "5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "optimization",
+      "resource-management",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Reasoning Techniques",
+    "path": "5-skills/agent/design-patterns/chapters/17-reasoning-techniques.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "cot"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "reasoning",
+      "chain-of-thought",
+      "advanced"
+    ]
+  },
+  {
+    "title": "推理技术",
+    "path": "5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "cot"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "reasoning",
+      "chain-of-thought",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Guardrails and Safety Patterns",
+    "path": "5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "guardrails"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "safety",
+      "guardrails",
+      "security",
+      "advanced"
+    ]
+  },
+  {
+    "title": "护栏与安全模式",
+    "path": "5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "guardrails"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "safety",
+      "guardrails",
+      "security",
+      "advanced"
+    ]
+  },
+  {
+    "title": "Evaluation and Monitoring",
+    "path": "5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "langsmith"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "evaluation",
+      "monitoring",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "评估与监控",
+    "path": "5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "langsmith"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "evaluation",
+      "monitoring",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Prioritization",
+    "path": "5-skills/agent/design-patterns/chapters/20-prioritization.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "prioritization",
+      "decision-making",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "优先级排序",
+    "path": "5-skills/agent/design-patterns/chapters/20-prioritization.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "prioritization",
+      "decision-making",
+      "intermediate"
+    ]
+  },
+  {
+    "title": "Exploration and Discovery",
+    "path": "5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "exploration",
+      "discovery",
+      "advanced"
+    ]
+  },
+  {
+    "title": "探索与发现",
+    "path": "5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "researcher",
+      "ai-developer"
+    ],
+    "type": "tutorial",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "langchain",
+      "autogpt"
+    ],
+    "tags": [
+      "agent",
+      "design-pattern",
+      "exploration",
+      "discovery",
+      "advanced"
+    ]
+  },
+  {
     "title": "Agent Skills 完整目录",
     "path": "5-skills/agent/skills-catalog.md",
     "difficulty": "beginner",

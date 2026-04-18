@@ -80,7 +80,7 @@ To effectively implement the human-agent team framework, the following setup is 
 3. **Establish a Version-Controlled Prompt Library** Create a dedicated /prompts directory within your project's Git repository. In it, store the invocation prompts for each specialist agent (e.g., reviewer.md, documenter.md, tester.md) as markdown files. Treating your prompts as code allows the entire team to collaborate on, refine, and version the instructions given to your AI agents over time.  
 4. **Integrate Agent Workflows with Git Hooks** Automate your review rhythm by using local Git hooks. For instance, a pre-commit hook can be configured to automatically trigger the Reviewer Agent on your staged changes. The agent's critique-and-reflection summary can be presented directly in your terminal, providing immediate feedback before you finalize the commit and baking the quality assurance step directly into your development process.
 
-![Coding Specialist Examples](../assets/Coding_Specialist_Examples.png)
+![Coding Specialist Examples](../images/appendix-g/image1.png)
 
 Fig. 1:  Coding Specialist Examples
 

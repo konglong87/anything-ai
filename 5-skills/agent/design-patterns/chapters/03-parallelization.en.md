@@ -37,7 +37,7 @@ The core idea is to identify parts of the workflow that do not depend on the out
 
 Implementing parallelization often requires frameworks that support asynchronous execution or multi-threading/multi-processing. Modern agentic frameworks are designed with asynchronous operations in mind, allowing you to easily define steps that can run in parallel.
 
-![Parallelization with Sub-Agents](../assets/Parallelization_with_Sub_Agents.png)
+![Parallelization with Sub-Agents](../images/chapter-3/image1.png)
 
 Fig.1. Example of parallelization with sub-agents
 
@@ -364,7 +364,7 @@ Finally, a SequentialAgent named ResearchAndSynthesisPipeline is created to orch
 
 **Visual summary:**
 
-![Parallelization Design Pattern](../assets/Parallelization_Design_Pattern.png)
+![Parallelization Design Pattern](../images/chapter-3/image2.png)
 
 Fig.2: Parallelization design pattern
 

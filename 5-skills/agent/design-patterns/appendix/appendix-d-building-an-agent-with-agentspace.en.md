@@ -27,37 +27,37 @@ Furthermore, AgentSpace supports a multi-agent system where different AI agents 
 
 Figure 1 illustrates how to access AgentSpace by selecting AI Applications from the Google Cloud Console.
 
-![GCP: Access AgentSpace](../assets/GCP_Access_AgentSpace.png)
+![GCP: Access AgentSpace](../images/appendix-d/image1.png)
 
 Fig. 1:  How to use Google Cloud Console to access AgentSpace
 
 Your agent can be connected to various services, including Calendar, Google Mail, Workaday, Jira, Outlook, and Service Now (see Fig. 2).
 
-![GCP: Integrate with diverse services](../assets/GCP_Integrate_with_diverse_services.png)
+![GCP: Integrate with diverse services](../images/appendix-d/image2.png)
 
 Fig. 2: Integrate with diverse services, including Google and third-party platforms.
 
 The Agent can then utilize its own prompt, chosen from a gallery of pre-made prompts provided by Google, as illustrated in Fig. 3\.
 
-![GCP: Googles Gallery of Pre-Assembled Prompts](../assets/GCP_Googles_Gallery_of_Pre_Assembled_Prompts.png)
+![GCP: Googles Gallery of Pre-Assembled Prompts](../images/appendix-d/image3.png)
 
 Fig.3: Google's Gallery of Pre-assembled  prompts
 
 In alternative you can create your own prompt as in Fig.4, which will be then used by your agent  
 
-![GCP: Customizing the Agent's Prompt](../assets/GCP_Customizing_the_Agents_Prompt.png)
+![GCP: Customizing the Agent's Prompt](../images/appendix-d/image4.png)
 
 Fig.4: Customizing the Agent's Prompt
 
 AgentSpace offers a number of advanced features such as integration with datastores to store your own data, integration with Google Knowledge Graph or with your private Knowledge Graph, Web interface for exposing your agent to the Web, and Analytics to monitor usage, and more (see Fig. 5\)
 
-![GCP: AgentSpace Advanced Capabilities](../assets/GCP_AgentSpace_Advanced_Capabilities.png)
+![GCP: AgentSpace Advanced Capabilities](../images/appendix-d/image5.png)
 
 Fig. 5: AgentSpace advanced capabilities
 
 Upon completion, the AgentSpace chat interface (Fig. 6\) will be accessible.
 
-![GCP: AgentSpace User Interface for initiating a chat with your Agent](../assets/GCP_AgentSpace_User_Interface_for_initiating_a_chat_with_your_Agent.png)
+![GCP: AgentSpace User Interface for initiating a chat with your Agent](../images/appendix-d/image6.png)
 
 Fig. 6: The AgentSpace User Interface for initiating a chat with your Agent.
 

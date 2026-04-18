@@ -30,7 +30,7 @@ This technology is no longer theoretical. Several leading AI labs have developed
 
 **Google Project Mariner:** As a research prototype, Project Mariner operates as an agent within the Chrome browser (see Fig. 1). Its purpose is to understand a user's intent and autonomously carry out web-based tasks on their behalf. For example, a user could ask it to find three apartments for rent within a specific budget and neighborhood; Mariner would then navigate to real estate websites, apply the filters, browse the listings, and extract the relevant information into a document. This project represents Google's exploration into creating a truly helpful and "agentive" web experience where the browser actively works for the user.
 
-![Interaction between Agent and the Web Browser](../assets/Interaction_between_Agent_and_the_Web_Browser.png)
+![Interaction between Agent and the Web Browser](../images/appendix-b/image1.png)
 
 Fig.1: Interaction between and Agent and the Web Browser
 

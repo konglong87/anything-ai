@@ -39,7 +39,7 @@ Text similarity refers to the measure of how alike two pieces of text are. This 
 
 Semantic similarity is a more advanced form of text similarity that focuses purely on the meaning and context of the text, rather than just the words used. It aims to understand if two pieces of text convey the same concept or idea. Semantic distance is the inverse of this; a high semantic similarity implies a low semantic distance, and vice versa. In RAG, semantic search relies on finding documents with the smallest semantic distance to the user's query. For instance, the phrases "a furry feline companion" and "a domestic cat" have no words in common besides "a". However, a model that understands semantic similarity would recognize that they refer to the same thing and would consider them to be highly similar. This is because their embeddings would be very close in the vector space, indicating a small semantic distance. This is the "smart search" that allows RAG to find relevant information even when the user's wording doesn't exactly match the text in the knowledge base.
 
-![RAG Core Concept: Chunking, Embeddings, and Vector Database](../assets/RAG_Core_Concepts_Chunking_Embeddings_and_Vector_Database.png)
+![RAG Core Concept: Chunking, Embeddings, and Vector Database](../images/chapter-14/image1.png)
 
 Fig.1: RAG Core Concepts: Chunking, Embeddings, and Vector Database
 
@@ -69,7 +69,7 @@ An evolution of this pattern, known as **Agentic RAG** (see Fig.2), introduces a
 
 First, an agent excels at reflection and source validation. If a user asks, "What is our company's policy on remote work?" a standard RAG might pull up a 2020 blog post alongside the official 2025 policy document. The agent, however, would analyze the documents' metadata, recognize the 2025 policy as the most current and authoritative source, and discard the outdated blog post before sending the correct context to the LLM for a precise answer.
 
-![Agentic RAG Introduces Reasoning Agent](../assets/Agentic_RAG_Introduces_Reasoning_Agent.png)
+![Agentic RAG Introduces Reasoning Agent](../images/chapter-14/image2.png)
 
 Fig.2: Agentic RAG introduces a reasoning agent that actively evaluates, reconciles, and refines retrieved information to ensure a more accurate and trustworthy final response.
 
@@ -297,11 +297,11 @@ This Python code illustrates a Retrieval-Augmented Generation (RAG) pipeline imp
 
 **Visual Summary:**
 
-![Knowledge Retrieval Pattern Database](../assets/Knowledge_Retrieval_Pattern_Database.png)
+![Knowledge Retrieval Pattern Database](../images/chapter-14/image3.png)
 
 Knowledge Retrieval pattern: an AI agent to query and retrieve information from structured databases
 
-![Knowledge Retrieval Pattern Search](../assets/Knowledge_Retrieval_Pattern_Search.png)
+![Knowledge Retrieval Pattern Search](../images/chapter-14/image4.png)
 
 Fig. 3: Knowledge Retrieval pattern: an AI agent to find and synthesize information from the public internet in response to user queries.
 

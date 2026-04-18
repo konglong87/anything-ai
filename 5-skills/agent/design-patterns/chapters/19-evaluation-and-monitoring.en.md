@@ -15,7 +15,7 @@ source:
 
 This chapter examines methodologies that allow intelligent agents to systematically assess their performance, monitor progress toward goals, and detect operational anomalies. While Chapter 11 outlines goal setting and monitoring, and Chapter 17 addresses Reasoning mechanisms, this chapter focuses on the continuous, often external, measurement of an agent's effectiveness, efficiency, and compliance with requirements. This includes defining metrics, establishing feedback loops, and implementing reporting systems to ensure agent performance aligns with expectations in operational environments (see Fig.1)
 
-![Monitoring and Evaluating Agent Performance](../assets/Monitoring_and_Evaluating_Agent_Performance.png)
+![Monitoring and Evaluating Agent Performance](../images/chapter-19/image1.png)
 
 Fig:1. Best practices for evaluation and monitoring
 
@@ -288,7 +288,7 @@ First is the pillar of the Formalized Contract, a detailed specification that se
 
 Second is the pillar of a Dynamic Lifecycle of Negotiation and Feedback. The contract is not a static command but the start of a dialogue. The contractor agent can analyze the initial terms and negotiate. For instance, if a contract demands the use of a specific proprietary data source the agent cannot access, it can return feedback stating, "The specified XYZ database is inaccessible. Please provide credentials or approve the use of an alternative public database, which may slightly alter the data's granularity." This negotiation phase, which also allows the agent to flag ambiguities or potential risks, resolves misunderstandings before execution begins, preventing costly failures and ensuring the final output aligns perfectly with the user's actual intent.
 
-![Contract Execution Example Among Agents](../assets/Contract_Execution_Example_Among_Agents.png)
+![Contract Execution Example Among Agents](../images/chapter-19/image2.png)
 
 Fig. 2: Contract execution example among agents
 
@@ -302,7 +302,7 @@ Ultimately, this contractor framework reimagines AI interaction by embedding pri
 
 Before concluding, let's look at a concrete example of a framework that supports evaluation. Agent evaluation with Google's ADK (see Fig.3) can be conducted via three methods: web-based UI (adk web) for interactive evaluation and dataset generation, programmatic integration using pytest for incorporation into testing pipelines, and direct command-line interface (adk eval) for automated evaluations suitable for regular build generation and verification processes.
 
-![Evaluation Support for Google ADK](../assets/Evaluation_Support_for_Google_ADK.png)
+![Evaluation Support for Google ADK](../images/chapter-19/image3.png)
 
 Fig.3: Evaluation Support for Google ADK
 
@@ -320,7 +320,7 @@ The command-line interface facilitates automated evaluation by providing the age
 
 **Visual Summary:**
 
-![Evaluation and Monitoring Design Pattern](../assets/Evaluation_and_Monitoring_Design_Pattern.png)
+![Evaluation and Monitoring Design Pattern](../images/chapter-19/image4.png)
 
 Fig.4: Evaluation and Monitoring design pattern
 

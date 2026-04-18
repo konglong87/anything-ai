@@ -587,7 +587,7 @@ Memory Bank offers seamless integration with the Google ADK, providing an immedi
 
 **Visual summary:**
 
-![Memory Management Design Pattern](../assets/Memory_Management_Design_Pattern.png)
+![Memory Management Design Pattern](../images/chapter-8/image1.png)
 
 Fig.1: Memory management design pattern
 

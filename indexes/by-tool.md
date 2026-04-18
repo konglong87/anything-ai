@@ -132,13 +132,53 @@
 - [Context Engineering - 上下文工程](1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 
+## adk
+
+- [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [Planning](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [规划](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [多智能体协作](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+
 ## agent-frameworks
 
 - [Agent Skills](5-skills/agent/README.md) - 40min (intermediate)
+- [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+- [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+
+## agentspace
+
+- [Building an Agent with Agentspace](5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.md) - 30min (intermediate)
+- [使用Agentspace构建智能体](5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.md) - 30min (intermediate)
 
 ## autogpt
 
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+- [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [Prompt Chaining](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
+- [提示词链](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
+- [Parallelization](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+- [并行化](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+- [Reflection](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+- [反思](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+- [Tool Use](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [工具使用](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [Planning](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [规划](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [多智能体协作](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [Memory Management](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [记忆管理](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [Learning and Adaptation](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+- [学习与适应](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+- [Human in the Loop](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+- [人机协作](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+- [Inter-Agent Communication](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
+- [智能体间通信](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
+- [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 
 ## chatgpt
 
@@ -161,6 +201,62 @@
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+- [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+- [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+- [Advanced Prompting Techniques](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
+- [高级提示技术](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
+- [AI Agentic Interactions](5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.md) - 30min (intermediate)
+- [AI智能体交互](5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.md) - 30min (intermediate)
+- [Building an Agent with Agentspace](5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.md) - 30min (intermediate)
+- [使用Agentspace构建智能体](5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.md) - 30min (intermediate)
+- [AI Agents on the CLI](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
+- [CLI上的AI智能体](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
+- [Under the Hood](5-skills/agent/design-patterns/appendix/appendix-f-under-the-hood.md) - 30min (advanced)
+- [底层原理](5-skills/agent/design-patterns/appendix/appendix-f-under-the-hood.md) - 30min (advanced)
+- [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+- [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+- [Prompt Chaining](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
+- [提示词链](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
+- [Routing](5-skills/agent/design-patterns/chapters/02-routing.md) - 30min (intermediate)
+- [路由](5-skills/agent/design-patterns/chapters/02-routing.md) - 30min (intermediate)
+- [Parallelization](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+- [并行化](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+- [Reflection](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+- [反思](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+- [Tool Use](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [工具使用](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [Planning](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [规划](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [多智能体协作](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [Memory Management](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [记忆管理](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [Learning and Adaptation](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+- [学习与适应](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+- [Model Context Protocol](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
+- [模型上下文协议](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
+- [Goal Setting and Monitoring](5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.md) - 30min (intermediate)
+- [目标设定与监控](5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.md) - 30min (intermediate)
+- [Exception Handling and Recovery](5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md) - 30min (intermediate)
+- [异常处理与恢复](5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md) - 30min (intermediate)
+- [Human in the Loop](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+- [人机协作](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+- [Knowledge Retrieval](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
+- [知识检索](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
+- [Inter-Agent Communication](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
+- [智能体间通信](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
+- [Resource-Aware Optimization](5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.md) - 30min (advanced)
+- [资源感知优化](5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.md) - 30min (advanced)
+- [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+- [推理技术](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+- [Guardrails and Safety Patterns](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
+- [护栏与安全模式](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
+- [Evaluation and Monitoring](5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md) - 30min (intermediate)
+- [评估与监控](5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md) - 30min (intermediate)
+- [Prioritization](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
+- [优先级排序](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
+- [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
@@ -208,6 +304,28 @@
 - [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
+## cli
+
+- [AI Agents on the CLI](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
+- [CLI上的AI智能体](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
+
+## cot
+
+- [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+- [推理技术](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+
+## crewai
+
+- [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [多智能体协作](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+
+## cursor
+
+- [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+- [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+
 ## deepseek
 
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
@@ -223,6 +341,16 @@
 - [费曼学习法AI应用（学生版）](roles/student/feynman-technique.md) - 20min (beginner)
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## function-calling
+
+- [Tool Use](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [工具使用](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+
+## github-copilot
+
+- [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+- [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+
 ## gstack
 
 - [技能包设计模式课程索引](5-skills/course/INDEX.md) - 8h (advanced)
@@ -237,6 +365,11 @@
 - [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 
+## guardrails
+
+- [Guardrails and Safety Patterns](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
+- [护栏与安全模式](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
+
 ## hermes-agent
 
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
@@ -247,6 +380,59 @@
 ## langchain
 
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
+- [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+- [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+- [AI Agentic Interactions](5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.md) - 30min (intermediate)
+- [AI智能体交互](5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.md) - 30min (intermediate)
+- [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
+- [Prompt Chaining](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
+- [提示词链](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
+- [Routing](5-skills/agent/design-patterns/chapters/02-routing.md) - 30min (intermediate)
+- [路由](5-skills/agent/design-patterns/chapters/02-routing.md) - 30min (intermediate)
+- [Parallelization](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+- [并行化](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+- [Reflection](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+- [反思](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+- [Tool Use](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [工具使用](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+- [Planning](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [规划](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
+- [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [多智能体协作](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [Memory Management](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [记忆管理](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [Learning and Adaptation](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+- [学习与适应](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+- [Model Context Protocol](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
+- [模型上下文协议](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
+- [Goal Setting and Monitoring](5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.md) - 30min (intermediate)
+- [目标设定与监控](5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.md) - 30min (intermediate)
+- [Exception Handling and Recovery](5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md) - 30min (intermediate)
+- [异常处理与恢复](5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md) - 30min (intermediate)
+- [Human in the Loop](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+- [人机协作](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+- [Knowledge Retrieval](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
+- [知识检索](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
+- [Inter-Agent Communication](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
+- [智能体间通信](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
+- [Resource-Aware Optimization](5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.md) - 30min (advanced)
+- [资源感知优化](5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.md) - 30min (advanced)
+- [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+- [推理技术](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+- [Guardrails and Safety Patterns](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
+- [护栏与安全模式](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
+- [Evaluation and Monitoring](5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md) - 30min (intermediate)
+- [评估与监控](5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md) - 30min (intermediate)
+- [Prioritization](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
+- [优先级排序](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
+- [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+
+## langsmith
+
+- [Evaluation and Monitoring](5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md) - 30min (intermediate)
+- [评估与监控](5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.md) - 30min (intermediate)
 
 ## local-deployment
 
@@ -255,7 +441,14 @@
 ## mcp
 
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Model Context Protocol](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
+- [模型上下文协议](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
+## mem0
+
+- [Memory Management](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+- [记忆管理](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
 
 ## nodejs
 
@@ -272,6 +465,11 @@
 ## qianwen
 
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+
+## rag
+
+- [Knowledge Retrieval](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
+- [知识检索](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
 
 ## superpowers
 
@@ -295,6 +493,8 @@
 ## terminal
 
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [AI Agents on the CLI](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
+- [CLI上的AI智能体](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
 ## undefined
@@ -391,6 +591,11 @@
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
 - [TODO - 2026年3月](todo/todo_2026_03.md) - 5 min (beginner)
+
+## vectordb
+
+- [Knowledge Retrieval](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
+- [知识检索](5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.md) - 30min (advanced)
 
 ## zotero
 

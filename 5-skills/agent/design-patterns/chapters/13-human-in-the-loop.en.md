@@ -146,7 +146,7 @@ A key feature of this architecture is its capacity for deep personalization, ach
 
 **Visual Summary:**
 
-![Human in the Loop Design Pattern](../assets/Human_in_the_Loop_Design_Pattern.png)
+![Human in the Loop Design Pattern](../images/chapter-13/image1.png)
 
 Fig.1: Human in the loop design pattern
 

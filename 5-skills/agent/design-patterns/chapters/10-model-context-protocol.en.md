@@ -309,7 +309,7 @@ To begin, open a new terminal and run `python fastmcp_server.py` to start the Fa
 
 **Visual summary:**
 
-![Model Context Protocol](../assets/Model_Context_Protocol.png)
+![Model Context Protocol](../images/chapter-10/image1.png)
 
 Fig.1: Model Context protocol
 

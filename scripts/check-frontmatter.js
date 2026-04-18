@@ -79,6 +79,12 @@ contentEntries.forEach(entry => {
   }
 });
 
+// 调试信息：输出错误统计
+if (hasErrors) {
+  console.log('\n[调试信息] hasErrors为true，但上面可能没有显示具体错误文件');
+  console.log('[调试信息] 这表明可能有隐藏的错误逻辑问题');
+}
+
 console.log('\n' + '='.repeat(50));
 
 if (hasErrors) {

@@ -25,7 +25,7 @@ This pattern may sometimes be used with reflection. For example, if an initial a
 
 The Exception Handling and Recovery pattern addresses the need for AI agents to manage operational failures. This pattern involves anticipating potential issues, such as tool errors or service unavailability, and developing strategies to mitigate them. These strategies may include error logging, retries, fallbacks, graceful degradation, and notifications. Additionally, the pattern emphasizes recovery mechanisms like state rollback, diagnosis, self-correction, and escalation, to restore agents to stable operation. Implementing this pattern enhances the reliability and robustness of AI agents, allowing them to function in unpredictable environments. Examples of practical applications include chatbots managing database errors, trading bots handling financial errors, and smart home agents addressing device malfunctions. The pattern ensures that agents can continue to operate effectively despite encountering complexities and failures.
 
-![Key Components of Exception Handling and Recovery for AI agents](../assets/Key_Components_of_Exception_Handling_and_Recovery_for_AI_agents.png)
+![Key Components of Exception Handling and Recovery for AI agents](../images/chapter-12/image1.png)
 
 Fig.1: Key components of exception handling and recovery for AI agents
 
@@ -112,7 +112,7 @@ This code defines a robust location retrieval system using a ADK's SequentialAge
 
 **Visual Summary:**
 
-![Exception Handling Pattern](../assets/Exception_Handling_Pattern.png)
+![Exception Handling Pattern](../images/chapter-12/image2.png)
 
 Fig.2: Exception handling pattern
 

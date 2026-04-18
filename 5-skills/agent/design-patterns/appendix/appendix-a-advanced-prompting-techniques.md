@@ -114,7 +114,7 @@ Agentic 模式是构建智能系统的架构蓝图，在主要章节中已有详
 
 ## 使用分隔符
 
-有效的提示需要为语言模型清晰区分指令、上下文、示例和输入。可使用分隔符，如三重反引号（```）、XML 标签（<instruction>、<context>）或标记（---），在视觉和程序上分隔这些部分。这种在提示工程中广泛采用的做法，通过明确提示各部分的角色，最小化模型的误解。
+有效的提示需要为语言模型清晰区分指令、上下文、示例和输入。可使用分隔符，如三重反引号（```）、XML 标签（\<instruction\>、\<context\>）或标记（---），在视觉和程序上分隔这些部分。这种在提示工程中广泛采用的做法，通过明确提示各部分的角色，最小化模型的误解。
 
 * **示例**：
   \<instruction\>总结以下文章，重点关注作者提出的主要论点。\</instruction\>
@@ -421,12 +421,11 @@ RAG 是一种强大技术，通过在提示过程中赋予语言模型访问外�
 
 Google 的 AI"Gems"（见图 1）代表其大型语言模型架构中的用户可配置功能。每个"Gem"作为核心 Gemini AI 的专门实例运行，为特定可重复任务量身定制。用户通过提供一组明确指令来创建 Gem，这确立了其操作参数。此初始指令集定义了 Gem 的指定目标、响应风格和知识领域。底层模型设计为在整个对话过程中始终遵循这些预定义指令。
 
-这允许为专注应用创建高度专业化的 AI Agent。例如，可配置 Gem 作为仅引用特定编程库的代码解释器。另一个可被指示分析数据集，生成摘要而不进行推测性评论。不同的 Gem 可能作为遵守特定正式风格指南的翻译器。此过程为 AI 创建了持久且特定于任务的上下文。
+这允许为专注应用创建高度专业化的 AI Agent。例如，可配置 Gem 作为仅引用特定编程库的代码解释器。另一个可被指示分析数据集,生成摘要而不进行推测性评论。不同的 Gem 可能作为遵守特定正式风格指南的翻译器。此过程为 AI 创建了持久且特定于任务的上下文。
 
 因此，用户无需在每个新查询中重新建立相同上下文信息。这种方法减少了对话冗余，提升了任务执行效率。产生的交互更加专注，输出与用户初始要求保持高度一致。此框架允许对通用 AI 模型应用细粒度、持久的用户指导。最终，Gems 实现了从通用交互向专业化、预定义 AI 功能的转变。
 
-![][image1]
-图 1：Google Gem 使用示例。
+**注**：原文包含演示 Google Gem 使用配置界面的示例截图。
 
 ## 使用 LLM 改进提示（元方法）
 
@@ -515,11 +514,9 @@ Google 的 AI"Gems"（见图 1）代表其大型语言模型架构中的用户�
 以下是进一步阅读和深入探索提示工程技术的资源列表：
 
 1. Prompt Engineering, [https://www.kaggle.com/whitepaper-prompt-engineering](https://www.kaggle.com/whitepaper-prompt-engineering)
-2. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, [https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2201.11903)   
-3. Self-Consistency Improves Chain of Thought Reasoning in Language Models,  [https://arxiv.org/pdf/2203.11171](https://arxiv.org/pdf/2203.11171)   
-4. ReAct: Synergizing Reasoning and Acting in Language Models, [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)  
-5. Tree of Thoughts: Deliberate Problem Solving with Large Language Models,  [https://arxiv.org/pdf/2305.10601](https://arxiv.org/pdf/2305.10601)   
-6. Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models, [https://arxiv.org/abs/2310.06117](https://arxiv.org/abs/2310.06117)   
-7. DSPy: Programming—not prompting—Foundation Models [https://github.com/stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) 
-
-[image1]: ../images/appendix-a/image1.png
+2. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models, [https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2201.11903)
+3. Self-Consistency Improves Chain of Thought Reasoning in Language Models,  [https://arxiv.org/pdf/2203.11171](https://arxiv.org/pdf/2203.11171)
+4. ReAct: Synergizing Reasoning and Acting in Language Models, [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
+5. Tree of Thoughts: Deliberate Problem Solving with Large Language Models,  [https://arxiv.org/pdf/2305.10601](https://arxiv.org/pdf/2305.10601)
+6. Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models, [https://arxiv.org/abs/2310.06117](https://arxiv.org/abs/2310.06117)
+7. DSPy: Programming—not prompting—Foundation Models [https://github.com/stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)

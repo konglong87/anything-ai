@@ -72,7 +72,7 @@ The Self-Improving Coding Agent (SICA), developed by Maxime Robeyns, Laurence Ai
 
 SICA's self-improvement operates through an iterative cycle (see Fig.1). Initially, SICA reviews an archive of its past versions and their performance on benchmark tests. It selects the version with the highest performance score, calculated based on a weighted formula considering success, time, and computational cost. This selected version then undertakes the next round of self-modification. It analyzes the archive to identify potential improvements and then directly alters its codebase. The modified agent is subsequently tested against benchmarks, with the results recorded in the archive. This process repeats, facilitating learning directly from past performance. This self-improvement mechanism allows SICA to evolve its capabilities without requiring traditional training paradigms.
 
-![SICA's self-improvement, learning and adapting based on its past versions](../assets/SICAs_self_improvement_learning_and_adapting_based_on_its_past_versions.png)
+![SICA's self-improvement, learning and adapting based on its past versions](../images/chapter-9/image1.png)
 
 Fig.1: SICA's self-improvement, learning and adapting based on its past versions
 
@@ -80,7 +80,7 @@ SICA underwent significant self-improvement, leading to advancements in code edi
 
 SICA further implemented "Minimal Diff Output Optimization" and "Context-Sensitive Diff Minimization," using Abstract Syntax Tree (AST) parsing for efficiency. Additionally, a "SmartEditor Input Normalizer" was added. In terms of navigation, SICA independently created an "AST Symbol Locator," using the code's structural map (AST) to identify definitions within the codebase. Later, a "Hybrid Symbol Locator" was developed, combining a quick search with AST checking. This was further optimized via "Optimized AST Parsing in Hybrid Symbol Locator" to focus on relevant code sections, improving search speed.(see Fig. 2)
 
-![Performance across Iterations](../assets/Performance_across_Iterations.png)
+![Performance across Iterations](../images/chapter-9/image2.png)
 
 Fig.2 : Performance across iterations. Key improvements are annotated with their corresponding tool or agent modifications. (courtesy of Maxime Robeyns , Martin Szummer , Laurence Aitchison)
 
@@ -114,7 +114,7 @@ In the realm of fundamental research, AlphaEvolve has contributed to the discove
 
 **OpenEvolve** is an evolutionary coding agent that leverages LLMs (see Fig.3) to iteratively optimize code. It orchestrates a pipeline of LLM-driven code generation, evaluation, and selection to continuously enhance programs for a wide range of tasks. A key aspect of OpenEvolve is its capability to evolve entire code files, rather than being limited to single functions. The agent is designed for versatility, offering support for multiple programming languages and compatibility with OpenAI-compatible APIs for any LLM. Furthermore, it incorporates multi-objective optimization, allows for flexible prompt engineering, and is capable of distributed evaluation to efficiently handle complex coding challenges.
 
-![OpenEvolve Architecture](../assets/OpenEvolve_Architecture.png)
+![OpenEvolve Architecture](../images/chapter-9/image3.png)
 
 Fig. 3: The OpenEvolve internal architecture is managed by a controller. This controller orchestrates several key components: the program sampler, Program Database, Evaluator Pool, and LLM Ensembles. Its primary function is to facilitate their learning and adaptation processes to enhance code quality.
 
@@ -149,7 +149,7 @@ for name, value in best_program.metrics.items():
 
 **Visual summary:**
 
-![Learning and Adapting Pattern](../assets/Learning_and_Adapting_Pattern.png)
+![Learning and Adapting Pattern](../images/chapter-9/image4.png)
 
 Fig.4: Learning and adapting pattern
 

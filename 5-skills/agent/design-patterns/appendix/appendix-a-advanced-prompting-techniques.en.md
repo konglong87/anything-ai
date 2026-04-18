@@ -113,13 +113,13 @@ Role prompting assigns a specific character, persona, or identity to the languag
 
 ### Using Delimiters
 
-Effective prompting involves clear distinction of instructions, context, examples, and input for language models. Delimiters, such as triple backticks (```), XML tags (<instruction>, <context>), or markers (---), can be utilized to visually and programmatically separate these sections. This practice, widely used in prompt engineering, minimizes misinterpretation by the model, ensuring clarity regarding the role of each part of the prompt.
+Effective prompting involves clear distinction of instructions, context, examples, and input for language models. Delimiters, such as triple backticks (```), XML tags (\<instruction\>, \<context\>), or markers (---), can be utilized to visually and programmatically separate these sections. This practice, widely used in prompt engineering, minimizes misinterpretation by the model, ensuring clarity regarding the role of each part of the prompt.
 
-* **Example:**  
-  <instruction>Summarize the following article, focusing on the main arguments presented by the author.</instruction>  
-  <article>  
-  [Insert the full text of the article here]  
-  </article>
+* **Example:**
+  \<instruction\>Summarize the following article, focusing on the main arguments presented by the author.\</instruction\>
+  \<article\>
+  [Insert the full text of the article here]
+  \</article\>
 
 ## Contextual Engineering
 
@@ -430,9 +430,7 @@ This allows for the creation of highly specialized AI agents for focused applica
 
 Consequently, the user avoids the need to re-establish the same contextual information with each new query. This methodology reduces conversational redundancy and improves the efficiency of task execution. The resulting interactions are more focused, yielding outputs that are consistently aligned with the user's initial requirements. This framework allows for applying fine-grained, persistent user direction to a generalist AI model. Ultimately, Gems enable a shift from general-purpose interaction to specialized, pre-defined AI functionalities.
 
-![Example of Google Gem Usage](../assets/Example_of_Google_Gem_Usage.png)
-
-Fig.1: Example of Google Gem usage.
+**Note**: Originally included an example screenshot demonstrating Google Gem usage configuration interface.
 
 ## Using LLMs to Refine Prompts (The Meta Approach)
 

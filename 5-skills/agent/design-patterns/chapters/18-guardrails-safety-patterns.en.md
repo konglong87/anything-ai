@@ -458,7 +458,7 @@ By integrating these core principles—fault tolerance, modular design, deep obs
 
 **Visual Summary:**
 
-![Guardrail Design Pattern](../assets/Guardrail_Design_Pattern.png)
+![Guardrail Design Pattern](../images/chapter-18/image1.png)
 
 Fig. 1: Guardrail design pattern
 
