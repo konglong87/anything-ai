@@ -2,7 +2,7 @@
 title: "Memory Management"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt, mem0]
 tags: [agent, design-pattern, memory, context-management, advanced]

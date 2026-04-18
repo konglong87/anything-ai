@@ -2,7 +2,7 @@
 title: "Agent设计模式完整教程"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: course
+type: tutorial
 duration: 10h
 tools: [claude, langchain, agent-frameworks]
 tags: [agent, design-patterns, systematic-learning]

@@ -2,7 +2,7 @@
 title: "探索与发现"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt]
 tags: [agent, design-pattern, exploration, discovery, advanced]

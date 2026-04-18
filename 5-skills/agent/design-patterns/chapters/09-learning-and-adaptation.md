@@ -2,7 +2,7 @@
 title: "学习与适应"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt]
 tags: [agent, design-pattern, learning, adaptation, advanced]

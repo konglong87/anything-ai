@@ -2,7 +2,7 @@
 title: "Routing"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain]
 tags: [agent, design-pattern, routing, decision-making, intermediate]

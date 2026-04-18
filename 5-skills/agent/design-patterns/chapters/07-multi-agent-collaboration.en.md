@@ -2,7 +2,7 @@
 title: "Multi-Agent Collaboration"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt, crewai, adk]
 tags: [agent, design-pattern, multi-agent, collaboration, advanced]

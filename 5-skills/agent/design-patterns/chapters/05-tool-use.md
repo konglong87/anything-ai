@@ -2,7 +2,7 @@
 title: "工具使用"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt, function-calling]
 tags: [agent, design-pattern, tool-use, api-integration, advanced]

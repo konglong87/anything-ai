@@ -2,7 +2,7 @@
 title: "资源感知优化"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain]
 tags: [agent, design-pattern, optimization, resource-management, advanced]

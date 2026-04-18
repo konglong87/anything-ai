@@ -2,7 +2,7 @@
 title: "智能体框架快速概览"
 difficulty: beginner
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [langchain, autogpt, crewai, adk]
 tags: [agent, framework, overview, beginner]

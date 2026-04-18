@@ -2,7 +2,7 @@
 title: "Reasoning Techniques"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, cot]
 tags: [agent, design-pattern, reasoning, chain-of-thought, advanced]

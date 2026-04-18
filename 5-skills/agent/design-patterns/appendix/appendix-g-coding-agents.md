@@ -2,7 +2,7 @@
 title: "编码智能体"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude, cursor, github-copilot]
 tags: [agent, coding, development, advanced]

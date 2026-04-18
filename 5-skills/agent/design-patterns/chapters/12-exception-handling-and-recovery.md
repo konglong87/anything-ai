@@ -2,7 +2,7 @@
 title: "异常处理与恢复"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain]
 tags: [agent, design-pattern, exception-handling, recovery, intermediate]

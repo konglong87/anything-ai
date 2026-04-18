@@ -2,7 +2,7 @@
 title: "AI Agents on the CLI"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude, terminal, cli]
 tags: [agent, cli, terminal, intermediate]

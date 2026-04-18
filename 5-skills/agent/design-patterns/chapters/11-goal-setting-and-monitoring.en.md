@@ -2,7 +2,7 @@
 title: "Goal Setting and Monitoring"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain]
 tags: [agent, design-pattern, goal-setting, monitoring, intermediate]

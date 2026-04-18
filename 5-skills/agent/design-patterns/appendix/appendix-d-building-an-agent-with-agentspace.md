@@ -2,7 +2,7 @@
 title: "使用Agentspace构建智能体"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [agentspace, claude]
 tags: [agent, agentspace, tutorial, intermediate]

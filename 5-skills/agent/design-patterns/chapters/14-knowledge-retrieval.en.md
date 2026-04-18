@@ -2,7 +2,7 @@
 title: "Knowledge Retrieval"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, rag, vectordb]
 tags: [agent, design-pattern, knowledge-retrieval, rag, advanced]

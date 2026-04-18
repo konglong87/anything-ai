@@ -2,7 +2,7 @@
 title: "护栏与安全模式"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, guardrails]
 tags: [agent, design-pattern, safety, guardrails, security, advanced]

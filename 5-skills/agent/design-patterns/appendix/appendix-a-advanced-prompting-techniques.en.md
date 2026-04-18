@@ -2,7 +2,7 @@
 title: "Advanced Prompting Techniques"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude]
 tags: [agent, prompting, advanced, techniques]

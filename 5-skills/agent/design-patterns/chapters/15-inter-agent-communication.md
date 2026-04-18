@@ -2,7 +2,7 @@
 title: "智能体间通信"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt]
 tags: [agent, design-pattern, communication, multi-agent, advanced]

@@ -2,7 +2,7 @@
 title: "Agent Design Patterns Complete Course"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: course
+type: tutorial
 duration: 10h
 tools: [claude, langchain, agent-frameworks]
 tags: [agent, design-patterns, systematic-learning]

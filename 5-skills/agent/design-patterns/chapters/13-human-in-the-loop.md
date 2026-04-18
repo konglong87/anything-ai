@@ -2,7 +2,7 @@
 title: "人机协作"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt]
 tags: [agent, design-pattern, human-in-the-loop, collaboration, intermediate]

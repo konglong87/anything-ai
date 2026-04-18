@@ -2,7 +2,7 @@
 title: "模型上下文协议"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, mcp]
 tags: [agent, design-pattern, mcp, context-protocol, advanced]

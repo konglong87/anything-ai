@@ -2,7 +2,7 @@
 title: "CLI上的AI智能体"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude, terminal, cli]
 tags: [agent, cli, terminal, intermediate]

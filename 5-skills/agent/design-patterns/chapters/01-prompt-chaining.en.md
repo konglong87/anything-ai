@@ -2,7 +2,7 @@
 title: "Prompt Chaining"
 difficulty: beginner
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt]
 tags: [agent, design-pattern, prompt-chaining, basic, workflow]

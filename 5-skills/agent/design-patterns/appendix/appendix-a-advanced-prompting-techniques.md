@@ -2,7 +2,7 @@
 title: "高级提示技术"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude]
 tags: [agent, prompting, advanced, techniques]

@@ -2,7 +2,7 @@
 title: "AI Agentic Interactions"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude, langchain]
 tags: [agent, interaction, design-pattern, intermediate]

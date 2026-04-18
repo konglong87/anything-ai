@@ -2,7 +2,7 @@
 title: "Quick Overview of Agentic Frameworks"
 difficulty: beginner
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [langchain, autogpt, crewai, adk]
 tags: [agent, framework, overview, beginner]

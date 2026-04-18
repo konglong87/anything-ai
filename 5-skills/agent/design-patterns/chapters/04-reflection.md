@@ -2,7 +2,7 @@
 title: "反思"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt]
 tags: [agent, design-pattern, reflection, self-improvement, intermediate]

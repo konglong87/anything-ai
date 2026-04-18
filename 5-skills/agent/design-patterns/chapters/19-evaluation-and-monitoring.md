@@ -2,7 +2,7 @@
 title: "评估与监控"
 difficulty: intermediate
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, langsmith]
 tags: [agent, design-pattern, evaluation, monitoring, intermediate]

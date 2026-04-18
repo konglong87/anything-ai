@@ -2,7 +2,7 @@
 title: "Planning"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, autogpt, adk]
 tags: [agent, design-pattern, planning, task-decomposition, advanced]

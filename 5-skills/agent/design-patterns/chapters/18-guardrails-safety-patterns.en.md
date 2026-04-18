@@ -2,7 +2,7 @@
 title: "Guardrails and Safety Patterns"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: pattern
+type: tutorial
 duration: 30min
 tools: [claude, langchain, guardrails]
 tags: [agent, design-pattern, safety, guardrails, security, advanced]

@@ -2,7 +2,7 @@
 title: "Under the Hood"
 difficulty: advanced
 roles: [programmer, researcher, ai-developer]
-type: appendix
+type: guide
 duration: 30min
 tools: [claude]
 tags: [agent, architecture, advanced, internals]
