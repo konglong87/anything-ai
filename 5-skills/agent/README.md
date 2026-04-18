@@ -43,6 +43,30 @@ tags: [agent, automation, ai-assistant]
 - **使用场景**: 长期任务执行、自动化工作流、多平台协作
 - **详细文档**: [查看完整指南](../../3-ai-agents/hermes-agent/)
 
+### 4. Agent设计模式系统教程 ⭐⭐⭐⭐⭐
+
+**完整教程**：[Agent设计模式完整教程](./design-patterns/README.md)
+
+**核心内容**：
+- 21个设计模式：从提示词链到探索发现，完整覆盖Agent开发
+- 7个附录章节：高级提示技术、框架概览、实战案例
+- 中英文双语：支持双语学习对照
+
+**学习路径**：
+- 入门：提示词链 → 路由 → 并行化
+- 进阶：反思 → 工具使用 → 规划
+- 高级：多Agent协作 → 记忆管理 → MCP协议
+- 实践：安全模式 → 评估监控 → 编程Agent
+
+**适用人群**：
+- 程序员：系统学习Agent开发，掌握核心模式
+- AI研究者：深入研究设计模式原理和应用
+- 产品经理：了解Agent能力边界和设计原则
+
+**GitHub链接**：
+- 中文版：[xindoo/agentic-design-patterns](https://github.com/xindoo/agentic-design-patterns)
+- 英文版：[Mathews-Tom/Agentic-Design-Patterns](https://github.com/Mathews-Tom/Agentic-Design-Patterns)
+
 ## 💡 使用建议
 
 ### 选择合适的Skill
