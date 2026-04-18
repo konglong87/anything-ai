@@ -1072,6 +1072,8 @@
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 
 ## agents
 
@@ -1361,6 +1363,11 @@
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 
+## download
+
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+
 ## efficiency
 
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
@@ -1513,6 +1520,11 @@
 - [Learning Path Overview](0-start-here/learning-path.md) - 30min (beginner)
 - [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)
 
+## learning-materials
+
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+
 ## learning-path
 
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
@@ -1558,6 +1570,11 @@
 
 - [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
 
+## openclaw
+
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+
 ## optimization
 
 - [Resource-Aware Optimization](5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.md) - 30min (advanced)
@@ -1583,6 +1600,11 @@
 
 - [Parallelization](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
 - [并行化](5-skills/agent/design-patterns/chapters/03-parallelization.md) - 30min (intermediate)
+
+## pdf
+
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 
 ## performance
 
@@ -1819,8 +1841,6 @@
 - [进阶主题](4-advanced-topics/README.md) - 1hour (advanced)
 - [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
-- [OpenClaw PDF Tutorial Resources](assets/pdf/en/readme.md) - 10min (beginner)
-- [OpenClaw 小龙虾 PDF 教程资源](assets/pdf/readme.md) - 10min (beginner)
 - [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
 - [Understand AI: Deep Principles](en/1-understand-ai/README.md) - 2hour (intermediate)
 - [Tool Selection Matrix](en/2-choose-tools/README.md) - 15min (beginner)

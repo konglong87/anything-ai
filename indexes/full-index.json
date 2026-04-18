@@ -3535,24 +3535,42 @@
     ]
   },
   {
-    "title": "OpenClaw PDF Tutorial Resources",
+    "title": "PDF Learning Materials",
     "path": "assets/pdf/en/readme.md",
     "difficulty": "beginner",
     "roles": [
-      "everyone"
+      "everyone",
+      "programmer",
+      "ai-developer"
     ],
     "type": "guide",
-    "duration": "10min"
+    "duration": "10min",
+    "tags": [
+      "pdf",
+      "download",
+      "learning-materials",
+      "agent",
+      "openclaw"
+    ]
   },
   {
-    "title": "OpenClaw 小龙虾 PDF 教程资源",
+    "title": "PDF学习资料",
     "path": "assets/pdf/readme.md",
     "difficulty": "beginner",
     "roles": [
-      "everyone"
+      "everyone",
+      "programmer",
+      "ai-developer"
     ],
     "type": "guide",
-    "duration": "10min"
+    "duration": "10min",
+    "tags": [
+      "pdf",
+      "download",
+      "learning-materials",
+      "agent",
+      "openclaw"
+    ]
   },
   {
     "title": "Start Here: AI Cognition Basics",

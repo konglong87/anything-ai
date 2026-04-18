@@ -76,6 +76,8 @@
 - [优先级排序](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 
 ## ai-engineer
 
@@ -258,8 +260,8 @@
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
 - [强化学习](4-advanced-topics/rl.md) - 60 min (advanced)
 - [资源文件说明](assets/README.md) - 5min (beginner)
-- [OpenClaw PDF Tutorial Resources](assets/pdf/en/readme.md) - 10min (beginner)
-- [OpenClaw 小龙虾 PDF 教程资源](assets/pdf/readme.md) - 10min (beginner)
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 - [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
 - [为什么不需要AI焦虑](en/0-start-here/ai-anxiety.md) - 15min (beginner)
 - [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)
@@ -484,6 +486,8 @@
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)

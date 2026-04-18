@@ -122,6 +122,22 @@ Suitable for learners seeking deep mastery:
 
 ## Related Resources
 
+### 📥 PDF Offline Versions
+
+If you prefer offline reading, we also provide complete PDF versions:
+
+- **Chinese PDF**: [agentic-design-patterns-chinese.pdf](../../../assets/pdf/agentic-design-patterns-chinese.pdf) - Complete Chinese translation version
+- **Bilingual PDF**: [agentic-design-patterns-bilingual.pdf](../../../assets/pdf/agentic-design-patterns-bilingual.pdf) - Chinese-English bilingual version
+
+> **PDF Download Page**: [assets/pdf/en/readme.md](../../../assets/pdf/en/readme.md) - Contains all PDF learning materials
+
+**Learning Recommendations**:
+- Beginners: Start with the Chinese PDF to establish overall understanding
+- Advanced learners: Use bilingual version to deeply understand technical details
+- Combine with this online tutorial for practical exercises
+
+---
+
 ### GitHub Repositories
 - **Chinese Repository**: https://github.com/xindoo/agentic-design-patterns
 - **English Repository**: https://github.com/Mathews-Tom/Agentic-Design-Patterns

@@ -1,16 +1,58 @@
 ---
-title: "OpenClaw PDF Tutorial Resources"
+title: "PDF Learning Materials"
 difficulty: beginner
-roles: [everyone]
+roles: [everyone, programmer, ai-developer]
 type: guide
 duration: 10min
+tags: [pdf, download, learning-materials, agent, openclaw]
 ---
 
-# OpenClaw PDF Tutorial Resources
+# PDF Learning Materials
 
-This directory contains detailed tutorial documentation for the OpenClaw platform, available for readers to learn and reference.
+This directory contains detailed tutorial PDF documentation for multiple projects, available for offline learning and reference.
 
 ## 📚 Resource List
+
+---
+
+## Agent Design Patterns Complete Tutorial
+
+### 📘 agentic-design-patterns-chinese.pdf (Chinese Version)
+
+**File Size**: 3.5 MB
+**Audience**: AI developers, Agent architects, systematic learners
+**Content Summary**:
+- Complete analysis of 21 core Agent design patterns
+- Systematic learning path from basics to advanced
+- Includes 7 appendices (advanced technical topics)
+- Professional Chinese translation, easy to understand
+
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/agentic-design-patterns-chinese.pdf)
+
+---
+
+### 🌏 agentic-design-patterns-bilingual.pdf (Chinese-English Bilingual Version)
+
+**File Size**: 4.3 MB
+**Audience**: Technical English learners, deep researchers
+**Content Summary**:
+- Chinese-English bilingual layout
+- Suitable for learning technical terminology and professional expressions
+- Improve technical English reading skills
+- Reference original text for technical details
+
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/agentic-design-patterns-bilingual.pdf)
+
+**Learning Recommendations**:
+- Beginners: Start with the Chinese version to establish overall understanding
+- Advanced learners: Use bilingual version to deeply understand technical details
+- Combine with online tutorials for practical exercises
+
+**Online Version**: [Agent Design Patterns Complete Tutorial](/en/5-skills/agent/design-patterns/README.en.md)
+
+---
+
+## OpenClaw Tutorial
 
 ### 1. OpenClaw从入门到精通-v1.3.1.pdf
 **File Size**: 8.4 MB
@@ -81,8 +123,9 @@ OpenClaw is an open-source AI Agent development platform that helps developers q
 
 ## 📝 Update Log
 
-- **2026-03-24**: Initial version, added two tutorial documents
+- **2026-04-18**: Added Agent Design Patterns tutorial PDFs (Chinese + Bilingual versions)
+- **2026-03-24**: Initial version, added OpenClaw tutorial documents
 
 ---
 
-**Last Updated**: 2026-03-24
+**Last Updated**: 2026-04-18

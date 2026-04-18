@@ -1,16 +1,58 @@
 ---
-title: "OpenClaw 小龙虾 PDF 教程资源"
+title: "PDF学习资料"
 difficulty: beginner
-roles: [everyone]
+roles: [everyone, programmer, ai-developer]
 type: guide
 duration: 10min
+tags: [pdf, download, learning-materials, agent, openclaw]
 ---
 
-# OpenClaw 小龙虾 PDF 教程资源
+# PDF学习资料
 
-本目录包含 OpenClaw（小龙虾）平台的详细教程文档，供读者学习和参考。
+本目录包含多个项目的详细教程PDF文档，供读者离线学习和参考。
 
 ## 📚 资源列表
+
+---
+
+## Agent 设计模式完整教程
+
+### 📘 agentic-design-patterns-chinese.pdf（中文版）
+
+**文件大小**：3.5 MB
+**适用人群**：AI开发者、Agent架构师、系统学习者
+**内容简介**：
+- 21种Agent核心设计模式完整解析
+- 从基础到高级的系统学习路径
+- 包含7个附录（高级技术专题）
+- 中文专业翻译，易于理解
+
+**下载链接**：[点击下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/agentic-design-patterns-chinese.pdf)
+
+---
+
+### 🌏 agentic-design-patterns-bilingual.pdf（中英双语版）
+
+**文件大小**：4.3 MB
+**适用人群**：技术英语学习者、深度研究者
+**内容简介**：
+- 中英文对照排版
+- 适合学习技术术语和专业表达
+- 提升技术英语阅读能力
+- 参考原文理解技术细节
+
+**下载链接**：[点击下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/agentic-design-patterns-bilingual.pdf)
+
+**学习建议**：
+- 初学者推荐先读中文版建立整体认知
+- 进阶学习使用双语版深入理解技术细节
+- 配合网站在线教程进行实战练习
+
+**在线版本**：[Agent设计模式完整教程](/5-skills/agent/design-patterns/README.md)
+
+---
+
+## OpenClaw 小龙虾教程
 
 ### 1. OpenClaw从入门到精通-v1.3.1.pdf
 **文件大小**：8.4 MB
@@ -81,8 +123,9 @@ OpenClaw（小龙虾）是一个开源的 AI Agent 开发平台，帮助开发�
 
 ## 📝 更新记录
 
-- **2026-03-24**：初始版本，添加两份教程文档
+- **2026-04-18**：新增Agent Design Patterns教程PDF（中文版+双语版）
+- **2026-03-24**：初始版本，添加OpenClaw教程文档
 
 ---
 
-**最后更新**：2026-03-24
+**最后更新**：2026-04-18

@@ -122,6 +122,22 @@ source:
 
 ## 相关资源
 
+### 📥 PDF离线版本
+
+如果你喜欢离线阅读，我们也提供完整的PDF版本：
+
+- **中文版PDF**：[agentic-design-patterns-chinese.pdf](../../../assets/pdf/agentic-design-patterns-chinese.pdf) - 完整中文翻译版本
+- **中英双语版PDF**：[agentic-design-patterns-bilingual.pdf](../../../assets/pdf/agentic-design-patterns-bilingual.pdf) - 中英文对照版本
+
+> **PDF文档下载页面**：[assets/pdf/readme.md](../../../assets/pdf/readme.md) - 包含所有PDF学习资料
+
+**学习建议**：
+- 初学者推荐先阅读中文版PDF建立整体认知
+- 进阶学习使用双语版深入理解技术细节
+- 配合本在线教程进行实战练习
+
+---
+
 ### GitHub仓库
 - **中文仓库**：https://github.com/xindoo/agentic-design-patterns
 - **英文仓库**：https://github.com/Mathews-Tom/Agentic-Design-Patterns
