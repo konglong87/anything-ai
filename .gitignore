@@ -49,7 +49,11 @@ PROJECT_PLAN.md
 plans/
 plan/
 memory/
-docs/plans/
+docs/
+
+# Documentation specs and plans (don't commit)
+docs/superpowers/specs/
+docs/superpowers/plans/
 
 # IDE and Config Files
 .idea/
