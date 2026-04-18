@@ -117,6 +117,18 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Agent设计模式',
+              collapsible: true,
+              collapsed: false,
+              items: [
+                { text: '教程概述', link: '/5-skills/agent/design-patterns/README.html' },
+                { text: '第1章：提示词链', link: '/5-skills/agent/design-patterns/chapters/01-prompt-chaining.html' },
+                { text: '第2章：路由', link: '/5-skills/agent/design-patterns/chapters/02-routing.html' },
+                { text: '第3章：并行化', link: '/5-skills/agent/design-patterns/chapters/03-parallelization.html' },
+                { text: '查看完整目录', link: '/5-skills/agent/design-patterns/README.html#学习路径' }
+              ]
+            },
+            {
               text: 'AI Skills',
               collapsed: true,
               items: [
@@ -249,6 +261,18 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Hermes Agent', link: '/en/3-ai-agents/hermes-agent/README.html' }
+              ]
+            },
+            {
+              text: 'Agent Design Patterns',
+              collapsible: true,
+              collapsed: false,
+              items: [
+                { text: 'Course Overview', link: '/en/5-skills/agent/design-patterns/README.en.html' },
+                { text: 'Chapter 1: Prompt Chaining', link: '/en/5-skills/agent/design-patterns/chapters/01-prompt-chaining.en.html' },
+                { text: 'Chapter 2: Routing', link: '/en/5-skills/agent/design-patterns/chapters/02-routing.en.html' },
+                { text: 'Chapter 3: Parallelization', link: '/en/5-skills/agent/design-patterns/chapters/03-parallelization.en.html' },
+                { text: 'Full Catalog', link: '/en/5-skills/agent/design-patterns/README.en.html#learning-path' }
               ]
             },
             {
