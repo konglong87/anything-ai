@@ -41,7 +41,20 @@ tags: [development, code-generation, tools]
 - **实测效果**: 2.5小时完成项目全流程设计
 - **详细文档**: [查看详情](./gstack-claude-code.md)
 
-### 3. awesome-agent-skills
+### 3. Karpathy Guidelines - LLM编码行为指南
+- **GitHub**: [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
+- **灵感来源**: Andrej Karpathy 对 LLM 编码陷阱的观察
+- **功能**: 四大原则改善AI编码行为——编码前思考、简洁优先、精准修改、目标驱动执行
+- **使用场景**: 代码审查、新功能开发、Bug修复、代码重构
+- **核心原则**:
+  - 编码前思考：不要假设，呈现权衡
+  - 简洁优先：用最少的代码解决问题
+  - 精准修改：只碰必须碰的代码
+  - 目标驱动执行：定义成功标准，循环验证
+- **支持工具**: Claude Code（插件）、Cursor（项目规则）、通用（CLAUDE.md）
+- **详细文档**: [查看详情](./karpathy-guidelines.md)
+
+### 4. awesome-agent-skills
 - **GitHub**: [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - **功能**: Agent技能集合
 - **使用场景**: Agent开发、自动化任务

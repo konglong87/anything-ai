@@ -27,11 +27,13 @@ tags: [skills, index, catalog]
 ### 💻 开发相关类 (Development)
 - [GStack](./development/gstack.md) - 技术栈管理，项目脚手架
 - [Gstack (Claude Code Skills)](./development/gstack-claude-code.md) - YC创业方法论，Claude Code技能包，26个斜杠命令覆盖全流程
+- [Karpathy Guidelines](./development/karpathy-guidelines.md) - LLM编码行为指南，四大原则改善AI编码质量
 - [Impeccable](./impeccable-skill/README.md) - 零设计基础也能写出专业级前端页面，18个命令覆盖前端开发全流程
 
 **适用场景**：
 - GStack：项目创建、技术栈配置、快速开发
 - Gstack (Claude Code)：0→1 MVP设计、产品审查、架构设计、安全审计
+- Karpathy Guidelines：代码审查、新功能开发、Bug修复、代码重构、AI编码质量提升
 - Impeccable：前端页面优化、响应式设计、动效添加、代码审核、工程化
 
 **详细文档**：[开发类Skills目录](./development/README.md)
@@ -99,10 +101,11 @@ tags: [skills, index, catalog]
 1. [GStack](./development/gstack.md) - 创建项目脚手架
 2. [Gstack (Claude Code Skills)](./development/gstack-claude-code.md) - YC创业方法论，产品设计和全流程开发
 3. [Impeccable](./impeccable-skill/README.md) - 前端页面优化，专业级效果
-4. [Planning with Files](./planning/planning-with-files.md) - 规划任务
-5. [Superpower Skills](./productivity/superpower-skills.md) - 自动化工作流
-6. [技能包设计模式课程](./course/README.md) - 掌握技能包设计理念
-7. [Obsidian Skills](./research/obsidian-skills.md) - 管理文档
+4. [Karpathy Guidelines](./development/karpathy-guidelines.md) - AI编码行为优化，减少过度工程
+5. [Planning with Files](./planning/planning-with-files.md) - 规划任务
+6. [Superpower Skills](./productivity/superpower-skills.md) - 自动化工作流
+7. [技能包设计模式课程](./course/README.md) - 掌握技能包设计理念
+8. [Obsidian Skills](./research/obsidian-skills.md) - 管理文档
 
 ### 研究与写作
 1. [AI Research Skills](./research/ai-research-skills.md) - 研究分析
@@ -127,6 +130,9 @@ tags: [skills, index, catalog]
 - [GStack](./development/gstack.md) ⭐⭐⭐⭐
 - [技能包设计模式课程](./course/README.md) ⭐⭐⭐⭐⭐
 
+### 代码质量
+- [Karpathy Guidelines](./development/karpathy-guidelines.md) ⭐⭐⭐⭐⭐
+
 ### 自动化
 - [Superpower Skills](./productivity/superpower-skills.md) ⭐⭐⭐⭐⭐
 - [Agent Skills](./agent/awesome-agent-skills.md) ⭐⭐⭐⭐
@@ -141,7 +147,7 @@ tags: [skills, index, catalog]
 
 ### 我是程序员
 → 首选：[GStack](./development/gstack.md)
-→ 搭配：[Planning with Files](./planning/planning-with-files.md)
+→ 搭配：[Karpathy Guidelines](./development/karpathy-guidelines.md) + [Planning with Files](./planning/planning-with-files.md)
 
 ### 我是研究者
 → 首选：[AI Research Skills](./research/ai-research-skills.md)
@@ -157,7 +163,7 @@ tags: [skills, index, catalog]
 
 ---
 
-## 📈 热门推荐 TOP 5
+## 📈 热门推荐 TOP 6
 
 1. **Gstack (Claude Code Skills)** - YC创业方法论技能包 ⭐⭐⭐⭐⭐
    - YC总裁Garry Tan开源，26个斜杠命令
@@ -165,23 +171,29 @@ tags: [skills, index, catalog]
    - 覆盖产品→架构→设计→测试→发布全流程
    - [查看详情](./development/gstack-claude-code.md)
 
-2. **Superpower Skills** - AI技能扩展平台 ⭐⭐⭐⭐⭐
+2. **Karpathy Guidelines** - LLM编码行为指南 ⭐⭐⭐⭐⭐
+   - 源自Andrej Karpathy对LLM编码陷阱的观察
+   - 四大原则：编码前思考、简洁优先、精准修改、目标驱动执行
+   - 支持Claude Code插件、Cursor规则、通用CLAUDE.md
+   - [查看详情](./development/karpathy-guidelines.md)
+
+3. **Superpower Skills** - AI技能扩展平台 ⭐⭐⭐⭐⭐
    - 丰富的技能库，易于安装配置
    - 工具集成，任务自动化，工作流优化
    - 支持Claude和ChatGPT
    - [查看详情](./productivity/superpower-skills.md)
 
-3. **Obsidian Skills** - 知识管理神器 ⭐⭐⭐⭐⭐
+4. **Obsidian Skills** - 知识管理神器 ⭐⭐⭐⭐⭐
    - 强大的笔记整理功能
    - 自动建立知识连接
    - [查看详情](./research/obsidian-skills.md)
 
-4. **AI Research Skills** - 研究利器 ⭐⭐⭐⭐⭐
+5. **AI Research Skills** - 研究利器 ⭐⭐⭐⭐⭐
    - 快速文献分析
    - 深度研究支持
    - [查看详情](./research/ai-research-skills.md)
 
-5. **GStack** - 项目脚手架工具 ⭐⭐⭐⭐
+6. **GStack** - 项目脚手架工具 ⭐⭐⭐⭐
    - 一键创建项目，配置完整技术栈
    - 支持多种框架和语言
    - [查看详情](./development/gstack.md)
@@ -196,6 +208,7 @@ tags: [skills, index, catalog]
 - [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [superpower-skills](https://github.com/superpower/skills)
 - [gstack](https://github.com/garrytan/gstack)
+- [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)
 
 ---
 
