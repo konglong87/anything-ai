@@ -5,7 +5,7 @@ roles: [everyone]
 type: guide
 duration: 5min
 tools: []
-tags: [Assets, 资源文件, 图片]
+tags: [Assets, 资源文件, 图片, pdf, workflow]
 ---
 
 # 资源文件说明
@@ -22,7 +22,13 @@ assets/
 │   ├── screenshots/  # 截图
 │   ├── diagrams/     # 图表
 │   └── logos/       # Logo
-├── docs/            # 文档资源
+├── pdf/             # PDF学习资料
+│   ├── readme.md    # PDF资料索引页
+│   ├── en/          # 英文版PDF索引
+│   ├── Agent设计模式教程（中文版+双语版）
+│   ├── OpenClaw小龙虾教程
+│   ├── AI工作流重构系列（3份）
+│   └── ...
 └── README.md        # 本文件
 ```
 
@@ -119,6 +125,27 @@ cp logo.svg assets/images/logos/
 
 ![Claude Logo](../assets/images/logos/claude.svg)
 ```
+
+## 📄 PDF学习资料
+
+PDF教程资源位于 `pdf/` 目录，包含以下分类：
+
+### Agent 设计模式教程
+- **agentic-design-patterns-chinese.pdf**（3.5 MB）- 21种Agent核心设计模式中文版
+- **agentic-design-patterns-bilingual.pdf**（4.3 MB）- 中英双语版
+
+### OpenClaw 小龙虾教程
+- **OpenClaw从入门到精通-v1.3.1.pdf**（8.4 MB）- 完整入门指南
+- **OpenClaw使用手册.pdf**（3.8 MB）- 快速参考手册
+
+### AI 工作流重构系列 🆕
+- **提示词组成工作流重构.pdf**（817 KB）- 提示词如何组合成高效工作流
+- **软件开发领域工作流重构.pdf**（880 KB）- 软件开发全流程AI工作流重构
+- **AI全栈开发助手工作流提示词.pdf**（196 KB）- 全栈开发工作流提示词模板
+
+👉 [查看完整PDF资料列表](./pdf/readme.html)
+
+---
 
 ## 🔗 相关资源
 

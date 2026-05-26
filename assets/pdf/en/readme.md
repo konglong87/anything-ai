@@ -4,7 +4,7 @@ difficulty: beginner
 roles: [everyone, programmer, ai-developer]
 type: guide
 duration: 10min
-tags: [pdf, download, learning-materials, agent, openclaw]
+tags: [pdf, download, learning-materials, agent, openclaw, workflow, prompt-engineering, fullstack]
 ---
 
 # PDF Learning Materials
@@ -80,6 +80,56 @@ This directory contains detailed tutorial PDF documentation for multiple project
 
 ---
 
+## AI Workflow Restructuring Series
+
+### 📗 提示词组成工作流重构.pdf (Prompt-Driven Workflow Restructuring)
+
+**File Size**: 817 KB
+**Audience**: AI prompt engineers, workflow designers, AI application developers
+**Content Summary**:
+- How prompts combine into efficient workflows
+- Core methodology for workflow restructuring
+- Evolution path from single prompts to systematic workflows
+- Real-world cases and best practices
+
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/提示词组成工作流重构.pdf)
+
+---
+
+### 📘 软件开发领域工作流重构.pdf (Software Development Workflow Restructuring)
+
+**File Size**: 880 KB
+**Audience**: Software engineers, tech leads, AI-assisted development practitioners
+**Content Summary**:
+- AI workflow restructuring solutions for the entire software development lifecycle
+- AI-empowered practices: Requirements → Architecture → Coding → Testing → Deployment
+- How development teams can systematically adopt AI workflows
+- Efficiency improvement data and real-world cases
+
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/软件开发领域工作流重构.pdf)
+
+---
+
+### 📙 AI全栈开发助手工作流提示词.pdf (AI Full-Stack Development Assistant Workflow Prompts)
+
+**File Size**: 196 KB
+**Audience**: Full-stack developers, AI coding assistant users, productivity tool enthusiasts
+**Content Summary**:
+- Workflow prompt design for AI full-stack development assistants
+- Covers frontend, backend, database, deployment and other full-stack scenarios
+- Ready-to-use prompt templates
+- Prompt optimization tips and parameter tuning methods
+
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/AI全栈开发助手工作流提示词.pdf)
+
+**Learning Recommendations**:
+- Start with "Prompt-Driven Workflow Restructuring" to understand workflow fundamentals
+- Then read "Software Development Workflow Restructuring" for domain-specific applications
+- Finally, practice with "AI Full-Stack Development Assistant Workflow Prompts"
+- These three documents form a complete learning loop: Theory → Domain → Practice
+
+---
+
 ## 🙏 Acknowledgments & Sources
 
 Thanks to the following resources and communities for providing learning materials:
@@ -123,9 +173,10 @@ OpenClaw is an open-source AI Agent development platform that helps developers q
 
 ## 📝 Update Log
 
+- **2026-05-26**: Added AI Workflow Restructuring Series PDFs (Prompt-Driven Workflow Restructuring, Software Development Workflow Restructuring, AI Full-Stack Development Assistant Workflow Prompts)
 - **2026-04-18**: Added Agent Design Patterns tutorial PDFs (Chinese + Bilingual versions)
 - **2026-03-24**: Initial version, added OpenClaw tutorial documents
 
 ---
 
-**Last Updated**: 2026-04-18
+**Last Updated**: 2026-05-26

@@ -143,6 +143,7 @@
 
 ## 20min
 
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [AI Tool Selection Matrix](2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
@@ -210,6 +211,8 @@
 
 ## 30min
 
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
 - [Start Here: AI Cognition Basics](0-start-here/README.md) - 30min (beginner)
 - [从这里开始：AI认知入门](0-start-here/README.md) - 30min (beginner)
 - [Learning Path Overview](0-start-here/learning-path.md) - 30min (beginner)

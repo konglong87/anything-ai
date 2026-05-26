@@ -78,6 +78,9 @@
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## ai-engineer
 
@@ -262,6 +265,9 @@
 - [资源文件说明](assets/README.md) - 5min (beginner)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 - [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
 - [为什么不需要AI焦虑](en/0-start-here/ai-anxiety.md) - 15min (beginner)
 - [Learning Path Overview](en/0-start-here/learning-path.md) - 30min (beginner)
@@ -488,6 +494,9 @@
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)

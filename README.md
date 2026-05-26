@@ -113,6 +113,7 @@
 
 **📥 PDF教程资源**：
 - [OpenClaw 小龙虾教程](./assets/pdf/readme.md) - 从入门到精通完整教程（免费下载）
+- [AI工作流重构系列](./assets/pdf/readme.md#ai-工作流重构系列教程) - 提示词工作流+软件开发工作流+全栈开发助手（免费下载）🆕
 
 **🎯 AI Skills工具箱**：
 - [AI Skills精选集合](./5-skills/README.html) - 提升AI使用效率的技能工具箱

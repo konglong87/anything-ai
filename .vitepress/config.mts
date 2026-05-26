@@ -170,7 +170,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '资源索引', link: '/assets/README.html' },
-                { text: 'PDF教程', link: '/assets/pdf/readme.html' }
+                { text: 'PDF教程', link: '/assets/pdf/readme.html' },
+                { text: '工作流重构系列', link: '/assets/pdf/readme.html#ai-工作流重构系列教程' }
               ]
             }
           ]
@@ -313,7 +314,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Assets Index', link: '/en/assets/README.html' },
-                { text: 'PDF Tutorials', link: '/en/assets/pdf/readme.html' }
+                { text: 'PDF Tutorials', link: '/en/assets/pdf/readme.html' },
+                { text: 'Workflow Restructuring', link: '/en/assets/pdf/readme.html#ai-workflow-restructuring-series' }
               ]
             }
           ]

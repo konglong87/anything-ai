@@ -3569,7 +3569,59 @@
       "download",
       "learning-materials",
       "agent",
-      "openclaw"
+      "openclaw",
+      "workflow",
+      "prompt-engineering",
+      "fullstack"
+    ]
+  },
+  {
+    "title": "提示词组成工作流重构",
+    "path": "assets/pdf/提示词组成工作流重构.pdf",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "pdf",
+      "workflow",
+      "prompt-engineering"
+    ]
+  },
+  {
+    "title": "软件开发领域工作流重构",
+    "path": "assets/pdf/软件开发领域工作流重构.pdf",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "pdf",
+      "workflow",
+      "software-development"
+    ]
+  },
+  {
+    "title": "AI全栈开发助手工作流提示词",
+    "path": "assets/pdf/AI全栈开发助手工作流提示词.pdf",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "20min",
+    "tags": [
+      "pdf",
+      "workflow",
+      "fullstack",
+      "prompt-engineering"
     ]
   },
   {

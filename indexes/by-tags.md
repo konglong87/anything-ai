@@ -699,6 +699,11 @@
 - [预训练与微调](1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
 - [Pretraining and Finetuning](en/1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
 
+## prompt-engineering
+
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
+
 ## Probability
 
 - [Probabilistic Prediction](1-understand-ai/how-ai-thinks/probabilistic-prediction.md) - 15 min (beginner)
@@ -934,6 +939,9 @@
 ## Workflow
 
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## Writing
 
@@ -1074,6 +1082,9 @@
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## agents
 
@@ -1367,6 +1378,9 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## efficiency
 
@@ -1437,6 +1451,10 @@
 
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+
+## fullstack
+
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## guardrails
 
@@ -1524,6 +1542,9 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## learning-path
 
@@ -1574,6 +1595,9 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## optimization
 
@@ -1605,6 +1629,9 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
+- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
+- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## performance
 
