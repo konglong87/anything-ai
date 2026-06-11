@@ -102,6 +102,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/4-advanced-topics/README.html' },
+                { text: 'Loop Engineering 🆕', link: '/4-advanced-topics/loop-engineering' },
                 { text: '提示词工程', link: '/4-advanced-topics/prompt-engineering' },
                 { text: '模型微调', link: '/4-advanced-topics/model-fine-tuning' },
                 { text: 'RAG', link: '/4-advanced-topics/rag' },
@@ -250,6 +251,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Overview', link: '/en/4-advanced-topics/README.html' },
+                { text: 'Loop Engineering 🆕', link: '/en/4-advanced-topics/loop-engineering' },
                 { text: 'Prompt Engineering', link: '/en/4-advanced-topics/prompt-engineering' },
                 { text: 'Model Fine-tuning', link: '/en/4-advanced-topics/model-fine-tuning' },
                 { text: 'RAG', link: '/en/4-advanced-topics/rag' },
