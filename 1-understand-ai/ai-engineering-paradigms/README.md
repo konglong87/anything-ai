@@ -19,12 +19,15 @@ AI工程范式是指与AI模型协作的方法论体系。随着AI技术发展�
 - **Prompt Engineering** - 对话层：如何与AI沟通
 - **Context Engineering** - 信息层：给AI提供什么信息
 - **Harness Engineering** - 系统层：构建完整的AI工作系统
+- **Loop Engineering** - 自主层：让系统自己 prompt agent（2026.6 兴起）
 
-这三层不是替代关系，而是层层递进、相互支撑的体系。
+这四层不是替代关系，而是层层递进、相互支撑的体系。
+
+> ⚠️ **深刻认知**：无论 Harness 还是 Loop Engineering，本质都是**给 AI 打补丁**——因为当前 AI 能力还不够强，无法独立执行长线任务，所以我们需要这些工程手段来约束、引导、验证 AI 的工作。随着大模型能力越来越强，人类对中间过程的介入会越来越少。**我们目前处于一个发展的中间态。** 理解了这一点，才能既不低估当下这些范式的实用价值，也不高估它们的长期必要性。
 
 ---
 
-## 📊 三层范式对比
+## 📊 四层范式对比
 
 ### Prompt Engineering（提示词工程）
 
@@ -150,31 +153,73 @@ AI工程范式是指与AI模型协作的方法论体系。随着AI技术发展�
 - 质量评分
 ```
 
+### Loop Engineering（循环工程）
+
+**核心问题**：如何让系统自己 prompt agent，而不是你手动 prompt agent？
+
+**关注点**：
+- 自动化调度（Automations）
+- 并行隔离（Worktrees）
+- 项目知识固化（Skills）
+- 外部工具连接（Connectors）
+- 造/验分离（Sub-agents）
+- 跨运行状态记忆（Memory）
+
+**典型应用**：
+- 每日 CI 失败自动分诊与修复
+- 跨 turn 持续跑到目标满足的 `/goal`
+- 自动化代码审查 + 开 PR + 关联工单
+- 无人值守的长周期任务
+
+**关键要素**：
+1. **Automations** - 按计划触发，自行发现工作
+2. **Worktrees** - 并行 agent 不打架
+3. **Skills** - 项目知识写下来，不靠猜
+4. **Connectors** - 接入真实工具链
+5. **Sub-agents** - 造的验的分开
+6. **Memory** - 状态落磁盘，跨运行存活
+
+**示例**：
+```
+# Claude Code
+/goal "test/auth 下所有测试通过，且 lint 干净"
+
+# 每个工作日早上自动分诊
+/loop "读昨天 CI 失败和未关闭 issue，写进 TODO.md" --schedule "0 9 * * 1-5"
+```
+
+> 📖 详见 [Loop Engineering 完整教程](../../4-advanced-topics/loop-engineering.md)
+
 ---
 
-## 🔄 三层关系
+## 🔄 四层关系
 
 ```
-┌─────────────────────────────────────────┐
-│        Harness Engineering              │  ← 系统层
-│  ┌───────────────────────────────────┐  │
-│  │      Context Engineering          │  │  ← 信息层
-│  │  ┌─────────────────────────────┐  │  │
-│  │  │    Prompt Engineering       │  │  │  ← 对话层
-│  │  │                             │  │  │
-│  │  └─────────────────────────────┘  │  │
-│  └───────────────────────────────────┘  │
-└─────────────────────────────────────────┘
+┌─────────────────────────────────────────────────┐
+│           Loop Engineering                      │  ← 自主层
+│  ┌───────────────────────────────────────────┐  │
+│  │        Harness Engineering                │  │  ← 系统层
+│  │  ┌─────────────────────────────────────┐  │  │
+│  │  │      Context Engineering            │  │  │  ← 信息层
+│  │  │  ┌───────────────────────────────┐  │  │  │
+│  │  │  │    Prompt Engineering         │  │  │  │  ← 对话层
+│  │  │  │                               │  │  │  │
+│  │  │  └───────────────────────────────┘  │  │  │
+│  │  └─────────────────────────────────────┘  │  │
+│  └───────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────┘
 ```
 
 **关系说明**：
-- **Harness包含Context**：Harness管理整个系统，Context是其中的一部分
-- **Context支撑Prompt**：好的上下文让提示词更有效
-- **Prompt是基础**：无论系统多复杂，最终还是要通过对话与AI交互
+- **Loop 包裹 Harness**：Loop 让 Harness 跑在定时器上、自我喂料、派生 agent
+- **Harness 包含 Context**：Harness 管理整个系统，Context 是其中的一部分
+- **Context 支撑 Prompt**：好的上下文让提示词更有效
+- **Prompt 是基础**：无论系统多复杂，最终还是要通过对话与 AI 交互
 
 **不是替代，而是升级**：
-- 掌握Prompt Engineering → 学会Context Engineering
-- 掌握Context Engineering → 学习Harness Engineering
+- 掌握 Prompt Engineering → 学会 Context Engineering
+- 掌握 Context Engineering → 学习 Harness Engineering
+- 掌握 Harness Engineering → 探索 Loop Engineering
 - 每一层都建立在前一层的基础上
 
 ---
@@ -233,10 +278,15 @@ AI工程范式是指与AI模型协作的方法论体系。随着AI技术发展�
 - 学习知识库构建
 - 实践中等复杂度任务
 
-**第4-6周：Harness Engineering**
+**第4-5周：Harness Engineering**
 - 学习系统架构
 - 掌握约束机制
 - 实践复杂项目
+
+**第6-8周：Loop Engineering**
+- 理解自动化调度
+- 学习子 agent 协作
+- 实践 `/goal` 和 `/loop`
 
 ### 进阶者路径
 
@@ -259,6 +309,7 @@ AI工程范式是指与AI模型协作的方法论体系。随着AI技术发展�
 - [提示词工程详解](./prompt-engineering/README.md)
 - [上下文工程详解](./context-engineering/README.md)
 - [驾驭AI工程详解](./harness-engineering/README.md)
+- [Loop Engineering 详解](../../4-advanced-topics/loop-engineering.md) 🆕
 
 ### 实战案例
 
@@ -298,12 +349,13 @@ AI工程范式是指与AI模型协作的方法论体系。随着AI技术发展�
 
 ## 总结
 
-AI工程范式的演进，标志着我们从「与AI对话」走向「构建AI系统」：
+AI工程范式的演进，标志着我们从「与AI对话」走向「构建AI系统」，再到「设计自主运行的系统」：
 
 **核心认知**：
-- ✅ Prompt Engineering是基础
-- ✅ Context Engineering是升级
-- ✅ Harness Engineering是体系化
+- ✅ Prompt Engineering 是基础
+- ✅ Context Engineering 是升级
+- ✅ Harness Engineering 是体系化
+- ✅ Loop Engineering 是自动化
 
 **实践建议**：
 1. 从简单任务开始
@@ -315,6 +367,51 @@ AI工程范式的演进，标志着我们从「与AI对话」走向「构建AI�
 - 没有最好的范式，只有最适合的
 - 不要为了技术而技术
 - 让问题驱动解决方案
+
+---
+
+## 🔮 深层反思：我们正处在一个"中间态"
+
+### 所有工程范式，本质上都是在给 AI 打补丁
+
+Harness Engineering 也好，Loop Engineering 也好，要解决的其实都是同一个问题：**当前 AI 的能力还不够。**
+
+- **Prompt Engineering**：AI 不够聪明，需要你精心措辞
+- **Context Engineering**：AI 记不住，需要你把信息喂到嘴边
+- **Harness Engineering**：AI 不可靠，需要硬约束、反馈循环、AI 查 AI
+- **Loop Engineering**：AI 不能自己跑长线任务，需要系统来调度
+
+这些范式都是**补丁**——在 AI 能力不足以独立完成长线任务时，人类用来填补空白的手段。
+
+### 趋势：人类介入越来越少
+
+```
+过去：人写每一行代码
+  ↓
+现在：人写 prompt，AI 写代码；人写 harness，AI 在有约束的框架里写代码
+  ↓
+正在：人设计 loop，系统 prompt agent，人只看结果
+  ↓
+未来：大模型能力越来越强 → 补丁一层层剥落 → 人类只需要定义目标
+```
+
+**Boris Cherny 说"我已经不 prompt Claude 了，我的工作是写 loop"，这是现在。但再往前一步——当模型本身就能理解上下文、自我验证、记住状态、跑长线任务——loop 也会变成过时的补丁。**
+
+### 承认我们处于中间态
+
+这不是否定 Harness 和 Loop 的价值。恰恰相反：
+
+- **正是因为我们处于中间态，这些范式才极其重要。** 它们是在当前 AI 能力边界下，最大化效能的工程手段。
+- **正是因为 AI 还会长期处于中间态，这些范式才值得严肃对待。** AGI 没那么快来，补丁还要打很久。
+- **正是因为知道它们是补丁，才不会过度设计。** 你需要一个能跑的系统，不是一座宏伟的纪念碑。
+
+**核心态度**：
+- ✅ 认真用好当前的范式——它们今天能让你快 10 倍
+- ✅ 理解它们的本质——它们是过渡期的产物
+- ✅ 保持敏锐——当模型能力跨越某个阈值时，勇敢地扔掉不再需要的补丁
+- ❌ 不要把补丁当真理——别把 Harness 或 Loop 当成"唯一正确的方式"
+
+> **Anything is AI, AI Native, Agent Native。未来都是 AI Agent、智能体、智能体蜂群。** 我们正在路上，但还没到终点。保持实践，保持清醒，保持辩证。
 
 ---
 

@@ -197,6 +197,7 @@ Loop 越快发布你没写的代码，仓库里"实际存在的东西"和你"真
 ## 🔗 延伸阅读
 
 ### 前置知识
+- [AI 工程范式演进](../../1-understand-ai/ai-engineering-paradigms/) - 理解 Prompt → Context → Harness → Loop 四层关系
 - [Agent 介绍](../../1-understand-ai/agent-intro/) - 理解 AI Agent 基础概念
 
 ### 相关概念

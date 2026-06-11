@@ -197,6 +197,7 @@ Scheduled loop + post-turn verification model + spawned sub-agents = tokens burn
 ## 🔗 Further Reading
 
 ### Prerequisites
+- [AI Engineering Paradigm Evolution](../../1-understand-ai/ai-engineering-paradigms/) - Understand the Prompt → Context → Harness → Loop four-layer relationship
 - [Agent Introduction](../../1-understand-ai/agent-intro/) - AI Agent fundamentals
 
 ### Related Concepts
