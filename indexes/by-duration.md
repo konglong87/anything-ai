@@ -143,7 +143,6 @@
 
 ## 20min
 
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [AI Tool Selection Matrix](2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
@@ -211,8 +210,6 @@
 
 ## 30min
 
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
 - [Start Here: AI Cognition Basics](0-start-here/README.md) - 30min (beginner)
 - [从这里开始：AI认知入门](0-start-here/README.md) - 30min (beginner)
 - [Learning Path Overview](0-start-here/learning-path.md) - 30min (beginner)
@@ -222,6 +219,8 @@
 - [Claude Code 示例集合](2-choose-tools/tools/claude/claude-code-examples.md) - 30min (beginner)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
 - [Advanced Prompting Techniques](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
 - [高级提示技术](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)

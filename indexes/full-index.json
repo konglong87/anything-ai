@@ -1355,6 +1355,52 @@
     ]
   },
   {
+    "title": "Loop Engineering: From Writing Prompts to Designing Autonomous Workflows",
+    "path": "4-advanced-topics/loop-engineering.en.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "codex",
+      "cursor"
+    ],
+    "tags": [
+      "Agent",
+      "Loop Engineering",
+      "Automation",
+      "AI Engineering",
+      "Agentic AI"
+    ]
+  },
+  {
+    "title": "Loop Engineering：从写提示词到设计自主工作流",
+    "path": "4-advanced-topics/loop-engineering.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "codex",
+      "cursor"
+    ],
+    "tags": [
+      "Agent",
+      "Loop Engineering",
+      "自动化",
+      "AI工程",
+      "Agentic AI"
+    ]
+  },
+  {
     "title": "Machine Learning Basics",
     "path": "4-advanced-topics/ml-basics.en.md",
     "difficulty": "intermediate",
@@ -3531,7 +3577,9 @@
     "tags": [
       "Assets",
       "资源文件",
-      "图片"
+      "图片",
+      "pdf",
+      "workflow"
     ]
   },
   {
@@ -3550,7 +3598,10 @@
       "download",
       "learning-materials",
       "agent",
-      "openclaw"
+      "openclaw",
+      "workflow",
+      "prompt-engineering",
+      "fullstack"
     ]
   },
   {
@@ -3573,55 +3624,6 @@
       "workflow",
       "prompt-engineering",
       "fullstack"
-    ]
-  },
-  {
-    "title": "提示词组成工作流重构",
-    "path": "assets/pdf/提示词组成工作流重构.pdf",
-    "difficulty": "beginner",
-    "roles": [
-      "programmer",
-      "ai-developer"
-    ],
-    "type": "guide",
-    "duration": "30min",
-    "tags": [
-      "pdf",
-      "workflow",
-      "prompt-engineering"
-    ]
-  },
-  {
-    "title": "软件开发领域工作流重构",
-    "path": "assets/pdf/软件开发领域工作流重构.pdf",
-    "difficulty": "intermediate",
-    "roles": [
-      "programmer",
-      "ai-developer"
-    ],
-    "type": "guide",
-    "duration": "30min",
-    "tags": [
-      "pdf",
-      "workflow",
-      "software-development"
-    ]
-  },
-  {
-    "title": "AI全栈开发助手工作流提示词",
-    "path": "assets/pdf/AI全栈开发助手工作流提示词.pdf",
-    "difficulty": "intermediate",
-    "roles": [
-      "programmer",
-      "ai-developer"
-    ],
-    "type": "guide",
-    "duration": "20min",
-    "tags": [
-      "pdf",
-      "workflow",
-      "fullstack",
-      "prompt-engineering"
     ]
   },
   {

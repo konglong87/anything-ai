@@ -36,6 +36,13 @@ duration: 1hour
 - Implementation approaches
 - Best practices
 
+### ⭐ [Loop Engineering: From Prompting to Autonomous Workflows](./loop-engineering.en.md)
+**New paradigm (June 2026)** — AI engineering shifts from "manually prompting agents" to "designing systems that prompt agents"
+- Six building blocks: Automations, Worktrees, Skills, Connectors, Sub-agents, Memory
+- The essential difference between Loop and Prompt Engineering
+- Complete loop construction guide and caveats
+- Claude Code vs Codex implementation comparison
+
 ### Agent Development
 
 - Agent frameworks

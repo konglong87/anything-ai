@@ -200,6 +200,8 @@
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
 - [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
 - [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
@@ -309,6 +311,11 @@
 - [AI Agents on the CLI](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
 - [CLI上的AI智能体](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
 
+## codex
+
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+
 ## cot
 
 - [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
@@ -323,6 +330,8 @@
 
 ## cursor
 
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 
@@ -517,9 +526,6 @@
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 - [Start Here: AI Cognition Basics](en/0-start-here/README.md) - 30min (beginner)
 - [Understand AI: Deep Principles](en/1-understand-ai/README.md) - 2hour (intermediate)
 - [Tool Selection Matrix](en/2-choose-tools/README.md) - 15min (beginner)

@@ -61,6 +61,7 @@
 ## AI Engineering
 
 - [AI工程范式演进](1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 
 ## AI Fortune Telling
@@ -134,6 +135,10 @@
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 
+## AI工程
+
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+
 ## AI应用
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
@@ -180,6 +185,8 @@
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
@@ -189,6 +196,11 @@
 
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
+## Agentic AI
+
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 
 ## Analysis
 
@@ -227,6 +239,7 @@
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [AI Developer Tools Collection](en/resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [AI Developer Tools Collection](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
@@ -608,6 +621,11 @@
 - [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
+## Loop Engineering
+
+- [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+
 ## Machine Learning
 
 - [Machine Learning Basics](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
@@ -698,11 +716,6 @@
 - [Pretraining and Finetuning](1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
 - [预训练与微调](1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
 - [Pretraining and Finetuning](en/1-understand-ai/llm-basics/pretraining-finetuning.md) - 25 min (intermediate)
-
-## prompt-engineering
-
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## Probability
 
@@ -939,9 +952,6 @@
 ## Workflow
 
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## Writing
 
@@ -1082,9 +1092,6 @@
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## agents
 
@@ -1378,9 +1385,6 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## efficiency
 
@@ -1442,6 +1446,11 @@
 
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
 
+## fullstack
+
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+
 ## goal-setting
 
 - [Goal Setting and Monitoring](5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.md) - 30min (intermediate)
@@ -1451,10 +1460,6 @@
 
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
-
-## fullstack
-
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## guardrails
 
@@ -1542,9 +1547,6 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## learning-path
 
@@ -1595,9 +1597,6 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## optimization
 
@@ -1627,11 +1626,9 @@
 
 ## pdf
 
+- [资源文件说明](assets/README.md) - 5min (beginner)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
-- [提示词组成工作流重构](assets/pdf/提示词组成工作流重构.pdf) - 30min (beginner)
-- [软件开发领域工作流重构](assets/pdf/软件开发领域工作流重构.pdf) - 30min (intermediate)
-- [AI全栈开发助手工作流提示词](assets/pdf/AI全栈开发助手工作流提示词.pdf) - 20min (intermediate)
 
 ## performance
 
@@ -1682,6 +1679,8 @@
 ## prompt-engineering
 
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 
 ## prompting
 
@@ -1942,6 +1941,9 @@
 - [提示词链](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [效率提升类Skills](5-skills/productivity/README.md) - 35min (beginner)
+- [资源文件说明](assets/README.md) - 5min (beginner)
+- [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
+- [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
 - [Chapter 3: Template Method Pattern - The Art of Workflow Orchestration](en/5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [Vibe Coding Beginner's Guide](en/roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
@@ -2185,6 +2187,7 @@
 ## 自动化
 
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+- [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 
 ## 自我测试
 

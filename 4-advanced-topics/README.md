@@ -50,6 +50,13 @@ duration: 1hour
 - 实现方案
 - 最佳实践
 
+### ⭐ [Loop Engineering：从写提示词到设计自主工作流](./loop-engineering.md)
+**2026年6月新范式** - AI工程从"手动prompt agent"到"设计系统prompt agent"
+- 六块构件：Automations、Worktrees、Skills、Connectors、Sub-agents、Memory
+- Loop vs Prompt Engineering 的本质区别
+- 完整loop的搭建指南和避坑警告
+- Claude Code 与 Codex 的落地实践对比
+
 ### Agent开发
 
 - Agent框架
