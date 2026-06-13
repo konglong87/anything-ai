@@ -11,9 +11,10 @@
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/github/stars/konglong87/anything-ai?style=social&amp;label=Star&amp;logo=github" alt="Star on GitHub"></a>
 </p>
 
-[![⭐ 给我们加星](https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge)](https://github.com/konglong87/anything-ai)
-
+<p style="display:flex;align-items:center;gap:12px;flex-wrap:nowrap;margin:0;">
 <iframe src="https://ghbtns.com/github-btn.html?user=konglong87&repo=anything-ai&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge" alt="⭐ 给我们加星"></a>
+</p>
 
 ---
 
