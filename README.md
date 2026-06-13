@@ -18,8 +18,6 @@
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge" alt="⭐ 给我们加星"></a>
 </p>
 
----
-
 ## 💡 这个项目是什么
 
 **Anything-AI** 是一个系统性的AI知识索引项目。

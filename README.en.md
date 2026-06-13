@@ -17,8 +17,6 @@
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/badge/⭐_Star_Us-anything--ai-orange?style=for-the-badge" alt="⭐ Star Us"></a>
 </p>
 
----
-
 ## 💡 What Is This Project
 
 **Anything-AI** is a systematic AI knowledge index project.
