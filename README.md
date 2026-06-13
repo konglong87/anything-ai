@@ -5,11 +5,11 @@
 > 实践出真知，时间是检验真理的唯一标准
 > 未来都是AI Agent，智能体，智能体蜂群
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Star on GitHub](https://img.shields.io/github/stars/konglong87/anything-ai?style=social&label=Star&logo=github)](https://github.com/konglong87/anything-ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![Star on GitHub](https://img.shields.io/github/stars/konglong87/anything-ai?style=social&label=Star&logo=github)](https://github.com/konglong87/anything-ai)
 
 [![⭐ 给我们加星](https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge)](https://github.com/konglong87/anything-ai)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=konglong87&repo=anything-ai&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
 ---
 
