@@ -6,6 +6,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Star on GitHub](https://img.shields.io/github/stars/konglong87/anything-ai?style=social&label=Star&logo=github)](https://github.com/konglong87/anything-ai)
+
+[![⭐ Star Us](https://img.shields.io/badge/⭐_Star_Us-anything--ai-orange?style=for-the-badge)](https://github.com/konglong87/anything-ai)
 
 ---
 

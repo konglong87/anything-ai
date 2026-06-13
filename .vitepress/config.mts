@@ -44,7 +44,8 @@ export default defineConfig({
           { text: 'AI Skills', link: '/5-skills/README.html' },
           { text: '提示词库', link: '/prompts/README.html' },
           { text: '外部资源', link: '/resources/README.html' },
-          { text: '资源下载', link: '/assets/README.html' }
+          { text: '资源下载', link: '/assets/README.html' },
+          { text: '⭐ Star', link: 'https://github.com/konglong87/anything-ai' }
         ],
         sidebar: {
           '/': [
@@ -193,7 +194,8 @@ export default defineConfig({
           { text: 'AI Skills', link: '/en/5-skills/README.html' },
           { text: 'Prompts', link: '/en/prompts/README.html' },
           { text: 'Resources', link: '/en/resources/README.html' },
-          { text: 'Downloads', link: '/en/assets/README.html' }
+          { text: 'Downloads', link: '/en/assets/README.html' },
+          { text: '⭐ Star', link: 'https://github.com/konglong87/anything-ai' }
         ],
         sidebar: {
           '/en/': [

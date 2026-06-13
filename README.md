@@ -7,7 +7,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/konglong87/anything-ai?style=social)](https://github.com/konglong87/anything-ai/stargazers)
+[![Star on GitHub](https://img.shields.io/github/stars/konglong87/anything-ai?style=social&label=Star&logo=github)](https://github.com/konglong87/anything-ai)
+
+[![⭐ 给我们加星](https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge)](https://github.com/konglong87/anything-ai)
 
 ---
 
