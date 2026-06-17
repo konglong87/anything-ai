@@ -21,6 +21,7 @@ tags: [skills, collection, overview]
 - [Development Skills](./development/) - 开发相关Skills
 - [Planning Skills](./planning/) - 规划与组织类Skills
 - [Productivity Skills](./productivity/) - 效率提升类Skills
+- [职场生存技能](./career/) - 草台班子反利用与职业风控 ⭐ 新增
 - [Agent Skills](./agent/) - Agent相关Skills
 - [技能包设计模式课程](./course/README.md) - 从理论到实践，掌握AI技能包的核心设计理念
 

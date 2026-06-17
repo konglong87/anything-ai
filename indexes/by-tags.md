@@ -1184,6 +1184,10 @@
 
 - [AI代码审查实战案例](roles/programmer/code-review.md) - 30min (intermediate)
 
+## career
+
+- [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
+
 ## career development
 
 - [为什么不需要AI焦虑](0-start-here/ai-anxiety.md) - 15min (beginner)
@@ -2000,6 +2004,10 @@
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
+## 反利用
+
+- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+
 ## 命理分析
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
@@ -2155,6 +2163,11 @@
 
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## 生存
+
+- [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
+- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+
 ## 离线使用
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
@@ -2184,6 +2197,15 @@
 
 - [为什么不需要AI焦虑](0-start-here/ai-anxiety.md) - 15min (beginner)
 
+## 职业风控
+
+- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+
+## 职场
+
+- [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
+- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+
 ## 自动化
 
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
@@ -2197,6 +2219,10 @@
 
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
+## 草台班子
+
+- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
 ## 行业工具
 

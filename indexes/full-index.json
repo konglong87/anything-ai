@@ -3073,6 +3073,40 @@
     ]
   },
   {
+    "title": "职场生存技能",
+    "path": "5-skills/career/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "15min",
+    "tools": [],
+    "tags": [
+      "职场",
+      "生存",
+      "career"
+    ]
+  },
+  {
+    "title": "草台班子反利用指南",
+    "path": "5-skills/career/workplace-survival-guide.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "15min",
+    "tools": [],
+    "tags": [
+      "职场",
+      "生存",
+      "草台班子",
+      "职业风控",
+      "反利用"
+    ]
+  },
+  {
     "title": "编码标准 - 通用编码规范",
     "path": "5-skills/coding-standards/README.md",
     "difficulty": "beginner",
