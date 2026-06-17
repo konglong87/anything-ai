@@ -260,6 +260,7 @@
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
 - [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
@@ -334,6 +335,7 @@
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 
 ## deepseek
 

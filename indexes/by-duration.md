@@ -280,6 +280,7 @@
 - [优先级排序](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [规划与组织类Skills](5-skills/planning/README.md) - 30min (beginner)

@@ -598,6 +598,10 @@
 - [LangChain Resources](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [LangChain资源](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 
+## LLM-best-practices
+
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
+
 ## LangChain
 
 - [LangChain Resources](en/resources/specialized/langchain-resources.md) - 45 min (intermediate)
@@ -1253,6 +1257,10 @@
 - [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 
+## coding-guidelines
+
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
+
 ## collaboration
 
 - [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
@@ -1454,6 +1462,10 @@
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+
+## goal-driven
+
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 
 ## goal-setting
 
@@ -1759,6 +1771,10 @@
 - [Reflection](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
 - [反思](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
 
+## simplicity
+
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
+
 ## skills
 
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
@@ -1794,6 +1810,10 @@
 
 - [第5章：策略模式 - 灵活决策机制](5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
 - [Chapter 5: Strategy Pattern - Flexible Decision-Making Mechanism](en/5-skills/course/chapter-05-strategy-pattern.md) - 65min (intermediate)
+
+## surgical-changes
+
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 
 ## systematic-learning
 

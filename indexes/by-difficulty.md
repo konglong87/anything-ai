@@ -320,6 +320,7 @@
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
 - [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)

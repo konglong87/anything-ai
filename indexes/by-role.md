@@ -488,6 +488,7 @@
 - [开发相关Skills](5-skills/development/README.md) - 35min (beginner)
 - [Gstack (Claude Code Skills) 详细指南](5-skills/development/gstack-claude-code.md) - 60min (intermediate)
 - [GStack 详细指南](5-skills/development/gstack.md) - 60min (beginner)
+- [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)

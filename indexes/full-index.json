@@ -3393,6 +3393,27 @@
     ]
   },
   {
+    "title": "Karpathy Guidelines 详细指南",
+    "path": "5-skills/development/karpathy-guidelines.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "cursor"
+    ],
+    "tags": [
+      "coding-guidelines",
+      "simplicity",
+      "surgical-changes",
+      "goal-driven",
+      "LLM-best-practices"
+    ]
+  },
+  {
     "title": "Impeccable - Professional Frontend Pages with Zero Design Background",
     "path": "5-skills/impeccable-skill/README.en.md",
     "difficulty": "beginner",
