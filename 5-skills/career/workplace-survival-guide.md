@@ -1,5 +1,5 @@
 ---
-title: "草台班子反利用指南"
+title: "普通打工人在草台班子公司怎么反利用"
 title_en: "How to Reverse-Exploit a Shoddy Organization"
 difficulty: intermediate
 roles: [everyone]
@@ -14,7 +14,7 @@ updated: 2026-06-17
 version: 1.0
 ---
 
-# 草台班子反利用指南：普通打工人的清醒生存术
+# 普通打工人在草台班子公司怎么反利用
 
 > **不要拯救草台班子，要反利用它。清醒的人拿它练手，糊涂的人被它消耗。**
 

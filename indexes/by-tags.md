@@ -2006,7 +2006,7 @@
 
 ## 反利用
 
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
 ## 命理分析
 
@@ -2166,7 +2166,7 @@
 ## 生存
 
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
 ## 离线使用
 
@@ -2199,12 +2199,12 @@
 
 ## 职业风控
 
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
 ## 职场
 
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
 ## 自动化
 
@@ -2222,7 +2222,7 @@
 
 ## 草台班子
 
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
 ## 行业工具
 

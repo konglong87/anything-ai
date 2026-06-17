@@ -311,7 +311,7 @@
 - [Prioritization](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
 - [优先级排序](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [第3章：模板方法模式 - 流程编排的艺术](5-skills/course/chapter-03-template-method-pattern.md) - 75min (intermediate)
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)

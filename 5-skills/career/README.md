@@ -15,7 +15,7 @@ tags: [职场, 生存, career]
 
 ## 📚 内容索引
 
-- [草台班子反利用指南](./workplace-survival-guide.md) - 普通打工人如何在混乱组织中实现反利用 ⭐ 推荐
+- [普通打工人在草台班子公司怎么反利用](./workplace-survival-guide.md) - 普通打工人如何在混乱组织中实现反利用 ⭐ 推荐
 
 ## 🎯 适用场景
 

@@ -262,7 +262,7 @@
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
 - [强化学习](4-advanced-topics/rl.md) - 60 min (advanced)
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
-- [草台班子反利用指南](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+- [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 - [资源文件说明](assets/README.md) - 5min (beginner)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
