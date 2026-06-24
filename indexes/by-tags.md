@@ -53,10 +53,18 @@
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 
+## AI Cognition
+
+- [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
 ## AI Communication
 
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+
+## AI Critique
+
+- [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 
 ## AI Engineering
 
@@ -143,6 +151,10 @@
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 
+## AI批判
+
+- [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
 ## AI焦虑
 
 - [为什么不需要AI焦虑](0-start-here/ai-anxiety.md) - 15min (beginner)
@@ -154,6 +166,10 @@
 ## AI编程
 
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
+
+## AI认知
+
+- [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 
 ## Academic
 
@@ -704,6 +720,10 @@
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 
+## Organizational Change
+
+- [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
 ## PM
 
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
@@ -736,6 +756,10 @@
 - [Model Deployment](4-advanced-topics/model-deployment.md) - 60 min (advanced)
 - [模型部署](4-advanced-topics/model-deployment.md) - 60 min (advanced)
 - [Model Deployment](en/4-advanced-topics/model-deployment.md) - 60 min (advanced)
+
+## Production Relations
+
+- [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 
 ## Programming
 
@@ -882,6 +906,10 @@
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Claude技能和工具资源](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
+## Solow Paradox
+
+- [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 
 ## System Prompts
 
@@ -2183,6 +2211,10 @@
 
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## 生产关系
+
+- [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
 ## 生存
 
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
@@ -2196,9 +2228,17 @@
 
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
+## 索洛悖论
+
+- [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
 ## 紫微斗数
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
+
+## 组织变革
+
+- [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 
 ## 编码
 

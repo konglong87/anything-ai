@@ -52,6 +52,24 @@
     ]
   },
   {
+    "title": "AI不是许愿池",
+    "path": "0-start-here/ai-not-wishing-well.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "20min",
+    "tools": [],
+    "tags": [
+      "AI认知",
+      "索洛悖论",
+      "生产关系",
+      "组织变革",
+      "AI批判"
+    ]
+  },
+  {
     "title": "Learning Path Overview",
     "path": "0-start-here/learning-path.en.md",
     "difficulty": "beginner",
@@ -3705,6 +3723,24 @@
       "AI anxiety",
       "mindset",
       "career development"
+    ]
+  },
+  {
+    "title": "AI Is Not a Wishing Well",
+    "path": "en/0-start-here/ai-not-wishing-well.en.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "20min",
+    "tools": [],
+    "tags": [
+      "AI Cognition",
+      "Solow Paradox",
+      "Production Relations",
+      "Organizational Change",
+      "AI Critique"
     ]
   },
   {

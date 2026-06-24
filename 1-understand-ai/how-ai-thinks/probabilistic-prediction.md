@@ -316,3 +316,4 @@ Transformer是一种深度学习架构，由Google在2017年提出。它使用�
 
 - [幻觉现象](./hallucination.md) - 了解AI为什么会"编造"信息
 - [推理能力](./reasoning.md) - 了解AI的推理机制
+- [AI不是许愿池](../../0-start-here/ai-not-wishing-well.md) - 理解为什么AI是概率模型而非神谕，批判"许愿池心态"

@@ -55,6 +55,7 @@ export default defineConfig({
               items: [
                 { text: 'AI是什么', link: '/0-start-here/what-is-ai' },
                 { text: '为什么不需要AI焦虑', link: '/0-start-here/ai-anxiety' },
+                { text: 'AI不是许愿池', link: '/0-start-here/ai-not-wishing-well' },
                 { text: '学习路径总览', link: '/0-start-here/learning-path' }
               ]
             },
@@ -206,6 +207,7 @@ export default defineConfig({
               items: [
                 { text: 'What is AI', link: '/en/0-start-here/what-is-ai' },
                 { text: 'Why No AI Anxiety', link: '/en/0-start-here/ai-anxiety' },
+                { text: 'AI Is Not a Wishing Well', link: '/en/0-start-here/ai-not-wishing-well' },
                 { text: 'Learning Path', link: '/en/0-start-here/learning-path' }
               ]
             },

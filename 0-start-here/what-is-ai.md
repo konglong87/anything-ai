@@ -238,6 +238,7 @@ AI学会了诊断
 
 ### 相关概念
 - [为什么不需要AI焦虑](./ai-anxiety.md) - 理性看待AI发展
+- [AI不是许愿池](./ai-not-wishing-well.md) - 批判对AI的错误期待，理解索洛悖论
 - [学习路径总览](./learning-path.md) - 如何系统学习AI
 - [AI工具选择矩阵](../2-choose-tools/tool-matrix.md) - 选择适合自己的AI工具
 

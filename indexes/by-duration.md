@@ -145,10 +145,12 @@
 
 ## 20min
 
+- [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
 - [AI Tool Selection Matrix](2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+- [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 - [AI Tool Selection Matrix](en/2-choose-tools/tool-matrix.md) - 20min (beginner)
 - [Vibe Coding Beginner's Guide](en/roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)

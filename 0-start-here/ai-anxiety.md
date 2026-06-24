@@ -279,6 +279,7 @@ AI不是在"取代"工作，而是在"转变"工作。大多数变化来自于�
 - [AI是什么](./what-is-ai.md) - 理解AI的基本概念和能力
 
 ### 相关概念
+- [AI不是许愿池](./ai-not-wishing-well.md) - 批判对AI的错误期待，理解索洛悖论
 - [学习路径总览](./learning-path.md) - 如何系统学习AI
 - [AI工具选择矩阵](../2-choose-tools/tool-matrix.md) - 选择适合自己的AI工具
 

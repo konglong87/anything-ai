@@ -420,3 +420,4 @@ AI可能编造：
 
 - [推理能力](./reasoning.md) - 了解AI的推理机制
 - [记忆机制](./memory-mechanisms.md) - 了解AI的记忆系统
+- [AI不是许愿池](../../0-start-here/ai-not-wishing-well.md) - 理解为什么AI幻觉让"许愿池心态"注定失败

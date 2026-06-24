@@ -22,7 +22,8 @@ duration: 30min
 
 1. **AI是什么** - `what-is-ai.md`
 2. **为什么不需要AI焦虑** - `ai-anxiety.md`
-3. **学习路径总览** - `learning-path.md`
+3. **AI不是许愿池** - `ai-not-wishing-well.md`
+4. **学习路径总览** - `learning-path.md`
 
 ## 🚀 下一步
 
