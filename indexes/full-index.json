@@ -5717,6 +5717,64 @@
     ]
   },
   {
+    "title": "System Prompts Leaks - Decoding AI's Hidden Instructions",
+    "path": "resources/external/system-prompts-leaks.en.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "researcher",
+      "advanced-user",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Copilot",
+      "Cursor"
+    ],
+    "tags": [
+      "System Prompt",
+      "Prompt Engineering",
+      "AI Principles",
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "LLM"
+    ]
+  },
+  {
+    "title": "系统提示词解密 - System Prompts Leaks",
+    "path": "resources/external/system-prompts-leaks.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "developer",
+      "researcher",
+      "advanced-user",
+      "ai-developer"
+    ],
+    "type": "guide",
+    "duration": "30 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "Copilot",
+      "Cursor"
+    ],
+    "tags": [
+      "System Prompt",
+      "Prompt Engineering",
+      "AI原理",
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "LLM"
+    ]
+  },
+  {
     "title": "Generative AI Resources",
     "path": "resources/generative-ai/awesome-ai-resources.en.md",
     "difficulty": "intermediate",

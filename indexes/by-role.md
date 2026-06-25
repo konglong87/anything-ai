@@ -15,6 +15,8 @@
 ## advanced-user
 
 - [AI Skills与工具链详解](2-choose-tools/skills-guide.md) - 20min (advanced)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## ai-developer
 
@@ -78,6 +80,8 @@
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
 - [PDF学习资料](assets/pdf/readme.md) - 10min (beginner)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## ai-engineer
 
@@ -202,6 +206,8 @@
 - [AI开发者工具集合](resources/ai-tools/awesome-ai-devtools.md) - 15 min (beginner)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [编码规则 - Coding Rules](resources/specialized/coding-rules/README.md) - 20min (intermediate)
 - [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
 - [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
@@ -611,6 +617,8 @@
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Research Writing Scenario Prompts](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 - [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 

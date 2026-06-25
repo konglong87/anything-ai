@@ -83,6 +83,10 @@
 - [AI Painting Resources](resources/specialized/ai-painting-resources.md) - 10 min (beginner)
 - [AI绘画资源](resources/specialized/ai-painting-resources.md) - 10 min (beginner)
 
+## AI Principles
+
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+
 ## AI Tools
 
 - [AI Tools Index](en/resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
@@ -133,6 +137,10 @@
 ## AI协作
 
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
+
+## AI原理
+
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## AI基础
 
@@ -306,6 +314,8 @@
 - [ChatGPT User Guide](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
 - [ChatGPT使用指南](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
 - [ChatGPT User Guide](en/2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## Claude
 
@@ -313,6 +323,8 @@
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Claude技能和工具资源](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 
@@ -491,6 +503,11 @@
 
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 
+## Gemini
+
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+
 ## Generative AI
 
 - [Generative AI Resources](en/resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
@@ -611,6 +628,8 @@
 - [LangChain Resources](en/resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [External Learning Resources](resources/external/external-resources.md) - 10 min (beginner)
 - [外部学习资源](resources/external/external-resources.md) - 10 min (beginner)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [LangChain Resources](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [LangChain资源](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 
@@ -793,6 +812,8 @@
 - [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [Prompt Engineering](en/4-advanced-topics/prompt-engineering.md) - 30 min (intermediate)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## Prompts
 
@@ -910,6 +931,11 @@
 ## Solow Paradox
 
 - [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
+## System Prompt
+
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## System Prompts
 

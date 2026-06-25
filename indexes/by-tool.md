@@ -47,6 +47,8 @@
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## Claude
 
@@ -78,15 +80,24 @@
 - [写作场景提示词](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [Claude Skills and Tools Resources](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Claude技能和工具资源](resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
+## Copilot
+
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## Cursor
 
 - [Cursor User Guide](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor使用指南](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor User Guide](en/2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## DeepSeek
 
@@ -120,6 +131,11 @@
 - [Prompt Engineering - 提示词工程](1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
 - [AI Engineering Paradigms Evolution](en/1-understand-ai/ai-engineering-paradigms/README.md) - 20 min (intermediate)
 - [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+
+## Gemini
+
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## GitHub Copilot
 

@@ -366,6 +366,8 @@
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [Generative AI Resources](resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
 - [生成式AI资源](resources/generative-ai/generative-ai-resources.md) - 30 min (intermediate)
 - [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)

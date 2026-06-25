@@ -209,6 +209,8 @@
 - [研究写作场景提示词](prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [System Prompt Guide](prompts/system-prompts.md) - 30 min (intermediate)
 - [系统提示词指南](prompts/system-prompts.md) - 30 min (intermediate)
+- [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+- [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [Generative AI Resources](resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
 - [生成式AI资源](resources/generative-ai/generative-ai-resources.md) - 30 min (intermediate)
 
