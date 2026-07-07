@@ -53,6 +53,10 @@
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 
+## AI Coding
+
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+
 ## AI Cognition
 
 - [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
@@ -173,6 +177,7 @@
 
 ## AI编程
 
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 
 ## AI认知
@@ -205,16 +210,20 @@
 - [Agent实践案例](1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Agent是什么](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 
 ## Agent System
 
@@ -309,6 +318,10 @@
 - [推理能力](1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
 - [Reasoning Capabilities](en/1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
 
+## Chain-of-Thought
+
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
+
 ## ChatGPT
 
 - [ChatGPT User Guide](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
@@ -316,6 +329,10 @@
 - [ChatGPT User Guide](en/2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
 - [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
+
+## China LLM
+
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 
 ## Claude
 
@@ -330,6 +347,7 @@
 
 ## Claude Code
 
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
@@ -338,11 +356,17 @@
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
+
+## Codex
+
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 
 ## Coding
 
@@ -394,8 +418,10 @@
 
 ## Cursor
 
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Cursor User Guide](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor使用指南](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Cursor User Guide](en/2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
@@ -415,9 +441,11 @@
 
 ## DeepSeek
 
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
 - [AI Fortune Teller Application Guide](roles/fortune-teller/README.md) - 30min (beginner)
@@ -503,6 +531,11 @@
 
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 
+## GLM
+
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+
 ## Gemini
 
 - [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
@@ -565,6 +598,11 @@
 - [AI Tools Index](en/resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
 - [AI Tools Index](resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
 - [AI工具索引](resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
+
+## Kimi
+
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 
 ## Knowledge Management
 
@@ -665,6 +703,11 @@
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 
+## MCP
+
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
+
 ## Machine Learning
 
 - [Machine Learning Basics](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
@@ -727,6 +770,7 @@
 
 ## Open Source
 
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
@@ -836,6 +880,15 @@
 - [AI Academic Writing Assistant](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 - [AI学术写作助手](resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 
+## Protocol
+
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
+
+## Qwen
+
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+
 ## RAG
 
 - [Memory Mechanisms](1-understand-ai/how-ai-thinks/memory-mechanisms.md) - 20 min (intermediate)
@@ -849,14 +902,17 @@
 
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
 - [强化学习](4-advanced-topics/rl.md) - 60 min (advanced)
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
 - [Reinforcement Learning](en/4-advanced-topics/rl.md) - 60 min (advanced)
 
 ## Reasoning
 
 - [Reasoning Capabilities](1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
 - [推理能力](1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [Reasoning Capabilities](en/1-understand-ai/how-ai-thinks/reasoning.md) - 20 min (intermediate)
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 
 ## Reinforcement Learning
@@ -953,6 +1009,10 @@
 - [TODO - 2026年3月](todo/todo_2026_03.md) - 5 min (beginner)
 - [2026-03-23 任务清单](todo/todo_2026_03_23.md) - 10min (beginner)
 
+## Test-Time Compute
+
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
+
 ## Tips
 
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
@@ -962,6 +1022,10 @@
 - [Tokenization](1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
 - [Tokenization](1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
 - [Tokenization](en/1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
+
+## Tool Calling
+
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 
 ## Tools
 
@@ -1006,6 +1070,10 @@
 ## UI设计
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
+## Vibe Coding
+
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 
 ## Workflow
 
@@ -2004,6 +2072,7 @@
 
 ## vibe coding
 
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Vibe Coding Beginner's Guide](en/roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
@@ -2027,6 +2096,10 @@
 - [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
 - [Vibe Coding Beginner's Guide](roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
+
+## 中国大模型
+
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 
 ## 产品经理
 
@@ -2077,6 +2150,10 @@
 ## 动效
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
+## 协议
+
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 
 ## 反利用
 
@@ -2159,6 +2236,10 @@
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 
+## 工具调用
+
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
+
 ## 工具选择
 
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
@@ -2174,12 +2255,17 @@
 
 ## 开源
 
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 
 ## 开源模型
 
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+
+## 强化学习
+
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
 
 ## 心态调整
 
@@ -2188,6 +2274,10 @@
 ## 快速开始
 
 - [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
+
+## 思维链
+
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
 
 ## 性能优化
 
@@ -2200,6 +2290,10 @@
 ## 推理
 
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+
+## 推理模型
+
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
 
 ## 教学方法
 

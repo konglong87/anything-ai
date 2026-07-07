@@ -67,7 +67,8 @@ export default defineConfig({
                 { text: 'AI工程范式', link: '/1-understand-ai/ai-engineering-paradigms/README.html' },
                 { text: 'LLM基础', link: '/1-understand-ai/llm-basics/transformer-intro' },
                 { text: 'AI如何思考', link: '/1-understand-ai/how-ai-thinks/reasoning' },
-                { text: 'Agent入门', link: '/1-understand-ai/agent-intro/agent-intro' }
+                { text: 'Agent入门', link: '/1-understand-ai/agent-intro/agent-intro' },
+                { text: '推理模型', link: '/1-understand-ai/reasoning-models' }
               ]
             },
             {
@@ -81,7 +82,9 @@ export default defineConfig({
                 { text: 'DeepSeek详细指南', link: '/2-choose-tools/tools/deepseek/README.html' },
                 { text: 'ChatGPT详细指南', link: '/2-choose-tools/tools/chatgpt/README.html' },
                 { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' },
-                { text: 'Hermes Agent', link: '/2-choose-tools/tools/hermes/README.html' }
+                { text: 'Hermes Agent', link: '/2-choose-tools/tools/hermes/README.html' },
+                { text: 'AI 编程 Agent 2026', link: '/2-choose-tools/ai-coding-agents-2026' },
+                { text: '中国大模型格局 2026', link: '/2-choose-tools/china-llm-landscape-2026' }
               ]
             },
             {
@@ -109,7 +112,8 @@ export default defineConfig({
                 { text: '模型微调', link: '/4-advanced-topics/model-fine-tuning' },
                 { text: 'RAG', link: '/4-advanced-topics/rag' },
                 { text: 'Agent开发', link: '/4-advanced-topics/agent-development' },
-                { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' }
+                { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' },
+                { text: 'MCP 模型上下文协议', link: '/4-advanced-topics/mcp' }
               ]
             },
             {
@@ -220,7 +224,8 @@ export default defineConfig({
                 { text: 'AI Engineering Paradigms', link: '/en/1-understand-ai/ai-engineering-paradigms/README.html' },
                 { text: 'LLM Basics', link: '/en/1-understand-ai/llm-basics/transformer-intro' },
                 { text: 'How AI Thinks', link: '/en/1-understand-ai/how-ai-thinks/reasoning' },
-                { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' }
+                { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' },
+                { text: 'Reasoning Models', link: '/en/1-understand-ai/reasoning-models' }
               ]
             },
             {
@@ -234,7 +239,9 @@ export default defineConfig({
                 { text: 'DeepSeek Guide', link: '/en/2-choose-tools/tools/deepseek/README.html' },
                 { text: 'ChatGPT Guide', link: '/en/2-choose-tools/tools/chatgpt/README.html' },
                 { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' },
-                { text: 'Hermes Agent', link: '/en/2-choose-tools/tools/hermes/README.html' }
+                { text: 'Hermes Agent', link: '/en/2-choose-tools/tools/hermes/README.html' },
+                { text: 'AI Coding Agents 2026', link: '/en/2-choose-tools/ai-coding-agents-2026' },
+                { text: 'China LLM Landscape 2026', link: '/en/2-choose-tools/china-llm-landscape-2026' }
               ]
             },
             {
@@ -262,7 +269,8 @@ export default defineConfig({
                 { text: 'Model Fine-tuning', link: '/en/4-advanced-topics/model-fine-tuning' },
                 { text: 'RAG', link: '/en/4-advanced-topics/rag' },
                 { text: 'Agent Development', link: '/en/4-advanced-topics/agent-development' },
-                { text: 'Deep Research Guide', link: '/en/4-advanced-topics/deep-research-guide' }
+                { text: 'Deep Research Guide', link: '/en/4-advanced-topics/deep-research-guide' },
+                { text: 'MCP (Model Context Protocol)', link: '/en/4-advanced-topics/mcp' }
               ]
             },
             {

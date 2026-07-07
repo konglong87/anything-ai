@@ -198,8 +198,16 @@
 
 ## chatgpt
 
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
@@ -211,6 +219,9 @@
 
 ## claude
 
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [Claude Usage Guide](2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
@@ -218,6 +229,7 @@
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
 - [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
 - [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
@@ -281,7 +293,11 @@
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
 - [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
 - [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
@@ -355,10 +371,18 @@
 
 ## deepseek
 
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](roles/programmer/code-assistant.md) - 30min (intermediate)
@@ -372,6 +396,11 @@
 
 - [Tool Use](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
 - [工具使用](5-skills/agent/design-patterns/chapters/05-tool-use.md) - 30min (advanced)
+
+## gemini
+
+- [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
+- [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
 
 ## github-copilot
 

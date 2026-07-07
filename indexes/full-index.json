@@ -645,6 +645,28 @@
     ]
   },
   {
+    "title": "推理模型与慢思考：AI 如何学会'想清楚再答'",
+    "path": "1-understand-ai/reasoning-models.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "gemini"
+    ],
+    "tags": [
+      "推理模型",
+      "Reasoning",
+      "思维链",
+      "强化学习"
+    ]
+  },
+  {
     "title": "Tool Selection Matrix",
     "path": "2-choose-tools/README.en.md",
     "difficulty": "beginner",
@@ -663,6 +685,52 @@
     ],
     "type": "guide",
     "duration": "15min"
+  },
+  {
+    "title": "AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选",
+    "path": "2-choose-tools/ai-coding-agents-2026.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "comparison",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "AI编程",
+      "Agent",
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "vibe coding"
+    ]
+  },
+  {
+    "title": "中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选",
+    "path": "2-choose-tools/china-llm-landscape-2026.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "comparison",
+    "duration": "30min",
+    "tools": [
+      "deepseek",
+      "chatgpt",
+      "claude"
+    ],
+    "tags": [
+      "中国大模型",
+      "DeepSeek",
+      "GLM",
+      "Kimi",
+      "Qwen",
+      "开源"
+    ]
   },
   {
     "title": "AI Skills与工具链详解",
@@ -1416,6 +1484,27 @@
       "自动化",
       "AI工程",
       "Agentic AI"
+    ]
+  },
+  {
+    "title": "MCP 模型上下文协议：让 AI Agent 连通万物的开放标准",
+    "path": "4-advanced-topics/mcp.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "MCP",
+      "Agent",
+      "协议",
+      "工具调用"
     ]
   },
   {
@@ -4075,6 +4164,28 @@
     ]
   },
   {
+    "title": "Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering",
+    "path": "en/1-understand-ai/reasoning-models.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "gemini"
+    ],
+    "tags": [
+      "Reasoning",
+      "Chain-of-Thought",
+      "RL",
+      "Test-Time Compute"
+    ]
+  },
+  {
     "title": "Tool Selection Matrix",
     "path": "en/2-choose-tools/README.md",
     "difficulty": "beginner",
@@ -4083,6 +4194,52 @@
     ],
     "type": "guide",
     "duration": "15min"
+  },
+  {
+    "title": "AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot",
+    "path": "en/2-choose-tools/ai-coding-agents-2026.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "comparison",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "AI Coding",
+      "Agent",
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "Vibe Coding"
+    ]
+  },
+  {
+    "title": "China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen",
+    "path": "en/2-choose-tools/china-llm-landscape-2026.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "everyone"
+    ],
+    "type": "comparison",
+    "duration": "30min",
+    "tools": [
+      "deepseek",
+      "chatgpt",
+      "claude"
+    ],
+    "tags": [
+      "China LLM",
+      "DeepSeek",
+      "GLM",
+      "Kimi",
+      "Qwen",
+      "Open Source"
+    ]
   },
   {
     "title": "AI Tool Selection Matrix",
@@ -4326,6 +4483,27 @@
     ],
     "type": "guide",
     "duration": "10min"
+  },
+  {
+    "title": "MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything",
+    "path": "en/4-advanced-topics/mcp.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "MCP",
+      "Agent",
+      "Protocol",
+      "Tool Calling"
+    ]
   },
   {
     "title": "Machine Learning Basics",
