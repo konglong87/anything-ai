@@ -181,6 +181,10 @@
 
 ## 25min
 
+- [AI 安全与对齐：提示注入、越狱与红队，普通人也要懂](1-understand-ai/ai-safety.md) - 25min (beginner)
+- [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
+- [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
+- [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [Vibe Coding Workflow Detailed Guide](en/roles/vibe-coding/workflow.md) - 25min (beginner)
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
@@ -231,6 +235,8 @@
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
+- [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+- [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
 - [AI Skills 完整索引](5-skills/INDEX.md) - 30min (beginner)
 - [Advanced Prompting Techniques](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
 - [高级提示技术](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
@@ -298,6 +304,8 @@
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
+- [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+- [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
 - [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
 - [UI Designer AI Application Guide](en/roles/designer/README.md) - 30min (beginner)
 - [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)

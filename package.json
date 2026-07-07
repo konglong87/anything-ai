@@ -34,7 +34,8 @@
     "check:links": "node scripts/check-links.js",
     "stats": "node scripts/stats.js",
     "fix-urls": "node scripts/fix-readme-urls.js",
-    "build": "npm run check && npm run index && npm run docs:build && npm run fix-urls",
+    "sitemap": "node scripts/generate-sitemap.js",
+    "build": "npm run check && npm run index && npm run docs:build && npm run fix-urls && npm run sitemap",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "devDependencies": {

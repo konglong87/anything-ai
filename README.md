@@ -7,7 +7,7 @@
 
 <p style="display:flex;align-items:center;gap:4px;flex-wrap:nowrap;margin:0;">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+<a href=".github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/github/stars/konglong87/anything-ai?style=social&amp;label=Star&amp;logo=github" alt="Star on GitHub"></a>
 </p>
 
@@ -614,6 +614,16 @@
 - 🐛 **指出错误** - 发现过时或不准确的信息
 
 详见 [贡献指南](./.github/CONTRIBUTING.md)
+
+### 📁 社区文件
+
+本项目遵循开源治理规范，相关文件位于 `.github/`：
+
+- 📄 [LICENSE](./LICENSE) — MIT 开源许可证
+- 🤝 [CONTRIBUTING](./.github/CONTRIBUTING.md) — 贡献指南（如何提 PR、加内容）
+- 📜 [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) — 社区行为准则
+- 🔒 [SECURITY](./.github/SECURITY.md) — 安全漏洞报告方式
+- 💬 [SUPPORT](./.github/SUPPORT.md) — 获取帮助渠道
 
 ---
 

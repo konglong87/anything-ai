@@ -91,6 +91,10 @@
 
 - [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
+## AI Safety
+
+- [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
+
 ## AI Tools
 
 - [AI Tools Index](en/resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
@@ -99,6 +103,10 @@
 - [AI工具索引](resources/ai-tools/ai-tools-index.md) - 10 min (beginner)
 - [AI Tools Resources](resources/ai-tools/ai-tools-resources.md) - 10 min (beginner)
 - [AI工具资源](resources/ai-tools/ai-tools-resources.md) - 10 min (beginner)
+
+## AI Video
+
+- [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
 ## AI anxiety
 
@@ -150,6 +158,10 @@
 
 - [AI是什么](0-start-here/what-is-ai.md) - 15min (beginner)
 
+## AI安全
+
+- [AI 安全与对齐：提示注入、越狱与红队，普通人也要懂](1-understand-ai/ai-safety.md) - 25min (beginner)
+
 ## AI工具
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
@@ -179,6 +191,10 @@
 
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
+
+## AI视频
+
+- [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
 ## AI认知
 
@@ -210,6 +226,7 @@
 - [Agent实践案例](1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
 - [Agent是什么](1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
@@ -221,6 +238,7 @@
 - [Agent Architecture](en/1-understand-ai/agent-intro/agent-architecture.md) - 25 min (intermediate)
 - [Agent Case Studies](en/1-understand-ai/agent-intro/agent-cases.md) - 30 min (intermediate)
 - [What is an Agent](en/1-understand-ai/agent-intro/agent-intro.md) - 15 min (beginner)
+- [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
@@ -234,6 +252,10 @@
 
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+
+## Alignment
+
+- [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
 
 ## Analysis
 
@@ -347,6 +369,7 @@
 
 ## Claude Code
 
+- [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
@@ -356,6 +379,7 @@
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
@@ -409,6 +433,11 @@
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
+
+## Cosmos
+
+- [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
+- [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
 
 ## Courses
 
@@ -497,6 +526,10 @@
 - [Learning Scenario Prompts](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [学习场景提示词](prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 
+## Embodied AI
+
+- [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
+
 ## Engineering
 
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
@@ -543,6 +576,7 @@
 
 ## Generative AI
 
+- [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
 - [Generative AI Resources](en/resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
 - [Modern Generative AI Resources](en/resources/generative-ai/generative-ai-resources.md) - 10 min (beginner)
 - [Generative AI Resources](resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
@@ -603,6 +637,10 @@
 
 - [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+
+## Kling
+
+- [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
 ## Knowledge Management
 
@@ -727,6 +765,10 @@
 
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
+## Multimodal
+
+- [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+
 ## NLP
 
 - [Tokenization](1-understand-ai/llm-basics/tokenization.md) - 15 min (beginner)
@@ -791,6 +833,10 @@
 
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
+## Physical AI
+
+- [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
 
 ## Prediction
 
@@ -859,6 +905,10 @@
 - [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
+## Prompt Injection
+
+- [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
+
 ## Prompts
 
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
@@ -915,6 +965,10 @@
 - [Reasoning Models & Slow Thinking: How AI Learned to Think Before Answering](en/1-understand-ai/reasoning-models.md) - 30min (intermediate)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 
+## Red Teaming
+
+- [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
+
 ## Reinforcement Learning
 
 - [Reinforcement Learning](4-advanced-topics/rl.md) - 60 min (advanced)
@@ -967,6 +1021,11 @@
 - [RAG（检索增强生成）](4-advanced-topics/rag.md) - 60 min (advanced)
 - [RAG (Retrieval-Augmented Generation)](en/4-advanced-topics/rag.md) - 60 min (advanced)
 
+## SKILL.md
+
+- [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
+- [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
+
 ## Self-hosted
 
 - [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
@@ -974,9 +1033,11 @@
 
 ## Skills
 
+- [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
 - [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
@@ -987,6 +1048,11 @@
 ## Solow Paradox
 
 - [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
+## Sora
+
+- [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+- [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
 ## System Prompt
 
@@ -1071,6 +1137,11 @@
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
+## Veo
+
+- [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+- [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+
 ## Vibe Coding
 
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
@@ -1078,6 +1149,10 @@
 ## Workflow
 
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
+
+## World Models
+
+- [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
 
 ## Writing
 
@@ -2097,6 +2172,10 @@
 - [Vibe Coding Beginner's Guide](roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
 
+## 世界模型
+
+- [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
+
 ## 中国大模型
 
 - [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
@@ -2143,6 +2222,10 @@
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
 
+## 具身智能
+
+- [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
+
 ## 前端开发
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
@@ -2159,6 +2242,10 @@
 
 - [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 
+## 可灵
+
+- [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+
 ## 命理分析
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
@@ -2174,6 +2261,10 @@
 ## 图片
 
 - [资源文件说明](assets/README.md) - 5min (beginner)
+
+## 多模态
+
+- [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
 ## 子代理
 
@@ -2221,6 +2312,10 @@
 ## 对比
 
 - [AI工具选择矩阵](2-choose-tools/tool-matrix.md) - 20min (beginner)
+
+## 对齐
+
+- [AI 安全与对齐：提示注入、越狱与红队，普通人也要懂](1-understand-ai/ai-safety.md) - 25min (beginner)
 
 ## 工作流
 
@@ -2295,6 +2390,10 @@
 
 - [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
 
+## 提示注入
+
+- [AI 安全与对齐：提示注入、越狱与红队，普通人也要懂](1-understand-ai/ai-safety.md) - 25min (beginner)
+
 ## 教学方法
 
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
@@ -2331,6 +2430,10 @@
 
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## 物理AI
+
+- [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
+
 ## 生产关系
 
 - [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
@@ -2339,6 +2442,10 @@
 
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
 - [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
+
+## 生成式AI
+
+- [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
 
 ## 离线使用
 
@@ -2355,6 +2462,10 @@
 ## 紫微斗数
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
+
+## 红队
+
+- [AI 安全与对齐：提示注入、越狱与红队，普通人也要懂](1-understand-ai/ai-safety.md) - 25min (beginner)
 
 ## 组织变革
 

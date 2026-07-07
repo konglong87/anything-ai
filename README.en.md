@@ -6,7 +6,7 @@
 
 <p style="display:flex;align-items:center;gap:4px;flex-wrap:nowrap;margin:0;">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+<a href=".github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/github/stars/konglong87/anything-ai?style=social&amp;label=Star&amp;logo=github" alt="Star on GitHub"></a>
 </p>
 
@@ -389,6 +389,16 @@ We especially welcome:
 - 🐛 **Point out errors** - Find outdated or inaccurate information
 
 See [Contributing Guide](./.github/CONTRIBUTING.md)
+
+### 📁 Community Files
+
+This project follows open-source governance. Related files live in `.github/`:
+
+- 📄 [LICENSE](./LICENSE) — MIT License
+- 🤝 [CONTRIBUTING](./.github/CONTRIBUTING.md) — How to contribute (PRs, content)
+- 📜 [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) — Community behavior standards
+- 🔒 [SECURITY](./.github/SECURITY.md) — How to report vulnerabilities
+- 💬 [SUPPORT](./.github/SUPPORT.md) — Where to get help
 
 ---
 

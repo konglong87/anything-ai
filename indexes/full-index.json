@@ -339,6 +339,28 @@
     ]
   },
   {
+    "title": "AI 安全与对齐：提示注入、越狱与红队，普通人也要懂",
+    "path": "1-understand-ai/ai-safety.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "AI安全",
+      "对齐",
+      "提示注入",
+      "红队"
+    ]
+  },
+  {
     "title": "Hallucination Phenomenon",
     "path": "1-understand-ai/how-ai-thinks/hallucination.en.md",
     "difficulty": "beginner",
@@ -685,6 +707,27 @@
     ],
     "type": "guide",
     "duration": "15min"
+  },
+  {
+    "title": "Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个",
+    "path": "2-choose-tools/agent-skills-guide.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "Agent",
+      "Skills",
+      "SKILL.md",
+      "Claude Code"
+    ]
   },
   {
     "title": "AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选",
@@ -1602,6 +1645,30 @@
     ]
   },
   {
+    "title": "全模态与 AI 视频生成：从「文生图」到「任意到任意」",
+    "path": "4-advanced-topics/multimodal-video.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "designer",
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "多模态",
+      "AI视频",
+      "Sora",
+      "Veo",
+      "可灵"
+    ]
+  },
+  {
     "title": "Natural Language Processing",
     "path": "4-advanced-topics/nlp.en.md",
     "difficulty": "intermediate",
@@ -1721,6 +1788,29 @@
     "tags": [
       "Reinforcement Learning",
       "RL"
+    ]
+  },
+  {
+    "title": "世界模型与具身智能：从「生成内容」到「理解并行动」",
+    "path": "4-advanced-topics/world-models.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "世界模型",
+      "具身智能",
+      "物理AI",
+      "Cosmos",
+      "生成式AI"
     ]
   },
   {
@@ -4011,6 +4101,28 @@
     ]
   },
   {
+    "title": "AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know",
+    "path": "en/1-understand-ai/ai-safety.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "AI Safety",
+      "Alignment",
+      "Prompt Injection",
+      "Red Teaming"
+    ]
+  },
+  {
     "title": "Hallucination Phenomenon",
     "path": "en/1-understand-ai/how-ai-thinks/hallucination.md",
     "difficulty": "beginner",
@@ -4194,6 +4306,27 @@
     ],
     "type": "guide",
     "duration": "15min"
+  },
+  {
+    "title": "Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own",
+    "path": "en/2-choose-tools/agent-skills-guide.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "Agent",
+      "Skills",
+      "SKILL.md",
+      "Claude Code"
+    ]
   },
   {
     "title": "AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot",
@@ -4553,6 +4686,30 @@
     ]
   },
   {
+    "title": "Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any",
+    "path": "en/4-advanced-topics/multimodal-video.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "designer",
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "Multimodal",
+      "AI Video",
+      "Sora",
+      "Veo",
+      "Kling"
+    ]
+  },
+  {
     "title": "Natural Language Processing",
     "path": "en/4-advanced-topics/nlp.md",
     "difficulty": "intermediate",
@@ -4611,6 +4768,29 @@
     "tags": [
       "Reinforcement Learning",
       "RL"
+    ]
+  },
+  {
+    "title": "World Models & Embodied AI: From Generating Content to Understanding and Acting",
+    "path": "en/4-advanced-topics/world-models.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "30min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "World Models",
+      "Embodied AI",
+      "Physical AI",
+      "Cosmos",
+      "Generative AI"
     ]
   },
   {

@@ -11,6 +11,19 @@ export default defineConfig({
   // 忽略死链接检查
   ignoreDeadLinks: true,
 
+  // 社交分享卡片 (Open Graph / Twitter Card)
+  head: [
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Anything-AI' }],
+    ['meta', { property: 'og:description', content: '系统性AI知识索引 - 帮助人们认识、理解和驾驭AI' }],
+    ['meta', { property: 'og:image', content: 'https://konglong87.github.io/anything-ai/og-image.png' }],
+    ['meta', { property: 'og:url', content: 'https://konglong87.github.io/anything-ai/' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Anything-AI' }],
+    ['meta', { name: 'twitter:description', content: '系统性AI知识索引 - 帮助人们认识、理解和驾驭AI' }],
+    ['meta', { name: 'twitter:image', content: 'https://konglong87.github.io/anything-ai/og-image.png' }]
+  ],
+
   // 排除不需要的目录
   srcExclude: [
     'indexes/**',
@@ -68,7 +81,8 @@ export default defineConfig({
                 { text: 'LLM基础', link: '/1-understand-ai/llm-basics/transformer-intro' },
                 { text: 'AI如何思考', link: '/1-understand-ai/how-ai-thinks/reasoning' },
                 { text: 'Agent入门', link: '/1-understand-ai/agent-intro/agent-intro' },
-                { text: '推理模型', link: '/1-understand-ai/reasoning-models' }
+                { text: '推理模型', link: '/1-understand-ai/reasoning-models' },
+                { text: 'AI安全与对齐', link: '/1-understand-ai/ai-safety' }
               ]
             },
             {
@@ -84,7 +98,8 @@ export default defineConfig({
                 { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' },
                 { text: 'Hermes Agent', link: '/2-choose-tools/tools/hermes/README.html' },
                 { text: 'AI 编程 Agent 2026', link: '/2-choose-tools/ai-coding-agents-2026' },
-                { text: '中国大模型格局 2026', link: '/2-choose-tools/china-llm-landscape-2026' }
+                { text: '中国大模型格局 2026', link: '/2-choose-tools/china-llm-landscape-2026' },
+                { text: 'Agent Skills 元指南', link: '/2-choose-tools/agent-skills-guide' }
               ]
             },
             {
@@ -113,7 +128,9 @@ export default defineConfig({
                 { text: 'RAG', link: '/4-advanced-topics/rag' },
                 { text: 'Agent开发', link: '/4-advanced-topics/agent-development' },
                 { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' },
-                { text: 'MCP 模型上下文协议', link: '/4-advanced-topics/mcp' }
+                { text: 'MCP 模型上下文协议', link: '/4-advanced-topics/mcp' },
+                { text: '世界模型与具身智能', link: '/4-advanced-topics/world-models' },
+                { text: '全模态与AI视频生成', link: '/4-advanced-topics/multimodal-video' }
               ]
             },
             {
@@ -225,7 +242,8 @@ export default defineConfig({
                 { text: 'LLM Basics', link: '/en/1-understand-ai/llm-basics/transformer-intro' },
                 { text: 'How AI Thinks', link: '/en/1-understand-ai/how-ai-thinks/reasoning' },
                 { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' },
-                { text: 'Reasoning Models', link: '/en/1-understand-ai/reasoning-models' }
+                { text: 'Reasoning Models', link: '/en/1-understand-ai/reasoning-models' },
+                { text: 'AI Safety & Alignment', link: '/en/1-understand-ai/ai-safety' }
               ]
             },
             {
@@ -241,7 +259,8 @@ export default defineConfig({
                 { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' },
                 { text: 'Hermes Agent', link: '/en/2-choose-tools/tools/hermes/README.html' },
                 { text: 'AI Coding Agents 2026', link: '/en/2-choose-tools/ai-coding-agents-2026' },
-                { text: 'China LLM Landscape 2026', link: '/en/2-choose-tools/china-llm-landscape-2026' }
+                { text: 'China LLM Landscape 2026', link: '/en/2-choose-tools/china-llm-landscape-2026' },
+                { text: 'Agent Skills Meta-Guide', link: '/en/2-choose-tools/agent-skills-guide' }
               ]
             },
             {
@@ -270,7 +289,9 @@ export default defineConfig({
                 { text: 'RAG', link: '/en/4-advanced-topics/rag' },
                 { text: 'Agent Development', link: '/en/4-advanced-topics/agent-development' },
                 { text: 'Deep Research Guide', link: '/en/4-advanced-topics/deep-research-guide' },
-                { text: 'MCP (Model Context Protocol)', link: '/en/4-advanced-topics/mcp' }
+                { text: 'MCP (Model Context Protocol)', link: '/en/4-advanced-topics/mcp' },
+                { text: 'World Models & Embodied AI', link: '/en/4-advanced-topics/world-models' },
+                { text: 'Omnimodal AI & Video Generation', link: '/en/4-advanced-topics/multimodal-video' }
               ]
             },
             {
