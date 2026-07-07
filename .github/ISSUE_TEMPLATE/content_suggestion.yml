@@ -1,0 +1,32 @@
+name: 📚 内容建议 / Content Suggestion
+description: 建议新增或改进某篇 AI 知识内容 / Suggest new or improved AI knowledge content
+title: "[内容] "
+labels: ["content"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: 内容类型 / Type
+      options:
+        - 概念科普 / Concept
+        - 使用教程 / Tutorial
+        - 实践指南 / Guide
+        - 行业案例 / Case
+        - 工具对比 / Comparison
+        - 其他 / Other
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: 主题 / Topic
+      placeholder: 例如：如何用 Claude 做代码审查 / e.g. Code review with Claude
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体内容或链接 / Details or links
+      description: 描述你希望补充的内容，或附上参考官方链接 / Describe what to add, or paste official reference links
+    validations:
+      required: true

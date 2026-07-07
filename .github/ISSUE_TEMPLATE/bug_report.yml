@@ -1,0 +1,38 @@
+name: 🐛 问题报告 / Bug Report
+description: 报告网站或内容中的错误 / Report an error on the site or in the content
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 问题范围 / Scope
+      options:
+        - 网站显示 / Site rendering
+        - 链接失效 / Broken link
+        - 内容错误 / Content error
+        - 构建 / 脚本 / Build or script
+        - 其他 / Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 问题描述 / What happened
+      description: 清楚描述问题 / Clearly describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: 复现位置 / Where
+      description: 页面 URL 或文件路径 / Page URL or file path
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息 / Additional info
+      description: 截图、环境等 / Screenshots, environment, etc.
+    validations:
+      required: false
