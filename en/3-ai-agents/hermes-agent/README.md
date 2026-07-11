@@ -1,5 +1,6 @@
 ---
 title: "Hermes Agent Complete Guide"
+title_en: "Hermes Agent Complete Guide"
 difficulty: intermediate
 roles: [programmer, developer, everyone]
 type: guide
@@ -13,50 +14,50 @@ tags: [Hermes, AI Agent, Self-hosted, Open Source, Long-term Memory, Skills, Nou
 > Open-source, self-hosted AI Agent with long-term memory and Skills system
 >
 > **GitHub**: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-> **Official**: [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/)
+> **Official Site**: [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/)
 > **Chinese Community**: [hermesagent.org.cn](https://hermesagent.org.cn/)
 
 ## 📖 Introduction
 
-**Hermes Agent** is an open-source AI Agent developed by [Nous Research](https://nousresearch.com), designed for long-term task execution and continuous operation. Unlike IDE assistants, Hermes emphasizes:
+**Hermes Agent** is an open-source AI Agent developed by [Nous Research](https://nousresearch.com), designed for long-term task execution and continuous operation scenarios. Unlike IDE assistants, Hermes emphasizes:
 
-- **Cross-session Memory** - Long-term memory of your projects, preferences, and work habits
-- **Reusable Skills** - Turn solved problems into reusable skills
-- **Multi-platform Message Gateway** - Stay online through Telegram, Discord, Lark, and more
+- **Cross-session memory** - Remembers your projects, preferences, and work habits long-term
+- **Reusable Skills** - Distill solved problems into reusable skills
+- **Multi-platform messaging gateways** - Stay online via Telegram, Discord, Feishu, etc.
 - **Self-hosted** - Full control over data and runtime environment
 
 ## ✨ Core Features
 
 ### 1. Long-term Memory & Skills
 
-**Cross-session Memory**
+**Cross-session memory**
 - Remembers project context, code structure, personal preferences
 - Continuously learns your work habits
 - Every conversation builds on historical context
 
-**Skills System**
-- Turn solved problems into reusable skills
+**Skills system**
+- Distill solved problems into reusable Skills
 - Compatible with [agentskills.io](https://agentskills.io) open format
-- Support team sharing and community contributions
+- Supports team sharing and community contributions
 
 ### 2. MCP & Tool Integration
 
-**40+ Built-in Tools**
+**40+ built-in tools**
 - Terminal command execution
 - File system operations
 - Browser automation
 - Image processing
-- TTS (Text-to-Speech)
+- TTS (text-to-speech)
 - Multi-model inference
 
-**MCP Support**
+**MCP support**
 - Compatible with Model Context Protocol
 - Extensible custom tools
 - Flexible toolset configuration
 
-### 3. Multi-platform Message Gateway
+### 3. Multi-platform Messaging Gateways
 
-**Social Platforms**
+**Social platforms**
 - Telegram
 - Discord
 - Slack
@@ -64,38 +65,38 @@ tags: [Hermes, AI Agent, Self-hosted, Open Source, Long-term Memory, Skills, Nou
 - Signal
 - WeChat
 
-**Enterprise Platforms**
-- WeCom (Enterprise WeChat)
-- Lark (Feishu)
+**Business platforms**
+- Enterprise WeChat
+- Feishu (Lark)
 - DingTalk
 
-**Use Case**: Keep your Agent online across multiple platforms, receive tasks and push results anywhere, anytime.
+**Use case**: Keep the Agent online across multiple platforms, receiving tasks and pushing results anytime, anywhere.
 
-### 4. Automation Scheduling
+### 4. Automated Scheduling
 
 **Built-in Cron**
 - Auto-generate daily reports
 - Scheduled backups
 - System health checks
-- Timely reminders
+- Timed reminders
 - Information scraping
 
 ### 5. Model Compatibility
 
-**Chinese Models**
-- Qwen (Alibaba)
+**Chinese models**
+- Qwen (Tongyi Qianwen)
 - GLM (Zhipu)
 - Kimi (Moonshot)
 - MiniMax
 
-**International Models**
+**International models**
 - Claude (Anthropic)
 - Gemini (Google)
 - Codex (OpenAI)
 
-**Other Interfaces**
-- OpenRouter and other proxies
-- OpenAI-compatible APIs
+**Other interfaces**
+- OpenRouter and other relay services
+- OpenAI-compatible interfaces
 - Local model support
 
 ## 🚀 Installation
@@ -103,7 +104,7 @@ tags: [Hermes, AI Agent, Self-hosted, Open Source, Long-term Memory, Skills, Nou
 ### System Requirements
 
 - Linux / macOS / WSL2 / Windows
-- Internet connection (for downloads and model calls)
+- Network connection (for downloads and model calls)
 - Optional: Docker environment
 
 ### Quick Install
@@ -120,12 +121,12 @@ curl -fsSL https://res1.hermesagent.org.cn/install.sh | bash
 irm https://res1.hermesagent.org.cn/install.ps1 | iex
 ```
 
-> **Note**: WSL2 is recommended for most Windows users as a long-term solution.
+> **Note**: WSL2 is the recommended long-term solution for most Windows users.
 
 ### Configure Model
 
 ```bash
-# Launch setup wizard
+# Start setup wizard
 hermes setup
 
 # Configure model
@@ -135,21 +136,21 @@ hermes model
 ### Start Conversation
 
 ```bash
-# Launch full TUI
+# Start full TUI
 hermes
 ```
 
-Features include:
+After launch, includes:
 - Multi-line input
 - Command completion
 - Context compression
 - Tool output streaming
 - Session history
 
-### Connect Message Gateway
+### Connect Messaging Gateway
 
 ```bash
-# Configure message gateway
+# Configure messaging gateway
 hermes gateway setup
 
 # Start gateway
@@ -158,48 +159,48 @@ hermes gateway
 
 ## 📚 Use Cases
 
-### Use Case 1: Terminal Task Execution
+### Case 1: Terminal Task Execution
 
 ```bash
 # Interact with Hermes directly in terminal
 hermes
 
-# Example: Analyze project code
-> Help me analyze the code structure of this project and find potential optimization points
+# Example: Ask Hermes to analyze project code
+> Analyze this project's code structure and find potential optimizations
 
 # Example: Generate daily report
 > Generate a daily report based on today's git commits
 ```
 
-### Use Case 2: Multi-platform Continuous Work
+### Case 2: Multi-platform Continuous Work
 
 **Configure Telegram Bot**
 ```bash
 hermes gateway setup telegram
 ```
 
-**Usage Scenario**
+**Use case**
 - Send tasks to Hermes via Telegram
-- Hermes pushes results when done
-- Interact with your Agent anywhere, anytime
+- Hermes processes and pushes results
+- Interact with Agent anytime, anywhere
 
-### Use Case 3: Automation Tasks
+### Case 3: Automated Tasks
 
-**Create Scheduled Tasks**
+**Create scheduled tasks**
 ```bash
 # Edit crontab
 hermes cron edit
 
-# Example: Generate daily report at 9 AM
+# Example: Generate daily report at 9am
 0 9 * * * hermes task daily-report
 
 # Example: System health check every hour
 0 * * * * hermes task system-check
 ```
 
-### Use Case 4: Long-term Project Assistant
+### Case 4: Long-term Project Assistant
 
-**Project Initialization**
+**Project initialization**
 ```bash
 # Create project config
 hermes project init my-project
@@ -208,10 +209,10 @@ hermes project init my-project
 hermes project config --name "My Project" --tech "Python, React"
 ```
 
-**Continuous Collaboration**
-- Hermes remembers project structure and code standards
+**Continuous collaboration**
+- Hermes remembers project structure and code conventions
 - Every conversation builds on project context
-- Skills accumulate project-specific knowledge
+- Skills distill project-specific knowledge
 
 ## 🔧 Advanced Configuration
 
@@ -239,55 +240,55 @@ hermes config set approval.timeout 300
 ### Container Isolation
 
 ```bash
-# Run tools in isolated containers
+# Run tools in isolated container
 hermes config set sandbox.enabled true
 hermes config set sandbox.image "hermes-sandbox:latest"
 ```
 
-### Vision Capabilities
+### Vision Features
 
 ```bash
-# Enable vision understanding
+# Enable visual understanding
 hermes config set vision.enabled true
 
-# Use vision features
-> Analyze the UI issues in this screenshot [upload image]
+# Use vision feature
+> Analyze UI issues in this screenshot [upload image]
 ```
 
-## 🆚 Comparison with OpenClaw
+## 🆚 Hermes Agent vs OpenClaw
 
 | Feature | Hermes Agent | OpenClaw |
 |---------|-------------|----------|
-| **Token Usage** | Lower (~30%) | Higher |
-| **Transparency** | High, visible execution steps | Medium |
-| **Long-term Memory** | Native support | Limited |
-| **Skills System** | Built-in, agentskills.io compatible | Requires extra config |
-| **Message Gateway** | Native multi-platform support | Requires extra integration |
-| **Migration** | `hermes claw migrate` one-click | - |
-| **Model Support** | Broad Chinese & international | Primarily Claude |
+| **Token consumption** | Lower (~30%) | Higher |
+| **Process transparency** | High, execution steps visible | Medium |
+| **Long-term memory** | Native support | Limited |
+| **Skills system** | Built-in, compatible with agentskills.io | Needs extra config |
+| **Messaging gateways** | Multi-platform native support | Needs extra integration |
+| **Migration support** | `hermes claw migrate` one-click | - |
+| **Model support** | Broad Chinese & international models | Primarily Claude |
 | **Community** | Active Chinese community | English community |
 
-**Recommendations**:
-- Need long-term memory & Skills → Hermes Agent
-- Need multi-platform message gateway → Hermes Agent
-- Need lower token consumption → Hermes Agent
-- Primarily use Claude → Either works
+**Selection advice**:
+- Need long-term memory and Skills → Hermes Agent
+- Need multi-platform messaging gateways → Hermes Agent
+- Need lower Token consumption → Hermes Agent
+- Primarily use Claude → Both work
 
 ## 🛠️ Migrating from OpenClaw
 
 ```bash
-# One-click migration
+# One-click migration command
 hermes claw migrate
 
-# Migrates:
-# - Configuration files
-# - Conversation history
+# Migration includes:
+# - Config files
+# - Historical sessions
 # - Custom settings
 ```
 
 ## 📊 Best Practices
 
-### 1. Project Initialization Workflow
+### 1. Project Initialization Flow
 
 ```bash
 # 1. Create project directory
@@ -306,26 +307,26 @@ hermes project config --tech "Python, FastAPI, PostgreSQL"
 hermes
 ```
 
-### 2. Skills Development Workflow
+### 2. Skills Development Flow
 
 ```bash
-# 1. Create skill
+# 1. Create Skill
 hermes skill create my-skill
 
-# 2. Define skill functionality
+# 2. Define Skill functionality
 # Edit ~/.hermes/skills/my-skill/skill.yaml
 
-# 3. Test skill
+# 3. Test Skill
 hermes skill test my-skill
 
-# 4. Publish skill (optional)
+# 4. Publish Skill (optional)
 hermes skill publish my-skill
 ```
 
-### 3. Team Collaboration Setup
+### 3. Team Collaboration Config
 
 ```bash
-# 1. Share project config
+# 1. Export project config
 hermes project export > project-config.yaml
 
 # 2. Team members import
@@ -333,7 +334,7 @@ git clone <project-repo>
 cd project
 hermes project import project-config.yaml
 
-# 3. Share skills
+# 3. Share Skills
 hermes skill share --team
 ```
 
@@ -346,21 +347,21 @@ hermes skill share --team
 
 ## 🆘 FAQ
 
-### Q: What's the difference between Hermes Agent and IDE assistants?
+### Q: How is Hermes Agent different from IDE assistants?
 
 **A**: Hermes emphasizes:
 - Long-term context retention (cross-session memory)
-- Reusable skills accumulation
-- Multi-platform message gateway
+- Reusable Skills distillation
+- Multi-platform messaging gateways
 - Self-hosting and data control
 
 ### Q: Where should Chinese users start?
 
 **A**:
-1. Visit Chinese community [hermesagent.org.cn](https://hermesagent.org.cn/)
-2. Check Chinese installation tutorial
-3. Windows users should check Windows installation guide first
-4. Join WeChat/Lark community groups
+1. Visit the Chinese community at [hermesagent.org.cn](https://hermesagent.org.cn/)
+2. Check the Chinese installation guide
+3. Windows users should prioritize the Windows installation guide
+4. Join WeChat/Feishu community groups
 
 ### Q: What deployment methods are supported?
 
@@ -369,27 +370,27 @@ hermes skill share --team
 - VPS server
 - Docker container
 - SSH remote environment
-- Cloud dev environment (GitHub Codespaces, etc.)
+- Cloud dev environments (GitHub Codespaces etc.)
 
-### Q: How to reduce token consumption?
+### Q: How to reduce Token consumption?
 
 **A**:
 - Enable context compression
-- Use appropriate models (Chinese models are cheaper)
-- Accumulate skills to reduce repeated reasoning
-- Configure command approval to avoid mistakes
+- Use appropriate models (Chinese models cost less)
+- Distill Skills to reduce repeated inference
+- Configure command approval to avoid accidental operations
 
 ## 📝 Summary
 
-Hermes Agent is an open-source AI Agent for long-term tasks and continuous operation, especially suitable for:
+Hermes Agent is an open-source AI Agent designed for long-term tasks and continuous operation, especially suitable for:
 
-- ✅ Projects requiring long-term memory and context retention
-- ✅ Scenarios needing multi-platform message gateway
-- ✅ Teams wanting to accumulate reusable skills
-- ✅ Scenarios concerned about token consumption and cost
-- ✅ Users requiring self-hosting and data control
+- ✅ Projects needing long-term memory and context retention
+- ✅ Scenarios needing multi-platform messaging gateways
+- ✅ Teams wanting to distill reusable Skills
+- ✅ Scenarios concerned about Token consumption and cost
+- ✅ Users needing self-hosting and data control
 
-**Get Started**:
+**Get started now**:
 ```bash
 curl -fsSL https://res1.hermesagent.org.cn/install.sh | bash
 hermes setup

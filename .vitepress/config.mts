@@ -137,6 +137,11 @@ export default defineConfig({
               text: 'AI Agents',
               collapsed: true,
               items: [
+                { text: '全景指南', link: '/3-ai-agents/README.html' },
+                { text: 'Agent 类型全景', link: '/3-ai-agents/agent-types' },
+                { text: 'Agent 工作原理', link: '/3-ai-agents/agent-workflow' },
+                { text: 'MCP 与工具集成', link: '/3-ai-agents/mcp-and-tools' },
+                { text: 'Agent 框架选型', link: '/3-ai-agents/agent-frameworks' },
                 { text: 'Hermes Agent', link: '/3-ai-agents/hermes-agent/README.html' }
               ]
             },
@@ -298,6 +303,11 @@ export default defineConfig({
               text: 'AI Agents',
               collapsed: true,
               items: [
+                { text: 'Complete Guide', link: '/en/3-ai-agents/README.html' },
+                { text: 'Agent Types', link: '/en/3-ai-agents/agent-types' },
+                { text: 'How Agents Work', link: '/en/3-ai-agents/agent-workflow' },
+                { text: 'MCP & Tool Integration', link: '/en/3-ai-agents/mcp-and-tools' },
+                { text: 'Agent Frameworks', link: '/en/3-ai-agents/agent-frameworks' },
                 { text: 'Hermes Agent', link: '/en/3-ai-agents/hermes-agent/README.html' }
               ]
             },

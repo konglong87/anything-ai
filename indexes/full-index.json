@@ -1305,6 +1305,111 @@
     ]
   },
   {
+    "title": "AI Agents 全景指南",
+    "path": "3-ai-agents/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "student",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "20min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "hermes-agent",
+      "agent-frameworks"
+    ],
+    "tags": [
+      "Agent",
+      "AI Agent",
+      "智能体",
+      "MCP",
+      "Agent框架",
+      "Agent设计模式",
+      "Coding Agent"
+    ]
+  },
+  {
+    "title": "Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等",
+    "path": "3-ai-agents/agent-frameworks.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "25min",
+    "tools": [
+      "langchain",
+      "crewai",
+      "autogpt",
+      "metagpt"
+    ],
+    "tags": [
+      "Agent",
+      "框架",
+      "LangChain",
+      "CrewAI",
+      "AutoGPT",
+      "MetaGPT",
+      "选型"
+    ]
+  },
+  {
+    "title": "Agent 类型全景：从 Coding Agent 到 Research Agent",
+    "path": "3-ai-agents/agent-types.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "student",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "cursor",
+      "copilot"
+    ],
+    "tags": [
+      "Agent",
+      "Coding Agent",
+      "Research Agent",
+      "Creative Agent",
+      "Analysis Agent",
+      "Agent类型"
+    ]
+  },
+  {
+    "title": "Agent 工作原理：感知→规划→行动→反思",
+    "path": "3-ai-agents/agent-workflow.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "20min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "Agent",
+      "ReAct",
+      "CoT",
+      "规划",
+      "反思",
+      "记忆",
+      "工具调用"
+    ]
+  },
+  {
     "title": "Hermes Agent 完整指南",
     "path": "3-ai-agents/hermes-agent/README.md",
     "difficulty": "intermediate",
@@ -1328,6 +1433,29 @@
       "长期记忆",
       "Skills",
       "Nous Research"
+    ]
+  },
+  {
+    "title": "MCP 协议与工具集成：让 Agent 连通万物",
+    "path": "3-ai-agents/mcp-and-tools.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "hermes-agent"
+    ],
+    "tags": [
+      "MCP",
+      "Agent",
+      "工具调用",
+      "Model Context Protocol",
+      "工具集成"
     ]
   },
   {
@@ -4525,6 +4653,109 @@
     ]
   },
   {
+    "title": "AI Agents: A Complete Guide",
+    "path": "en/3-ai-agents/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "student",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "20min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "hermes-agent",
+      "agent-frameworks"
+    ],
+    "tags": [
+      "Agent",
+      "AI Agent",
+      "MCP",
+      "Agent Framework",
+      "Agent Design Patterns",
+      "Coding Agent"
+    ]
+  },
+  {
+    "title": "Agent Framework Guide: LangChain, CrewAI, AutoGPT & More",
+    "path": "en/3-ai-agents/agent-frameworks.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "25min",
+    "tools": [
+      "langchain",
+      "crewai",
+      "autogpt",
+      "metagpt"
+    ],
+    "tags": [
+      "Agent",
+      "Framework",
+      "LangChain",
+      "CrewAI",
+      "AutoGPT",
+      "MetaGPT",
+      "Selection"
+    ]
+  },
+  {
+    "title": "Agent Types: From Coding Agents to Research Agents",
+    "path": "en/3-ai-agents/agent-types.md",
+    "difficulty": "beginner",
+    "roles": [
+      "programmer",
+      "student",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "15min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "cursor",
+      "copilot"
+    ],
+    "tags": [
+      "Agent",
+      "Coding Agent",
+      "Research Agent",
+      "Creative Agent",
+      "Analysis Agent"
+    ]
+  },
+  {
+    "title": "How Agents Work: Perceive → Plan → Act → Reflect",
+    "path": "en/3-ai-agents/agent-workflow.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "student"
+    ],
+    "type": "concept",
+    "duration": "20min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ],
+    "tags": [
+      "Agent",
+      "ReAct",
+      "CoT",
+      "Planning",
+      "Reflection",
+      "Memory",
+      "Tool Use"
+    ]
+  },
+  {
     "title": "Hermes Agent Complete Guide",
     "path": "en/3-ai-agents/hermes-agent/README.md",
     "difficulty": "intermediate",
@@ -4548,6 +4779,29 @@
       "Long-term Memory",
       "Skills",
       "Nous Research"
+    ]
+  },
+  {
+    "title": "MCP & Tool Integration: Connecting Agents to the World",
+    "path": "en/3-ai-agents/mcp-and-tools.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "hermes-agent"
+    ],
+    "tags": [
+      "MCP",
+      "Agent",
+      "Tool Use",
+      "Model Context Protocol",
+      "Tool Integration"
     ]
   },
   {

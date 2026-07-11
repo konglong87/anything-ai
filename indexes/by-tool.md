@@ -159,9 +159,11 @@
 
 ## agent-frameworks
 
+- [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Agent Skills](5-skills/agent/README.md) - 40min (intermediate)
 - [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
 - [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
+- [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 
 ## agentspace
 
@@ -170,6 +172,7 @@
 
 ## autogpt
 
+- [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
 - [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
 - [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
@@ -195,6 +198,7 @@
 - [智能体间通信](5-skills/agent/design-patterns/chapters/15-inter-agent-communication.md) - 30min (advanced)
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 
 ## chatgpt
 
@@ -203,6 +207,10 @@
 - [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+- [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
+- [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
+- [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
@@ -213,6 +221,10 @@
 - [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+- [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
+- [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
+- [How Agents Work: Perceive → Plan → Act → Reflect](en/3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 - [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
@@ -236,6 +248,10 @@
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
+- [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
+- [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
@@ -311,6 +327,10 @@
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [Claude Usage Guide](en/2-choose-tools/tools/claude/README.md) - 45min (beginner)
+- [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
+- [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
+- [How Agents Work: Perceive → Plan → Act → Reflect](en/3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 - [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
@@ -365,6 +385,11 @@
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 
+## copilot
+
+- [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
+- [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
+
 ## cot
 
 - [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
@@ -372,18 +397,22 @@
 
 ## crewai
 
+- [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 - [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
 - [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
 - [Multi-Agent Collaboration](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
 - [多智能体协作](5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.md) - 30min (advanced)
+- [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 
 ## cursor
 
+- [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
+- [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
 
 ## deepseek
 
@@ -395,6 +424,10 @@
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
+- [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
+- [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
@@ -404,6 +437,10 @@
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [China's LLM Landscape 2026: DeepSeek vs GLM vs Kimi vs Qwen](en/2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
+- [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
+- [How Agents Work: Perceive → Plan → Act → Reflect](en/3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 - [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
@@ -453,12 +490,17 @@
 ## hermes-agent
 
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 
 ## langchain
 
+- [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 - [awesome-agent-skills Skill 详细指南](5-skills/agent/awesome-agent-skills.md) - 90min (intermediate)
 - [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
 - [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
@@ -508,6 +550,7 @@
 - [优先级排序](5-skills/agent/design-patterns/chapters/20-prioritization.md) - 30min (intermediate)
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
+- [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 
 ## langsmith
 
@@ -529,6 +572,11 @@
 
 - [Memory Management](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
 - [记忆管理](5-skills/agent/design-patterns/chapters/08-memory-management.md) - 30min (advanced)
+
+## metagpt
+
+- [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
 
 ## nodejs
 
