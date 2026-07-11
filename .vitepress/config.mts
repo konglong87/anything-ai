@@ -502,7 +502,7 @@ export default defineConfig({
               items: [
                 { text: 'What is AI', link: '/en/0-start-here/what-is-ai' },
                 { text: 'Why No AI Anxiety', link: '/en/0-start-here/ai-anxiety' },
-                { text: 'AI Is Not a Wishing Well', link: '/en/0-start-here/ai-not-wishing-well.en.html' },,
+                { text: 'AI Is Not a Wishing Well', link: '/en/0-start-here/ai-not-wishing-well.en.html' },
                 { text: 'Learning Path', link: '/en/0-start-here/learning-path' }
               ]
             },
