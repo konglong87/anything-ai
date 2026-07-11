@@ -78,9 +78,49 @@ export default defineConfig({
               items: [
                 { text: '概览', link: '/1-understand-ai/README.html' },
                 { text: 'AI工程范式', link: '/1-understand-ai/ai-engineering-paradigms/README.html' },
-                { text: 'LLM基础', link: '/1-understand-ai/llm-basics/transformer-intro' },
-                { text: 'AI如何思考', link: '/1-understand-ai/how-ai-thinks/reasoning' },
-                { text: 'Agent入门', link: '/1-understand-ai/agent-intro/agent-intro' },
+                {
+                  text: 'AI工程范式子专题',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '上下文工程', link: '/1-understand-ai/ai-engineering-paradigms/context-engineering/README.html' },
+                    { text: 'Harness工程', link: '/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.html' },
+                    { text: '提示词工程', link: '/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.html' }
+                  ]
+                },
+                {
+                  text: 'LLM基础',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Transformer入门', link: '/1-understand-ai/llm-basics/transformer-intro' },
+                    { text: 'Tokenization', link: '/1-understand-ai/llm-basics/tokenization' },
+                    { text: '注意力机制', link: '/1-understand-ai/llm-basics/attention-mechanism' },
+                    { text: '上下文窗口', link: '/1-understand-ai/llm-basics/context-window' },
+                    { text: '预训练与微调', link: '/1-understand-ai/llm-basics/pretraining-finetuning' }
+                  ]
+                },
+                {
+                  text: 'AI如何思考',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '推理', link: '/1-understand-ai/how-ai-thinks/reasoning' },
+                    { text: '概率预测', link: '/1-understand-ai/how-ai-thinks/probabilistic-prediction' },
+                    { text: '幻觉', link: '/1-understand-ai/how-ai-thinks/hallucination' },
+                    { text: '记忆机制', link: '/1-understand-ai/how-ai-thinks/memory-mechanisms' }
+                  ]
+                },
+                {
+                  text: 'Agent入门',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Agent简介', link: '/1-understand-ai/agent-intro/agent-intro' },
+                    { text: 'Agent架构', link: '/1-understand-ai/agent-intro/agent-architecture' },
+                    { text: 'Agent案例', link: '/1-understand-ai/agent-intro/agent-cases' }
+                  ]
+                },
                 { text: '推理模型', link: '/1-understand-ai/reasoning-models' },
                 { text: 'AI安全与对齐', link: '/1-understand-ai/ai-safety' }
               ]
@@ -91,30 +131,114 @@ export default defineConfig({
               items: [
                 { text: '概览', link: '/2-choose-tools/README.html' },
                 { text: '工具选择矩阵', link: '/2-choose-tools/tool-matrix' },
-                { text: 'Claude详细指南', link: '/2-choose-tools/tools/claude/README.html' },
- { text: 'Claude Code最新15条技巧', link: '/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
-                { text: 'DeepSeek详细指南', link: '/2-choose-tools/tools/deepseek/README.html' },
-                { text: 'ChatGPT详细指南', link: '/2-choose-tools/tools/chatgpt/README.html' },
-                { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' },
-                { text: 'Hermes Agent', link: '/2-choose-tools/tools/hermes/README.html' },
+                { text: 'Agent Skills 元指南', link: '/2-choose-tools/agent-skills-guide' },
+                { text: 'AI Skills与工具链详解', link: '/2-choose-tools/skills-guide' },
                 { text: 'AI 编程 Agent 2026', link: '/2-choose-tools/ai-coding-agents-2026' },
                 { text: '中国大模型格局 2026', link: '/2-choose-tools/china-llm-landscape-2026' },
-                { text: 'Agent Skills 元指南', link: '/2-choose-tools/agent-skills-guide' }
+                {
+                  text: 'Claude',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Claude详细指南', link: '/2-choose-tools/tools/claude/README.html' },
+                    { text: 'Claude Code最新15条技巧', link: '/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
+                    { text: 'Claude Code快速入门', link: '/2-choose-tools/tools/claude/claude-code-quickstart' },
+                    { text: 'Claude Code完整指南', link: '/2-choose-tools/tools/claude/claude-code-guide' },
+                    { text: 'Claude Code实战案例', link: '/2-choose-tools/tools/claude/claude-code-examples' },
+                    { text: 'Claude Code专家模式', link: '/2-choose-tools/tools/claude/claude-code-expert' },
+                    { text: 'GStack指南', link: '/2-choose-tools/tools/claude/gstack-guide' },
+                    { text: 'Everything Claude Code', link: '/2-choose-tools/tools/claude/everything-claude-code' },
+                    { text: 'CC切换指南', link: '/2-choose-tools/tools/claude/cc-switch-guide' },
+                    { text: 'OpenClaw指南', link: '/2-choose-tools/tools/claude/openclaw-guide' }
+                  ]
+                },
+                { text: 'DeepSeek详细指南', link: '/2-choose-tools/tools/deepseek/README.html' },
+                { text: 'ChatGPT详细指南', link: '/2-choose-tools/tools/chatgpt/README.html' },
+                { text: 'Copilot详细指南', link: '/2-choose-tools/tools/copilot/README.html' },
+                { text: '豆包详细指南', link: '/2-choose-tools/tools/doubao/README.html' },
+                { text: 'Hermes Agent', link: '/2-choose-tools/tools/hermes/README.html' }
               ]
             },
             {
               text: '行业案例',
               collapsed: true,
               items: [
-                { text: '程序员', link: '/roles/programmer/README.html' },
-                { text: '内容创作者', link: '/roles/content-creator/README.html' },
-                { text: '教师', link: '/roles/teacher/README.html' },
-                { text: '学生', link: '/roles/student/README.html' },
-                { text: '财务', link: '/roles/finance/README.html' },
+                { text: '概览', link: '/roles/README.html' },
+                {
+                  text: '程序员',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '程序员指南', link: '/roles/programmer/README.html' },
+                    { text: 'AI工具推荐', link: '/roles/programmer/ai-tools' },
+                    { text: '代码助手', link: '/roles/programmer/code-assistant' },
+                    { text: '代码审查', link: '/roles/programmer/code-review' }
+                  ]
+                },
+                {
+                  text: '内容创作者',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '内容创作者指南', link: '/roles/content-creator/README.html' },
+                    { text: 'AI工具推荐', link: '/roles/content-creator/ai-tools' }
+                  ]
+                },
+                {
+                  text: '设计师',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '设计师指南', link: '/roles/designer/README.html' },
+                    { text: 'AI工具推荐', link: '/roles/designer/ai-tools' }
+                  ]
+                },
+                {
+                  text: '教师',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '教师指南', link: '/roles/teacher/README.html' },
+                    { text: '费曼技巧', link: '/roles/teacher/feynman-technique' }
+                  ]
+                },
+                {
+                  text: '学生',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '学生指南', link: '/roles/student/README.html' },
+                    { text: '费曼技巧', link: '/roles/student/feynman-technique' }
+                  ]
+                },
+                {
+                  text: '财务',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '财务指南', link: '/roles/finance/README.html' },
+                    { text: 'AI工具推荐', link: '/roles/finance/ai-tools' }
+                  ]
+                },
                 { text: 'HR', link: '/roles/hr/README.html' },
                 { text: '销售', link: '/roles/sales/README.html' },
-                { text: '设计师', link: '/roles/designer/README.html' },
-                { text: '行政', link: '/roles/admin/README.html' }
+                { text: '行政', link: '/roles/admin/README.html' },
+                { text: '产品经理', link: '/roles/product-manager/README.html' },
+                { text: 'Vibe Coding', link: '/roles/vibe-coding/README.html' },
+                {
+                  text: 'Vibe Coding子专题',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '工具推荐', link: '/roles/vibe-coding/tools' },
+                    { text: '工作流程', link: '/roles/vibe-coding/workflow' }
+                  ]
+                },
+                { text: '算命师', link: '/roles/fortune-teller/README.html' },
+                { text: '代码审查员', link: '/roles/code-reviewer/README.html' },
+                { text: '安全审查员', link: '/roles/security-reviewer/README.html' },
+                { text: 'TDD指南', link: '/roles/tdd-guide/README.html' },
+                { text: '规划师', link: '/roles/planner/README.html' }
               ]
             },
             {
@@ -125,12 +249,19 @@ export default defineConfig({
                 { text: 'Loop Engineering 🆕', link: '/4-advanced-topics/loop-engineering' },
                 { text: '提示词工程', link: '/4-advanced-topics/prompt-engineering' },
                 { text: '模型微调', link: '/4-advanced-topics/model-fine-tuning' },
+                { text: '模型部署', link: '/4-advanced-topics/model-deployment' },
                 { text: 'RAG', link: '/4-advanced-topics/rag' },
                 { text: 'Agent开发', link: '/4-advanced-topics/agent-development' },
                 { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' },
                 { text: 'MCP 模型上下文协议', link: '/4-advanced-topics/mcp' },
                 { text: '世界模型与具身智能', link: '/4-advanced-topics/world-models' },
-                { text: '全模态与AI视频生成', link: '/4-advanced-topics/multimodal-video' }
+                { text: '全模态与AI视频生成', link: '/4-advanced-topics/multimodal-video' },
+                { text: '深度学习', link: '/4-advanced-topics/deep-learning' },
+                { text: '机器学习基础', link: '/4-advanced-topics/ml-basics' },
+                { text: 'NLP', link: '/4-advanced-topics/nlp' },
+                { text: '计算机视觉', link: '/4-advanced-topics/cv' },
+                { text: '强化学习', link: '/4-advanced-topics/rl' },
+                { text: '学习路径整合', link: '/4-advanced-topics/learning-path-integration' }
               ]
             },
             {
@@ -154,22 +285,116 @@ export default defineConfig({
                 { text: '第1章：提示词链', link: '/5-skills/agent/design-patterns/chapters/01-prompt-chaining.html' },
                 { text: '第2章：路由', link: '/5-skills/agent/design-patterns/chapters/02-routing.html' },
                 { text: '第3章：并行化', link: '/5-skills/agent/design-patterns/chapters/03-parallelization.html' },
-                { text: '查看完整目录', link: '/5-skills/agent/design-patterns/README.html#学习路径' }
+                { text: '第4章：反思', link: '/5-skills/agent/design-patterns/chapters/04-reflection.html' },
+                { text: '第5章：工具使用', link: '/5-skills/agent/design-patterns/chapters/05-tool-use.html' },
+                { text: '第6章：规划', link: '/5-skills/agent/design-patterns/chapters/06-planning.html' },
+                { text: '第7章：多Agent协作', link: '/5-skills/agent/design-patterns/chapters/07-multi-agent-collaboration.html' },
+                { text: '第8章：记忆管理', link: '/5-skills/agent/design-patterns/chapters/08-memory-management.html' },
+                { text: '第10章：MCP', link: '/5-skills/agent/design-patterns/chapters/10-model-context-protocol.html' },
+                { text: '第11章：目标设定与监控', link: '/5-skills/agent/design-patterns/chapters/11-goal-setting-and-monitoring.html' },
+                { text: '第12章：异常处理与恢复', link: '/5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.html' },
+                { text: '第13章：人在回路', link: '/5-skills/agent/design-patterns/chapters/13-human-in-the-loop.html' },
+                { text: '第14章：知识检索', link: '/5-skills/agent/design-patterns/chapters/14-knowledge-retrieval.html' },
+                { text: '第15章：Agent间通信', link: '/5-skills/agent/design-patterns/chapters/15-inter-agent-communication.html' },
+                { text: '第16章：资源感知优化', link: '/5-skills/agent/design-patterns/chapters/16-resource-aware-optimization.html' },
+                { text: '第17章：推理技术', link: '/5-skills/agent/design-patterns/chapters/17-reasoning-techniques.html' },
+                { text: '第18章：护栏与安全模式', link: '/5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.html' },
+                { text: '第19章：评估与监控', link: '/5-skills/agent/design-patterns/chapters/19-evaluation-and-monitoring.html' },
+                { text: '第20章：优先级排序', link: '/5-skills/agent/design-patterns/chapters/20-prioritization.html' },
+                { text: '第21章：探索与发现', link: '/5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.html' },
+                {
+                  text: '附录',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '附录A：高级提示词技术', link: '/5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.html' },
+                    { text: '附录B：AI Agent交互', link: '/5-skills/agent/design-patterns/appendix/appendix-b-ai-agentic-interactions.html' },
+                    { text: '附录C：Agent框架概览', link: '/5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.html' },
+                    { text: '附录D：AgentSpace构建', link: '/5-skills/agent/design-patterns/appendix/appendix-d-building-an-agent-with-agentspace.html' },
+                    { text: '附录E：CLI上的AI Agent', link: '/5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.html' },
+                    { text: '附录F：底层原理', link: '/5-skills/agent/design-patterns/appendix/appendix-f-under-the-hood.html' },
+                    { text: '附录G：Coding Agent', link: '/5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.html' }
+                  ]
+                }
               ]
             },
             {
               text: 'AI Skills',
               collapsed: true,
               items: [
- { text: 'ECC 技能包', link: '/5-skills/tdd-workflow/README.html' },
-          { text: 'Impeccable - 前端优化', link: '/5-skills/impeccable-skill/README.html' },
-                { text: '职场生存技能', link: '/5-skills/career/README.html' },
                 { text: 'Skills精选', link: '/5-skills/README.html' },
                 { text: '完整索引', link: '/5-skills/INDEX.html' },
-                { text: '研究类', link: '/5-skills/research/README.html' },
-                { text: '开发类', link: '/5-skills/development/README.html' },
-                { text: '规划类', link: '/5-skills/planning/README.html' },
-                { text: '课程学习', link: '/5-skills/course/README.html' }
+                { text: 'ECC 技能包', link: '/5-skills/tdd-workflow/README.html' },
+                { text: 'Impeccable - 前端优化', link: '/5-skills/impeccable-skill/README.html' },
+                { text: '职场生存技能', link: '/5-skills/career/README.html' },
+                { text: '职场生存指南', link: '/5-skills/career/workplace-survival-guide' },
+                { text: '安全审查', link: '/5-skills/security-review/README.html' },
+                {
+                  text: '研究类',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '研究类概览', link: '/5-skills/research/README.html' },
+                    { text: 'AI研究技能', link: '/5-skills/research/ai-research-skills' },
+                    { text: 'Obsidian技能', link: '/5-skills/research/obsidian-skills' }
+                  ]
+                },
+                {
+                  text: '开发类',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '开发类概览', link: '/5-skills/development/README.html' },
+                    { text: 'GStack', link: '/5-skills/development/gstack' },
+                    { text: 'GStack + Claude Code', link: '/5-skills/development/gstack-claude-code' },
+                    { text: 'Karpathy编码准则', link: '/5-skills/development/karpathy-guidelines' }
+                  ]
+                },
+                {
+                  text: '规划类',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '规划类概览', link: '/5-skills/planning/README.html' },
+                    { text: '文件驱动规划', link: '/5-skills/planning/planning-with-files' }
+                  ]
+                },
+                {
+                  text: '效率类',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '效率类概览', link: '/5-skills/productivity/README.html' },
+                    { text: '超能力技能', link: '/5-skills/productivity/superpower-skills' }
+                  ]
+                },
+                {
+                  text: 'Agent技能',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Agent概览', link: '/5-skills/agent/README.html' },
+                    { text: 'Awesome Agent Skills', link: '/5-skills/agent/awesome-agent-skills' },
+                    { text: 'Skills目录', link: '/5-skills/agent/skills-catalog' }
+                  ]
+                },
+                {
+                  text: '课程学习',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '课程概览', link: '/5-skills/course/README.html' },
+                    { text: '课程索引', link: '/5-skills/course/INDEX.html' },
+                    { text: '设计模式技能包', link: '/5-skills/course/skills-package-design-patterns' },
+                    { text: '第2章：入口模式', link: '/5-skills/course/chapter-02-entry-pattern' },
+                    { text: '第3章：模板方法模式', link: '/5-skills/course/chapter-03-template-method-pattern' },
+                    { text: '第4章：责任链模式', link: '/5-skills/course/chapter-04-chain-of-responsibility' },
+                    { text: '第5章：策略模式', link: '/5-skills/course/chapter-05-strategy-pattern' },
+                    { text: '第6章：并行模式', link: '/5-skills/course/chapter-06-parallel-pattern' },
+                    { text: '第7-8章：守护者与最佳实践', link: '/5-skills/course/chapter-07-08-guardian-and-best-practices' },
+                    { text: '第8章：最佳实践', link: '/5-skills/course/chapter-08-best-practices' }
+                  ]
+                }
               ]
             },
             {
@@ -177,6 +402,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/prompts/README.html' },
+                { text: '系统提示词', link: '/prompts/system-prompts' },
                 { text: '写作提示词', link: '/prompts/by-scene/writing-prompts' },
                 { text: '编程提示词', link: '/prompts/by-scene/coding-prompts' },
                 { text: '学习提示词', link: '/prompts/by-scene/learning-prompts' },
@@ -189,11 +415,50 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/resources/README.html' },
-                { text: 'AI工具资源', link: '/resources/ai-tools/ai-tools-index' },
-                { text: '生成式AI资源', link: '/resources/generative-ai/generative-ai-resources' },
- { text: 'Everything Claude Code精选', link: '/resources/external/everything-claude-code/README.html' },
-                { text: '系统提示词解密', link: '/resources/external/system-prompts-leaks' },
-                { text: '外部资源链接', link: '/resources/external/external-resources' }
+                { text: '行业工具指南', link: '/resources/industry-tools-guide' },
+                {
+                  text: 'AI工具资源',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '工具索引', link: '/resources/ai-tools/ai-tools-index' },
+                    { text: 'AI应用资源', link: '/resources/ai-tools/ai-apps-resources' },
+                    { text: 'AI工具资源', link: '/resources/ai-tools/ai-tools-resources' },
+                    { text: 'Awesome AI DevTools', link: '/resources/ai-tools/awesome-ai-devtools' }
+                  ]
+                },
+                {
+                  text: '生成式AI资源',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: '生成式AI资源', link: '/resources/generative-ai/generative-ai-resources' },
+                    { text: 'Awesome生成式AI', link: '/resources/generative-ai/awesome-generative-ai-resources' },
+                    { text: 'Awesome AI资源', link: '/resources/generative-ai/awesome-ai-resources' }
+                  ]
+                },
+                {
+                  text: '专业资源',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Agent技能资源', link: '/resources/specialized/agent-skills-resources' },
+                    { text: 'AI绘画资源', link: '/resources/specialized/ai-painting-resources' },
+                    { text: 'AI研究写作', link: '/resources/specialized/ai-research-writing' },
+                    { text: 'LangChain资源', link: '/resources/specialized/langchain-resources' },
+                    { text: '编码规则', link: '/resources/specialized/coding-rules/README.html' }
+                  ]
+                },
+                {
+                  text: '外部链接',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Everything Claude Code精选', link: '/resources/external/everything-claude-code/README.html' },
+                    { text: '系统提示词解密', link: '/resources/external/system-prompts-leaks' },
+                    { text: '外部资源链接', link: '/resources/external/external-resources' }
+                  ]
+                }
               ]
             },
             {
@@ -234,7 +499,7 @@ export default defineConfig({
               items: [
                 { text: 'What is AI', link: '/en/0-start-here/what-is-ai' },
                 { text: 'Why No AI Anxiety', link: '/en/0-start-here/ai-anxiety' },
-                { text: 'AI Is Not a Wishing Well', link: '/en/0-start-here/ai-not-wishing-well' },
+                { text: 'AI Is Not a Wishing Well', link: '/en/0-start-here/ai-not-wishing-well.en.html' },,
                 { text: 'Learning Path', link: '/en/0-start-here/learning-path' }
               ]
             },
@@ -244,9 +509,49 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/en/1-understand-ai/README.html' },
                 { text: 'AI Engineering Paradigms', link: '/en/1-understand-ai/ai-engineering-paradigms/README.html' },
-                { text: 'LLM Basics', link: '/en/1-understand-ai/llm-basics/transformer-intro' },
-                { text: 'How AI Thinks', link: '/en/1-understand-ai/how-ai-thinks/reasoning' },
-                { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' },
+                {
+                  text: 'AI Engineering Paradigm Topics',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Context Engineering', link: '/en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.html' },
+                    { text: 'Harness Engineering', link: '/en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.html' },
+                    { text: 'Prompt Engineering', link: '/en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.html' }
+                  ]
+                },
+                {
+                  text: 'LLM Basics',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Transformer Intro', link: '/en/1-understand-ai/llm-basics/transformer-intro' },
+                    { text: 'Tokenization', link: '/en/1-understand-ai/llm-basics/tokenization' },
+                    { text: 'Attention Mechanism', link: '/en/1-understand-ai/llm-basics/attention-mechanism' },
+                    { text: 'Context Window', link: '/en/1-understand-ai/llm-basics/context-window' },
+                    { text: 'Pretraining & Finetuning', link: '/en/1-understand-ai/llm-basics/pretraining-finetuning' }
+                  ]
+                },
+                {
+                  text: 'How AI Thinks',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Reasoning', link: '/en/1-understand-ai/how-ai-thinks/reasoning' },
+                    { text: 'Probabilistic Prediction', link: '/en/1-understand-ai/how-ai-thinks/probabilistic-prediction' },
+                    { text: 'Hallucination', link: '/en/1-understand-ai/how-ai-thinks/hallucination' },
+                    { text: 'Memory Mechanisms', link: '/en/1-understand-ai/how-ai-thinks/memory-mechanisms' }
+                  ]
+                },
+                {
+                  text: 'Agent Intro',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Agent Intro', link: '/en/1-understand-ai/agent-intro/agent-intro' },
+                    { text: 'Agent Architecture', link: '/en/1-understand-ai/agent-intro/agent-architecture' },
+                    { text: 'Agent Cases', link: '/en/1-understand-ai/agent-intro/agent-cases' }
+                  ]
+                },
                 { text: 'Reasoning Models', link: '/en/1-understand-ai/reasoning-models' },
                 { text: 'AI Safety & Alignment', link: '/en/1-understand-ai/ai-safety' }
               ]
@@ -257,30 +562,53 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/en/2-choose-tools/README.html' },
                 { text: 'Tool Matrix', link: '/en/2-choose-tools/tool-matrix' },
-                { text: 'Claude Guide', link: '/en/2-choose-tools/tools/claude/README.html' },
- { text: 'Claude Code 15 Latest Tips', link: '/en/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
-                { text: 'DeepSeek Guide', link: '/en/2-choose-tools/tools/deepseek/README.html' },
-                { text: 'ChatGPT Guide', link: '/en/2-choose-tools/tools/chatgpt/README.html' },
-                { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' },
-                { text: 'Hermes Agent', link: '/en/2-choose-tools/tools/hermes/README.html' },
+                { text: 'Agent Skills Meta-Guide', link: '/en/2-choose-tools/agent-skills-guide' },
                 { text: 'AI Coding Agents 2026', link: '/en/2-choose-tools/ai-coding-agents-2026' },
                 { text: 'China LLM Landscape 2026', link: '/en/2-choose-tools/china-llm-landscape-2026' },
-                { text: 'Agent Skills Meta-Guide', link: '/en/2-choose-tools/agent-skills-guide' }
+                { text: 'Claude Guide', link: '/en/2-choose-tools/tools/claude/README.html' },
+                { text: 'Claude Code 15 Latest Tips', link: '/en/2-choose-tools/tools/claude/boris-15-tips-2026-03' },
+                { text: 'DeepSeek Guide', link: '/en/2-choose-tools/tools/deepseek/README.html' },
+                { text: 'ChatGPT Guide', link: '/en/2-choose-tools/tools/chatgpt/README.html' },
+                { text: 'Copilot Guide', link: '/en/2-choose-tools/tools/copilot/README.html' },
+                { text: 'Doubao Guide', link: '/en/2-choose-tools/tools/doubao/README.html' },
+                { text: 'Hermes Agent', link: '/en/2-choose-tools/tools/hermes/README.html' }
               ]
             },
             {
               text: 'Industry Cases',
               collapsed: true,
               items: [
+                { text: 'Overview', link: '/en/roles/README.html' },
                 { text: 'Programmer', link: '/en/roles/programmer/README.html' },
+                {
+                  text: 'Programmer Topics',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Code Assistant', link: '/en/roles/programmer/code-assistant' },
+                    { text: 'Code Review', link: '/en/roles/programmer/code-review' }
+                  ]
+                },
                 { text: 'Content Creator', link: '/en/roles/content-creator/README.html' },
+                { text: 'Designer', link: '/en/roles/designer/README.html' },
                 { text: 'Teacher', link: '/en/roles/teacher/README.html' },
                 { text: 'Student', link: '/en/roles/student/README.html' },
                 { text: 'Finance', link: '/en/roles/finance/README.html' },
                 { text: 'HR', link: '/en/roles/hr/README.html' },
                 { text: 'Sales', link: '/en/roles/sales/README.html' },
-                { text: 'Designer', link: '/en/roles/designer/README.html' },
-                { text: 'Admin', link: '/en/roles/admin/README.html' }
+                { text: 'Admin', link: '/en/roles/admin/README.html' },
+                { text: 'Product Manager', link: '/en/roles/product-manager/README.html' },
+                { text: 'Vibe Coding', link: '/en/roles/vibe-coding/README.html' },
+                {
+                  text: 'Vibe Coding Topics',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Tools', link: '/en/roles/vibe-coding/tools' },
+                    { text: 'Workflow', link: '/en/roles/vibe-coding/workflow' }
+                  ]
+                },
+                { text: 'Fortune Teller', link: '/en/roles/fortune-teller/README.html' }
               ]
             },
             {
@@ -291,12 +619,18 @@ export default defineConfig({
                 { text: 'Loop Engineering 🆕', link: '/en/4-advanced-topics/loop-engineering' },
                 { text: 'Prompt Engineering', link: '/en/4-advanced-topics/prompt-engineering' },
                 { text: 'Model Fine-tuning', link: '/en/4-advanced-topics/model-fine-tuning' },
+                { text: 'Model Deployment', link: '/en/4-advanced-topics/model-deployment' },
                 { text: 'RAG', link: '/en/4-advanced-topics/rag' },
                 { text: 'Agent Development', link: '/en/4-advanced-topics/agent-development' },
                 { text: 'Deep Research Guide', link: '/en/4-advanced-topics/deep-research-guide' },
                 { text: 'MCP (Model Context Protocol)', link: '/en/4-advanced-topics/mcp' },
                 { text: 'World Models & Embodied AI', link: '/en/4-advanced-topics/world-models' },
-                { text: 'Omnimodal AI & Video Generation', link: '/en/4-advanced-topics/multimodal-video' }
+                { text: 'Omnimodal AI & Video Generation', link: '/en/4-advanced-topics/multimodal-video' },
+                { text: 'Deep Learning', link: '/en/4-advanced-topics/deep-learning' },
+                { text: 'ML Basics', link: '/en/4-advanced-topics/ml-basics' },
+                { text: 'NLP', link: '/en/4-advanced-topics/nlp' },
+                { text: 'Computer Vision', link: '/en/4-advanced-topics/cv' },
+                { text: 'Reinforcement Learning', link: '/en/4-advanced-topics/rl' }
               ]
             },
             {
@@ -328,10 +662,26 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Skills Collection', link: '/en/5-skills/README.html' },
-          { text: 'Impeccable - Frontend', link: '/en/5-skills/impeccable-skill/README.en.html' },
+                { text: 'Impeccable - Frontend', link: '/en/5-skills/impeccable-skill/README.en.html' },
                 { text: 'Career Survival', link: '/en/5-skills/career/README.html' },
                 { text: 'Full Index', link: '/en/5-skills/INDEX.html' },
-                { text: 'Course', link: '/en/5-skills/course/README.html' }
+                {
+                  text: 'Course',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Course Overview', link: '/en/5-skills/course/README.html' },
+                    { text: 'Course Index', link: '/en/5-skills/course/INDEX.html' },
+                    { text: 'Design Patterns Skill Package', link: '/en/5-skills/course/skills-package-design-patterns' },
+                    { text: 'Chapter 2: Entry Pattern', link: '/en/5-skills/course/chapter-02-entry-pattern' },
+                    { text: 'Chapter 3: Template Method', link: '/en/5-skills/course/chapter-03-template-method-pattern' },
+                    { text: 'Chapter 4: Chain of Responsibility', link: '/en/5-skills/course/chapter-04-chain-of-responsibility' },
+                    { text: 'Chapter 5: Strategy Pattern', link: '/en/5-skills/course/chapter-05-strategy-pattern' },
+                    { text: 'Chapter 6: Parallel Pattern', link: '/en/5-skills/course/chapter-06-parallel-pattern' },
+                    { text: 'Chapter 7-8: Guardian & Best Practices', link: '/en/5-skills/course/chapter-07-08-guardian-and-best-practices' },
+                    { text: 'Chapter 8: Best Practices', link: '/en/5-skills/course/chapter-08-best-practices' }
+                  ]
+                }
               ]
             },
             {
@@ -339,6 +689,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Overview', link: '/en/prompts/README.html' },
+                { text: 'System Prompts', link: '/en/prompts/system-prompts' },
                 { text: 'Writing Prompts', link: '/en/prompts/by-scene/writing-prompts' },
                 { text: 'Coding Prompts', link: '/en/prompts/by-scene/coding-prompts' },
                 { text: 'Learning Prompts', link: '/en/prompts/by-scene/learning-prompts' },
@@ -351,11 +702,48 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Overview', link: '/en/resources/README.html' },
- { text: 'Everything Claude Code', link: '/en/resources/external/everything-claude-code/README.en.html' },
-                { text: 'System Prompts Leaks', link: '/en/resources/external/system-prompts-leaks' },
-                { text: 'AI Tools Resources', link: '/en/resources/ai-tools/ai-tools-index' },
-                { text: 'Generative AI', link: '/en/resources/generative-ai/generative-ai-resources' },
-                { text: 'External Links', link: '/en/resources/external/external-resources' }
+                {
+                  text: 'AI Tools',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Tools Index', link: '/en/resources/ai-tools/ai-tools-index' },
+                    { text: 'AI Apps Resources', link: '/en/resources/ai-tools/ai-apps-resources' },
+                    { text: 'AI Tools Resources', link: '/en/resources/ai-tools/ai-tools-resources' },
+                    { text: 'Awesome AI DevTools', link: '/en/resources/ai-tools/awesome-ai-devtools' }
+                  ]
+                },
+                {
+                  text: 'Generative AI',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Generative AI Resources', link: '/en/resources/generative-ai/generative-ai-resources' },
+                    { text: 'Awesome Generative AI', link: '/en/resources/generative-ai/awesome-generative-ai-resources' },
+                    { text: 'Awesome AI Resources', link: '/en/resources/generative-ai/awesome-ai-resources' }
+                  ]
+                },
+                {
+                  text: 'Specialized',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Agent Skills Resources', link: '/en/resources/specialized/agent-skills-resources' },
+                    { text: 'AI Painting Resources', link: '/en/resources/specialized/ai-painting-resources' },
+                    { text: 'AI Research Writing', link: '/en/resources/specialized/ai-research-writing' },
+                    { text: 'LangChain Resources', link: '/en/resources/specialized/langchain-resources' }
+                  ]
+                },
+                {
+                  text: 'External Links',
+                  collapsible: true,
+                  collapsed: true,
+                  items: [
+                    { text: 'Everything Claude Code', link: '/en/resources/external/everything-claude-code/README.en.html' },
+                    { text: 'System Prompts Leaks', link: '/en/resources/external/system-prompts-leaks' },
+                    { text: 'External Links', link: '/en/resources/external/external-resources' }
+                  ]
+                }
               ]
             },
             {
