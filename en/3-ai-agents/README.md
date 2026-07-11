@@ -44,10 +44,19 @@ How MCP (Model Context Protocol) connects Agents to the outside world, and commo
 ### 4. [Agent Framework Guide](./agent-frameworks.md)
 LangChain, CrewAI, AutoGPT, MetaGPT — comparison and selection advice.
 
-### 5. [Hermes Agent Guide](./hermes-agent/README.md)
+### 5. [Coding Agent Practice](./coding-agent-practice.md)
+5 practice modes from Q&A to continuous collaboration, deep tips for Claude Code / Cursor / Copilot, common pitfalls and defenses.
+
+### 6. [Agent Safety & Governance](./agent-safety-governance.md)
+6 security risks, 3 lines of defense, 3 Human-in-the-Loop modes, MCP security best practices.
+
+### 7. [Multi-Agent Collaboration](./multi-agent-collaboration.md)
+4 collaboration patterns: sequential pipeline, parallel division, hierarchical management, debate/adversarial — with full code examples.
+
+### 8. [Hermes Agent Guide](./hermes-agent/README.md)
 An open-source, self-hosted Agent with long-term memory and Skills system — from install to advanced config.
 
-### 6. [Agent Design Patterns Course](../5-skills/agent/design-patterns/README.md)
+### 9. [Agent Design Patterns Course](../5-skills/agent/design-patterns/README.md)
 21 design patterns covering prompt chaining, routing, parallelization, reflection, tool use, multi-agent collaboration, and more.
 
 ## 🔗 Related Resources

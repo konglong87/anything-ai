@@ -44,10 +44,19 @@ MCP（Model Context Protocol）如何让 Agent 连接外部世界，以及常见
 ### 4. [Agent 框架选型](./agent-frameworks.md)
 LangChain、CrewAI、AutoGPT、MetaGPT 等主流框架对比与选型建议。
 
-### 5. [Hermes Agent 完整指南](./hermes-agent/README.md)
+### 5. [Coding Agent 实战指南](./coding-agent-practice.md)
+从问答到协作的5种实战模式，Claude Code / Cursor / Copilot 深度技巧，常见坑与防御。
+
+### 6. [Agent 安全与治理](./agent-safety-governance.md)
+六大安全风险、三层治理防线、Human-in-the-Loop 三种模式、MCP 安全最佳实践。
+
+### 7. [多 Agent 协作实战](./multi-agent-collaboration.md)
+串行流水线、并行分工、层级管理、辩论对抗四种协作模式，含完整代码示例。
+
+### 8. [Hermes Agent 完整指南](./hermes-agent/README.md)
 开源、自托管、支持长期记忆和 Skills 的 AI Agent，从安装到高级配置。
 
-### 6. [Agent 设计模式教程](../5-skills/agent/design-patterns/README.md)
+### 9. [Agent 设计模式教程](../5-skills/agent/design-patterns/README.md)
 21 个 Agent 设计模式，覆盖提示词链、路由、并行化、反思、工具使用、多 Agent 协作等。
 
 ## 🔗 相关资源

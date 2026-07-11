@@ -273,6 +273,9 @@ export default defineConfig({
                 { text: 'Agent 工作原理', link: '/3-ai-agents/agent-workflow' },
                 { text: 'MCP 与工具集成', link: '/3-ai-agents/mcp-and-tools' },
                 { text: 'Agent 框架选型', link: '/3-ai-agents/agent-frameworks' },
+                { text: 'Coding Agent 实战', link: '/3-ai-agents/coding-agent-practice' },
+                { text: 'Agent 安全与治理', link: '/3-ai-agents/agent-safety-governance' },
+                { text: '多 Agent 协作实战', link: '/3-ai-agents/multi-agent-collaboration' },
                 { text: 'Hermes Agent', link: '/3-ai-agents/hermes-agent/README.html' }
               ]
             },
@@ -642,6 +645,9 @@ export default defineConfig({
                 { text: 'How Agents Work', link: '/en/3-ai-agents/agent-workflow' },
                 { text: 'MCP & Tool Integration', link: '/en/3-ai-agents/mcp-and-tools' },
                 { text: 'Agent Frameworks', link: '/en/3-ai-agents/agent-frameworks' },
+                { text: 'Coding Agent Practice', link: '/en/3-ai-agents/coding-agent-practice' },
+                { text: 'Agent Safety & Governance', link: '/en/3-ai-agents/agent-safety-governance' },
+                { text: 'Multi-Agent Collaboration', link: '/en/3-ai-agents/multi-agent-collaboration' },
                 { text: 'Hermes Agent', link: '/en/3-ai-agents/hermes-agent/README.html' }
               ]
             },

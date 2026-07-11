@@ -1358,6 +1358,35 @@
     ]
   },
   {
+    "title": "Agent 安全与治理：让 Agent 可信、可控、可审计",
+    "path": "3-ai-agents/agent-safety-governance.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer",
+      "manager",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "hermes-agent"
+    ],
+    "tags": [
+      "Agent",
+      "安全",
+      "治理",
+      "审计",
+      "权限控制",
+      "Human-in-the-Loop",
+      "Agent护栏",
+      "MCP安全"
+    ]
+  },
+  {
     "title": "Agent 类型全景：从 Coding Agent 到 Research Agent",
     "path": "3-ai-agents/agent-types.md",
     "difficulty": "beginner",
@@ -1410,6 +1439,33 @@
     ]
   },
   {
+    "title": "Coding Agent 实战指南：从入门到高效协作",
+    "path": "3-ai-agents/coding-agent-practice.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code",
+      "cursor",
+      "copilot",
+      "codex-cli"
+    ],
+    "tags": [
+      "Coding Agent",
+      "Claude Code",
+      "Cursor",
+      "Copilot",
+      "Codex CLI",
+      "AI编程",
+      "代码审查",
+      "Agent实战"
+    ]
+  },
+  {
     "title": "Hermes Agent 完整指南",
     "path": "3-ai-agents/hermes-agent/README.md",
     "difficulty": "intermediate",
@@ -1456,6 +1512,35 @@
       "工具调用",
       "Model Context Protocol",
       "工具集成"
+    ]
+  },
+  {
+    "title": "多 Agent 协作实战：从单兵作战到团队协同",
+    "path": "3-ai-agents/multi-agent-collaboration.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "crewai",
+      "langchain",
+      "langgraph",
+      "metagpt",
+      "claude-code"
+    ],
+    "tags": [
+      "Agent",
+      "多Agent协作",
+      "CrewAI",
+      "LangGraph",
+      "MetaGPT",
+      "Agent通信",
+      "角色分工",
+      "编排模式"
     ]
   },
   {
@@ -4705,6 +4790,35 @@
     ]
   },
   {
+    "title": "Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable",
+    "path": "en/3-ai-agents/agent-safety-governance.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer",
+      "manager",
+      "everyone"
+    ],
+    "type": "concept",
+    "duration": "25min",
+    "tools": [
+      "claude",
+      "chatgpt",
+      "deepseek",
+      "hermes-agent"
+    ],
+    "tags": [
+      "Agent",
+      "Safety",
+      "Governance",
+      "Audit",
+      "Permission Control",
+      "Human-in-the-Loop",
+      "Agent Guardrails",
+      "MCP Security"
+    ]
+  },
+  {
     "title": "Agent Types: From Coding Agents to Research Agents",
     "path": "en/3-ai-agents/agent-types.md",
     "difficulty": "beginner",
@@ -4756,6 +4870,33 @@
     ]
   },
   {
+    "title": "Coding Agent in Practice: From Beginner to Productive Collaboration",
+    "path": "en/3-ai-agents/coding-agent-practice.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code",
+      "cursor",
+      "copilot",
+      "codex-cli"
+    ],
+    "tags": [
+      "Coding Agent",
+      "Claude Code",
+      "Cursor",
+      "Copilot",
+      "Codex CLI",
+      "AI Programming",
+      "Code Review",
+      "Agent Practice"
+    ]
+  },
+  {
     "title": "Hermes Agent Complete Guide",
     "path": "en/3-ai-agents/hermes-agent/README.md",
     "difficulty": "intermediate",
@@ -4802,6 +4943,35 @@
       "Tool Use",
       "Model Context Protocol",
       "Tool Integration"
+    ]
+  },
+  {
+    "title": "Multi-Agent Collaboration in Practice: From Solo to Team",
+    "path": "en/3-ai-agents/multi-agent-collaboration.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer",
+      "developer",
+      "architect"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "crewai",
+      "langchain",
+      "langgraph",
+      "metagpt",
+      "claude-code"
+    ],
+    "tags": [
+      "Agent",
+      "Multi-Agent Collaboration",
+      "CrewAI",
+      "LangGraph",
+      "MetaGPT",
+      "Agent Communication",
+      "Role Division",
+      "Orchestration Patterns"
     ]
   },
   {

@@ -93,6 +93,10 @@
 
 - [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
+## AI Programming
+
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+
 ## AI Safety
 
 - [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
@@ -192,6 +196,7 @@
 ## AI编程
 
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 
 ## AI视频
@@ -234,9 +239,11 @@
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 - [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
 - [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
@@ -249,11 +256,17 @@
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 - [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 - [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
 - [How Agents Work: Perceive → Plan → Act → Reflect](en/3-ai-agents/agent-workflow.md) - 20min (intermediate)
 - [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 - [Agent Development](en/4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
+
+## Agent Communication
+
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## Agent Design Patterns
 
@@ -262,6 +275,14 @@
 ## Agent Framework
 
 - [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
+
+## Agent Guardrails
+
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+
+## Agent Practice
+
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 
 ## Agent System
 
@@ -272,6 +293,14 @@
 
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+
+## Agent实战
+
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+
+## Agent护栏
+
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
 ## Agent框架
 
@@ -284,6 +313,10 @@
 ## Agent设计模式
 
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
+
+## Agent通信
+
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## Alignment
 
@@ -325,6 +358,10 @@
 - [Attention Mechanism Explained](1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
 - [注意力机制详解](1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
 - [Attention Mechanism Explained](en/1-understand-ai/llm-basics/attention-mechanism.md) - 20 min (intermediate)
+
+## Audit
+
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
 ## AutoGPT
 
@@ -419,10 +456,12 @@
 - [Claude Code 快速开始指南](2-choose-tools/tools/claude/claude-code-quickstart.md) - 10min (beginner)
 - [Gstack User Guide](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
 - [Gstack 使用指南](2-choose-tools/tools/claude/gstack-guide.md) - 30min (intermediate)
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
@@ -434,10 +473,19 @@
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
 - [How Agents Work: Perceive → Plan → Act → Reflect](en/3-ai-agents/agent-workflow.md) - 20min (intermediate)
 
+## Code Review
+
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+
 ## Codex
 
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+
+## Codex CLI
+
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 
 ## Coding
 
@@ -449,8 +497,10 @@
 
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 - [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 
 ## Computer Vision
 
@@ -483,7 +533,9 @@
 
 - [GitHub Copilot User Guide](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
 - [GitHub Copilot使用指南](2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [GitHub Copilot User Guide](en/2-choose-tools/tools/copilot/README.md) - 20 min (beginner)
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
@@ -507,15 +559,19 @@
 ## CrewAI
 
 - [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 - [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## Cursor
 
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Cursor User Guide](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor使用指南](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 - [Cursor User Guide](en/2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [Vibe Coding Tools Recommendation](en/roles/vibe-coding/tools.md) - 20min (beginner)
 - [Vibe Coding Tools Recommendation](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
@@ -649,6 +705,10 @@
 - [Modern Generative AI Resources](resources/generative-ai/generative-ai-resources.md) - 10 min (beginner)
 - [生成式AI资源](resources/generative-ai/generative-ai-resources.md) - 30 min (intermediate)
 
+## Governance
+
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+
 ## Hallucination
 
 - [Hallucination Phenomenon](1-understand-ai/how-ai-thinks/hallucination.md) - 20 min (beginner)
@@ -673,6 +733,11 @@
 
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
+
+## Human-in-the-Loop
+
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
 ## IDE
 
@@ -786,6 +851,11 @@
 - [LangChain Resources](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [LangChain资源](resources/specialized/langchain-resources.md) - 45 min (intermediate)
 
+## LangGraph
+
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
+
 ## Learning
 
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
@@ -817,6 +887,14 @@
 - [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [MCP (Model Context Protocol): The Open Standard Connecting AI Agents to Everything](en/4-advanced-topics/mcp.md) - 30min (intermediate)
 
+## MCP Security
+
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+
+## MCP安全
+
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+
 ## Machine Learning
 
 - [Machine Learning Basics](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
@@ -836,7 +914,9 @@
 ## MetaGPT
 
 - [Agent 框架选型指南：LangChain、CrewAI、AutoGPT 等](3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 - [Agent Framework Guide: LangChain, CrewAI, AutoGPT & More](en/3-ai-agents/agent-frameworks.md) - 25min (intermediate)
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## Mobile
 
@@ -846,6 +926,10 @@
 
 - [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
 - [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
+
+## Multi-Agent Collaboration
+
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## Multimodal
 
@@ -907,6 +991,10 @@
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 
+## Orchestration Patterns
+
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
+
 ## Organizational Change
 
 - [AI Is Not a Wishing Well](en/0-start-here/ai-not-wishing-well.md) - 20min (beginner)
@@ -915,6 +1003,10 @@
 
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
 - [产品经理 AI 应用指南](roles/product-manager/README.md) - 15 min (beginner)
+
+## Permission Control
+
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
 ## Physical AI
 
@@ -1121,10 +1213,18 @@
 - [RAG（检索增强生成）](4-advanced-topics/rag.md) - 60 min (advanced)
 - [RAG (Retrieval-Augmented Generation)](en/4-advanced-topics/rag.md) - 60 min (advanced)
 
+## Role Division
+
+- [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
+
 ## SKILL.md
 
 - [Agent Skills 元指南：SKILL.md 是什么，怎么自己造一个](2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
 - [Agent Skills Meta-Guide: What is SKILL.md and How to Build Your Own](en/2-choose-tools/agent-skills-guide.md) - 25min (intermediate)
+
+## Safety
+
+- [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
 ## Selection
 
@@ -2303,6 +2403,7 @@
 
 ## 代码审查
 
+- [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
 - [AI代码审查实战案例](roles/programmer/code-review.md) - 30min (intermediate)
 
@@ -2379,6 +2480,10 @@
 
 - [资源文件说明](assets/README.md) - 5min (beginner)
 
+## 多Agent协作
+
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
+
 ## 多模态
 
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
@@ -2398,6 +2503,7 @@
 
 ## 安全
 
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [代码审查员 - Code Reviewer](roles/code-reviewer/README.md) - 45min (intermediate)
 - [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
@@ -2424,6 +2530,7 @@
 
 ## 审计
 
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 - [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
 
 ## 对比
@@ -2538,6 +2645,10 @@
 
 - [OpenClaw 完整使用教程](2-choose-tools/tools/claude/openclaw-guide.md) - 45min (advanced)
 
+## 权限控制
+
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+
 ## 架构
 
 - [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
@@ -2551,6 +2662,10 @@
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
+
+## 治理
+
+- [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
 ## 测试
 
@@ -2601,6 +2716,10 @@
 ## 组织变革
 
 - [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
+
+## 编排模式
+
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## 编码
 
@@ -2659,6 +2778,10 @@
 
 - [编码规则 - Coding Rules](resources/specialized/coding-rules/README.md) - 20min (intermediate)
 - [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
+
+## 角色分工
+
+- [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 
 ## 计划
 
