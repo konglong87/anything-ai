@@ -611,7 +611,8 @@ export default defineConfig({
                     { text: 'Workflow', link: '/en/roles/vibe-coding/workflow' }
                   ]
                 },
-                { text: 'Fortune Teller', link: '/en/roles/fortune-teller/README.html' }
+                { text: 'Fortune Teller', link: '/en/roles/fortune-teller/README.html' },
+                { text: 'Planner', link: '/en/roles/planner/README.html' }
               ]
             },
             {

@@ -388,6 +388,7 @@
 - [Generative AI Resources](en/resources/generative-ai/awesome-ai-resources.md) - 30 min (intermediate)
 - [AI Academic Writing Assistant](en/resources/specialized/ai-research-writing.md) - 20 min (intermediate)
 - [LangChain Resources](en/resources/specialized/langchain-resources.md) - 45 min (intermediate)
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)

@@ -401,6 +401,11 @@
 - [Claude Code Founder's 15 Latest Tips (March 2026)](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 - [Claude Code创始人15条最新使用技巧（2026年3月）](2-choose-tools/tools/claude/boris-15-tips-2026-03.md) - 30min (advanced)
 
+## CRM
+
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
+- [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
+
 ## CV
 
 - [Computer Vision](4-advanced-topics/cv.md) - 45 min (intermediate)
@@ -622,6 +627,7 @@
 - [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 - [编码规则 - Coding Rules](resources/specialized/coding-rules/README.md) - 20min (intermediate)
@@ -708,6 +714,11 @@
 ## Governance
 
 - [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+
+## HR
+
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
+- [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
 
 ## Hallucination
 
@@ -1398,10 +1409,18 @@
 - [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)
 - [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
 
+## accounting
+
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
+
 ## adaptation
 
 - [Learning and Adaptation](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
 - [学习与适应](5-skills/agent/design-patterns/chapters/09-learning-and-adaptation.md) - 30min (advanced)
+
+## admin
+
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
 
 ## advanced
 
@@ -1548,11 +1567,16 @@
 - [底层原理](5-skills/agent/design-patterns/appendix/appendix-f-under-the-hood.md) - 30min (advanced)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 
 ## artificial intelligence
 
 - [What is AI](0-start-here/what-is-ai.md) - 15min (beginner)
 - [What is AI](en/0-start-here/what-is-ai.md) - 15min (beginner)
+
+## audit
+
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
 
 ## automation
 
@@ -1598,6 +1622,10 @@
 
 - [AI代码审查实战案例](roles/programmer/code-review.md) - 30min (intermediate)
 
+## business-negotiation
+
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
+
 ## career
 
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
@@ -1622,6 +1650,10 @@
 - [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
 - [推理技术](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
 
+## classroom-management
+
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
+
 ## claude
 
 - [Claude Code 完整使用指南](2-choose-tools/tools/claude/claude-code-guide.md) - 60min (beginner)
@@ -1638,6 +1670,10 @@
 
 - [AI Agents on the CLI](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
 - [CLI上的AI智能体](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
+
+## client-communication
+
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
 
 ## code generation
 
@@ -1713,6 +1749,10 @@
 - [技能包设计模式课程索引](5-skills/course/README.md) - 8h (advanced)
 - [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
 - [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
+
+## data-processing
+
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
 
 ## decision-making
 
@@ -1803,6 +1843,10 @@
 - [第2章：入口模式 - 统一调度中心](5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 - [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
 
+## document-management
+
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
+
 ## download
 
 - [PDF Learning Materials](assets/pdf/en/readme.md) - 10min (beginner)
@@ -1812,6 +1856,10 @@
 
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
 - [Chapter 6: Parallel Pattern - Efficiency Maximization](en/5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
+
+## employee-training
+
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
 
 ## enterprise
 
@@ -1848,6 +1896,14 @@
 ## file-organization
 
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
+
+## finance
+
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
+
+## financial-forecasting
+
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
 
 ## flexibility
 
@@ -1896,6 +1952,10 @@
 
 - [Human in the Loop](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
 - [人机协作](5-skills/agent/design-patterns/chapters/13-human-in-the-loop.md) - 30min (intermediate)
+
+## implementation
+
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 
 ## index
 
@@ -1978,6 +2038,10 @@
 
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 
+## lesson-prep
+
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
+
 ## literature-review
 
 - [AI-Research-SKILLs Skill 详细指南](5-skills/research/ai-research-skills.md) - 80min (advanced)
@@ -1986,6 +2050,10 @@
 
 - [Model Context Protocol](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
 - [模型上下文协议](5-skills/agent/design-patterns/chapters/10-model-context-protocol.md) - 30min (advanced)
+
+## meeting-notes
+
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
 
 ## memory
 
@@ -2018,6 +2086,10 @@
 ## obsidian
 
 - [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
+
+## office-efficiency
+
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
 
 ## openclaw
 
@@ -2066,12 +2138,25 @@
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [AI Code Review Real Cases](roles/programmer/code-review.md) - 30min (intermediate)
 
+## performance-evaluation
+
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
+
+## personalized-education
+
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
+
 ## planning
 
 - [Planning](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
 - [规划](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
 - [规划与组织类Skills](5-skills/planning/README.md) - 30min (beginner)
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
+
+## policy-documents
+
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
 
 ## prioritization
 
@@ -2113,10 +2198,18 @@
 - [Advanced Prompting Techniques](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
 - [高级提示技术](5-skills/agent/design-patterns/appendix/appendix-a-advanced-prompting-techniques.md) - 30min (intermediate)
 
+## proposal-writing
+
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
+
 ## quality-assurance
 
 - [第4章：责任链模式 - 质量保障链](5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
 - [Chapter 4: Chain of Responsibility Pattern - Quality Assurance Chain](en/5-skills/course/chapter-04-chain-of-responsibility.md) - 70min (intermediate)
+
+## quiz-generation
+
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
 
 ## rag
 
@@ -2138,10 +2231,26 @@
 - [Exception Handling and Recovery](5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md) - 30min (intermediate)
 - [异常处理与恢复](5-skills/agent/design-patterns/chapters/12-exception-handling-and-recovery.md) - 30min (intermediate)
 
+## recruitment
+
+- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
+
 ## reflection
 
 - [Reflection](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
 - [反思](5-skills/agent/design-patterns/chapters/04-reflection.md) - 30min (intermediate)
+
+## report-analysis
+
+- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
+
+## reports
+
+- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
+
+## requirements-analysis
+
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 
 ## research
 
@@ -2166,6 +2275,10 @@
 - [护栏与安全模式](5-skills/agent/design-patterns/chapters/18-guardrails-safety-patterns.md) - 30min (advanced)
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
+
+## sales
+
+- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
 
 ## security
 
@@ -2230,6 +2343,10 @@
 - [Agent Design Patterns Complete Course](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
 - [Agent设计模式完整教程](5-skills/agent/design-patterns/README.md) - 10h (intermediate)
 
+## task-breakdown
+
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
+
 ## task-decomposition
 
 - [Planning](5-skills/agent/design-patterns/chapters/06-planning.md) - 30min (advanced)
@@ -2242,6 +2359,14 @@
 ## task-organization
 
 - [规划与组织类Skills](5-skills/planning/README.md) - 30min (beginner)
+
+## teacher
+
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
+
+## teaching
+
+- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
 
 ## tech-stack
 
@@ -2310,15 +2435,10 @@
 - [Prompt Library](en/prompts/README.md) - 5min (beginner)
 - [External Resources Index](en/resources/README.md) - 10min (beginner)
 - [Industry Application Cases](en/roles/README.md) - 10min (beginner)
-- [Admin AI Application Guide](en/roles/admin/README.md) - 30min (beginner)
 - [Content Creator AI Application Guide](en/roles/content-creator/README.md) - 45min (beginner)
 - [UI Designer AI Application Guide](en/roles/designer/README.md) - 30min (beginner)
-- [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
-- [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
 - [Programmer AI Application Guide](en/roles/programmer/README.md) - 45min (beginner)
-- [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
 - [Student AI Application Guide](en/roles/student/README.md) - 30min (beginner)
-- [Teacher AI Application Guide](en/roles/teacher/README.md) - 30min (beginner)
 - [Prompt Library](prompts/README.md) - 5min (beginner)
 - [提示词库](prompts/README.md) - 5min (beginner)
 - [External Resources Index](resources/README.md) - 10min (beginner)
@@ -2326,7 +2446,6 @@
 - [Industry Application Cases](roles/README.md) - 10min (beginner)
 - [行业应用案例库](roles/README.md) - 10min (beginner)
 - [Admin AI Application Guide](roles/admin/README.md) - 30min (beginner)
-- [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 - [Content Creator AI Application Guide](roles/content-creator/README.md) - 45min (beginner)
 - [内容创作者AI应用指南](roles/content-creator/README.md) - 45min (beginner)
 - [内容创作者AI工具大全](roles/content-creator/ai-tools.md) - 15min (beginner)
@@ -2334,19 +2453,15 @@
 - [UI设计师AI应用指南](roles/designer/README.md) - 30min (beginner)
 - [设计师AI工具大全](roles/designer/ai-tools.md) - 15min (beginner)
 - [Finance AI Application Guide](roles/finance/README.md) - 30min (beginner)
-- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
 - [财务人员AI工具大全](roles/finance/ai-tools.md) - 15min (beginner)
 - [HR AI Application Guide](roles/hr/README.md) - 30min (beginner)
-- [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
 - [Programmer AI Application Guide](roles/programmer/README.md) - 45min (beginner)
 - [程序员AI应用指南](roles/programmer/README.md) - 45min (beginner)
 - [程序员AI工具大全](roles/programmer/ai-tools.md) - 15min (beginner)
 - [Sales AI Application Guide](roles/sales/README.md) - 30min (beginner)
-- [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
 - [Student AI Application Guide](roles/student/README.md) - 30min (beginner)
 - [学生AI应用指南](roles/student/README.md) - 30min (beginner)
 - [Teacher AI Application Guide](roles/teacher/README.md) - 30min (beginner)
-- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
 
 ## usage tips
 
@@ -2389,6 +2504,10 @@
 
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
 
+## 个性化教育
+
+- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
+
 ## 中国大模型
 
 - [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
@@ -2415,6 +2534,18 @@
 
 - [2026-03-23 任务清单](todo/todo_2026_03_23.md) - 10min (beginner)
 
+## 任务分解
+
+- [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
+
+## 会计
+
+- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
+
+## 会议纪要
+
+- [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
+
 ## 使用技巧
 
 - [Claude使用指南](2-choose-tools/tools/claude/README.md) - 45min (beginner)
@@ -2440,9 +2571,21 @@
 
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
 
+## 出题
+
+- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
+
+## 制度文档
+
+- [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
+
 ## 前端开发
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+
+## 办公效率
+
+- [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 
 ## 动效
 
@@ -2464,6 +2607,10 @@
 
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
+## 员工培训
+
+- [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
+
 ## 命理分析
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
@@ -2472,6 +2619,10 @@
 
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
 
+## 商务谈判
+
+- [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
+
 ## 国内模型
 
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
@@ -2479,6 +2630,10 @@
 ## 图片
 
 - [资源文件说明](assets/README.md) - 5min (beginner)
+
+## 备课
+
+- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
 
 ## 多Agent协作
 
@@ -2531,7 +2686,12 @@
 ## 审计
 
 - [Agent 安全与治理：让 Agent 可信、可控、可审计](3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
+- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
 - [安全审计员 - Security Reviewer](roles/security-reviewer/README.md) - 45min (advanced)
+
+## 客户沟通
+
+- [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
 
 ## 对比
 
@@ -2612,6 +2772,18 @@
 
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 
+## 报表
+
+- [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
+
+## 报表分析
+
+- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
+
+## 招聘
+
+- [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
+
 ## 推理
 
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
@@ -2620,17 +2792,37 @@
 
 - [推理模型与慢思考：AI 如何学会'想清楚再答'](1-understand-ai/reasoning-models.md) - 30min (intermediate)
 
+## 提案撰写
+
+- [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
+
 ## 提示注入
 
 - [AI 安全与对齐：提示注入、越狱与红队，普通人也要懂](1-understand-ai/ai-safety.md) - 25min (beginner)
+
+## 教学
+
+- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
 
 ## 教学方法
 
 - [费曼学习法AI应用（教师版）](roles/teacher/feynman-technique.md) - 20min (intermediate)
 
+## 教师
+
+- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
+
+## 数据处理
+
+- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
+
 ## 文心一言
 
 - [CC Switch 国内大模型切换教程](2-choose-tools/tools/claude/cc-switch-guide.md) - 20min (intermediate)
+
+## 文档管理
+
+- [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
 
 ## 智能体
 
@@ -2717,6 +2909,10 @@
 
 - [AI不是许愿池](0-start-here/ai-not-wishing-well.md) - 20min (beginner)
 
+## 绩效评估
+
+- [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
+
 ## 编排模式
 
 - [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
@@ -2769,6 +2965,10 @@
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 
+## 行政
+
+- [行政AI应用指南](roles/admin/README.md) - 30min (beginner)
+
 ## 规划
 
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
@@ -2791,9 +2991,21 @@
 
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
 
+## 课堂管理
+
+- [教师AI应用指南](roles/teacher/README.md) - 30min (beginner)
+
 ## 豆包
 
 - [豆包使用指南](2-choose-tools/tools/doubao/README.md) - 15 min (beginner)
+
+## 财务
+
+- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
+
+## 财务预测
+
+- [财务AI应用指南](roles/finance/README.md) - 30min (beginner)
 
 ## 质量
 
@@ -2824,6 +3036,10 @@
 
 - [通用编码规则](resources/specialized/coding-rules/common/README.md) - 15min (beginner)
 
+## 销售
+
+- [销售AI应用指南](roles/sales/README.md) - 30min (beginner)
+
 ## 长期记忆
 
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
@@ -2832,4 +3048,8 @@
 ## 零基础
 
 - [学习路径总览](0-start-here/learning-path.md) - 30min (beginner)
+
+## 需求分析
+
+- [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
 

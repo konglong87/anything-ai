@@ -327,6 +327,7 @@
 - [Finance AI Application Guide](en/roles/finance/README.md) - 30min (beginner)
 - [AI Fortune Teller Application Guide](en/roles/fortune-teller/README.md) - 30min (beginner)
 - [HR AI Application Guide](en/roles/hr/README.md) - 30min (beginner)
+- [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
 - [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)

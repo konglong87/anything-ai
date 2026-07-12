@@ -5799,7 +5799,14 @@
       "admin"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "admin",
+      "office-efficiency",
+      "document-management",
+      "meeting-notes",
+      "reports"
+    ]
   },
   {
     "title": "Content Creator AI Application Guide",
@@ -5829,7 +5836,15 @@
       "finance"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "finance",
+      "report-analysis",
+      "audit",
+      "financial-forecasting",
+      "data-processing",
+      "accounting"
+    ]
   },
   {
     "title": "AI Fortune Teller Application Guide",
@@ -5856,7 +5871,33 @@
       "hr"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "HR",
+      "recruitment",
+      "employee-training",
+      "performance-evaluation",
+      "policy-documents"
+    ]
+  },
+  {
+    "title": "Implementation Planner",
+    "path": "en/roles/planner/README.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer",
+      "developer"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tags": [
+      "planning",
+      "architecture",
+      "implementation",
+      "ECC",
+      "requirements-analysis",
+      "task-breakdown"
+    ]
   },
   {
     "title": "Product Manager AI Application Guide",
@@ -5938,7 +5979,14 @@
       "sales"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "sales",
+      "client-communication",
+      "proposal-writing",
+      "CRM",
+      "business-negotiation"
+    ]
   },
   {
     "title": "Student AI Application Guide",
@@ -5958,7 +6006,15 @@
       "teacher"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "teacher",
+      "teaching",
+      "lesson-prep",
+      "quiz-generation",
+      "personalized-education",
+      "classroom-management"
+    ]
   },
   {
     "title": "Vibe Coding Beginner's Guide",
@@ -6871,7 +6927,14 @@
       "admin"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "行政",
+      "办公效率",
+      "文档管理",
+      "会议纪要",
+      "报表"
+    ]
   },
   {
     "title": "代码审查员 - Code Reviewer",
@@ -6968,7 +7031,15 @@
       "finance"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "财务",
+      "报表分析",
+      "审计",
+      "财务预测",
+      "数据处理",
+      "会计"
+    ]
   },
   {
     "title": "财务人员AI工具大全",
@@ -7032,7 +7103,14 @@
       "hr"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "HR",
+      "招聘",
+      "员工培训",
+      "绩效评估",
+      "制度文档"
+    ]
   },
   {
     "title": "实现规划师 - Planner",
@@ -7048,7 +7126,9 @@
       "规划",
       "架构",
       "实施",
-      "ECC"
+      "ECC",
+      "需求分析",
+      "任务分解"
     ]
   },
   {
@@ -7203,7 +7283,14 @@
       "sales"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "销售",
+      "客户沟通",
+      "提案撰写",
+      "CRM",
+      "商务谈判"
+    ]
   },
   {
     "title": "安全审计员 - Security Reviewer",
@@ -7297,7 +7384,15 @@
       "teacher"
     ],
     "type": "guide",
-    "duration": "30min"
+    "duration": "30min",
+    "tags": [
+      "教师",
+      "教学",
+      "备课",
+      "出题",
+      "个性化教育",
+      "课堂管理"
+    ]
   },
   {
     "title": "费曼学习法AI应用（教师版）",
