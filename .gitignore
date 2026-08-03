@@ -5,6 +5,12 @@ node_modules/
 dist/
 .vitepress/dist/
 .vitepress/cache/
+# GEO 产物：由 npm run llms 生成（已在 build 链里），CI 会重新生成，不入库
+public/llms.txt
+public/llms-full.txt
+# vite 崩溃残留 / 临时素材
+.vitepress/config.mts.timestamp-*.mjs
+.playwright-mcp/
 
 # OS files
 .DS_Store

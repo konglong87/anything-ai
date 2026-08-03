@@ -1,4 +1,202 @@
 import { defineConfig } from 'vitepress'
+import { createRequire } from 'node:module'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
+import { existsSync } from 'node:fs'
+import { execFileSync } from 'node:child_process'
+
+const _require = createRequire(import.meta.url)
+
+const _ROOT = dirname(dirname(fileURLToPath(import.meta.url))) // .vitepress -> 项目根
+let _parser = null
+function getParser() {
+  if (!_parser) _parser = _require(join(_ROOT, 'scripts/lib/parser'))
+  return _parser
+}
+
+// ===== GEO（生成式引擎优化）常量与工具 =====
+// URL 映射与 scripts/generate-llms-txt.js 共用 scripts/lib/geo.js，避免两处规则漂移
+const { SITE_ORIGIN, SITE_BASE, toUrl } = _require(join(_ROOT, 'scripts/lib/geo'))
+
+// ctx.page 可能是 rewrites 的产物（index.md ← README.md），映射回真实源文件
+function sourcePath(rel) {
+  if (existsSync(join(_ROOT, rel))) return rel
+  const alt = rel.replace(/(^|\/)index\.md$/i, '$1README.md')
+  return existsSync(join(_ROOT, alt)) ? alt : rel
+}
+
+// frontmatter 日期可能被 YAML 解析成 Date 对象，统一成 YYYY-MM-DD
+function toDateStr(v) {
+  if (!v) return ''
+  if (v instanceof Date) return v.toISOString().slice(0, 10)
+  const s = String(v).trim()
+  return /^\d{4}-\d{2}-\d{2}/.test(s) ? s.slice(0, 10) : ''
+}
+
+// 最后一次提交日期。不能用构建时间兜底：那会把全站 dateModified 谎报成当天。
+const _gitDateCache = new Map()
+function gitDate(rel) {
+  if (_gitDateCache.has(rel)) return _gitDateCache.get(rel)
+  let d = ''
+  try {
+    d = execFileSync('git', ['log', '-1', '--format=%cs', '--', rel], {
+      cwd: _ROOT,
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore']
+    }).trim()
+  } catch (e) { /* 非 git 环境或文件未提交 */ }
+  _gitDateCache.set(rel, d)
+  return d
+}
+
+// 中英对照页，仅在对应文件真实存在时才声明 hreflang。
+// 英文页有两种形态：已迁移的 en/<path>.md，与未迁移的 <path>.en.md，两者都要认。
+function altPair(srcRel) {
+  if (srcRel.startsWith('en/')) {
+    const zh = srcRel.slice(3)
+    return existsSync(join(_ROOT, zh)) ? { zh, en: srcRel } : null
+  }
+  if (/\.en\.md$/i.test(srcRel)) {
+    const zh = srcRel.replace(/\.en\.md$/i, '.md')
+    return existsSync(join(_ROOT, zh)) ? { zh, en: srcRel } : null
+  }
+  const enMigrated = 'en/' + srcRel
+  if (existsSync(join(_ROOT, enMigrated))) return { zh: srcRel, en: enMigrated }
+  const enFlat = srcRel.replace(/\.md$/i, '.en.md')
+  return existsSync(join(_ROOT, enFlat)) ? { zh: srcRel, en: enFlat } : null
+}
+
+// 从 Markdown 正文抽取一句话摘要（去除代码块/图片/HTML/列表噪声）
+function extractSummary(body, max = 160) {
+  const lines = String(body)
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+    .split('\n')
+  const candidates = []
+  let buf = ''
+  for (const line of lines) {
+    const t = line.trim()
+    if (!t) { if (buf) { candidates.push(buf); buf = '' } continue }
+    if (t.startsWith('#') || t.startsWith('>') || t.startsWith('|')) continue
+    if (/^[-*]\s+\[/.test(t)) continue
+    buf += t + ' '
+  }
+  if (buf) candidates.push(buf)
+  const pick =
+    candidates.find((c) => {
+      const clean = c.replace(/<[^>]+>/g, '').replace(/[*_`]/g, '').trim()
+      return clean.length > 10 && !/<[^>]+>/.test(c) && !/^[^：]{0,8}：\s*$/.test(clean)
+    }) || candidates.find((c) => !/<[^>]+>/.test(c)) || ''
+  let s = pick
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/[*_`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+  if (s.length > max) s = s.slice(0, max).replace(/\s+$/, '') + '…'
+  return s
+}
+
+const SECTION_LABELS = {
+  '0-start-here': '从这里开始',
+  '1-understand-ai': '理解AI',
+  '2-choose-tools': '选择工具',
+  '3-ai-agents': 'AI Agents',
+  '4-advanced-topics': '进阶主题',
+  '5-skills': 'AI Skills',
+  roles: '行业角色',
+  prompts: '提示词库',
+  resources: '外部资源',
+  assets: '资源下载',
+  en: 'English'
+}
+function sectionOf(rel) {
+  if (!rel.includes('/')) return '首页'
+  const top = rel.split('/')[0]
+  return SECTION_LABELS[top] || top
+}
+
+// 为单页生成 GEO head 片段：canonical + hreflang + JSON-LD
+function buildGeoHead(ctx) {
+  const fm = (ctx.pageData && ctx.pageData.frontmatter) || {}
+
+  // headline 只要文章标题：ctx.title 是套过 titleTemplate 的 <title>，带 " | Anything-AI" 后缀
+  const headline = String(fm.title || ctx.title || '')
+    .replace(/\s*[|｜]\s*Anything-AI\s*$/i, '')
+    .replace(/^[\p{Extended_Pictographic}️‍\s]+/u, '')
+    .trim()
+  if (!headline) return ''
+
+  const rel = ctx.page || ''
+  const srcRel = sourcePath(rel)
+  const url = toUrl(srcRel)
+  const homeUrl = SITE_ORIGIN + SITE_BASE + '/'
+  const isHome = url === homeUrl
+  const section = sectionOf(srcRel)
+  const lang = srcRel.startsWith('en/') || /\.en\.md$/.test(srcRel) ? 'en-US' : 'zh-CN'
+  // 作者声明的 updated 优先，其次 git 提交日期；都没有就不输出该字段，绝不用构建时间充数
+  const updated = toDateStr(fm.updated) || gitDate(srcRel)
+  const keywords = Array.isArray(fm.tags) ? fm.tags : fm.tags ? [fm.tags] : []
+
+  // 摘要：优先从源文件正文首段（干净），回退到 frontmatter / 页面 description
+  let desc = ''
+  try {
+    const entry = getParser().parseMarkdownFile(join(_ROOT, srcRel))
+    desc = extractSummary(entry.body || '')
+  } catch (e) { /* 源文件读取失败时忽略，走回退 */ }
+  desc = desc || fm.description || ctx.description || headline + '。Anything-AI 系统性 AI 知识索引。'
+
+  const graph = []
+  if (isHome) {
+    graph.push({
+      '@type': 'WebSite',
+      '@id': homeUrl,
+      name: 'Anything-AI',
+      url: homeUrl,
+      inLanguage: 'zh-CN',
+      description: '系统性 AI 知识索引：帮助人们认识、理解、驾驭 AI。',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: homeUrl + '?q={search_term_string}',
+        'query-input': 'required name=search_term_string'
+      }
+    })
+  }
+  const article = {
+    '@type': fm.difficulty || fm.type ? 'TechArticle' : 'Article',
+    headline,
+    description: desc,
+    inLanguage: lang,
+    articleSection: section,
+    keywords,
+    author: { '@type': 'Organization', name: 'Anything-AI Community' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Anything-AI Community',
+      logo: { '@type': 'ImageObject', url: homeUrl + 'og-image.png' }
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    url
+  }
+  if (updated) article.dateModified = updated
+  graph.push(article)
+
+  // canonical 指向真实内容页；hreflang 声明中英互为译文而非重复内容
+  let out = `<link rel="canonical" href="${url}">`
+  const pair = altPair(srcRel)
+  if (pair) {
+    const zhUrl = toUrl(pair.zh)
+    const enUrl = toUrl(pair.en)
+    out += `\n<link rel="alternate" hreflang="zh-CN" href="${zhUrl}">`
+    out += `\n<link rel="alternate" hreflang="en" href="${enUrl}">`
+    out += `\n<link rel="alternate" hreflang="x-default" href="${zhUrl}">`
+  }
+  out += `\n<script type="application/ld+json">${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': graph
+  })}</script>`
+  return out
+}
 
 export default defineConfig({
   // GitHub Pages部署配置
@@ -21,8 +219,18 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Anything-AI' }],
     ['meta', { name: 'twitter:description', content: '系统性AI知识索引 - 帮助人们认识、理解和驾驭AI' }],
-    ['meta', { name: 'twitter:image', content: 'https://konglong87.github.io/anything-ai/og-image.png' }]
+    ['meta', { name: 'twitter:image', content: 'https://konglong87.github.io/anything-ai/og-image.png' }],
+    ['link', { rel: 'llms.txt', href: '/anything-ai/llms.txt' }],
+    ['link', { rel: 'llms-full.txt', href: '/anything-ai/llms-full.txt' }]
   ],
+
+  // GEO：为每页注入 canonical / hreflang / JSON-LD（Article/TechArticle + WebSite）
+  transformHtml(code, id, ctx) {
+    const head = buildGeoHead(ctx)
+    if (!head) return code
+    // 用函数式 replacer：片段里的 $& / $' 等不会被当成替换模式解析
+    return code.replace(/<\/head>/i, () => head + '\n</head>')
+  },
 
   // 排除不需要的目录
   srcExclude: [
@@ -30,9 +238,14 @@ export default defineConfig({
     'scripts/**',
     'node_modules/**',
     'docs/superpowers/**',
-    '0-start-here/_templates/**',
+    // 模板页不发布。必须用 **/ 前缀：只写 0-start-here/_templates/** 时
+    // en/0-start-here/_templates/** 仍会建出页面，且其 hreflang 指向被排除的中文页 → 404
+    '**/_templates/**',
     'PROGRESS.md',
-    'CLAUDE.md'
+    'CLAUDE.md',
+    // 内部计划稿与临时素材，不应作为页面发布（否则会进 sitemap 并带上 canonical/JSON-LD）
+    'GEO-PLAN.md',
+    '_temp_karpathy/**'
   ],
 
   // 路由重写规则（修复根路径和英文路径404）

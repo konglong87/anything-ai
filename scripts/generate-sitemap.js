@@ -20,11 +20,20 @@ function walk(dir, acc = []) {
   return acc;
 }
 
-const htmlFiles = walk(DIST_DIR);
+// fix-readme-urls.js 会在每个目录放一个跳转到 README.html 的 index.html 空壳页。
+// 这些页面没有正文，收进 sitemap 等于向爬虫申报一批重复的空 URL。
+function isRedirectStub(file) {
+  const head = fs.readFileSync(file, 'utf8').slice(0, 800);
+  return /http-equiv="refresh"/i.test(head) && /Redirecting/i.test(head);
+}
+
+const htmlFiles = walk(DIST_DIR).filter((f) => !isRedirectStub(f));
 const urls = htmlFiles.map((f) => {
   let rel = path.relative(DIST_DIR, f).split(path.sep).join('/');
   rel = rel.replace(/\.html$/, '');
-  if (rel === 'index') rel = '';
+  // 目录索引页用目录形式，与 config.mts 注入的 canonical 保持一致
+  // （index / en/index 都要处理，否则 sitemap 与 canonical 互相打架）
+  rel = rel.replace(/(^|\/)index$/, '$1');
   return BASE_URL + rel;
 });
 

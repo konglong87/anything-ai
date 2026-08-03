@@ -30,7 +30,8 @@ const contentEntries = entries.filter(e =>
   !e.relativePath.includes('indexes/') &&
   !e.relativePath.startsWith('memory/') &&
   !e.relativePath.startsWith('.github/') &&
-  !['CLAUDE.md', 'PROGRESS.md', 'README.md', 'README.en.md'].includes(e.relativePath) &&
+  !e.relativePath.startsWith('_temp_karpathy/') &&
+  !['CLAUDE.md', 'PROGRESS.md', 'README.md', 'README.en.md', 'GEO-PLAN.md'].includes(e.relativePath) &&
   !e.relativePath.startsWith('docs/')
 );
 

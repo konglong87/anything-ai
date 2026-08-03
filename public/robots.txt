@@ -1,0 +1,61 @@
+# Anything-AI robots.txt
+#
+# ⚠️ 这份文件对爬虫无效，仅作策略记录。
+# robots.txt 按 origin 生效（RFC 9309）：爬虫只请求
+#   https://konglong87.github.io/robots.txt
+# 不会请求 https://konglong87.github.io/anything-ai/robots.txt。
+# 真正生效的那份必须放在 konglong87.github.io 仓库根目录，并在其中声明本站 Sitemap。
+#
+# 下列规则保留为「本站期望的抓取策略」，方便与根仓库那份对照。
+
+# 生成式 AI 引擎：显式授权抓取，便于其理解、检索并引用本站内容（GEO）
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: omgilibot
+Allow: /
+
+# 通用爬虫（SEO）
+User-agent: *
+Allow: /
+
+Sitemap: https://konglong87.github.io/anything-ai/sitemap.xml

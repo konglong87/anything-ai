@@ -20,6 +20,10 @@ if [ $? -ne 0 ]; then
 fi
 echo ""
 
+echo "🌍 步骤2.5: 生成 GEO 文件（llms.txt / llms-full.txt）..."
+npm run llms
+echo ""
+
 echo "📈 步骤3: 生成统计数据..."
 npm run stats
 echo ""
