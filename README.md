@@ -16,6 +16,26 @@
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge" alt="⭐ 给我们加星"></a>
 </p>
 
+---
+
+## 📥 免费下载
+
+> 🔥 **热门资源，持续更新** — 所有 PDF 均可免费下载，离线学习
+
+| 资源 | 说明 | 下载 |
+|------|------|------|
+| 📘 **Agent 设计模式（中文版）** | 21种Agent核心设计模式完整解析，7个附录 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/agentic-design-patterns-chinese.pdf) |
+| 🌏 **Agent 设计模式（中英双语版）** | 中英对照排版，学习技术术语 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/agentic-design-patterns-bilingual.pdf) |
+| 🦞 **OpenClaw 从入门到精通** | 小龙虾平台完整入门指南 v1.3.1 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/OpenClaw从入门到精通-v1.3.1.pdf) |
+| 📖 **OpenClaw 使用手册** | 平台功能说明与快速参考 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/OpenClaw使用手册.pdf) |
+| 📗 **提示词组成工作流重构** | 从单一提示词到系统化工作流 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/提示词组成工作流重构.pdf) |
+| 📘 **软件开发领域工作流重构** | 需求→架构→编码→测试→部署 AI赋能 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/软件开发领域工作流重构.pdf) |
+| 📙 **AI全栈开发助手工作流提示词** | 可直接复用的全栈提示词模板 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/AI全栈开发助手工作流提示词.pdf) |
+
+📖 [查看完整资料说明](./assets/pdf/readme.md)
+
+---
+
 ## 💡 这个项目是什么
 
 **Anything-AI** 是一个系统性的AI知识索引项目。
@@ -115,10 +135,6 @@
 | 📚 **行政** | 文档整理、会议纪要 | **豆包（完全免费）** | [行政专区](./roles/admin/README.html) |
 
 **没找到你的行业？** [查看全部角色](./roles/README.html) 或 [提交需求](https://github.com/your-repo/issues)
-
-**📥 PDF教程资源**：
-- [OpenClaw 小龙虾教程](./assets/pdf/readme.md) - 从入门到精通完整教程（免费下载）
-- [AI工作流重构系列](./assets/pdf/readme.md#ai-工作流重构系列教程) - 提示词工作流+软件开发工作流+全栈开发助手（免费下载）🆕
 
 **🎯 AI Skills工具箱**：
 - [AI Skills精选集合](./5-skills/README.html) - 提升AI使用效率的技能工具箱
