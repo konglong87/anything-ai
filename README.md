@@ -12,7 +12,7 @@
 </p>
 
 <p style="display:flex;align-items:center;gap:12px;flex-wrap:nowrap;margin:16px 0;padding-top:16px;border-top:1px solid var(--vp-c-divider);">
-<iframe src="https://ghbtns.com/github-btn.html?user=konglong87&repo=anything-ai&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+<a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/github/stars/konglong87/anything-ai?style=social&label=Star&logo=github" alt="Star on GitHub"></a>
 <a href="https://github.com/konglong87/anything-ai"><img src="https://img.shields.io/badge/⭐_给我们加星-anything--ai-orange?style=for-the-badge" alt="⭐ 给我们加星"></a>
 </p>
 
