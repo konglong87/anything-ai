@@ -34,6 +34,8 @@
     "stats": "node scripts/stats.js",
     "llms": "node scripts/generate-llms-txt.js",
     "fix-urls": "node scripts/fix-readme-urls.js",
+    "fix-image-refs": "node scripts/fix-image-refs.js",
+    "migrate-en-files": "node scripts/migrate-en-files.js",
     "sitemap": "node scripts/generate-sitemap.js",
     "build": "npm run check && npm run index && npm run llms && npm run docs:build && npm run fix-urls && npm run sitemap",
     "test": "echo \"No tests yet\" && exit 0"
