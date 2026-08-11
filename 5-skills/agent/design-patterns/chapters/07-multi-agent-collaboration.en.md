@@ -79,7 +79,7 @@ This model is a nuanced extension of the "Supervisor" concept, where the supervi
 
 The "Hierarchical" model expands upon the supervisor concept to create a multi-layered organizational structure. This involves multiple levels of supervisors, with higher-level supervisors overseeing lower-level ones, and ultimately, a collection of operational agents at the lowest tier. This structure is well-suited for complex problems that can be decomposed into sub-problems, each managed by a specific layer of the hierarchy. It provides a structured approach to scalability and complexity management, allowing for distributed decision-making within defined boundaries.
 
-![Agents Communicate and Interact in Various Ways](../images/chapter-7/image3.png)
+![Agents Communicate and Interact in Various Ways](../images/chapter-7/image2.png)
 
 Fig. 2: Agents communicate and interact in various ways.
 
@@ -434,7 +434,7 @@ artist_agent = LlmAgent(
 
 **Visual summary:**
 
-![Multi-Agent Design Pattern](../images/chapter-7/image2.png)
+![Multi-Agent Design Pattern](../images/chapter-7/image3.png)
 
 Fig.3: Multi-Agent design pattern
 

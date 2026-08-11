@@ -607,7 +607,7 @@ Overall, this code provides a basic framework for building a conversational AI a
 
 **Visual summary:**
 
-![Tool Use Design Pattern](../images/chapter-5/image1.png)
+![Tool Use Design Pattern](../images/chapter-5/image2.png)
 
 Fig.2: Tool use design pattern
 
