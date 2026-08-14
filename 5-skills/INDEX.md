@@ -70,10 +70,12 @@ tags: [skills, index, catalog]
 - [Awesome Agent Skills](./agent/awesome-agent-skills.md) - Agent技能集合
 - [Skills Catalog](./agent/skills-catalog.md) - 完整Skills目录
 - [Agent设计模式完整教程](./agent/design-patterns/README.md) ⭐⭐⭐⭐⭐ - 21个核心模式+7个附录，系统学习Agent开发
+- [Xuanxue Skills 玄学技能包](./xuanxue/README.md) ⭐ - 八字、婚恋、事业财运、手相、奇门一站式技能包
 
 **适用场景**：
 - Agent开发、自动化任务、智能助手
 - Agent设计模式完整教程：系统学习Agent开发、掌握核心设计模式、从基础到高级完整路径
+- Xuanxue Skills：AI算命娱乐、中国传统术数文化研究、Agent技能实践
 
 **详细文档**：[Agent Skills目录](./agent/README.md)
 

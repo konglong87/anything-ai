@@ -481,6 +481,8 @@
 ## Code Review
 
 - [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 
 ## Codex
 
@@ -586,6 +588,11 @@
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
+
+## Debugging
+
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 
 ## Deep Learning
 
@@ -1063,7 +1070,9 @@
 
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek User Guide](en/2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [编程场景提示词](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 
@@ -1100,12 +1109,14 @@
 
 ## Prompts
 
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [AI Academic Writing Assistant](en/resources/specialized/ai-research-writing.md) - 20 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -1162,6 +1173,11 @@
 ## Red Teaming
 
 - [AI Safety & Alignment: Prompt Injection, Jailbreak, Red Teaming — Everyone Should Know](en/1-understand-ai/ai-safety.md) - 25min (beginner)
+
+## Refactoring
+
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 
 ## Reflection
 
@@ -1591,6 +1607,10 @@
 - [Prompt Chaining](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
 - [提示词链](5-skills/agent/design-patterns/chapters/01-prompt-chaining.md) - 30min (beginner)
 
+## bazi
+
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
+
 ## beginner
 
 - [Learning Path Overview](0-start-here/learning-path.md) - 30min (beginner)
@@ -1649,6 +1669,10 @@
 
 - [Reasoning Techniques](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
 - [推理技术](5-skills/agent/design-patterns/chapters/17-reasoning-techniques.md) - 30min (advanced)
+
+## chinese-metaphysics
+
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## classroom-management
 
@@ -1893,6 +1917,10 @@
 - [Exploration and Discovery](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 - [探索与发现](5-skills/agent/design-patterns/chapters/21-exploration-and-discovery.md) - 30min (advanced)
 
+## fengshui
+
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
+
 ## file-organization
 
 - [planning-with-files Skill 详细指南](5-skills/planning/planning-with-files.md) - 50min (beginner)
@@ -2112,6 +2140,10 @@
 - [Quick Overview of Agentic Frameworks](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
 - [智能体框架快速概览](5-skills/agent/design-patterns/appendix/appendix-c-quick-overview-of-agentic-frameworks.md) - 30min (beginner)
 
+## palmistry
+
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
+
 ## parallel-pattern
 
 - [第6章：并行模式 - 效率最大化](5-skills/course/chapter-06-parallel-pattern.md) - 60min (advanced)
@@ -2201,6 +2233,10 @@
 ## proposal-writing
 
 - [Sales AI Application Guide](en/roles/sales/README.md) - 30min (beginner)
+
+## qimen
+
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## quality-assurance
 
@@ -2313,6 +2349,7 @@
 - [第7章：守护模式 - 安全边界设计](5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [第8章：最佳实践与反模式 - 经验总结](5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 - [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
 - [Skills Package Design Patterns Course Index](en/5-skills/course/README.md) - 8h (advanced)
 - [Chapter 2: Entry Pattern - Unified Dispatch Center](en/5-skills/course/chapter-02-entry-pattern.md) - 60min (intermediate)
@@ -2323,6 +2360,7 @@
 - [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)
 
 ## startup
@@ -2500,6 +2538,10 @@
 - [Vibe Coding Beginner's Guide](roles/vibe-coding/README.md) - 20min (beginner)
 - [Vibe Coding Workflow Detailed Guide](roles/vibe-coding/workflow.md) - 25min (beginner)
 
+## xuanxue
+
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
+
 ## 世界模型
 
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
@@ -2565,6 +2607,7 @@
 
 ## 八字
 
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
 
 ## 具身智能
@@ -2611,6 +2654,10 @@
 
 - [HR AI应用指南](roles/hr/README.md) - 30min (beginner)
 
+## 命理
+
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
+
 ## 命理分析
 
 - [AI算命师应用指南](roles/fortune-teller/README.md) - 30min (beginner)
@@ -2642,6 +2689,10 @@
 ## 多模态
 
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
+
+## 奇门
+
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## 子代理
 
@@ -2768,6 +2819,10 @@
 
 - [AI代码审查实战案例](roles/programmer/code-review.md) - 30min (intermediate)
 
+## 手相
+
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
+
 ## 技能包
 
 - [Everything Claude Code 精选资源](resources/external/everything-claude-code/README.md) - 30min (intermediate)
@@ -2871,6 +2926,10 @@
 ## 物理AI
 
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
+
+## 玄学
+
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## 生产关系
 
@@ -3052,4 +3111,8 @@
 ## 需求分析
 
 - [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
+
+## 风水
+
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 

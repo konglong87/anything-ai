@@ -23,6 +23,7 @@ tags: [skills, collection, overview]
 - [Productivity Skills](./productivity/) - 效率提升类Skills
 - [职场生存技能](./career/) - 草台班子反利用与职业风控 ⭐ 新增
 - [Agent Skills](./agent/) - Agent相关Skills
+- [玄学技能包](./xuanxue/README.md) - 八字、婚恋、事业财运、手相、奇门 ⭐ 新增
 - [技能包设计模式课程](./course/README.md) - 从理论到实践，掌握AI技能包的核心设计理念
 
 ## 🌟 精选Skills推荐
@@ -50,6 +51,11 @@ tags: [skills, collection, overview]
    - **功能**：Agent技能集合
    - **使用场景**：Agent开发、自动化任务
    - **安装教程**：[查看详情](./agent/awesome-agent-skills.md)
+
+2. **[xuanxue-skills](https://github.com/konglong87/xuanxue-skills)** ⭐ 新收录
+   - **功能**：中国传统玄学技能包（八字、婚恋、事业财运、手相、奇门）
+   - **使用场景**：AI算命娱乐、文化研究、Agent技能实践
+   - **安装教程**：[查看详情](./xuanxue/README.md)
 
 ### 效率提升类Skills
 

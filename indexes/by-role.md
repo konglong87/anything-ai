@@ -105,6 +105,8 @@
 - [Superpower Skills 详细指南](5-skills/productivity/superpower-skills.md) - 70min (intermediate)
 - [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)
 - [obsidian-skills Skill 详细指南](5-skills/research/obsidian-skills.md) - 60min (beginner)
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## analyst
 
@@ -577,12 +579,14 @@
 - [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [RAG (Retrieval-Augmented Generation)](en/4-advanced-topics/rag.md) - 60 min (advanced)
 - [World Models & Embodied AI: From Generating Content to Understanding and Acting](en/4-advanced-topics/world-models.md) - 30min (advanced)
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [LangChain Resources](en/resources/specialized/langchain-resources.md) - 45 min (intermediate)
 - [Implementation Planner](en/roles/planner/README.md) - 30min (intermediate)
 - [Programmer AI Application Guide](en/roles/programmer/README.md) - 45min (beginner)
 - [AI Programming Assistant Real Cases](en/roles/programmer/code-assistant.md) - 30min (intermediate)
 - [AI Code Review Real Cases](en/roles/programmer/code-review.md) - 30min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [编程场景提示词](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Everything Claude Code - Curated Resources](resources/external/everything-claude-code/README.md) - 30min (intermediate)

@@ -29,12 +29,14 @@
 - [ChatGPT User Guide](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
 - [ChatGPT使用指南](2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
 - [ChatGPT User Guide](en/2-choose-tools/tools/chatgpt/README.md) - 25 min (beginner)
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -60,6 +62,7 @@
 - [Context Engineering - 上下文工程](en/1-understand-ai/ai-engineering-paradigms/context-engineering/README.md) - 20 min (intermediate)
 - [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Prompt Engineering - 提示词工程](en/1-understand-ai/ai-engineering-paradigms/prompt-engineering/README.md) - 15 min (beginner)
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
@@ -68,6 +71,7 @@
 - [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
 - [Claude Skills and Tools Resources](en/resources/specialized/agent-skills-resources.md) - 10 min (beginner)
 - [Product Manager AI Application Guide](en/roles/product-manager/README.md) - 15 min (beginner)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -96,17 +100,21 @@
 - [Cursor User Guide](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor使用指南](2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
 - [Cursor User Guide](en/2-choose-tools/tools/cursor/README.md) - 20 min (beginner)
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [System Prompts Leaks - Decoding AI's Hidden Instructions](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 - [系统提示词解密 - System Prompts Leaks](resources/external/system-prompts-leaks.md) - 30 min (intermediate)
 
 ## DeepSeek
 
+- [Programmer Practical Prompts](en/prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](en/prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](en/prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
 - [Learning Scenario Prompts](en/prompts/by-scene/learning-prompts.md) - 20 min (beginner)
 - [Research Writing Scenario Prompts](en/prompts/by-scene/research-writing-prompts.md) - 30 min (advanced)
 - [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [System Prompt Guide](en/prompts/system-prompts.md) - 30 min (intermediate)
+- [程序员实战提示词](prompts/by-role/programmer-prompts.md) - 25 min (intermediate)
 - [Analysis Scenario Prompts](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [分析场景提示词](prompts/by-scene/analysis-prompts.md) - 25 min (intermediate)
 - [Coding Scenario Prompts](prompts/by-scene/coding-prompts.md) - 20 min (intermediate)
@@ -370,6 +378,7 @@
 - [技能包设计模式：从理论到实践](5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
 - [Impeccable - Professional Frontend Pages with Zero Design Background](5-skills/impeccable-skill/README.md) - 30min (beginner)
 - [Impeccable - 零设计基础也能写出专业级前端页面](5-skills/impeccable-skill/README.md) - 30min (beginner)
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 - [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
 - [Multi-Agent Collaboration in Practice: From Solo to Team](en/3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 - [Skill Design Patterns Course Index](en/5-skills/course/INDEX.md) - 8h (advanced)
@@ -382,6 +391,7 @@
 - [Chapter 7: Guardian Pattern - Security Boundary Design](en/5-skills/course/chapter-07-08-guardian-and-best-practices.md) - 55min (intermediate)
 - [Chapter 8: Best Practices and Anti-Patterns - Lessons Learned](en/5-skills/course/chapter-08-best-practices.md) - 50min (intermediate)
 - [Skill Design Patterns: From Theory to Practice](en/5-skills/course/skills-package-design-patterns.md) - 8h (intermediate)
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## cli
 
@@ -392,6 +402,8 @@
 
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## codex-cli
 
@@ -430,8 +442,10 @@
 - [Coding Agents](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [编码智能体](5-skills/agent/design-patterns/appendix/appendix-g-coding-agents.md) - 30min (advanced)
 - [Karpathy Guidelines 详细指南](5-skills/development/karpathy-guidelines.md) - 30min (intermediate)
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
 - [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
 - [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## deepseek
 
@@ -656,6 +670,11 @@
 - [AI Agents on the CLI](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
 - [CLI上的AI智能体](5-skills/agent/design-patterns/appendix/appendix-e-ai-agents-on-the-cli.md) - 30min (intermediate)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
+## trae
+
+- [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)
+- [Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)](en/5-skills/xuanxue/README.md) - 30min (beginner)
 
 ## undefined
 

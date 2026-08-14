@@ -439,6 +439,10 @@ AI更像是"辅助工具",提升效率,但无法完全取代人类智慧。
 - 传统命理学入门
 - DeepSeek R1推理模型原理
 
+### AI算命技能包
+
+- **[Xuanxue Skills 玄学技能包](https://github.com/konglong87/xuanxue-skills)** ⭐ 一站式中国传统玄学技能包，给你的 AI Agent 增加八字、婚恋、事业财运、手相和奇门局盘判读能力。代码排盘代替模型心算，流派并列展示，安全边界清晰。支持 Claude Code / Codex / Cursor / Trae / WorkBuddy，详见[整合指南](../../5-skills/xuanxue/README.md)
+
 ---
 
 ## 🎯 总结

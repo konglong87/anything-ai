@@ -22,6 +22,7 @@ duration: 5min
 
 ### 按角色
 
+- [程序员实战提示词](./by-role/programmer-prompts.md) — 8个拿来就能用的程序员提示词
 - 程序员
 - 内容创作者
 - 教师

@@ -22,6 +22,7 @@ duration: 5min
 
 ### By Role
 
+- [Programmer Practical Prompts](./by-role/programmer-prompts.md) — 8 ready-to-use prompts for programmers
 - Programmer
 - Content Creator
 - Teacher

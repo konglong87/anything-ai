@@ -439,6 +439,10 @@ AI is more like an "auxiliary tool" that improves efficiency but cannot complete
 - Traditional Fortune Telling Introduction
 - DeepSeek R1 Reasoning Model Principles
 
+### AI Fortune Telling Skill Pack
+
+- **[Xuanxue Skills](https://github.com/konglong87/xuanxue-skills)** ⭐ An all-in-one Chinese traditional metaphysics skill pack that gives your AI Agent the ability to read BaZi, love & marriage, wealth & career, palmistry, and Qi Men charts. Code-based chart calculation replaces model mental math, schools are presented side by side, and safety boundaries are clear. Supports Claude Code / Codex / Cursor / Trae / WorkBuddy. See the [integration guide](../../../en/5-skills/xuanxue/README.md)
+
 ---
 
 ## 🎯 Summary

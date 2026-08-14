@@ -544,6 +544,7 @@ export default defineConfig({
                 { text: 'Impeccable - 前端优化', link: '/5-skills/impeccable-skill/README.html' },
                 { text: '职场生存技能', link: '/5-skills/career/README.html' },
                 { text: '职场生存指南', link: '/5-skills/career/workplace-survival-guide' },
+                { text: '玄学技能包', link: '/5-skills/xuanxue/README.html' },
                 { text: '安全审查', link: '/5-skills/security-review/README.html' },
                 {
                   text: '研究类',
@@ -623,7 +624,8 @@ export default defineConfig({
                 { text: '编程提示词', link: '/prompts/by-scene/coding-prompts' },
                 { text: '学习提示词', link: '/prompts/by-scene/learning-prompts' },
                 { text: '分析提示词', link: '/prompts/by-scene/analysis-prompts' },
-                { text: '研究写作提示词', link: '/prompts/by-scene/research-writing-prompts' }
+                { text: '研究写作提示词', link: '/prompts/by-scene/research-writing-prompts' },
+                { text: '程序员提示词', link: '/prompts/by-role/programmer-prompts' }
               ]
             },
             {
@@ -884,6 +886,7 @@ export default defineConfig({
                 { text: 'Skills Collection', link: '/en/5-skills/README.html' },
                 { text: 'Impeccable - Frontend', link: '/en/5-skills/impeccable-skill/README.en.html' },
                 { text: 'Career Survival', link: '/en/5-skills/career/README.html' },
+                { text: 'Xuanxue Skills', link: '/en/5-skills/xuanxue/README.html' },
                 { text: 'Full Index', link: '/en/5-skills/INDEX.html' },
                 {
                   text: 'Course',
@@ -914,7 +917,8 @@ export default defineConfig({
                 { text: 'Coding Prompts', link: '/en/prompts/by-scene/coding-prompts' },
                 { text: 'Learning Prompts', link: '/en/prompts/by-scene/learning-prompts' },
                 { text: 'Analysis Prompts', link: '/en/prompts/by-scene/analysis-prompts' },
-                { text: 'Research Writing', link: '/en/prompts/by-scene/research-writing-prompts' }
+                { text: 'Research Writing', link: '/en/prompts/by-scene/research-writing-prompts' },
+                { text: 'Programmer Prompts', link: '/en/prompts/by-role/programmer-prompts' }
               ]
             },
             {

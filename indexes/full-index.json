@@ -4030,6 +4030,31 @@
     ]
   },
   {
+    "title": "玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门",
+    "path": "5-skills/xuanxue/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "trae"
+    ],
+    "tags": [
+      "skills",
+      "玄学",
+      "八字",
+      "风水",
+      "手相",
+      "奇门",
+      "命理"
+    ]
+  },
+  {
     "title": "资源文件说明",
     "path": "assets/README.md",
     "difficulty": "beginner",
@@ -5430,6 +5455,31 @@
     ]
   },
   {
+    "title": "Xuanxue Skills - Chinese Metaphysics Skill Pack (BaZi, Feng Shui, Palmistry, Qi Men)",
+    "path": "en/5-skills/xuanxue/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "all"
+    ],
+    "type": "guide",
+    "duration": "30min",
+    "tools": [
+      "claude-code",
+      "codex",
+      "cursor",
+      "trae"
+    ],
+    "tags": [
+      "skills",
+      "xuanxue",
+      "bazi",
+      "fengshui",
+      "palmistry",
+      "qimen",
+      "chinese-metaphysics"
+    ]
+  },
+  {
     "title": "Anything-AI - Systematic AI Knowledge Index",
     "path": "en/README.md",
     "difficulty": "beginner",
@@ -5448,6 +5498,29 @@
     ],
     "type": "guide",
     "duration": "5min"
+  },
+  {
+    "title": "Programmer Practical Prompts",
+    "path": "en/prompts/by-role/programmer-prompts.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "25 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek",
+      "Cursor"
+    ],
+    "tags": [
+      "Prompts",
+      "Programming",
+      "Debugging",
+      "Code Review",
+      "Refactoring"
+    ]
   },
   {
     "title": "Analysis Scenario Prompts",
@@ -6085,6 +6158,29 @@
     ],
     "type": "guide",
     "duration": "5min"
+  },
+  {
+    "title": "程序员实战提示词",
+    "path": "prompts/by-role/programmer-prompts.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "programmer"
+    ],
+    "type": "guide",
+    "duration": "25 min",
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "DeepSeek",
+      "Cursor"
+    ],
+    "tags": [
+      "Prompts",
+      "Programming",
+      "Debugging",
+      "Code Review",
+      "Refactoring"
+    ]
   },
   {
     "title": "Analysis Scenario Prompts",
