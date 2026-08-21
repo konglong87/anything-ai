@@ -63,6 +63,7 @@ LangChain、CrewAI、AutoGPT、MetaGPT 等主流框架对比与选型建议。
 
 - [Agent 入门（理解 AI）](../1-understand-ai/agent-intro/agent-intro.md) — 什么是 Agent，基础概念
 - [Agent 开发（进阶主题）](../4-advanced-topics/agent-development.md) — 深入 Agent 架构与开发
+- [Codex Harness 深度拆解（进阶主题）](../4-advanced-topics/codex-harness-architecture.md) — Agent 内核架构、工具编排与自有模型接入
 - [Agent Skills 元指南](../2-choose-tools/agent-skills-guide.md) — SKILL.md 是什么，怎么自己造
 - [MCP 协议详解](../4-advanced-topics/mcp.md) — MCP 协议深入
 - [AI 编程 Agent 2026](../2-choose-tools/ai-coding-agents-2026.md) — 2026 年 Coding Agent 格局
