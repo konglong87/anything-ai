@@ -400,6 +400,7 @@
 - [DeepSeek User Guide](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [DeepSeek使用指南](2-choose-tools/tools/deepseek/README.md) - 45min (beginner)
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [AI Skills 精选集合](5-skills/README.md) - 45min (beginner)
 - [Agent Skills 完整目录](5-skills/agent/skills-catalog.md) - 45min (beginner)
 - [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)

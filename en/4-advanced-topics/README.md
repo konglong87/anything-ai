@@ -36,6 +36,15 @@ duration: 1hour
 - Implementation approaches
 - Best practices
 
+## ⭐ Agent Kernel & Harness Engineering
+
+Go beyond calling a model and learn how to build a runnable Agent:
+
+- [Codex Harness Deep Dive (Chinese article)](../../4-advanced-topics/codex-harness-architecture.md) — Agent kernel architecture, tool orchestration, security policies, and custom model integration
+- Thread / Turn / Step lifecycle
+- Centralized tool routing and execution policies
+- Approvals, sandboxing, and network security boundaries
+
 ### Agent Development
 
 - Agent frameworks

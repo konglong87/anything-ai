@@ -57,8 +57,14 @@ duration: 1hour
 - 完整loop的搭建指南和避坑警告
 - Claude Code 与 Codex 的落地实践对比
 
+## ⭐ Agent 内核与 Harness 工程
+
+从“调用模型”进一步理解“构建可运行的 Agent”：
+
 ### ⭐ [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](./codex-harness-architecture.md)
-**Agent 内核架构** - 以 OpenAI Codex 为案例，拆解 Thread/Turn/Step 生命周期、工具编排、安全策略与自有模型接入
+**Agent 内核架构** - 以 OpenAI Codex 为案例，拆解 Thread/Turn/Step 生命周期、工具编排、安全策略与自有模型接入。
+
+适合已经了解 Agent 基本概念、准备开发 Coding Agent 或接入自有模型的工程师。
 - 四层架构：客户端 → Thread Runtime → Harness Kernel → Runtime & Store
 - Tool Router 与 Orchestrator 的集中式策略治理
 - 审批、沙箱、网络策略的不可绕过控制面

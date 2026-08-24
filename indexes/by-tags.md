@@ -35,6 +35,7 @@
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [Hermes Agent Guide](en/2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 - [Hermes Agent Complete Guide](en/3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
@@ -246,6 +247,7 @@
 - [多 Agent 协作实战：从单兵作战到团队协同](3-ai-agents/multi-agent-collaboration.md) - 30min (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
@@ -280,14 +282,30 @@
 
 - [Agent Safety & Governance: Making Agents Trustworthy, Controllable, and Auditable](en/3-ai-agents/agent-safety-governance.md) - 25min (intermediate)
 
+## Agent Harness
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
+
 ## Agent Practice
 
 - [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+
+## Agent Runtime
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 
 ## Agent System
 
 - [Harness Engineering - 驾驭AI工程](1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
 - [Harness Engineering - 驾驭AI工程](en/1-understand-ai/ai-engineering-paradigms/harness-engineering/README.md) - 25 min (advanced)
+
+## Agent 内核
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
+
+## Agent 安全
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 
 ## Agentic AI
 
@@ -487,6 +505,7 @@
 ## Codex
 
 - [AI 编程 Agent 2026 全景：Claude Code / Cursor / Codex / Copilot 怎么选](2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [AI Coding Agents 2026: Claude Code vs Cursor vs Codex vs Copilot](en/2-choose-tools/ai-coding-agents-2026.md) - 30min (intermediate)
 
 ## Codex CLI
@@ -505,6 +524,7 @@
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
 - [Coding Agent 实战指南：从入门到高效协作](3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 - [Agent Types: From Coding Agents to Research Agents](en/3-ai-agents/agent-types.md) - 15min (beginner)
 - [Coding Agent in Practice: From Beginner to Productive Collaboration](en/3-ai-agents/coding-agent-practice.md) - 30min (intermediate)
@@ -900,6 +920,7 @@
 
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [AI Agents: A Complete Guide](en/3-ai-agents/README.md) - 20min (beginner)
 - [MCP & Tool Integration: Connecting Agents to the World](en/3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
@@ -2766,10 +2787,15 @@
 
 - [360行AI工具指南](resources/industry-tools-guide.md) - 30min (beginner)
 
+## 工具编排
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
+
 ## 工具调用
 
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
 - [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 
 ## 工具选择
@@ -2898,6 +2924,7 @@
 
 ## 架构
 
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [实现规划师 - Planner](roles/planner/README.md) - 30min (intermediate)
 
 ## 框架
@@ -2909,6 +2936,10 @@
 - [氛围编程入门指南](roles/vibe-coding/README.md) - 20min (beginner)
 - [氛围编程工具推荐](roles/vibe-coding/tools.md) - 20min (beginner)
 - [氛围编程工作流程详解](roles/vibe-coding/workflow.md) - 25min (beginner)
+
+## 沙箱
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 
 ## 治理
 
@@ -3015,6 +3046,10 @@
 
 - [Hermes Agent 使用指南](2-choose-tools/tools/hermes/README.md) - 45min (intermediate)
 - [Hermes Agent 完整指南](3-ai-agents/hermes-agent/README.md) - 60min (intermediate)
+
+## 自有模型接入
+
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 
 ## 草台班子
 

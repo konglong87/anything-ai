@@ -13,6 +13,7 @@
 - [进阶主题](4-advanced-topics/README.md) - 1hour (advanced)
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)

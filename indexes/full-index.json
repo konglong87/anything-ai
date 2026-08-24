@@ -1596,6 +1596,36 @@
     ]
   },
   {
+    "title": "Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构",
+    "path": "4-advanced-topics/codex-harness-architecture.md",
+    "difficulty": "advanced",
+    "roles": [
+      "programmer"
+    ],
+    "type": "concept",
+    "duration": "45min",
+    "tools": [
+      "codex",
+      "claude"
+    ],
+    "tags": [
+      "Agent",
+      "AI Agent",
+      "Agent Harness",
+      "Agent Runtime",
+      "Agent 内核",
+      "Coding Agent",
+      "Codex",
+      "工具调用",
+      "工具编排",
+      "MCP",
+      "沙箱",
+      "Agent 安全",
+      "自有模型接入",
+      "架构"
+    ]
+  },
+  {
     "title": "Computer Vision",
     "path": "4-advanced-topics/cv.en.md",
     "difficulty": "intermediate",

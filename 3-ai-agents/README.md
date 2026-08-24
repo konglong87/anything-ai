@@ -24,11 +24,24 @@ AI Agent（智能体）是能自主感知环境、规划行动、执行任务、
 ## 🗺️ 学习路径
 
 ```
-[理解 Agent 是什么] → [区分 Agent 类型] → [搞懂工作原理] → [选框架/工具] → [看设计模式] → [动手实战]
-     ↓                      ↓                  ↓                ↓               ↓              ↓
- agent-intro.md       agent-types.md    agent-workflow.md  agent-frameworks 设计模式教程  Hermes Agent
-                                                           mcp-and-tools                   实战案例
+[理解 Agent 是什么] → [区分 Agent 类型] → [搞懂工作原理] → [选框架/工具] → [学设计模式] → [懂 Harness 内核] → [动手实战]
+     ↓                      ↓                  ↓                ↓               ↓                ↓              ↓
+ agent-intro.md       agent-types.md    agent-workflow.md  agent-frameworks 设计模式教程  Codex Harness   Coding Agent
+                                                           mcp-and-tools                   深度拆解       实战案例
 ```
+
+## ⭐ 推荐进阶：从使用 Agent 到设计 Agent 内核
+
+如果你已经理解 Agent 的基本循环，下一步可以学习生产级 Agent 如何管理状态、工具、安全策略和任务恢复。
+
+👉 [Codex Harness 深度拆解](../4-advanced-topics/codex-harness-architecture.md)
+
+你将理解：
+
+- Thread / Turn / Step 如何划分任务生命周期
+- Model、Tool Router、Orchestrator 如何协同
+- 审批、沙箱和网络策略如何形成安全边界
+- 如何为自己的模型或业务 Agent 抽出最小 Harness
 
 ## 📚 本章内容
 
@@ -59,10 +72,14 @@ LangChain、CrewAI、AutoGPT、MetaGPT 等主流框架对比与选型建议。
 ### 9. [Agent 设计模式教程](../5-skills/agent/design-patterns/README.md)
 21 个 Agent 设计模式，覆盖提示词链、路由、并行化、反思、工具使用、多 Agent 协作等。
 
+### 10. [Agent Harness 与内核架构](../4-advanced-topics/codex-harness-architecture.md)
+以 OpenAI Codex 为案例，拆解 Thread、Turn、Step 生命周期、工具编排、安全治理和自有模型接入。
+
 ## 🔗 相关资源
 
 - [Agent 入门（理解 AI）](../1-understand-ai/agent-intro/agent-intro.md) — 什么是 Agent，基础概念
 - [Agent 开发（进阶主题）](../4-advanced-topics/agent-development.md) — 深入 Agent 架构与开发
+- [Codex Harness 深度拆解（进阶主题）](../4-advanced-topics/codex-harness-architecture.md) — Agent 内核架构、工具编排与自有模型接入
 - [Codex Harness 深度拆解（进阶主题）](../4-advanced-topics/codex-harness-architecture.md) — Agent 内核架构、工具编排与自有模型接入
 - [Agent Skills 元指南](../2-choose-tools/agent-skills-guide.md) — SKILL.md 是什么，怎么自己造
 - [MCP 协议详解](../4-advanced-topics/mcp.md) — MCP 协议深入

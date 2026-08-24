@@ -52,6 +52,24 @@ This directory contains detailed tutorial PDF documentation for multiple project
 
 ---
 
+## Codex Harness Deep Dive
+
+### 🧠 codex-harness-architecture.pdf
+
+**Audience**: AI application developers, Coding Agent engineers, Agent architects
+
+**Content Summary**:
+- Codex Harness's four-layer architecture and Agent kernel model
+- Thread, Turn, and Step lifecycles and the model-tool loop
+- Tool Router, Orchestrator, approvals, sandboxing, and network policies
+- An implementation roadmap for extracting a minimal Harness for custom models and business Agents
+
+**Download Link**: [Click to Download](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/codex-harness-architecture.pdf)
+
+**Online Version**: [Codex Harness Deep Dive (Chinese article)](/4-advanced-topics/codex-harness-architecture)
+
+---
+
 ## OpenClaw Tutorial
 
 ### 1. OpenClaw从入门到精通-v1.3.1.pdf

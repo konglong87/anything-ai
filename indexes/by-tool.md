@@ -263,6 +263,7 @@
 - [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
 - [MCP 协议与工具集成：让 Agent 连通万物](3-ai-agents/mcp-and-tools.md) - 25min (intermediate)
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [提示词工程与高级主题整合指南](4-advanced-topics/learning-path-integration.md) - 120min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
@@ -400,6 +401,7 @@
 
 ## codex
 
+- [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [玄学技能包 Xuanxue Skills - 八字/风水/手相/奇门](5-skills/xuanxue/README.md) - 30min (beginner)

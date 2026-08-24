@@ -460,6 +460,7 @@ export default defineConfig({
               items: [
                 { text: '概览', link: '/4-advanced-topics/README.html' },
                 { text: 'Loop Engineering 🆕', link: '/4-advanced-topics/loop-engineering' },
+                { text: 'Codex Harness 深度拆解 🆕', link: '/4-advanced-topics/codex-harness-architecture' },
                 { text: '提示词工程', link: '/4-advanced-topics/prompt-engineering' },
                 { text: '模型微调', link: '/4-advanced-topics/model-fine-tuning' },
                 { text: '模型部署', link: '/4-advanced-topics/model-deployment' },
@@ -484,6 +485,7 @@ export default defineConfig({
                 { text: '全景指南', link: '/3-ai-agents/README.html' },
                 { text: 'Agent 类型全景', link: '/3-ai-agents/agent-types' },
                 { text: 'Agent 工作原理', link: '/3-ai-agents/agent-workflow' },
+                { text: 'Agent Harness 与内核架构', link: '/4-advanced-topics/codex-harness-architecture' },
                 { text: 'MCP 与工具集成', link: '/3-ai-agents/mcp-and-tools' },
                 { text: 'Agent 框架选型', link: '/3-ai-agents/agent-frameworks' },
                 { text: 'Coding Agent 实战', link: '/3-ai-agents/coding-agent-practice' },
@@ -836,6 +838,7 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/en/4-advanced-topics/README.html' },
                 { text: 'Loop Engineering 🆕', link: '/en/4-advanced-topics/loop-engineering' },
+                { text: 'Codex Harness Deep Dive (Chinese)', link: '/4-advanced-topics/codex-harness-architecture' },
                 { text: 'Prompt Engineering', link: '/en/4-advanced-topics/prompt-engineering' },
                 { text: 'Model Fine-tuning', link: '/en/4-advanced-topics/model-fine-tuning' },
                 { text: 'Model Deployment', link: '/en/4-advanced-topics/model-deployment' },
@@ -859,6 +862,7 @@ export default defineConfig({
                 { text: 'Complete Guide', link: '/en/3-ai-agents/README.html' },
                 { text: 'Agent Types', link: '/en/3-ai-agents/agent-types' },
                 { text: 'How Agents Work', link: '/en/3-ai-agents/agent-workflow' },
+                { text: 'Agent Harness & Kernel (Chinese)', link: '/4-advanced-topics/codex-harness-architecture' },
                 { text: 'MCP & Tool Integration', link: '/en/3-ai-agents/mcp-and-tools' },
                 { text: 'Agent Frameworks', link: '/en/3-ai-agents/agent-frameworks' },
                 { text: 'Coding Agent Practice', link: '/en/3-ai-agents/coding-agent-practice' },

@@ -52,6 +52,24 @@ tags: [pdf, download, learning-materials, agent, openclaw, workflow, prompt-engi
 
 ---
 
+## Codex Harness 深度拆解
+
+### 🧠 codex-harness-architecture.pdf
+
+**适用人群**：AI 应用开发者、Coding Agent 工程师、Agent 架构师
+
+**内容简介**：
+- Codex Harness 的四层架构与 Agent 内核定位
+- Thread、Turn、Step 生命周期和模型工具循环
+- Tool Router、Orchestrator、审批、沙箱和网络策略
+- 为自有模型和业务 Agent 抽出最小 Harness 的实现路线
+
+**下载链接**：[点击下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/codex-harness-architecture.pdf)
+
+**在线版本**：[Codex Harness 深度拆解](../../4-advanced-topics/codex-harness-architecture.md)
+
+---
+
 ## OpenClaw 小龙虾教程
 
 ### 1. OpenClaw从入门到精通-v1.3.1.pdf

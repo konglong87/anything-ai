@@ -31,6 +31,7 @@
 | 📗 **提示词组成工作流重构** | 从单一提示词到系统化工作流 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/提示词组成工作流重构.pdf) |
 | 📘 **软件开发领域工作流重构** | 需求→架构→编码→测试→部署 AI赋能 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/软件开发领域工作流重构.pdf) |
 | 📙 **AI全栈开发助手工作流提示词** | 可直接复用的全栈提示词模板 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/AI全栈开发助手工作流提示词.pdf) |
+| 🧠 **Codex Harness 深度拆解** | Agent 内核、工具编排、安全策略与模型接入 | [⬇️ 下载](https://github.com/konglong87/anything-ai/raw/main/assets/pdf/codex-harness-architecture.pdf) |
 
 📖 [查看完整资料说明](./assets/pdf/readme.md)
 
@@ -216,6 +217,17 @@
 - 开发类Skills：代码生成、项目脚手架
 - 效率类Skills：自动化工作流、知识管理
 - Skills组合使用案例
+
+---
+
+#### 👨‍💻 我要构建真正能工作的 Agent
+
+不只是调用模型，而是理解 Agent 的状态、工具、安全和执行循环：
+
+- [AI Agents 全景指南](./3-ai-agents/README.html) - 从概念到实战的完整路径
+- [Codex Harness 深度拆解](./4-advanced-topics/codex-harness-architecture.html) - 深入 Agent 内核、工具编排与可扩展架构
+- [Agent 安全与治理](./3-ai-agents/agent-safety-governance.html) - 审批、权限和安全边界
+- [Agent 设计模式](./5-skills/agent/design-patterns/README.html) - 21 个可复用的 Agent 设计模式
 
 ---
 

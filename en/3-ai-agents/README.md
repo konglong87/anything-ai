@@ -24,11 +24,24 @@ If you're new to Agents, start here: [Agent Intro →](../1-understand-ai/agent-
 ## 🗺️ Learning Path
 
 ```
-[Understand Agents] → [Know Agent Types] → [Learn How They Work] → [Pick a Framework] → [Study Design Patterns] → [Build One]
-       ↓                    ↓                   ↓                  ↓                ↓                ↓
-  agent-intro.md      agent-types.md     agent-workflow.md   agent-frameworks  Design Patterns   Hermes Agent
-                                                              mcp-and-tools                      Real Projects
+[Understand Agents] → [Know Agent Types] → [Learn How They Work] → [Pick Tools] → [Study Patterns] → [Learn the Harness Kernel] → [Build One]
+       ↓                    ↓                   ↓                  ↓               ↓                    ↓                  ↓
+  agent-intro.md      agent-types.md     agent-workflow.md   agent-frameworks Design Patterns   Codex Harness      Coding Agent
+                                                              mcp-and-tools                       Deep Dive          Practice
 ```
+
+## ⭐ Recommended Next: From Using Agents to Designing the Kernel
+
+Once you understand the basic Agent loop, learn how production Agents manage state, tools, security policies, and task recovery.
+
+👉 [Codex Harness Deep Dive (Chinese article)](../4-advanced-topics/codex-harness-architecture.md)
+
+You will understand:
+
+- How Thread, Turn, and Step divide the task lifecycle
+- How the model, Tool Router, and Orchestrator work together
+- How approvals, sandboxing, and network policies form security boundaries
+- How to extract a minimal Harness for your own model or business Agent
 
 ## 📚 Contents
 
@@ -59,10 +72,14 @@ An open-source, self-hosted Agent with long-term memory and Skills system — fr
 ### 9. [Agent Design Patterns Course](../5-skills/agent/design-patterns/README.md)
 21 design patterns covering prompt chaining, routing, parallelization, reflection, tool use, multi-agent collaboration, and more.
 
+### 10. [Agent Harness & Kernel Architecture (Chinese article)](../4-advanced-topics/codex-harness-architecture.md)
+An OpenAI Codex case study covering Thread, Turn, and Step lifecycles, tool orchestration, security governance, and custom model integration.
+
 ## 🔗 Related Resources
 
 - [Agent Intro (Understand AI)](../1-understand-ai/agent-intro/agent-intro.md) — What is an Agent, basic concepts
 - [Agent Development (Advanced)](../4-advanced-topics/agent-development.md) — Deep dive into Agent architecture
+- [Codex Harness Deep Dive (Chinese article)](../4-advanced-topics/codex-harness-architecture.md) — Agent kernel, tool orchestration, and custom model integration
 - [Agent Skills Meta-Guide](../2-choose-tools/agent-skills-guide.md) — What is SKILL.md and how to build one
 - [MCP Protocol Deep Dive](../4-advanced-topics/mcp.md) — MCP protocol in detail
 - [AI Coding Agents 2026](../2-choose-tools/ai-coding-agents-2026.md) — 2026 Coding Agent landscape

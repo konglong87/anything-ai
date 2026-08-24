@@ -7,7 +7,7 @@ type: concept
 duration: 45min
 tools: [codex, claude]
 prerequisites: ["4-advanced-topics/loop-engineering", "3-ai-agents/agent-workflow"]
-tags: [Agent, Codex, Harness, 工具编排, 安全策略, 模型接入, 架构]
+tags: [Agent, AI Agent, Agent Harness, Agent Runtime, Agent 内核, Coding Agent, Codex, 工具调用, 工具编排, MCP, 沙箱, Agent 安全, 自有模型接入, 架构]
 author: "konglong"
 created: 2026-08-21
 updated: 2026-08-21
@@ -19,6 +19,18 @@ version: 1.0
 > 本文面向已经接触过大模型 API、工具调用和 Agent 开发的工程师。文章以 OpenAI 公开的 Codex 仓库为主要案例，解释它的本地 Agent runtime 如何组织状态、模型、工具和安全策略，并进一步讨论如何抽出适合自有模型和业务 Agent 的最小 harness。
 
 📥 [下载 PDF 版本](/assets/pdf/codex-harness-architecture.pdf)
+
+**适合阅读：** 已了解 Agent 基本概念、正在开发 Coding Agent，或需要接入 MCP、Shell、文件系统和自有模型的工程师。
+
+## 你会学到什么
+
+读完本文，你可以：
+
+1. 看懂 Codex 这类 Coding Agent 的内核分层
+2. 理解模型调用、工具执行和事件流如何组成闭环
+3. 区分 Thread、Turn、Step 三种任务生命周期
+4. 设计带审批、沙箱和恢复能力的 Agent Runtime
+5. 为自有模型抽出一个最小可用 Harness
 
 ## 一、为什么 Agent 需要 Harness
 
@@ -313,7 +325,10 @@ Codex harness 的核心不是某一段神秘 prompt，而是一套把模型决�
 
 **相关阅读**：
 
+- [Agent 工作原理](../3-ai-agents/agent-workflow.md) — 了解 Agent 的基础感知、规划、工具调用与反思循环
+- [Agent 设计模式](../5-skills/agent/design-patterns/README.md) — 从局部模式理解路由、工具使用和多 Agent 协作
 - [Loop Engineering：从写提示词到设计自主工作流](./loop-engineering.md) — Codex Harness 的上层范式，理解"谁设计 loop"
-- [Agent 开发](./agent-development.md) — Agent 架构与开发概览
 - [MCP 协议详解](./mcp.md) — 工具与外部服务连接的协议基础
 - [Agent 安全与治理](../3-ai-agents/agent-safety-governance.md) — 安全风险与治理防线
+- [Coding Agent 实战](../3-ai-agents/coding-agent-practice.md) — 将内核架构落到开发协作场景
+- [Agent 开发](./agent-development.md) — Agent 架构与开发概览
