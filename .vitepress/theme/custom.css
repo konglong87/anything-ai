@@ -1,0 +1,25 @@
+.anything-ai-view-count {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.7rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  color: var(--vp-c-text-2);
+  font-size: 0.72rem;
+  line-height: 1.3;
+  white-space: nowrap;
+  pointer-events: auto;
+}
+
+.anything-ai-view-count[data-state="unavailable"] {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .anything-ai-view-count {
+    margin-left: 0.45rem;
+    padding: 0.15rem 0.4rem;
+    font-size: 0.68rem;
+  }
+}

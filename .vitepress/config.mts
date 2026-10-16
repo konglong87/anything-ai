@@ -227,9 +227,12 @@ export default defineConfig({
   // GEO：为每页注入 canonical / hreflang / JSON-LD（Article/TechArticle + WebSite）
   transformHtml(code, id, ctx) {
     const head = buildGeoHead(ctx)
-    if (!head) return code
+    const goatCounterHead = [
+      '<script>window.goatcounter = window.goatcounter || {}; window.goatcounter.no_onload = true;</script>',
+      '<script data-goatcounter="https://konglong87.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>'
+    ].join('\n')
     // 用函数式 replacer：片段里的 $& / $' 等不会被当成替换模式解析
-    return code.replace(/<\/head>/i, () => head + '\n</head>')
+    return code.replace(/<\/head>/i, () => `${head ? `${head}\n` : ''}${goatCounterHead}\n</head>`)
   },
 
   // 排除不需要的目录
