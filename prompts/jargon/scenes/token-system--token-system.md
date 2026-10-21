@@ -21,7 +21,7 @@ Dashboard 的审美方向主要由底色、强调色、布局层级、材质和�
 
 本条目将「需要让 AI 生成非模板化后台或设计系统」拆解为专业维度、参数和约束。先替换自己的任务与输入，再检查边界和验收标准；示例值不是承诺，也不是所有项目的默认值。
 
-**检索词：** 设计令牌系统、dashboard-style-system、composition-patterns
+**检索词（含站点导引词）：** 设计令牌系统、dashboard-style-system、composition-patterns、token-system、有质感、高级感、好看
 
 ::: details 阅读完整文字版（保留待填写项，可直接复制）
 
@@ -69,6 +69,7 @@ https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768e
 以下为锁定提交中的原始结构化内容；上方整理版与原文分开，不把本站整理误标为原作者成品。
 
 - [terms/design-tokens/token-system.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/design-tokens/token-system.json)
+- [index/runtime.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/index/runtime.json)
 
 ::: details 展开当前条目原文
 

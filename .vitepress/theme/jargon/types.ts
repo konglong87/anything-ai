@@ -9,7 +9,7 @@ export interface PromptField {
 export interface PromptChoice {
   key: string
   label: string
-  options: { value: string; label: string; text: string }[]
+  options: { value: string; label: string; text: string; status?: 'published' | 'reference' }[]
 }
 
 export interface PromptItem {

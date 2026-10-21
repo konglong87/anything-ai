@@ -21,7 +21,7 @@ tags: [提示词, Jargon]
 
 本条目将「需要通过撕口下拉打开局部面板，并把撕裂感转成可衡量的位移和开口进度」拆解为专业维度、参数和约束。先替换自己的任务与输入，再检查边界和验收标准；示例值不是承诺，也不是所有项目的默认值。
 
-**检索词：** 撕线面板、撕口弹出、tear line panel、阻尼弹性抽屉、damped-bottom-sheet、follow、threshold、snap、interruption
+**检索词（含站点导引词）：** 撕线面板、撕口弹出、tear line panel、阻尼弹性抽屉、damped-bottom-sheet、follow、threshold、snap、interruption、撕线弹出面板、撕口下拉
 
 ::: details 阅读完整文字版（保留待填写项，可直接复制）
 
@@ -100,6 +100,7 @@ https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768e
 以下为锁定提交中的原始结构化内容；上方整理版与原文分开，不把本站整理误标为原作者成品。
 
 - [terms/component-design/damped-bottom-sheet.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/damped-bottom-sheet.json)
+- [index/runtime.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/index/runtime.json)
 
 ::: details 展开当前条目原文
 

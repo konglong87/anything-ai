@@ -2,7 +2,7 @@
 import { computed, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import catalog from './catalog.json'
-import { renderPrompt } from '../../../scripts/jargon/prompt-core.mjs'
+import { renderPrompt, checkSelection } from '../../../scripts/jargon/prompt-core.mjs'
 import CopyPanel from './CopyPanel.vue'
 import PromptFields from './PromptFields.vue'
 import { useSelection } from './selection'
@@ -17,6 +17,7 @@ const selection = useSelection(data.items)
 const { feedback, storageNotice, selectedItems } = selection
 const preview = computed(() => item.value ? renderPrompt(item.value, values.value) : '')
 const remainingFields = computed(() => item.value?.fields.filter((field) => !values.value[field.key]?.trim()).length || 0)
+const combinationStatus = computed(() => item.value ? checkSelection([item.value], { [item.value.id]: values.value }) : { ok: false, message: '条目不可用' })
 const composerPath = withBase(`${LIBRARY_PATH}#${COMPOSER_ID}`)
 
 watch(item, (entry) => {
@@ -63,13 +64,13 @@ watch(item, (entry) => {
         <div class="jargon-inline-actions">
           <button
             type="button" class="jargon-button" data-testid="jargon-prompt-add"
-            :disabled="item.status === 'reference' || selection.has(item.id)" :aria-pressed="selection.has(item.id)"
-            :aria-describedby="item.status === 'reference' ? 'jargon-reference-reason' : 'jargon-selection-hint'"
+            :disabled="!combinationStatus.ok || selection.has(item.id)" :aria-pressed="selection.has(item.id)"
+            :aria-describedby="!combinationStatus.ok ? 'jargon-reference-reason' : 'jargon-selection-hint'"
             @click="selection.add(item.id)"
-          >{{ item.status === 'reference' ? '参考内容 · 不参与组合' : selection.has(item.id) ? '已加入组合' : '加入我的组合' }}</button>
+          >{{ !combinationStatus.ok ? '参考内容 · 不参与组合' : selection.has(item.id) ? '已加入组合' : '加入我的组合' }}</button>
           <a class="jargon-text-link" :href="composerPath" data-testid="jargon-view-combination">前往组合区（{{ selectedItems.length }}）<span aria-hidden="true"> →</span></a>
         </div>
-        <p v-if="item.status === 'reference'" id="jargon-reference-reason" class="jargon-field-hint">待核验或待确认的资料不能用于执行组合，请先单独核实。</p>
+        <p v-if="!combinationStatus.ok" id="jargon-reference-reason" class="jargon-field-hint" role="status">{{ combinationStatus.message }}</p>
         <p v-else id="jargon-selection-hint" class="jargon-field-hint">加入组合只保存模块选择，当前填写的参数不会同步。你可以在组合区重新设置参数与单选项，或用上方按钮复制当前版本。</p>
         <p class="jargon-selection-feedback" role="status" aria-live="polite" aria-atomic="true" data-testid="jargon-selection-feedback">{{ feedback }}</p>
         <p v-if="storageNotice" class="jargon-notice" role="status">{{ storageNotice }}</p>

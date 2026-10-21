@@ -26,7 +26,7 @@ tags: [提示词, Jargon]
 
 本条目将「需要暖色三栏布局的信息结构、视觉参数与交互联动规范时」拆解为专业维度、参数和约束。先替换自己的任务与输入，再检查边界和验收标准；示例值不是承诺，也不是所有项目的默认值。
 
-**检索词：** 暖色三栏、三栏控制台、卧室房间联动、模式单位同步、高级布局模式、warm-minimal、single-dark-accent-dashboard
+**检索词（含站点导引词）：** 暖色三栏、三栏控制台、卧室房间联动、模式单位同步、高级布局模式、warm-minimal、single-dark-accent-dashboard、dashboard、warm-three-column-dashboard、暖色三栏布局、有质感、高级感、好看
 
 ::: details 阅读完整文字版（保留待填写项，可直接复制）
 
@@ -185,6 +185,7 @@ https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768e
 以下为锁定提交中的原始结构化内容；上方整理版与原文分开，不把本站整理误标为原作者成品。
 
 - [terms/dashboard/layout-patterns.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json)
+- [index/runtime.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/index/runtime.json)
 - [templates/dashboard/dashboard-style-system.json](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/dashboard/dashboard-style-system.json)
 
 ::: details 展开当前条目原文

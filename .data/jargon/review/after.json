@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "name": "详情选择待确认方向后禁止加入组合",
+      "passed": true
+    },
+    {
+      "name": "待确认原文仍可阅读，不删除源内容",
+      "passed": true
+    },
+    {
+      "name": "切回已确认方向可正常加入",
+      "passed": true
+    },
+    {
+      "name": "已加入模块切成待确认方向后不能复制执行组合",
+      "passed": true
+    },
+    {
+      "name": "组合区显示具体拦截原因",
+      "passed": true
+    },
+    {
+      "name": "切回正常方向后复制内容与预览一致",
+      "passed": true
+    },
+    {
+      "name": "有质感能找到20条视觉相关内容",
+      "passed": true
+    },
+    {
+      "name": "顺滑能找到52条交互相关内容",
+      "passed": true
+    },
+    {
+      "name": "稳定加软件领域筛选命中6项质量属性",
+      "passed": true
+    },
+    {
+      "name": "新搜索结果可完整复制合集",
+      "passed": true
+    },
+    {
+      "name": "全角关键词可正常检索",
+      "passed": true
+    },
+    {
+      "name": "细分场景别名不会污染同包其他条目",
+      "passed": true
+    },
+    {
+      "name": "无结果状态保留",
+      "passed": true
+    },
+    {
+      "name": "复验浏览器无控制台错误",
+      "passed": true
+    }
+  ]
+}

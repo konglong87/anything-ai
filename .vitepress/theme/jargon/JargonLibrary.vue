@@ -26,9 +26,9 @@ const activeDomains = computed(() => data.domains.filter((item) => item.count > 
 const kinds = computed(() => [...new Set(data.items.map((item) => item.kind))])
 const searchIndex = new Map(data.items.map((item) => [item.id, [
   item.title, item.description, item.whenToUse, item.domainTitle, item.subdomainTitle, ...item.aliases,
-].join(' ').toLocaleLowerCase()]))
+].join(' ').normalize('NFKC').toLocaleLowerCase()]))
 const filteredItems = computed(() => {
-  const terms = query.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean)
+  const terms = query.value.trim().normalize('NFKC').toLocaleLowerCase().split(/\s+/).filter(Boolean)
   return data.items.filter((item) => (!domain.value || item.domainId === domain.value)
     && (!kind.value || item.kind === kind.value)
     && terms.every((term) => searchIndex.get(item.id)?.includes(term)))

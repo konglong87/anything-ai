@@ -3,6 +3,7 @@ import { resolve, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { formatSections, formatValue, label } from './labels.mjs';
+import { discoveryAliases } from './discovery.mjs';
 export const PROJECT_ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const SNAPSHOT = join(PROJECT_ROOT,'.data/jargon/upstream');
 export const readJSON = path => JSON.parse(readFileSync(join(SNAPSHOT,path),'utf8'));
@@ -58,17 +59,19 @@ function groupFor(doc,entry) {
   if(doc.subdomain_id==='dashboard-design' || (entry.layout && entry.uiSkill)) return 'visual-direction';
   return null;
 }
-function createLeafItems(leaves,domainMap,lock) {
+function createLeafItems(leaves,domainMap,lock,routeMap) {
   return leaves.flatMap(meta=>{
     const doc=readJSON(meta.path);
     if(doc.entries.length!==meta.entry_count) throw new Error(`Entry count mismatch: ${meta.path}`);
     return doc.entries.map(entry=>{
       const id=`${doc.leaf_id}--${entry.id}`;
       if(!/^[a-z0-9-]+$/.test(id)) throw new Error(`Unsafe scene ID: ${id}`);
-      const sourceFiles=[meta.path]; const contract=expandContract(entry,sourceFiles); const warnings=warningsFor(doc,entry);
+      const sourceFiles=[meta.path,'index/runtime.json']; const contract=expandContract(entry,sourceFiles); const warnings=warningsFor(doc,entry);
       const status=(entry.evidence?.status==='needs_confirmation'||doc.knowledge_type==='platform-research'||doc.verification_required||entry.verification_required)?'reference':'published';
+      const entryText=JSON.stringify(entry).normalize('NFKC').toLowerCase();
+      const routingAliases=(routeMap.get(doc.leaf_id)?.keywords||[]).filter(keyword=>doc.entries.length===1||entryText.includes(keyword.normalize('NFKC').toLowerCase()));
       const body=[formatSections(entry),packageBoundaries(doc),contract].filter(Boolean).join('\n\n');
-      return {id,title:entry.name,domainId:doc.domain_id,domainTitle:domainMap.get(doc.domain_id).title,subdomainId:doc.subdomain_id,subdomainTitle:doc.title,kind:doc.knowledge_type,status,description:entry.plain_language,whenToUse:entry.when_to_use,aliases:unique([...(entry.aliases||[]),doc.title,...(entry.related||[])]),prompt:buildEnvelope(entry.name,body,warnings,sourceUrl(lock,meta.path)),fields:[field('task')],choices:[],warnings,sourcePath:meta.path,sourceUrl:sourceUrl(lock,meta.path),sourceFiles:unique(sourceFiles),detailPath:`/prompts/jargon/scenes/${id}.html`,exclusiveGroup:groupFor(doc,entry),provider:doc.provider||entry.provider||null};
+      return {id,title:entry.name,domainId:doc.domain_id,domainTitle:domainMap.get(doc.domain_id).title,subdomainId:doc.subdomain_id,subdomainTitle:doc.title,kind:doc.knowledge_type,status,description:entry.plain_language,whenToUse:entry.when_to_use,aliases:unique([...(entry.aliases||[]),doc.title,...(entry.related||[]),...routingAliases,...discoveryAliases(doc.domain_id,doc.subdomain_id)]),prompt:buildEnvelope(entry.name,body,warnings,sourceUrl(lock,meta.path)),fields:[field('task')],choices:[],warnings,sourcePath:meta.path,sourceUrl:sourceUrl(lock,meta.path),sourceFiles:unique(sourceFiles),detailPath:`/prompts/jargon/scenes/${id}.html`,exclusiveGroup:groupFor(doc,entry),provider:doc.provider||entry.provider||null};
     });
   });
 }
@@ -87,7 +90,8 @@ function createTemplateItem(path,domainMap,lock) {
     for(const ref of doc.pattern_refs||[]) {
       sourceFiles.push(ref.path);const leaf=readJSON(ref.path);const entry=leaf.entries.find(e=>e.id===ref.entry_id);
       if(!entry) throw new Error(`Missing dashboard pattern: ${ref.entry_id}`);
-      options.push({value:entry.id,label:entry.name+(ref.status==='needs_confirmation'?'（待确认）':''),text:formatSections(entry)});
+      const status=ref.status==='provided'&&entry.evidence?.status!=='needs_confirmation'?'published':'reference';
+      options.push({value:entry.id,label:entry.name+(status==='reference'?'（待确认）':''),text:formatSections(entry),status});
     }
     choices.push({key:'style_direction',label:'视觉方向 / 具体布局（只选一个）',options});
     parts.push(section('选择的方向','{{style_direction}}'));
@@ -100,7 +104,7 @@ function createTemplateItem(path,domainMap,lock) {
       parts.push(section('工具适配','{{tool_adapter}}'));
     }
   }
-  return {id,title:doc.name,domainId,domainTitle:domainMap.get(domainId).title,subdomainId:dashboard?'dashboard-design':'character-ip',subdomainTitle:dashboard?'Dashboard 风格模板':'角色 IP 场景模板',kind:'template',status:'published',description:doc.purpose||doc.description||'选择一个方向，展开共享规范，得到完整可复制模板。',whenToUse:doc.purpose||'需要完整场景模板与可调整参数时',aliases:[doc.scene_id||doc.template_id||doc.id],prompt:buildEnvelope(doc.name,parts.join('\n\n'),warnings,sourceUrl(lock,path)),fields,choices,warnings,sourcePath:path,sourceUrl:sourceUrl(lock,path),sourceFiles:unique(sourceFiles),detailPath:`/prompts/jargon/scenes/${id}.html`,exclusiveGroup:dashboard?'visual-direction':doc.base_ip_ref?'aigc-scene':'aigc-base',provider:null};
+  return {id,title:doc.name,domainId,domainTitle:domainMap.get(domainId).title,subdomainId:dashboard?'dashboard-design':'character-ip',subdomainTitle:dashboard?'Dashboard 风格模板':'角色 IP 场景模板',kind:'template',status:'published',description:doc.purpose||doc.description||'选择一个方向，展开共享规范，得到完整可复制模板。',whenToUse:doc.purpose||'需要完整场景模板与可调整参数时',aliases:unique([doc.scene_id||doc.template_id||doc.id,...discoveryAliases(domainId,dashboard?'dashboard-design':'character-ip')]),prompt:buildEnvelope(doc.name,parts.join('\n\n'),warnings,sourceUrl(lock,path)),fields,choices,warnings,sourcePath:path,sourceUrl:sourceUrl(lock,path),sourceFiles:unique(sourceFiles),detailPath:`/prompts/jargon/scenes/${id}.html`,exclusiveGroup:dashboard?'visual-direction':doc.base_ip_ref?'aigc-scene':'aigc-base',provider:null};
 }
 export function buildCatalog() {
   const lock=readLock(); validateSnapshot(lock);
@@ -108,7 +112,8 @@ export function buildCatalog() {
   const domainMap=new Map(root.domains.map(domain=>[domain.domain_id,domain]));
   const templatePaths=sorted(Object.keys(lock.files).filter(path=>path.startsWith('templates/')&&path.endsWith('.json')));
   const legacyPaths=sorted(Object.keys(lock.files).filter(path=>/^terms\/[^/]+\.json$/.test(path)));
-  const items=[...createLeafItems(leaves,domainMap,lock),...templatePaths.map(path=>createTemplateItem(path,domainMap,lock))];
+  const routeMap=new Map(readJSON('index/runtime.json').routes.map(route=>[route.leaf_id,route]));
+  const items=[...createLeafItems(leaves,domainMap,lock,routeMap),...templatePaths.map(path=>createTemplateItem(path,domainMap,lock))];
   if(new Set(items.map(item=>item.id)).size!==items.length) throw new Error('Duplicate scene ID');
   const domains=root.domains.map(domain=>({id:domain.domain_id,title:domain.title,description:domain.description,count:items.filter(item=>item.domainId===domain.domain_id).length}));
   const stats={domains:domains.length,leaves:leaves.length,entries:leaves.reduce((n,l)=>n+l.entry_count,0),templates:templatePaths.length,legacy:legacyPaths.length,drafts:legacyPaths.filter(p=>readJSON(p).status==='draft').length};

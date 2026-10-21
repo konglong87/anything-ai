@@ -11,7 +11,7 @@ const emit = defineEmits<{ remove: [id: string]; clear: [] }>()
 const goal = ref('')
 // User-supplied text and option values stay in this component's memory only.
 const moduleValues = ref<Record<string, Record<string, string>>>({})
-const validation = computed(() => props.items.length ? checkSelection(props.items) : { ok: false, message: '' })
+const validation = computed(() => props.items.length ? checkSelection(props.items, moduleValues.value) : { ok: false, message: '' })
 const preview = computed(() => validation.value.ok
   ? composePrompts(props.items, { ...moduleValues.value, goal: goal.value })
   : '')

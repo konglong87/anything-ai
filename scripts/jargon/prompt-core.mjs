@@ -2,6 +2,7 @@
 export const MAX_SELECTION = 8;
 export const COLLECTION_NOTICE = '这是独立模板素材合集，不是一个需要同时执行的任务。请按场景选择，勿混用互斥风格或工具参数。';
 const orderedUnique = values => [...new Set(values)];
+const selectedOption = (choice, value) => choice.options.find(option => option.value === value) || choice.options[0];
 
 export function renderPrompt(item, values = {}) {
   const fields = new Map((item.fields || []).map(field => [field.key, field]));
@@ -9,7 +10,7 @@ export function renderPrompt(item, values = {}) {
   return item.prompt.replace(/\{\{([a-zA-Z0-9_]+)\}\}/g, (_, key) => {
     const choice = choices.get(key);
     if (choice) {
-      const option = choice.options.find(option => option.value === values[key]) || choice.options[0];
+      const option = selectedOption(choice, values[key]);
       return option ? `${option.label}\n${option.text}` : `[待选择：${choice.label}]`;
     }
     const value = String(values[key] ?? '').trim();
@@ -17,12 +18,20 @@ export function renderPrompt(item, values = {}) {
   });
 }
 
-export function checkSelection(items) {
+export function checkSelection(items, values = {}) {
   if (!items.length) return { ok: false, message: '请先选择至少一个模块。' };
   if (items.length > MAX_SELECTION) return { ok: false, message: `一次最多组合 ${MAX_SELECTION} 个模块，请先缩小任务范围。` };
   if (new Set(items.map(item => item.id)).size !== items.length) return { ok: false, message: '该模块已在组合中，无需重复添加。' };
   if (new Set(items.map(item => item.domainId)).size > 1) return { ok: false, message: '请在同一领域内组合；跨领域需求请分别复制，避免混淆任务。' };
   if (items.some(item => item.status !== 'published')) return { ok: false, message: '待核验或待确认资料不能加入执行组合，请先单独阅读其边界。' };
+  for (const item of items) {
+    for (const choice of item.choices || []) {
+      const option = selectedOption(choice, values[item.id]?.[choice.key]);
+      if (option?.status && option.status !== 'published') {
+        return { ok: false, message: `所选方向「${option.label}」仍待确认或待核验，不能加入执行组合；请选择已确认方向。` };
+      }
+    }
+  }
   const groups = items.map(item => item.exclusiveGroup).filter(Boolean);
   if (new Set(groups).size !== groups.length) return { ok: false, message: '这些模块属于互斥方向，请只保留其中一个风格、布局或场景。' };
   const providers = orderedUnique(items.map(item => item.provider).filter(Boolean));
@@ -31,7 +40,7 @@ export function checkSelection(items) {
 }
 
 export function composePrompts(items, values = {}) {
-  const result = checkSelection(items);
+  const result = checkSelection(items, values);
   if (!result.ok) throw new Error(result.message);
   const goal = String(values.goal || '').trim() || '[待填写：本次任务的目标、输入与限制]';
   const blocks = orderedUnique(items.map(item => `## ${item.title}\n${renderPrompt(item, { task: goal, ...(values[item.id] || {}) })}`));
