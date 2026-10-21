@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-21",
+  "browser": "Codex In-app Browser",
+  "commit": "4f11b5804a4b58c9d837b8a7b02b52f4407bd4f9",
+  "deployment": "https://github.com/konglong87/anything-ai/actions/runs/39553713988",
+  "checks": [
+    {
+      "name": "线上首页首屏直接出现搜索入口",
+      "passed": true,
+      "detail": {
+        "entry": {
+          "bottom": 744.1953125,
+          "height": 496.1953125,
+          "left": 336,
+          "right": 960,
+          "top": 248,
+          "width": 624,
+          "x": 336,
+          "y": 248
+        },
+        "height": 900,
+        "input": {
+          "bottom": 483.1953125,
+          "height": 48,
+          "left": 361,
+          "right": 814.5859375,
+          "top": 435.1953125,
+          "width": 453.5859375,
+          "x": 361,
+          "y": 435.1953125
+        },
+        "scrollWidth": 1280,
+        "stats": "129 条内容 · 4 个可用领域 · 支持填写、复制与组合",
+        "width": 1280
+      }
+    },
+    {
+      "name": "线上首页回车检索显示相关6条",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "first": "极简数据型",
+        "q": "简洁大方的后台界面",
+        "url": "https://konglong87.github.io/anything-ai/prompts/jargon/README.html?q=%E7%AE%80%E6%B4%81%E5%A4%A7%E6%96%B9%E7%9A%84%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2#jargon-search-panel"
+      }
+    },
+    {
+      "name": "线上分享按钮复制正式站搜索链接",
+      "passed": true,
+      "detail": {
+        "url": "https://konglong87.github.io/anything-ai/prompts/jargon/README.html?q=%E7%AE%80%E6%B4%81%E5%A4%A7%E6%96%B9%E7%9A%84%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2#jargon-search-panel"
+      }
+    },
+    {
+      "name": "正式链接新标签恢复同样结果",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "q": "简洁大方的后台界面"
+      }
+    },
+    {
+      "name": "线上场景直达正确携带领域与关键词",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容 · 软件工程与架构",
+        "domain": "software-engineering-architecture",
+        "q": "后端稳定性",
+        "url": "https://konglong87.github.io/anything-ai/prompts/jargon/README.html?q=%E5%90%8E%E7%AB%AF%E7%A8%B3%E5%AE%9A%E6%80%A7&domain=software-engineering-architecture#jargon-search-panel"
+      }
+    },
+    {
+      "name": "线上同页面导航清除旧条件，展示全量库",
+      "passed": true,
+      "detail": {
+        "count": "找到 129 条内容",
+        "q": "",
+        "url": "https://konglong87.github.io/anything-ai/prompts/jargon/README.html#jargon-search-panel"
+      }
+    },
+    {
+      "name": "正式首页390px移动端无横向溢出",
+      "passed": true,
+      "detail": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "线上手机快捷词点击即显示7条简洁布局",
+      "passed": true,
+      "detail": {
+        "count": "找到 7 条内容",
+        "q": "简洁"
+      }
+    },
+    {
+      "name": "正式首页到详情填参复制完整链路",
+      "passed": true,
+      "detail": {
+        "length": 498
+      }
+    },
+    {
+      "name": "线上两端浏览器无运行错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "observation": "首次线上跳转的观察早于异步组件加载；最终均在实际交互组件可见后验收，不以仅URL变化判定通过。"
+}
