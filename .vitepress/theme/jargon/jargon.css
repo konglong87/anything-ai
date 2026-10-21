@@ -153,3 +153,17 @@
   .jargon-ui .jargon-preview { max-height: none; overflow: visible; }
   .jargon-ui .jargon-button, .jargon-ui .jargon-filters, .jargon-ui .jargon-add-section { display: none; }
 }
+
+/* Search diagnostics share the existing filter/button design language. */
+.jargon-search-examples, .jargon-active-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; }
+.jargon-search-examples .jargon-filter { font-size: 12px; }
+.jargon-library .jargon-notice .jargon-button { margin: 8px 0 0; white-space: normal; }
+
+.jargon-ui .jargon-mobile-domain-field { display: none; }
+@media (max-width: 640px) {
+  .jargon-ui .jargon-mobile-domain-field { display: grid; margin-top: 12px; }
+  .jargon-library .jargon-domain-filters { display: none; }
+  .jargon-search-examples { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  .jargon-search-examples > * { flex-shrink: 0; }
+  .jargon-library #jargon-search-help { font-size: 12px; line-height: 1.7; }
+}

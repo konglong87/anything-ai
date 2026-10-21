@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-21",
+  "environment": {
+    "localOrigin": "http://127.0.0.1:5195",
+    "note": "构建更新后重启预览并使用新端口，避免旧预览页面缓存。"
+  },
+  "checks": [
+    {
+      "name": "最终检索 简洁",
+      "passed": true,
+      "detail": {
+        "count": "找到 7 条内容",
+        "titles": [
+          "极简数据型",
+          "单深色单强调色 Dashboard",
+          "暗底明度分层 Dashboard",
+          "暖调留白型",
+          "卡片错位/大图主导/非对称/层叠/留白/破格出血",
+          "分组侧边栏 Dashboard",
+          "高级布局模式"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 大方",
+      "passed": true,
+      "detail": {
+        "count": "找到 7 条内容",
+        "titles": [
+          "极简数据型",
+          "单深色单强调色 Dashboard",
+          "暗底明度分层 Dashboard",
+          "暖调留白型",
+          "卡片错位/大图主导/非对称/层叠/留白/破格出血",
+          "分组侧边栏 Dashboard",
+          "高级布局模式"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 界面",
+      "passed": true,
+      "detail": {
+        "count": "找到 98 条内容",
+        "titles": [
+          "卡片错位/大图主导/非对称/层叠/留白/破格出血",
+          "方格纸玻璃卡 Dashboard",
+          "分组侧边栏 Dashboard",
+          "强对比视觉型",
+          "图卡内容型",
+          "氛围沉浸型",
+          "信息层级",
+          "高级布局模式",
+          "多彩错列布局",
+          "工业分区布局",
+          "中轴观测布局",
+          "玻璃点阵布局"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 后台",
+      "passed": true,
+      "detail": {
+        "count": "找到 26 条内容",
+        "titles": [
+          "方格纸玻璃卡 Dashboard",
+          "分组侧边栏 Dashboard",
+          "强对比视觉型",
+          "图卡内容型",
+          "氛围沉浸型",
+          "极简数据型",
+          "单深色单强调色 Dashboard",
+          "暗底明度分层 Dashboard",
+          "暖调留白型",
+          "高级布局模式",
+          "多彩错列布局",
+          "工业分区布局"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 我想做一个简洁大方的后台界面",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "titles": [
+          "极简数据型",
+          "单深色单强调色 Dashboard",
+          "暗底明度分层 Dashboard",
+          "暖调留白型",
+          "分组侧边栏 Dashboard",
+          "高级布局模式"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 简洁、大方，后台。界面",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "titles": [
+          "极简数据型",
+          "单深色单强调色 Dashboard",
+          "暗底明度分层 Dashboard",
+          "暖调留白型",
+          "分组侧边栏 Dashboard",
+          "高级布局模式"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 ＲＴＯ",
+      "passed": true,
+      "detail": {
+        "count": "找到 1 条内容",
+        "titles": [
+          "高可用模式"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 多彩错列",
+      "passed": true,
+      "detail": {
+        "count": "找到 2 条内容",
+        "titles": [
+          "多彩错列布局",
+          "Dashboard 审美 Skill"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 F7F3EA",
+      "passed": true,
+      "detail": {
+        "count": "找到 2 条内容",
+        "titles": [
+          "暖调留白型",
+          "Dashboard 审美 Skill"
+        ]
+      }
+    },
+    {
+      "name": "最终检索 qzxnoexist999",
+      "passed": true,
+      "detail": {
+        "count": "找到 0 条内容",
+        "titles": []
+      }
+    },
+    {
+      "name": "最终检索 简洁 qzxnoexist999",
+      "passed": true,
+      "detail": {
+        "count": "找到 0 条内容",
+        "titles": []
+      }
+    },
+    {
+      "name": "最终截图同款术语筛选提示全库7条",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "最终一键恢复保留关键词",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "最终快捷搜索示例命中6条",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "最终合集复制与预览一致",
+      "passed": true,
+      "detail": {
+        "length": 5125
+      }
+    },
+    {
+      "name": "最终检索到组合复制链路一致",
+      "passed": true,
+      "detail": {
+        "length": 580
+      }
+    },
+    {
+      "name": "最终重置和分页24条",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "最终移动端领域筛选与诊断提示",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "最终390px无横向溢出并可保留关键词恢复7条",
+      "passed": true,
+      "detail": {
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "最终本地检索无浏览器错误",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import catalog from './catalog.json'
+import { createJargonSearch, SEARCH_EXAMPLES } from '../../../scripts/jargon/search.mjs'
 import { exportCollection } from '../../../scripts/jargon/prompt-core.mjs'
 import JargonCard from './JargonCard.vue'
 import JargonComposer from './JargonComposer.vue'
@@ -24,15 +25,11 @@ const selection = useSelection(data.items)
 const { selectedItems, feedback, storageNotice } = selection
 const activeDomains = computed(() => data.domains.filter((item) => item.count > 0))
 const kinds = computed(() => [...new Set(data.items.map((item) => item.kind))])
-const searchIndex = new Map(data.items.map((item) => [item.id, [
-  item.title, item.description, item.whenToUse, item.domainTitle, item.subdomainTitle, ...item.aliases,
-].join(' ').normalize('NFKC').toLocaleLowerCase()]))
-const filteredItems = computed(() => {
-  const terms = query.value.trim().normalize('NFKC').toLocaleLowerCase().split(/\s+/).filter(Boolean)
-  return data.items.filter((item) => (!domain.value || item.domainId === domain.value)
-    && (!kind.value || item.kind === kind.value)
-    && terms.every((term) => searchIndex.get(item.id)?.includes(term)))
-})
+const search = createJargonSearch(data.items)
+const searchResult = computed(() => search(query.value, { domain: domain.value, kind: kind.value }))
+const filteredItems = computed(() => searchResult.value.items as PromptCatalog['items'])
+const hasScopeFilters = computed(() => Boolean(domain.value || kind.value))
+function clearScopeFilters() { domain.value = ''; kind.value = '' }
 const visibleItems = computed(() => filteredItems.value.slice(0, visibleCount.value))
 const activeDomain = computed(() => data.domains.find((item) => item.id === domain.value))
 const collectionText = computed(() => filteredItems.value.length ? exportCollection(filteredItems.value) : '')
@@ -91,7 +88,7 @@ function downloadCollection() {
       <div class="jargon-search-row">
         <div class="jargon-field jargon-search-field">
           <label for="jargon-search">用你的话找场景</label>
-          <input id="jargon-search" v-model="query" type="search" placeholder="搜索标题、白话描述或别名…" data-testid="jargon-search" autocomplete="off" />
+          <input id="jargon-search" v-model="query" type="search" placeholder="试试：简洁大方的后台界面" aria-describedby="jargon-search-help" data-testid="jargon-search" autocomplete="off" />
         </div>
         <div class="jargon-field jargon-kind-field">
           <label for="jargon-kind">内容类型</label>
@@ -100,6 +97,18 @@ function downloadCollection() {
             <option v-for="value in kinds" :key="value" :value="value">{{ KIND_LABELS[value] || value }}</option>
           </select>
         </div>
+      </div>
+      <p id="jargon-search-help" class="jargon-muted">支持白话短句、空格和标点；检索标题、描述、别名与原文参数，按相关度排序。</p>
+      <div class="jargon-search-examples" aria-label="搜索示例">
+        <span class="jargon-muted">试试</span>
+        <button v-for="example in SEARCH_EXAMPLES" :key="example" class="jargon-filter" type="button" @click="query = example">{{ example }}</button>
+      </div>
+      <div class="jargon-field jargon-mobile-domain-field">
+        <label for="jargon-mobile-domain">内容领域</label>
+        <select id="jargon-mobile-domain" v-model="domain" data-testid="jargon-mobile-domain">
+          <option value="">全部领域（{{ data.items.length }}）</option>
+          <option v-for="item in activeDomains" :key="item.id" :value="item.id">{{ item.title }}（{{ item.count }}）</option>
+        </select>
       </div>
       <div class="jargon-domain-filters" role="group" aria-label="按领域筛选">
         <button class="jargon-filter" type="button" :aria-pressed="!domain" data-testid="jargon-domain-all" @click="domain = ''">全部 <span>{{ data.items.length }}</span></button>
@@ -112,12 +121,22 @@ function downloadCollection() {
     </section>
 
     <div class="jargon-results-heading">
-      <p role="status" aria-live="polite" aria-atomic="true" data-testid="jargon-result-count">找到 <strong>{{ filteredItems.length }}</strong> 条内容<template v-if="activeDomain"> · {{ activeDomain.title }}</template></p>
+      <p role="status" aria-live="polite" aria-atomic="true" data-testid="jargon-result-count">找到 <strong>{{ filteredItems.length }}</strong> 条内容<template v-if="activeDomain"> · {{ activeDomain.title }}</template><template v-if="kind"> · {{ KIND_LABELS[kind] }}</template></p>
       <div class="jargon-inline-actions">
         <button v-if="hasFilters" class="jargon-button jargon-button--small" type="button" data-testid="jargon-reset" @click="resetFilters">重置筛选</button>
         <a class="jargon-text-link" :href="`#${COMPOSER_ID}`" data-testid="jargon-selection-link">我的组合（{{ selectedItems.length }}）<span aria-hidden="true"> ↓</span></a>
       </div>
     </div>
+    <div v-if="hasScopeFilters" class="jargon-active-filters" data-testid="jargon-active-filters" aria-label="当前筛选条件">
+      <span class="jargon-muted">当前范围</span>
+      <button v-if="domain" class="jargon-filter" type="button" data-testid="jargon-clear-domain" @click="domain = ''">{{ activeDomain?.title || domain }} ×</button>
+      <button v-if="kind" class="jargon-filter" type="button" data-testid="jargon-clear-kind" @click="kind = ''">{{ KIND_LABELS[kind] }} ×</button>
+    </div>
+    <p v-if="query.trim() && searchResult.hiddenCount" class="jargon-notice" data-testid="jargon-filter-notice" role="status">
+      <template v-if="!filteredItems.length">不是没有相关内容：全库找到 {{ searchResult.total }} 条，但被当前类型或领域筛选挡住。</template>
+      <template v-else>另有 {{ searchResult.hiddenCount }} 条相关内容不在当前筛选范围内。</template>
+      <button class="jargon-button jargon-button--small" type="button" data-testid="jargon-clear-scope" @click="clearScopeFilters">保留关键词，查看全部 {{ searchResult.total }} 条</button>
+    </p>
     <p class="jargon-selection-feedback" role="status" aria-live="polite" aria-atomic="true" data-testid="jargon-selection-feedback">{{ feedback }}</p>
     <p v-if="storageNotice" class="jargon-notice" role="status">{{ storageNotice }}</p>
 
@@ -129,8 +148,8 @@ function downloadCollection() {
       />
     </div>
     <div v-else class="jargon-empty" data-testid="jargon-no-results">
-      <h3>暂时没有匹配的场景</h3>
-      <p>试试更短的关键词，或换一种白话描述。也可以清除筛选，从分类开始找。</p>
+      <h3>{{ searchResult.total ? '当前筛选范围内没有匹配' : '暂时没有匹配的场景' }}</h3>
+      <p><template v-if="searchResult.total">可以移除上方的类型或领域条件，关键词不会被清空。</template><template v-else>当前已收录内容没有匹配。试试「简洁」「界面」「后台」或更短的关键词；不会用无关内容凑结果。</template></p>
       <button class="jargon-button" type="button" data-testid="jargon-empty-reset" @click="resetFilters">重置，查看全部内容</button>
     </div>
     <div v-if="visibleCount < filteredItems.length" class="jargon-load-more">

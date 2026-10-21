@@ -1,12 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { createJargonSearch } from '../../scripts/jargon/search.mjs';
 import { buildCatalog } from '../../scripts/jargon/normalize.mjs';
 import { checkSelection, composePrompts, renderPrompt } from '../../scripts/jargon/prompt-core.mjs';
 const catalog = buildCatalog();
 const template = catalog.items.find(item => item.id === 'template--dashboard-style-system');
 const pending = 'warm-three-column-dashboard';
 const pendingValues = { [template.id]: { style_direction: pending } };
-const queryMatches = (item, query) => [item.title,item.description,item.whenToUse,item.domainTitle,item.subdomainTitle,...item.aliases].join(' ').includes(query);
+const search = createJargonSearch(catalog.items);
+const queryMatches = (item, query) => search(query).items.some(result => result.id === item.id);
 
 test('review: pending dashboard choices keep machine-readable reference status', () => {
   assert.equal(template.choices[0].options.find(option => option.value === pending).status, 'reference');

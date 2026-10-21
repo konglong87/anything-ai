@@ -23,6 +23,7 @@ export interface PromptItem {
   status: 'published' | 'reference'
   description: string
   whenToUse: string
+  searchText: string
   aliases: string[]
   prompt: string
   fields: PromptField[]

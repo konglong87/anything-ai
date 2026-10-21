@@ -1,0 +1,30 @@
+{
+  "url": "https://konglong87.github.io/anything-ai/prompts/jargon/README.html",
+  "queries": [
+    {
+      "query": "简洁",
+      "type": "all",
+      "count": "找到 0 条内容"
+    },
+    {
+      "query": "大方",
+      "type": "all",
+      "count": "找到 0 条内容"
+    },
+    {
+      "query": "界面",
+      "type": "all",
+      "count": "找到 0 条内容"
+    },
+    {
+      "query": "后台",
+      "type": "all",
+      "count": "找到 2 条内容"
+    },
+    {
+      "query": "简洁",
+      "type": "term",
+      "count": "找到 0 条内容"
+    }
+  ]
+}
