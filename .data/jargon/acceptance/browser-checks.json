@@ -1,7 +1,7 @@
 {
   "sourceCommit": "4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d",
-  "testedAt": "2026-10-21T02:38:13.896Z",
-  "environment": "VitePress production preview; Codex in-app browser",
+  "siteCommit": "9746c571230c8bc0f032da576fba2e7de59e42e4",
+  "testedAt": "2026-10-21T02:45:15.557Z",
   "checks": [
     {
       "name": "无结果状态可见",
@@ -177,12 +177,36 @@
       "name": "最终预览浏览器无控制台错误",
       "passed": true,
       "detail": "[]"
+    },
+    {
+      "name": "线上提示词库已正常加载",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "线上搜索进入详情后复制逐字一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "线上填写的任务已进入复制文本",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "线上页面无应用控制台错误",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "线上759px窄屏布局无横向溢出",
+      "passed": true,
+      "detail": "线上标签页实际视口759×758；390×844手机验证在本地同版生产构建完成，见mobile-library.png。"
     }
   ],
   "harnessNotes": [
     "首次空结果断言使用了不存在的 test id，已改为实际可见标题；不是产品缺陷。",
     "生产复验时本地预览进程已退出；重启原端口后重新验证刷新，不计为应用失败。",
     "浏览器下载事件监听超时，但实际文件已落盘并独立校验一致，未把监听超时误判为下载成功或失败。"
-  ],
-  "errors": []
+  ]
 }
