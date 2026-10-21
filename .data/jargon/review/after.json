@@ -55,6 +55,24 @@
     {
       "name": "复验浏览器无控制台错误",
       "passed": true
+    },
+    {
+      "name": "线上有质感检索修复已生效",
+      "passed": true
+    },
+    {
+      "name": "线上顺滑检索修复已生效",
+      "passed": true
+    },
+    {
+      "name": "线上待确认方向不能加入组合",
+      "passed": true
+    },
+    {
+      "name": "线上明确显示待确认选项原因",
+      "passed": true
     }
-  ]
+  ],
+  "sourceCommit": "4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d",
+  "siteCommit": "ea5eccaf1afe00b9453ec07c63cc57cd7fc3b049"
 }
