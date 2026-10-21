@@ -1,5 +1,6 @@
 [
   ".vitepress/theme/jargon/catalog.json",
+  ".vitepress/theme/jargon/discovery.json",
   "prompts/jargon/README.md",
   "prompts/jargon/domains/agri-food-cooking.md",
   "prompts/jargon/domains/ai-aigc-meta-skills.md",

@@ -1,0 +1,36 @@
+{
+  "total": 129,
+  "templates": 9,
+  "domains": [
+    {
+      "id": "digital-product-uiux",
+      "title": "数字产品与交互设计（UI/UX）",
+      "count": 98
+    },
+    {
+      "id": "software-engineering-architecture",
+      "title": "软件工程与架构",
+      "count": 8
+    },
+    {
+      "id": "ai-aigc-meta-skills",
+      "title": "AI/AIGC/元技能",
+      "count": 18
+    },
+    {
+      "id": "workplace-communication",
+      "title": "职场沟通与组织协作",
+      "count": 5
+    }
+  ],
+  "kinds": [
+    "term",
+    "pattern",
+    "template",
+    "technique",
+    "principle",
+    "platform-research",
+    "guideline",
+    "parameter"
+  ]
+}

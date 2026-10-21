@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-21",
+  "browser": "Codex In-app Browser",
+  "origin": "http://127.0.0.1:5198",
+  "checks": [
+    {
+      "name": "首页输入回车直达相关提示词",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "first": "极简数据型",
+        "lib": true,
+        "q": "简洁大方的后台界面",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E7%AE%80%E6%B4%81%E5%A4%A7%E6%96%B9%E7%9A%84%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2#jargon-search-panel"
+      }
+    },
+    {
+      "name": "复制搜索链接保留中文并指向搜索面板",
+      "passed": true,
+      "detail": {
+        "copiedUrl": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E7%AE%80%E6%B4%81%E5%A4%A7%E6%96%B9%E7%9A%84%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2#jargon-search-panel"
+      }
+    },
+    {
+      "name": "首页快捷词带入并命中后端质量属性",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "first": "高可用模式",
+        "q": "后端稳定性",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E5%90%8E%E7%AB%AF%E7%A8%B3%E5%AE%9A%E6%80%A7#jargon-search-panel"
+      }
+    },
+    {
+      "name": "关键词领域类型同步网址",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容 · 软件工程与架构 · 术语",
+        "domain": "true",
+        "kind": "term",
+        "q": "后端稳定性",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E5%90%8E%E7%AB%AF%E7%A8%B3%E5%AE%9A%E6%80%A7&domain=software-engineering-architecture&kind=term#jargon-search-panel"
+      }
+    },
+    {
+      "name": "刷新恢复检索状态",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容 · 软件工程与架构 · 术语",
+        "domain": "true",
+        "kind": "term",
+        "q": "后端稳定性"
+      }
+    },
+    {
+      "name": "浏览器后退恢复已有查询和筛选范围",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "浏览器前进恢复类型筛选",
+      "passed": true,
+      "detail": {
+        "domain": "true",
+        "kind": "term",
+        "q": "后端稳定性",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E5%90%8E%E7%AB%AF%E7%A8%B3%E5%AE%9A%E6%80%A7&domain=software-engineering-architecture&kind=term#jargon-search-panel"
+      }
+    },
+    {
+      "name": "390px移动端首页入口无横向溢出",
+      "passed": true,
+      "detail": {
+        "entry": {
+          "bottom": 788.890625,
+          "height": 619.890625,
+          "left": 24,
+          "right": 366,
+          "top": 169,
+          "width": 342,
+          "x": 24,
+          "y": 169
+        },
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "移动端首页按钮提交自动带词显示6条",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "q": "简洁大方的后台界面",
+        "scrollWidth": 390,
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E7%AE%80%E6%B4%81%E5%A4%A7%E6%96%B9%E7%9A%84%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2#jargon-search-panel",
+        "width": 390
+      }
+    },
+    {
+      "name": "首页搜索→详情填参→复制完整提示词逐字一致",
+      "passed": true,
+      "detail": {
+        "length": 502
+      }
+    },
+    {
+      "name": "详情后退返回原搜索结果",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "q": "简洁大方的后台界面"
+      }
+    },
+    {
+      "name": "首页场景直达：设计界面与后台",
+      "passed": true,
+      "detail": {
+        "count": "找到 98 条内容 · 数字产品与交互设计（UI/UX）",
+        "domain": "digital-product-uiux",
+        "q": "",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?domain=digital-product-uiux#jargon-search-panel"
+      }
+    },
+    {
+      "name": "首页场景直达：做顺滑交互",
+      "passed": true,
+      "detail": {
+        "count": "找到 53 条内容 · 数字产品与交互设计（UI/UX）",
+        "domain": "digital-product-uiux",
+        "q": "顺滑交互",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E9%A1%BA%E6%BB%91%E4%BA%A4%E4%BA%92&domain=digital-product-uiux#jargon-search-panel"
+      }
+    },
+    {
+      "name": "首页场景直达：改善后端稳定性",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容 · 软件工程与架构",
+        "domain": "software-engineering-architecture",
+        "q": "后端稳定性",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=%E5%90%8E%E7%AB%AF%E7%A8%B3%E5%AE%9A%E6%80%A7&domain=software-engineering-architecture#jargon-search-panel"
+      }
+    },
+    {
+      "name": "首页场景直达：创作角色与图片",
+      "passed": true,
+      "detail": {
+        "count": "找到 18 条内容 · AI/AIGC/元技能",
+        "domain": "ai-aigc-meta-skills",
+        "q": "",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?domain=ai-aigc-meta-skills#jargon-search-panel"
+      }
+    },
+    {
+      "name": "手机导航菜单直达全量提示词库",
+      "passed": true,
+      "detail": {
+        "count": "找到 129 条内容",
+        "q": "",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html#jargon-search-panel"
+      }
+    },
+    {
+      "name": "空输入提交打开完整提示词库",
+      "passed": true,
+      "detail": {
+        "count": "找到 129 条内容",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html#jargon-search-panel"
+      }
+    },
+    {
+      "name": "暗色主题首页入口保持主题对比色",
+      "passed": true,
+      "detail": {
+        "background": "rgb(62, 99, 221)",
+        "color": "rgb(255, 255, 255)",
+        "dark": true
+      }
+    },
+    {
+      "name": "独立新标签打开分享链接无需重输关键词",
+      "passed": true,
+      "detail": {
+        "count": "找到 6 条内容",
+        "q": "简洁大方的后台界面"
+      }
+    },
+    {
+      "name": "新入口保留原筛选诊断功能",
+      "passed": true,
+      "detail": {
+        "count": "找到 0 条内容 · 术语",
+        "notice": "不是没有相关内容：全库找到 7 条，但被当前类型或领域筛选挡住。保留关键词，查看全部 7 条"
+      }
+    },
+    {
+      "name": "未知词通过可分享网址诚实返回零结果",
+      "passed": true,
+      "detail": {
+        "count": "找到 0 条内容",
+        "q": "qzxnoexist999",
+        "url": "http://127.0.0.1:5198/anything-ai/prompts/jargon/README.html?q=qzxnoexist999#jargon-search-panel"
+      }
+    },
+    {
+      "name": "最终构建没有浏览器运行错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "observation": "历史验收初次误把两个独立筛选操作当作同一个历史项；改为验证实际URL对应的后退、前进状态。最终全部检查通过。旧5197预览曾因重建资源切换失效，最终5198重新启动后完成全部验收。"
+}

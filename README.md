@@ -5,6 +5,8 @@
 > 实践出真知，时间是检验真理的唯一标准
 > 未来都是AI Agent，智能体，智能体蜂群
 
+<JargonSearchEntry />
+
 <p style="display:flex;align-items:center;gap:4px;flex-wrap:nowrap;margin:0;">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 <a href=".github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
@@ -199,7 +201,9 @@
 
 #### 💡 我需要提示词模板
 
-**按场景和角色查找** → [提示词库](./prompts/)
+**[提示词搜索与组合](./prompts/jargon/README.md#jargon-search-panel)** — 输入「简洁大方的后台界面」「顺滑交互」，找到场景后填写、复制与组合。
+
+按场景和角色查找 → [提示词分类索引](./prompts/)
 
 **包含**：
 - 按场景：文案写作、代码开发、数据分析...

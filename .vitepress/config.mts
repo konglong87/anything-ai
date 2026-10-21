@@ -1,3 +1,4 @@
+import { buildSearchHref, GUIDE_PATH } from '../scripts/jargon/search-state.mjs'
 import { defineConfig } from 'vitepress'
 import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
@@ -272,7 +273,11 @@ export default defineConfig({
           { text: '行业案例', link: '/roles/README.html' },
           { text: '进阶主题', link: '/4-advanced-topics/README.html' },
           { text: 'AI Skills', link: '/5-skills/README.html' },
-          { text: '提示词库', link: '/prompts/README.html' },
+          { text: '提示词库', items: [
+            { text: '提示词搜索与组合', link: buildSearchHref() },
+            { text: '按场景与角色浏览', link: '/prompts/README.html' },
+            { text: '使用方法', link: GUIDE_PATH }
+          ] },
           { text: '外部资源', link: '/resources/README.html' },
           { text: '资源下载', link: '/assets/README.html' },
           { text: '⭐ Star', link: 'https://github.com/konglong87/anything-ai' }
@@ -625,7 +630,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/prompts/README.html' },
-                { text: '专业提示词 · Jargon', link: '/prompts/jargon/README.html' },
+                { text: '提示词搜索与组合', link: '/prompts/jargon/README.html' },
                 { text: '提示词使用与组合', link: '/prompts/jargon/guide' },
                 { text: '内容来源与覆盖', link: '/prompts/jargon/sources' },
                 { text: '系统提示词', link: '/prompts/system-prompts' },
@@ -1005,7 +1010,8 @@ export default defineConfig({
 
     // 本地搜索
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: { locales: { root: { translations: { button: { buttonText: '站内搜索', buttonAriaLabel: '搜索文章与教程' } } } } }
     },
 
     // 页脚

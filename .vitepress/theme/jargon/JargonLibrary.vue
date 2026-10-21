@@ -6,6 +6,8 @@ import { exportCollection } from '../../../scripts/jargon/prompt-core.mjs'
 import JargonCard from './JargonCard.vue'
 import JargonComposer from './JargonComposer.vue'
 import CopyPanel from './CopyPanel.vue'
+import { useSearchUrl } from './useSearchUrl'
+import { QUERY_LIMIT, SEARCH_ANCHOR } from '../../../scripts/jargon/search-state.mjs'
 import { useSelection } from './selection'
 import { COMPOSER_ID, DOWNLOAD_MIME, KIND_LABELS, type PromptCatalog, type SelectionResult } from './types'
 import './jargon.css'
@@ -25,6 +27,7 @@ const selection = useSelection(data.items)
 const { selectedItems, feedback, storageNotice } = selection
 const activeDomains = computed(() => data.domains.filter((item) => item.count > 0))
 const kinds = computed(() => [...new Set(data.items.map((item) => item.kind))])
+const { currentUrl, commit: commitSearchUrl } = useSearchUrl({ query, domain, kind }, { domains: activeDomains.value.map(item => item.id), kinds: kinds.value, defaultDomain: props.domain })
 const search = createJargonSearch(data.items)
 const searchResult = computed(() => search(query.value, { domain: domain.value, kind: kind.value }))
 const filteredItems = computed(() => searchResult.value.items as PromptCatalog['items'])
@@ -84,11 +87,11 @@ function downloadCollection() {
       </div>
     </header>
 
-    <section class="jargon-filters" aria-label="搜索与分类" data-testid="jargon-filters">
+    <section :id="SEARCH_ANCHOR" class="jargon-filters" aria-label="搜索与分类" data-testid="jargon-filters">
       <div class="jargon-search-row">
         <div class="jargon-field jargon-search-field">
           <label for="jargon-search">用你的话找场景</label>
-          <input id="jargon-search" v-model="query" type="search" placeholder="试试：简洁大方的后台界面" aria-describedby="jargon-search-help" data-testid="jargon-search" autocomplete="off" />
+          <input id="jargon-search" v-model="query" type="search" :maxlength="QUERY_LIMIT" @keydown.enter="commitSearchUrl" @change="commitSearchUrl" placeholder="试试：简洁大方的后台界面" aria-describedby="jargon-search-help" data-testid="jargon-search" autocomplete="off" />
         </div>
         <div class="jargon-field jargon-kind-field">
           <label for="jargon-kind">内容类型</label>
@@ -124,6 +127,7 @@ function downloadCollection() {
       <p role="status" aria-live="polite" aria-atomic="true" data-testid="jargon-result-count">找到 <strong>{{ filteredItems.length }}</strong> 条内容<template v-if="activeDomain"> · {{ activeDomain.title }}</template><template v-if="kind"> · {{ KIND_LABELS[kind] }}</template></p>
       <div class="jargon-inline-actions">
         <button v-if="hasFilters" class="jargon-button jargon-button--small" type="button" data-testid="jargon-reset" @click="resetFilters">重置筛选</button>
+        <CopyPanel v-if="currentUrl" :text="currentUrl" label="复制搜索链接" test-id="jargon-copy-search-link" />
         <a class="jargon-text-link" :href="`#${COMPOSER_ID}`" data-testid="jargon-selection-link">我的组合（{{ selectedItems.length }}）<span aria-hidden="true"> ↓</span></a>
       </div>
     </div>

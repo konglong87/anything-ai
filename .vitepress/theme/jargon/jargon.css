@@ -167,3 +167,6 @@
   .jargon-search-examples > * { flex-shrink: 0; }
   .jargon-library #jargon-search-help { font-size: 12px; line-height: 1.7; }
 }
+.jargon-library #jargon-search-panel { scroll-margin-top: calc(var(--vp-nav-height) + 28px); }
+.jargon-results-heading .jargon-copy { display: inline-flex; align-items: center; gap: 6px; }
+.jargon-results-heading .jargon-copy-feedback:empty { display: none; }

@@ -51,7 +51,7 @@ export interface SelectionResult {
 
 export const KIND_LABELS: Readonly<Record<string, string>> = SOURCE_KIND_LABELS
 
-export const LIBRARY_PATH = '/prompts/jargon/README.html'
+export { LIBRARY_PATH } from '../../../scripts/jargon/search-state.mjs'
 export const COMPOSER_ID = 'compose'
 export const TASK_FIELD_KEY = 'task'
 export const SELECTION_STORAGE_KEY = 'anything-ai:jargon:selection:v1'
