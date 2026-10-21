@@ -49,3 +49,12 @@
 ## 部署
 
 实现与本地验收先提交、push到main，线上复验完成后追加部署结果与线上截图。不新开分支、不使用worktree。
+
+### 发布与线上闭环完成
+
+- 实现提交：`e3cee1a83c4f9850bde59351bdf37502776e8652`，已push到main。
+- GitHub Actions： https://github.com/konglong87/anything-ai/actions/runs/39541215273 ，build / deploy均success；CI日志确认120项测试全部通过，生产HTML检查亦通过。
+- 线上10项复验全部通过：四个投诉词、中文完整句、混合标点、术语筛选诊断、保留关键词恢复、实际合集剪贴板逐字一致、无浏览器错误。明细见 online.json。
+- 最终线上截图：online-search.jpg（关键词、6条结果及极简布局同屏）；online-filter.jpg（用户同款术语筛选，全库有7条且可保留关键词恢复）。移动端390×844的最终构建截图见local-mobile-results.jpg。
+- 已关闭本次创建的本地测试页，停止本次预览服务，恢复视口和剪贴板，清空测试组合、删除临时日志；仅保留有价值的验收证据。已有用户标签页不删除，线上提示词页面保留为交付入口。
+- 后续仅追加本验收资料的提交使用skip ci，不改变已部署实现。
