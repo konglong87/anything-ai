@@ -238,6 +238,7 @@ export default defineConfig({
   // 排除不需要的目录
   srcExclude: [
     'indexes/**',
+    '.data/**',
     'scripts/**',
     'node_modules/**',
     'docs/superpowers/**',
@@ -624,6 +625,9 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概览', link: '/prompts/README.html' },
+                { text: '专业提示词 · Jargon', link: '/prompts/jargon/README.html' },
+                { text: '提示词使用与组合', link: '/prompts/jargon/guide' },
+                { text: '内容来源与覆盖', link: '/prompts/jargon/sources' },
                 { text: '系统提示词', link: '/prompts/system-prompts' },
                 { text: '写作提示词', link: '/prompts/by-scene/writing-prompts' },
                 { text: '编程提示词', link: '/prompts/by-scene/coding-prompts' },

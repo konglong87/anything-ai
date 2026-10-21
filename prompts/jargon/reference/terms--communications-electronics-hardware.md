@@ -1,0 +1,121 @@
+---
+title: "通信/电子/硬件工程领域需求澄清术语包（草案） · 草稿参考"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 5min
+tags: [提示词, Jargon]
+---
+
+# 通信/电子/硬件工程领域需求澄清术语包（草案）
+
+[返回所属领域](/prompts/jargon/domains/communications-electronics-hardware.html) · [完整来源](../sources.md)
+
+::: warning 草稿，非正式模板
+本包在上游标记为 draft，未作为可执行提示词收录，不代表专业意见或已核验建议。
+:::
+
+## 原文
+
+
+````json
+{
+  "schema_version": "1.0.0",
+  "package_id": "communications-electronics-hardware-core",
+  "domain_id": "communications-electronics-hardware",
+  "title": "通信/电子/硬件工程领域需求澄清术语包（草案）",
+  "version": "0.1.0",
+  "status": "draft",
+  "intents": [
+    {
+      "id": "design",
+      "action": "设计",
+      "object": "通信/电子/硬件工程相关产物"
+    },
+    {
+      "id": "diagnose",
+      "action": "排查",
+      "object": "通信/电子/硬件工程相关问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "scope",
+      "name": "系统对象",
+      "definition": "系统对象的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "method",
+      "name": "接口与约束",
+      "definition": "接口与约束的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "问题现象",
+      "definition": "用户观察到的具体问题、时间、范围和影响。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "core-1",
+      "term": "系统架构",
+      "plain_language": "明确设备、链路和协议组成",
+      "benefit": "方便拆解系统",
+      "cost": "前期建模需要时间",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-2",
+      "term": "接口规格",
+      "plain_language": "明确电气、机械、通信和软件接口",
+      "benefit": "提高互操作性",
+      "cost": "规格约束更严格",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-3",
+      "term": "带宽时延",
+      "plain_language": "明确吞吐量、延迟和抖动目标",
+      "benefit": "性能可测量",
+      "cost": "需要测试环境",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-4",
+      "term": "功耗散热",
+      "plain_language": "明确供电、热设计和工作温度",
+      "benefit": "降低硬件故障",
+      "cost": "可能增加体积成本",
+      "dimension_id": "method"
+    },
+    {
+      "id": "core-5",
+      "term": "兼容认证",
+      "plain_language": "明确标准、频段和认证要求",
+      "benefit": "减少上市风险",
+      "cost": "测试周期更长",
+      "dimension_id": "method"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/做好一点",
+      "level": "L3",
+      "intent_ids": [
+        "design"
+      ],
+      "dimension_ids": [
+        "scope",
+        "method"
+      ],
+      "reason": "需要先明确领域对象和方法约束。"
+    }
+  ]
+}
+````
+
+
+[查看固定版本来源](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/communications-electronics-hardware.json)

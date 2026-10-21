@@ -6,7 +6,7 @@ import { renderPrompt, exportCollection } from './prompt-core.mjs';
 import { KIND_LABELS } from './labels.mjs';
 const catalog=buildCatalog(); const lock=readLock(); const managed=[];
 const target=path=>join(PROJECT_ROOT,path);
-const put=(path,body)=>{mkdirSync(dirname(target(path)),{recursive:true});writeFileSync(target(path),body);managed.push(path);};
+const put=(path,body)=>{mkdirSync(dirname(target(path)),{recursive:true});writeFileSync(target(path),path.endsWith('.md') ? body.trimEnd()+'\n' : body);managed.push(path);};
 const json=value=>JSON.stringify(value,null,2)+'\n';
 const fm=(title,extra='')=>`---\ntitle: ${JSON.stringify(title)}\ndifficulty: beginner\nroles: [everyone]\ntype: guide\nduration: 5min\ntags: [提示词, Jargon]\n${extra}---\n\n`;
 const code=(text,language='text')=>`\n\`\`\`\`${language}\n${text.trim()}\n\`\`\`\`\n`;

@@ -1,13 +1,13 @@
-import { h } from 'vue'
+import { defineAsyncComponent } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import ViewCount from './ViewCount.vue'
+import LocaleSafeLayout from './LocaleSafeLayout.vue'
 import './custom.css'
 
 export default {
   extends: DefaultTheme,
-  Layout() {
-    return h(DefaultTheme.Layout, null, {
-      'nav-bar-title-after': () => h(ViewCount)
-    })
-  }
+  enhanceApp({ app }) {
+    app.component('JargonLibrary', defineAsyncComponent(() => import('./jargon/JargonLibrary.vue')))
+    app.component('JargonPrompt', defineAsyncComponent(() => import('./jargon/JargonPrompt.vue')))
+  },
+  Layout: LocaleSafeLayout
 }

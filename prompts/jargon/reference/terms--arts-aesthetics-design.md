@@ -1,0 +1,121 @@
+---
+title: "艺术/美学/传统设计领域需求澄清术语包（草案） · 草稿参考"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 5min
+tags: [提示词, Jargon]
+---
+
+# 艺术/美学/传统设计领域需求澄清术语包（草案）
+
+[返回所属领域](/prompts/jargon/domains/arts-aesthetics-design.html) · [完整来源](../sources.md)
+
+::: warning 草稿，非正式模板
+本包在上游标记为 draft，未作为可执行提示词收录，不代表专业意见或已核验建议。
+:::
+
+## 原文
+
+
+````json
+{
+  "schema_version": "1.0.0",
+  "package_id": "arts-aesthetics-design-core",
+  "domain_id": "arts-aesthetics-design",
+  "title": "艺术/美学/传统设计领域需求澄清术语包（草案）",
+  "version": "0.1.0",
+  "status": "draft",
+  "intents": [
+    {
+      "id": "design",
+      "action": "设计",
+      "object": "艺术/美学/传统设计相关产物"
+    },
+    {
+      "id": "diagnose",
+      "action": "排查",
+      "object": "艺术/美学/传统设计相关问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "scope",
+      "name": "媒介与形式",
+      "definition": "媒介与形式的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "method",
+      "name": "审美方向",
+      "definition": "审美方向的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "问题现象",
+      "definition": "用户观察到的具体问题、时间、范围和影响。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "core-1",
+      "term": "媒介材料",
+      "plain_language": "明确绘画、摄影、雕塑或数字媒介",
+      "benefit": "方便选择技法",
+      "cost": "限制表达范围",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-2",
+      "term": "构图节奏",
+      "plain_language": "安排视觉重点、比例和留白",
+      "benefit": "画面更有秩序",
+      "cost": "探索空间变小",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-3",
+      "term": "色彩关系",
+      "plain_language": "明确主色、辅色和对比色",
+      "benefit": "视觉气质更稳定",
+      "cost": "色彩自由度降低",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-4",
+      "term": "风格参照",
+      "plain_language": "用流派、时期或作品特征描述方向",
+      "benefit": "沟通更准确",
+      "cost": "不能复制具体作品",
+      "dimension_id": "method"
+    },
+    {
+      "id": "core-5",
+      "term": "材质肌理",
+      "plain_language": "明确粗糙、光滑、透明或颗粒感",
+      "benefit": "质感更具体",
+      "cost": "实现成本可能提高",
+      "dimension_id": "method"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/做好一点",
+      "level": "L3",
+      "intent_ids": [
+        "design"
+      ],
+      "dimension_ids": [
+        "scope",
+        "method"
+      ],
+      "reason": "需要先明确领域对象和方法约束。"
+    }
+  ]
+}
+````
+
+
+[查看固定版本来源](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/arts-aesthetics-design.json)

@@ -1,0 +1,121 @@
+---
+title: "生物/医学/健康领域需求澄清术语包（草案） · 草稿参考"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 5min
+tags: [提示词, Jargon]
+---
+
+# 生物/医学/健康领域需求澄清术语包（草案）
+
+[返回所属领域](/prompts/jargon/domains/biology-medicine-health.html) · [完整来源](../sources.md)
+
+::: warning 草稿，非正式模板
+本包在上游标记为 draft，未作为可执行提示词收录，不代表专业意见或已核验建议。
+:::
+
+## 原文
+
+
+````json
+{
+  "schema_version": "1.0.0",
+  "package_id": "biology-medicine-health-core",
+  "domain_id": "biology-medicine-health",
+  "title": "生物/医学/健康领域需求澄清术语包（草案）",
+  "version": "0.1.0",
+  "status": "draft",
+  "intents": [
+    {
+      "id": "design",
+      "action": "设计",
+      "object": "生物/医学/健康相关产物"
+    },
+    {
+      "id": "diagnose",
+      "action": "排查",
+      "object": "生物/医学/健康相关问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "scope",
+      "name": "健康目标",
+      "definition": "健康目标的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "method",
+      "name": "证据与风险",
+      "definition": "证据与风险的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "问题现象",
+      "definition": "用户观察到的具体问题、时间、范围和影响。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "core-1",
+      "term": "健康教育",
+      "plain_language": "提供通用知识和预防信息",
+      "benefit": "适合公众理解",
+      "cost": "不针对个体诊断",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-2",
+      "term": "症状记录",
+      "plain_language": "记录时间、频率、严重程度和变化",
+      "benefit": "方便就医沟通",
+      "cost": "不能自行推断病因",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-3",
+      "term": "风险分层",
+      "plain_language": "区分一般、需咨询和紧急情况",
+      "benefit": "提高安全性",
+      "cost": "需要明确边界",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-4",
+      "term": "证据等级",
+      "plain_language": "区分指南、研究和经验信息",
+      "benefit": "减少误导",
+      "cost": "结论可能不确定",
+      "dimension_id": "method"
+    },
+    {
+      "id": "core-5",
+      "term": "专业转介",
+      "plain_language": "明确何时联系医生或急救",
+      "benefit": "避免延误处理",
+      "cost": "不能替代医疗服务",
+      "dimension_id": "method"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/做好一点",
+      "level": "L3",
+      "intent_ids": [
+        "design"
+      ],
+      "dimension_ids": [
+        "scope",
+        "method"
+      ],
+      "reason": "需要先明确领域对象和方法约束。"
+    }
+  ]
+}
+````
+
+
+[查看固定版本来源](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/biology-medicine-health.json)

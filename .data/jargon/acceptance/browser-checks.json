@@ -1,0 +1,188 @@
+{
+  "sourceCommit": "4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d",
+  "testedAt": "2026-10-21T02:38:13.896Z",
+  "environment": "VitePress production preview; Codex in-app browser",
+  "checks": [
+    {
+      "name": "无结果状态可见",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "后端分类显示全部8条",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "分类合集复制包含8条及独立模板边界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "中文关键词准确筛选",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "同领域互补模块可组合",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "全部知识类型中文映射",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "刷新后恢复2个有效模块",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "组合继承统一目标",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "组合复制与展示逐字一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "跨领域组合被明确拦截",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "拦截后原选择不变",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "刷新不保留用户填写内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "互斥布局不会同时加入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "互斥冲突有明确解释",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "清空后恢复组合空状态",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "详情必要参数已填入",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "工具参数只包含所选选项",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "角色依赖和负面约束保留",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "详情复制文本与预览逐字一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "待确认场景不能加入执行组合",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "缺失第六例仍保留缺口说明",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "原则类型筛选显示源实际6项",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "加载更多展示下一批内容",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "桌面页面无横向溢出",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "暗色主题切换正常",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390px移动端无横向溢出",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390px详情页无横向溢出",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "移动端完整复制与预览一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "复制后通过键盘粘贴内容完整一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "组合内参数和单选实时生效",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "组合内留空任务继承统一目标",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "自定义模块组合复制完全一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "真实下载文件与筛选合集逐字一致",
+      "passed": true,
+      "detail": "已在 Downloads 读取并与 exportCollection 比对，BOM之外完全一致；测试文件已归档。"
+    },
+    {
+      "name": "键盘可从搜索进入类型选择",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "最终预览浏览器无控制台错误",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "harnessNotes": [
+    "首次空结果断言使用了不存在的 test id，已改为实际可见标题；不是产品缺陷。",
+    "生产复验时本地预览进程已退出；重启原端口后重新验证刷新，不计为应用失败。",
+    "浏览器下载事件监听超时，但实际文件已落盘并独立校验一致，未把监听超时误判为下载成功或失败。"
+  ],
+  "errors": []
+}

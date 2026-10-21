@@ -1,0 +1,121 @@
+---
+title: "天文/地学/环境领域需求澄清术语包（草案） · 草稿参考"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 5min
+tags: [提示词, Jargon]
+---
+
+# 天文/地学/环境领域需求澄清术语包（草案）
+
+[返回所属领域](/prompts/jargon/domains/astronomy-earth-environment.html) · [完整来源](../sources.md)
+
+::: warning 草稿，非正式模板
+本包在上游标记为 draft，未作为可执行提示词收录，不代表专业意见或已核验建议。
+:::
+
+## 原文
+
+
+````json
+{
+  "schema_version": "1.0.0",
+  "package_id": "astronomy-earth-environment-core",
+  "domain_id": "astronomy-earth-environment",
+  "title": "天文/地学/环境领域需求澄清术语包（草案）",
+  "version": "0.1.0",
+  "status": "draft",
+  "intents": [
+    {
+      "id": "design",
+      "action": "设计",
+      "object": "天文/地学/环境相关产物"
+    },
+    {
+      "id": "diagnose",
+      "action": "排查",
+      "object": "天文/地学/环境相关问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "scope",
+      "name": "观测对象",
+      "definition": "观测对象的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "method",
+      "name": "尺度与证据",
+      "definition": "尺度与证据的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "问题现象",
+      "definition": "用户观察到的具体问题、时间、范围和影响。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "core-1",
+      "term": "观测对象",
+      "plain_language": "明确天体、地质现象或环境指标",
+      "benefit": "问题更容易验证",
+      "cost": "范围需要收窄",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-2",
+      "term": "时间尺度",
+      "plain_language": "区分瞬时、季节、年代或长期趋势",
+      "benefit": "避免误读变化",
+      "cost": "需要连续数据",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-3",
+      "term": "空间尺度",
+      "plain_language": "明确局地、区域或全球范围",
+      "benefit": "结论边界更清楚",
+      "cost": "数据要求更高",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-4",
+      "term": "测量方法",
+      "plain_language": "说明仪器、样本和计算口径",
+      "benefit": "结果更可复核",
+      "cost": "准备成本更高",
+      "dimension_id": "method"
+    },
+    {
+      "id": "core-5",
+      "term": "不确定性",
+      "plain_language": "记录误差、置信度和替代解释",
+      "benefit": "避免过度结论",
+      "cost": "表达更谨慎",
+      "dimension_id": "method"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/做好一点",
+      "level": "L3",
+      "intent_ids": [
+        "design"
+      ],
+      "dimension_ids": [
+        "scope",
+        "method"
+      ],
+      "reason": "需要先明确领域对象和方法约束。"
+    }
+  ]
+}
+````
+
+
+[查看固定版本来源](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/astronomy-earth-environment.json)

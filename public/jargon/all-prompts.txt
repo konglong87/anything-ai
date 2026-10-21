@@ -1,0 +1,7128 @@
+# 专业提示词素材合集
+
+这是独立模板素材合集，不是一个需要同时执行的任务。请按场景选择，勿混用互斥风格或工具参数。
+
+共 129 条；保留待填写项、来源和适用边界。
+
+## 执行项
+
+# 执行项
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+执行项
+
+【白话解释】
+每个执行项写清负责人、下一步、截止时间和完成证据。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- owner
+- next step
+- due date
+- evidence
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/action-item.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/action-item.json
+
+---
+
+## 高可用模式
+
+# 高可用模式
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+高可用模式
+
+【白话解释】
+跨实例、节点或可用区部署关键组件，并定义 RTO/RPO 和故障转移。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- failure domain
+- redundancy
+- RTO
+- RPO
+- failover
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/availability-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/availability-patterns.json
+
+---
+
+## 前后对比滑块
+
+# 前后对比滑块
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+前后对比滑块
+
+【白话解释】
+拖动分割线实时裁切两张图，位置在 0%–100%，不使用惯性。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 初始 50%
+- clip-path: inset()
+- 拖动无过渡
+- 容器 resize 重新计算
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- idle
+- dragging
+
+【可访问性】
+- role=slider
+- 左右箭头步进
+- 图片失败时保留可用状态
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/before-after-slider.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/before-after-slider.json
+
+---
+
+## 阻尼弹性底部抽屉
+
+# 阻尼弹性底部抽屉
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+阻尼弹性底部抽屉
+
+【白话解释】
+支持下拉、橡皮筋和多个锚点吸附。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- closed/peek/half/full
+- 按位移+速度选锚点
+- 处理滚动穿透
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/bottom-sheet.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/bottom-sheet.json
+
+---
+
+## Burst 点击爆散
+
+# Burst 点击爆散
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Burst 点击爆散
+
+【白话解释】
+关键点击用 6–12 个短寿命粒子表达完成或奖励。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- 寿命 300–500ms
+- 随机角度
+- 轻微重力
+- 只用于关键动作
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/burst-feedback.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/burst-feedback.json
+
+---
+
+## 按钮变步进器
+
+# 按钮变步进器
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+按钮变步进器
+
+【白话解释】
+加号按钮原位展开为减号、数量和加号，数量归零后收回。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- 同一组件多状态布局
+- 数量归零自动收回
+- 保持触发器位置
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- add
+- expanded
+- decrementing
+- collapsed
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/button-stepper-morph.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/button-stepper-morph.json
+
+---
+
+## 景别/机位/焦段/运镜
+
+# 景别/机位/焦段/运镜
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+景别/机位/焦段/运镜
+
+【白话解释】
+把电影感拆成可执行的景别、机位、焦段、景深和运动。
+
+【适用场景】
+想要电影感但需要稳定复现时
+
+【专业参数与锚点】
+- close/medium/wide
+- high/low angle
+- lens
+- depth of field
+- camera motion
+
+【边界与约束】
+- 不要用受版权保护的具体作品名作为唯一指令
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/camera-language/camera-language.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/camera-language/camera-language.json
+
+---
+
+## 并发容量模型
+
+# 并发容量模型
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+并发容量模型
+
+【白话解释】
+用平均值、峰值、突发、P95/P99 和增长率描述高并发，而不是只说高并发。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- RPS
+- burst
+- P95/P99
+- growth rate
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/capacity-model.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/capacity-model.json
+
+---
+
+## 3D 卡片翻面
+
+# 3D 卡片翻面
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+3D 卡片翻面
+
+【白话解释】
+正反面围绕同一中心翻转，保持透视和背面隐藏。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- perspective 800–1200
+- backface-visibility hidden
+- iOS 加 webkit 前缀
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/card-flip.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/card-flip.json
+
+---
+
+## 基础 IP 设定
+
+# 基础 IP 设定
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+基础 IP 设定
+
+【白话解释】
+先锁定角色体型、配色、五官、材质和负面约束，再按场景增量加载。
+
+【适用场景】
+同一角色需要生成三视图、动作、服装、表情或周边
+
+【专业参数与锚点】
+- 主体描述
+- 一致性规则
+- 负面提示词
+- 参考图
+
+【边界与约束】
+- 一次只加载一个场景模板
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/character-ip/character-ip.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/character-ip/character-ip.json
+
+---
+
+## 场景增量模块
+
+# 场景增量模块
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+场景增量模块
+
+【白话解释】
+把材质、动作、镜头或周边作为独立模块叠加到基础 IP。
+
+【适用场景】
+需要复用角色但更换表现目标
+
+【专业参数与锚点】
+- scene_id
+- aspect_ratio
+- tool_adapter
+
+【边界与约束】
+- 不要重复复制完整基础 IP
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/character-ip/character-ip.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/character-ip/character-ip.json
+
+---
+
+## 勾选联动
+
+# 勾选联动
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+勾选联动
+
+【白话解释】
+一次勾选按明确先后驱动顶部背景、进度环和数字滚动，多个反馈共享同一完成结果。
+
+【适用场景】
+用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时
+
+【专业参数与锚点】
+- 勾选反馈 80–160ms
+- 背景渐变 180–300ms
+- 进度环绘制 400–700ms
+- 数字滚动 300–500ms
+- stroke-dashoffset
+- 数字 Y 轴偏移
+
+【边界与约束】
+- 避免生硬切换
+- 动画顺序必须可验证
+- 必须支持中断和反向回退
+
+【交互状态机】
+- checkbox checked
+- top background transition
+- progress ring draw
+- count update
+- settled
+
+【动画顺序】
+- checkbox checked
+- top background transition
+- progress ring draw
+- count update
+- settled
+
+【空间锚点】
+- 复选框是触发源
+- 顶部背景覆盖状态区域
+- 进度环围绕当前任务指标
+- 数字与进度环保持同一视觉组
+
+【可访问性】
+- 键盘 Space/Enter 可勾选
+- aria-checked 与视觉状态同步
+- 减少动态时保留最终进度和数字
+
+【验收标准】
+- 勾选后所有反馈都出现
+- 进度环不早于触发状态
+- 数字与进度百分比一致
+- 快速连续勾选不会叠加旧动画
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/checkbox-cascade.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/checkbox-cascade.json
+
+---
+
+## 主体位置与视觉动线
+
+# 主体位置与视觉动线
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+主体位置与视觉动线
+
+【白话解释】
+用中心、三分、对称、留白、前中后景和视觉引导线描述构图。
+
+【适用场景】
+需要主体位置和画面平衡可控时
+
+【专业参数与锚点】
+- subject placement
+- negative space
+- foreground/midground/background
+- leading lines
+
+【边界与约束】
+- 构图要服务内容主角，不要为了术语堆叠
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/composition/composition-language.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/composition/composition-language.json
+
+---
+
+## 卡片错位/大图主导/非对称/层叠/留白/破格出血
+
+# 卡片错位/大图主导/非对称/层叠/留白/破格出血
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+卡片错位/大图主导/非对称/层叠/留白/破格出血
+
+【白话解释】
+用比例、层级和安全区建立页面性格；每次只让少数元素破格。
+
+【适用场景】
+首屏、活动页、详情页和内容信息流
+
+【专业参数与锚点】
+- 错位按 8/12/16px 节奏
+- 主图可占半屏或出血
+- 使用 7:3 或 8:2 非对称
+- 只破一处网格，内容留在安全区
+
+【边界与约束】
+- 错位无规律会像未对齐
+- 出血过多会削弱秩序
+- 留白必须仍有视觉焦点
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-layout/composition-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-layout/composition-patterns.json
+
+---
+
+## Count 数字滚动
+
+# Count 数字滚动
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Count 数字滚动
+
+【白话解释】
+数字按位滚动并在最后一段明显减速。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- tabular-nums
+- cubic-bezier(0.16,1,0.3,1)
+- 固定宽度
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/count-animation.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/count-animation.json
+
+---
+
+## 封面取色氛围光
+
+# 封面取色氛围光
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+封面取色氛围光
+
+【白话解释】
+从封面图提取主色生成外围柔光，换图时用连续插值过渡而不是颜色突变。
+
+【适用场景】
+需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本
+
+【专业参数与锚点】
+- Canvas/ColorThief 取色
+- radial-gradient
+- CSS variables
+- 颜色插值
+
+【边界与约束】
+- 动效必须可中断
+- 优先 transform/opacity
+- 不得以视觉效果掩盖可读性
+
+【性能预算】
+- 采样结果需要做饱和度和亮度限幅
+- 柔光不能降低正文对比度
+
+【回退路径】
+- 取色失败时回退到主题色
+- 设备性能不足时只保留静态渐变
+
+【移动端降级】
+- 移动端降低光晕半径和不透明度
+- 图片切换只更新 CSS 变量
+
+【减少动态效果】
+- 减少动态时保留最终主色，取消颜色过渡
+
+【验收标准】
+- 滚动或拖拽保持 60fps 目标
+- 降级后主任务仍可完成
+- 视觉层不影响文本对比度
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/cover-color-ambient-glow.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/cover-color-ambient-glow.json
+
+---
+
+## 跨平台渲染边界
+
+# 跨平台渲染边界
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+跨平台渲染边界
+
+【白话解释】
+按平台能力、渲染后端、输入方式和降级路径选择实现策略。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- desktop
+- web
+- mobile
+- renderer
+- fallback
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/cross-platform-rendering.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/cross-platform-rendering.json
+
+---
+
+## 圆柱卷收列表
+
+# 圆柱卷收列表
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+圆柱卷收列表
+
+【白话解释】
+根据列表项距视区中心的距离插值旋转、缩放、亮度和透明度，让中心项突出、边缘项自然卷入。
+
+【适用场景】
+需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本
+
+【专业参数与锚点】
+- rotateX/rotateY
+- scale
+- opacity
+- 中心距离
+- scroll snap
+
+【边界与约束】
+- 动效必须可中断
+- 优先 transform/opacity
+- 不得以视觉效果掩盖可读性
+
+【性能预算】
+- 中心项必须保持清晰可读
+- 旋转角度随距离连续变化
+- 滚动停止后再交给 snap 接管
+
+【回退路径】
+- 不支持 3D 时退化为缩放和透明度
+- 低端设备关闭实时滤镜
+
+【移动端降级】
+- 移动端限制透视深度和可见项数量
+- 虚拟列表避免为不可见项计算变换
+
+【减少动态效果】
+- 减少动态时保留中心突出，不播放卷收路径
+
+【验收标准】
+- 滚动或拖拽保持 60fps 目标
+- 降级后主任务仍可完成
+- 视觉层不影响文本对比度
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/cylindrical-list.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/cylindrical-list.json
+
+---
+
+## 阻尼弹性抽屉
+
+# 阻尼弹性抽屉
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+阻尼弹性抽屉
+
+【白话解释】
+Bottom Sheet 根据位移和速度在 closed/peek/half/full 锚点间吸附，越界呈 rubber band 回弹。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- rubber band
+- velocity projection
+- snap points
+- spring snap
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/damped-bottom-sheet.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/damped-bottom-sheet.json
+
+---
+
+## 撕线弹出面板
+
+# 撕线弹出面板
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+撕线弹出面板
+
+【白话解释】
+面板顶部用虚线撕口和锯齿 SVG 表达可拖拽边界，下拉跟手映射撕裂进度，超过阈值弹簧展开，未达则回弹。
+
+【适用场景】
+需要通过撕口下拉打开局部面板，并把撕裂感转成可衡量的位移和开口进度
+
+【专业参数与锚点】
+- 顶部 2px 虚线撕口
+- SVG path 锯齿
+- 下拉超过 80px 展开
+- 展开到 40% 屏高
+- spring stiffness 260
+- damping 28
+
+【边界与约束】
+- 展开时页面禁止滚动
+- 快速甩动按释放速度判定
+- 中途松手未达阈值必须回弹
+- 锯齿开口宽度与拖拽进度 0→1 同步
+
+【交互状态机】
+- closed
+- dragging
+- expanded
+- returning
+
+【动画顺序】
+- grab tear line
+- follow drag
+- threshold decision
+- spring expand or return
+
+【空间锚点】
+- 撕口是唯一拖拽起点
+- 面板从顶部边界展开
+- 展开高度以视口百分比表达
+
+【可访问性】
+- 键盘 Enter/Space 打开
+- aria-expanded 表达面板状态
+- 减少动态时直接切换并保留抓手提示
+
+【验收标准】
+- 跟手位移无延迟
+- 80px 阈值稳定
+- 未达阈值回弹无跳变
+- 展开时不发生背景滚动
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/damped-bottom-sheet.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/damped-bottom-sheet.json
+
+---
+
+## 项目依赖对齐
+
+# 项目依赖对齐
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+项目依赖对齐
+
+【白话解释】
+明确依赖方、输入、输出、阻塞风险和升级路径。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 依赖方
+- 输入
+- 输出
+- 截止时间
+- 升级路径
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/dependency-alignment.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/dependency-alignment.json
+
+---
+
+## 景深分层滚动
+
+# 景深分层滚动
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+景深分层滚动
+
+【白话解释】
+把内容拆为前、中、后三层，按滚动进度驱动不同速度、模糊和亮度，形成可控景深。
+
+【适用场景】
+需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本
+
+【专业参数与锚点】
+- scroll progress
+- translateY
+- blur/brightness
+- lerp
+
+【边界与约束】
+- 动效必须可中断
+- 优先 transform/opacity
+- 不得以视觉效果掩盖可读性
+
+【性能预算】
+- 后层速度更慢且更模糊
+- 前层速度更快且更清晰
+- 只动画 transform 和 opacity
+
+【回退路径】
+- 不支持滤镜时只保留位移层级
+- 滚动性能不足时关闭实时 blur
+
+【移动端降级】
+- 移动端减少层数至两层
+- 使用 requestAnimationFrame 合并滚动采样
+
+【减少动态效果】
+- 减少动态时取消视差和模糊变化，保留静态层级
+
+【验收标准】
+- 滚动或拖拽保持 60fps 目标
+- 降级后主任务仍可完成
+- 视觉层不影响文本对比度
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/depth-layer-scroll.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/depth-layer-scroll.json
+
+---
+
+## 动态弥散光晕边框
+
+# 动态弥散光晕边框
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+动态弥散光晕边框
+
+【白话解释】
+用 conic-gradient 旋转描边，叠加 blur+opacity 呼吸背光，并用 mask 保留描边区域。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- conic-gradient
+- breathing glow
+- blur halo
+- mask composite
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/diffused-glow-border.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/diffused-glow-border.json
+
+---
+
+## 拖到目标吸入
+
+# 拖到目标吸入
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+拖到目标吸入
+
+【白话解释】
+拖拽元素靠近目标后目标张开，松手时元素缩小并吸入目标中心。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 目标半径 1.2 倍或外扩 48px
+- 目标 scale 1.15
+- 元素缩至 0.2
+- 未命中回原位
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- dragging
+- hovering
+- dropping
+- absorbed
+- returning
+
+【可访问性】
+- 键盘移动和放置
+- 目标重叠时按优先级
+- 多点触控只认第一指
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/drag-to-absorb.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/drag-to-absorb.json
+
+---
+
+## Draw 成功勾选
+
+# Draw 成功勾选
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Draw 成功勾选
+
+【白话解释】
+先画圆再画勾，用 SVG 描边过程表达成功。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- stroke-dasharray
+- stroke-dashoffset
+- 400–700ms
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/draw-success.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/draw-success.json
+
+---
+
+## 吸边悬浮球
+
+# 吸边悬浮球
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+吸边悬浮球
+
+【白话解释】
+毛玻璃悬浮球跟手拖拽，释放后吸附到最近左右边缘，闲置后缩成半透明贴边状态。
+
+【适用场景】
+需要可移动的悬浮入口，同时避免遮挡底部 Tab 和安全区内容
+
+【专业参数与锚点】
+- 56px 圆球
+- 0.02 惯性
+- 距边 12px
+- spring 300/30
+- 无操作 3s 后缩小
+- 滚动时 opacity 0.4
+- 停止滚动 400ms 恢复
+- 垂直位置限制在安全区
+
+【边界与约束】
+- 拖拽不能穿出安全区
+- 吸附后仍保留可点击面积
+- 页面滚动时不能遮挡底部 Tab
+- 组件卸载时清理滚动监听和恢复定时器
+
+【交互状态机】
+- idle
+- dragging
+- snapping
+- docked
+- shrunk
+- restoring
+
+【动画顺序】
+- follow pointer
+- project release velocity
+- snap to nearest edge
+- shrink after idle
+- restore after scroll
+
+【空间锚点】
+- 左右边缘为吸附锚点
+- 距边 12px
+- 垂直范围避开安全区和底部 Tab
+
+【可访问性】
+- 键盘焦点可达
+- 方向键移动或提供设置入口替代拖拽
+- aria-label 描述悬浮入口
+- 减少动态时取消缩小和惯性
+
+【验收标准】
+- 拖拽 1:1 跟手
+- 释放后稳定吸边
+- 滚动透明度反馈及时
+- 不遮挡关键导航
+- 快速拖拽不产生双重吸附
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/edge-docked-fab.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/edge-docked-fab.json
+
+---
+
+## 弹性微缩触觉反馈
+
+# 弹性微缩触觉反馈
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+弹性微缩触觉反馈
+
+【白话解释】
+按钮按压缩到 0.96 并增加内阴影，释放时 Spring 轻微超调回 1，支持快速连点。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- whileTap
+- scale 0.96
+- inset shadow
+- spring overshoot
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/elastic-press-feedback.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/elastic-press-feedback.json
+
+---
+
+## 加号展开面板
+
+# 加号展开面板
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+加号展开面板
+
+【白话解释】
+FAB 原位形变为操作面板，中心点保持不变，关闭时逆向收回。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- clip-path
+- border-radius
+- scale
+- 中心点不变
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- closed
+- opening
+- open
+- closing
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/fab-panel-morph.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/fab-panel-morph.json
+
+---
+
+## First Last Invert Play
+
+# First Last Invert Play
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+First Last Invert Play
+
+【白话解释】
+记录删除前后布局，撤销时把真实节点插回原索引，再播放反向变换。
+
+【适用场景】
+列表重排、共享元素和复杂布局撤销
+
+【专业参数与锚点】
+- First 记录原位置尺寸
+- Last 记录重排后位置
+- Invert 计算差值
+- Play 播放反向变换
+
+【边界与约束】
+- 节点已移除时保留 ghost/clone 或占位符
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/flip-reentry.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/flip-reentry.json
+
+---
+
+## 占位与真实节点回插
+
+# 占位与真实节点回插
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+占位与真实节点回插
+
+【白话解释】
+节点暂时移除后保留占位，撤销时按原索引插回真实节点。
+
+【适用场景】
+DOM 节点生命周期较短的列表
+
+【专业参数与锚点】
+- 恢复原索引
+- 其他项让位动画
+
+【边界与约束】
+- 不能把 ghost 当作最终业务节点
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/flip-reentry.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/flip-reentry.json
+
+---
+
+## 流体胶囊形变
+
+# 流体胶囊形变
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+流体胶囊形变
+
+【白话解释】
+胶囊按钮通过 FLIP/shared layout 形变为弹窗，圆角从 999px 过渡到 24px，内容延迟淡入并带遮罩。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- fluid morph
+- FLIP
+- layout animation
+- border-radius morph
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/fluid-capsule-morph.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/fluid-capsule-morph.json
+
+---
+
+## 跟随
+
+# 跟随
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+跟随
+
+【白话解释】
+元素连续继承输入位置或速度，不瞬间跳到新状态。
+
+【适用场景】
+拖拽、滚动、转场和惯性动作
+
+【专业参数与锚点】
+- 位置或速度 1:1 跟随
+- 必要时使用 lerp 或 spring 收敛
+
+【边界与约束】
+- 高频输入不能依赖昂贵布局重排
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/follow.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/follow.json
+
+---
+
+## 前端平台边界
+
+# 前端平台边界
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+前端平台边界
+
+【白话解释】
+把组件、构建、运行时、发布和回滚能力作为平台契约。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- component API
+- build
+- runtime
+- release
+- rollback
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/frontend-runtime.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/frontend-runtime.json
+
+---
+
+## 菜单铺满全屏
+
+# 菜单铺满全屏
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+菜单铺满全屏
+
+【白话解释】
+以触发按钮为中心用圆形揭示铺满全屏，菜单项交错进入。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- clip-path: circle()
+- stagger 30–50ms
+- 菜单方向可中断
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- closed
+- revealing
+- open
+- closing
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/fullscreen-reveal-menu.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/fullscreen-reveal-menu.json
+
+---
+
+## 目标与指标
+
+# 目标与指标
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+目标与指标
+
+【白话解释】
+把方向性目标拆成可观察结果、指标口径、范围和优先级。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 目标
+- 指标
+- 口径
+- 范围
+- 优先级
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/goal-metric.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/goal-metric.json
+
+---
+
+## GPUIX 桌面与 Web 平台研究
+
+# GPUIX 桌面与 Web 平台研究
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：原文指定平台；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GPUIX 桌面与 Web 平台研究
+
+【白话解释】
+待核验的桌面/Web 平台适配记录；不得推广为所有 GPU UI 框架事实。
+
+【适用场景】
+用户明确询问指定平台或组件目录
+
+【专业参数与锚点】
+- macOS/Metal
+- Windows/DirectX
+- Linux/Vulkan
+- WebGPU/WebGL2 降级
+
+【边界与约束】
+- 必须标注 provider-specific
+- 检索时优先官方来源
+- verified_at 未设置时不得当作确定事实
+
+【scope】
+provider-specific
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/platform-research/gpui-desktop-web.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/platform-research/gpui-desktop-web.json
+
+---
+
+## GPUIX 移动端平台研究
+
+# GPUIX 移动端平台研究
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：原文指定平台；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GPUIX 移动端平台研究
+
+【白话解释】
+移动端支持状态需以官方仓库和版本为准；社区实现不能等同官方支持。
+
+【适用场景】
+用户明确询问指定平台或组件目录
+
+【专业参数与锚点】
+- iOS/Metal
+- Android/Vulkan 或 GL
+- 触摸、软键盘、安全区
+
+【边界与约束】
+- 必须标注 provider-specific
+- 检索时优先官方来源
+- verified_at 未设置时不得当作确定事实
+
+【scope】
+provider-specific
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/platform-research/gpui-mobile.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/platform-research/gpui-mobile.json
+
+---
+
+## 方格纸玻璃卡 Dashboard
+
+# 方格纸玻璃卡 Dashboard
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+方格纸玻璃卡 Dashboard
+
+【白话解释】
+用 44px 方格纸做底，让半透明白玻璃卡透出底层网格，指标按数值形成阶梯。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 44px 网格底
+- 半透明白玻璃
+- 指标阶梯排列
+- 实心/斜纹/渐变填充
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/grid-glass-dashboard.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/grid-glass-dashboard.json
+
+---
+
+## 分组侧边栏 Dashboard
+
+# 分组侧边栏 Dashboard
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+分组侧边栏 Dashboard
+
+【白话解释】
+把导航拆成三组并用大留白分隔，主区用超大细体字、三组数字和横向比例条建立节奏。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 三组导航
+- 10px 大写灰字组名
+- 底部头像/用量条
+- 横向比例条替代饼图
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/grouped-sidebar-dashboard.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/grouped-sidebar-dashboard.json
+
+---
+
+## GSAP Core
+
+# GSAP Core
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP Core
+
+【白话解释】
+tween、duration、easing、stagger 和可中断控制的基础适配。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- gsap.to/from/fromTo
+- duration
+- ease
+- stagger
+- killTweensOf
+
+【边界与约束】
+- 优先动画 transform/opacity
+- 从当前值继续而不是重置起点
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- 官方 API 版本变化需复核
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-core.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-core.json
+
+---
+
+## GSAP 框架适配
+
+# GSAP 框架适配
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP 框架适配
+
+【白话解释】
+在 Vue、Svelte 等框架中按生命周期创建和销毁上下文，隔离 SSR、hydration 与客户端动画。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- onMounted/onUnmounted
+- onMount/onDestroy
+- SSR guard
+- hydration
+- context cleanup
+
+【边界与约束】
+- 只在客户端创建动画
+- 路由切换时完整清理
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- 框架封装层不要隐藏 kill/revert 能力
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-frameworks.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-frameworks.json
+
+---
+
+## GSAP 性能边界
+
+# GSAP 性能边界
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP 性能边界
+
+【白话解释】
+把高频动效限制在合成属性，批量更新并减少布局读取，给复杂效果设置设备降级策略。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- transform
+- opacity
+- batching
+- will-change
+- layout thrash
+
+【边界与约束】
+- 不要连续写 width/height/top/left
+- will-change 只在短时交互启用
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- 低端设备关闭粒子、滤镜或 3D 透视
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-performance.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-performance.json
+
+---
+
+## GSAP Plugins
+
+# GSAP Plugins
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP Plugins
+
+【白话解释】
+按需使用 Flip、Draggable、Observer、SplitText 等插件，插件能力必须和交互目标一一对应。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- Flip
+- Draggable
+- Observer
+- SplitText
+- registerPlugin
+
+【边界与约束】
+- 只注册实际使用的插件
+- 拖拽和 Flip 必须有取消与回退路径
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- 插件 API 与授权边界以官方文档为准
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-plugins.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-plugins.json
+
+---
+
+## GSAP React 生命周期
+
+# GSAP React 生命周期
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP React 生命周期
+
+【白话解释】
+在 React 中用 useGSAP 或 gsap.context 管理选择器作用域、动画创建和 ctx.revert 清理。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- useGSAP
+- gsap.context
+- scope
+- ctx.revert
+- dependencies
+
+【边界与约束】
+- 动画创建绑定组件生命周期
+- 依赖变化先清理旧动画
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- 避免在 render 阶段创建动画
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-react-lifecycle.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-react-lifecycle.json
+
+---
+
+## GSAP ScrollTrigger
+
+# GSAP ScrollTrigger
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP ScrollTrigger
+
+【白话解释】
+用 scrub、pin 和 start/end 将动画绑定到滚动进度，并避免把滚动逻辑散落在组件中。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- ScrollTrigger
+- scrub
+- pin
+- start/end
+- refresh
+
+【边界与约束】
+- 滚动驱动优先使用 transform
+- 动态内容变化后显式 refresh
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- SSR 和无 DOM 环境不能初始化插件
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-scrolltrigger.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-scrolltrigger.json
+
+---
+
+## GSAP Timeline
+
+# GSAP Timeline
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：GSAP；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+GSAP Timeline
+
+【白话解释】
+用时间线、label 和 position parameter 编排连续动效，保持顺序可读且可复用。
+
+【适用场景】
+用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层
+
+【专业参数与锚点】
+- timeline
+- label
+- position parameter
+- nested timeline
+- play/pause/reverse
+
+【边界与约束】
+- 时间线必须有明确生命周期
+- 组件卸载时杀掉 timeline
+
+【适用工具】
+GSAP
+
+【工具专属】
+是
+
+【需要核验】
+是
+
+【核验说明】
+- 复杂时间线应拆为可测试片段
+
+【验收标准】
+- 动画创建和销毁可追踪
+- 快速交互不产生重复回调
+- 未指定 GSAP 时不强制引入
+
+【scope】
+provider-specific
+
+【适用工具】
+GSAP
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-timeline.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/animation-tool-adapter/gsap-timeline.json
+
+---
+
+## 强对比视觉型
+
+# 强对比视觉型
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+强对比视觉型
+
+【白话解释】
+一张主卡占据视觉中心，用高饱和对比和大数字建立层级。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 主卡占视觉中心
+- 硬阴影
+- 大数字
+- 非对称
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/high-contrast.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/high-contrast.json
+
+---
+
+## 图标变形
+
+# 图标变形
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+图标变形
+
+【白话解释】
+菜单、播放等图标优先通过 SVG path 插值完成状态变化。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- 路径点数一致
+- 200–300ms
+- 交叉淡入是降级方案
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- default
+- transitioning
+- alternate
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/icon-morph.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/icon-morph.json
+
+---
+
+## 幂等契约
+
+# 幂等契约
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+幂等契约
+
+【白话解释】
+用操作身份、同键重试、内容一致性、并发响应和结果关联定义重复处理。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- operation key
+- retry
+- payload match
+- in-progress
+- result record
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/idempotency-contract.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/idempotency-contract.json
+
+---
+
+## 图卡内容型
+
+# 图卡内容型
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+图卡内容型
+
+【白话解释】
+让真实图片成为主角，文字叠加且只保留一个强调色。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 大图卡片
+- 文字叠加
+- 单一 CTA 色
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/image-led-content.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/image-led-content.json
+
+---
+
+## 氛围沉浸型
+
+# 氛围沉浸型
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+氛围沉浸型
+
+【白话解释】
+深色底、雾面渐变、玻璃卡片和轻微动态光斑。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- GPU 负载预算
+- 移动端降级
+- 模糊光斑
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/immersive-atmosphere.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/immersive-atmosphere.json
+
+---
+
+## 惯性滚轮
+
+# 惯性滚轮
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+惯性滚轮
+
+【白话解释】
+时间或数值滚轮在释放后继承速度惯性减速，越界时阻尼回弹并吸附到最近刻度。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 手指阶段 1:1 跟手
+- 释放后保存 velocity
+- friction 衰减
+- 越界阻尼
+- spring 刚度/阻尼
+- 最近刻度吸附
+- 限制最大速度避免眩晕
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- dragging
+- inertial
+- decelerating
+- overscrolling
+- snapping
+- settled
+
+【可访问性】
+- role=slider
+- 键盘离散步进
+- Home/End 到极值
+- 减少动态时保留当前刻度
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/inertial-wheel.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/inertial-wheel.json
+
+---
+
+## 信息层级
+
+# 信息层级
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+信息层级
+
+【白话解释】
+先确定用户要做的决定，再按主次组织标题、数据、操作和辅助说明。
+
+【适用场景】
+复杂后台、内容页和移动端首页
+
+【专业参数与锚点】
+- 主任务优先
+- 每屏保留一个视觉主角
+- 用密度和留白表达层级
+
+【边界与约束】
+- 不要用颜色和图标堆叠替代结构
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/information-architecture/information-hierarchy.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/information-architecture/information-hierarchy.json
+
+---
+
+## 列表展开详情
+
+# 列表展开详情
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+列表展开详情
+
+【白话解释】
+选中列表项就地展开，其余项顺势下移，不跳转详情页。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- max-height 或 FLIP
+- 保留选中项上下文
+- 其他项让位
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- collapsed
+- expanding
+- expanded
+- collapsing
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/inline-detail-expand.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/inline-detail-expand.json
+
+---
+
+## 可中断与恢复
+
+# 可中断与恢复
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+可中断与恢复
+
+【白话解释】
+动画中途再次输入时接管当前状态，而不是等待旧动画结束。
+
+【适用场景】
+可拖拽、可快速连点或可反悔的组件
+
+【专业参数与锚点】
+- 读取当前 transform
+- 取消旧动画并从当前状态继续
+
+【边界与约束】
+- 不能产生双重回调或状态竞态
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/interruption.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/interruption.json
+
+---
+
+## 职场黑话翻译
+
+# 职场黑话翻译
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+职场黑话翻译
+
+【白话解释】
+把“拉齐、抓手、闭环、赋能”等模糊词翻译为对象、动作、负责人和结果。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 原句
+- 真实对象
+- 动作
+- 负责人
+- 验收标准
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/jargon-translation.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/jargon-translation.json
+
+---
+
+## 高级布局模式
+
+# 高级布局模式
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+高级布局模式
+
+【白话解释】
+用错位、大图、非对称、层叠、留白和破格出血建立布局性格。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 错位按 8/12/16px 节奏
+- 7:3 或 8:2 比例
+- 只破一处网格
+- 安全区内留信息
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+---
+
+## 多彩错列布局
+
+# 多彩错列布局
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 实现建议，不宣称为原始产品已有逻辑
+
+【名称】
+多彩错列布局
+
+【白话解释】
+非对称双列；大卡主位；多彩卡片；斜纹/实心状态
+
+【适用场景】
+需要多彩错列布局的信息结构、视觉参数与交互联动规范时
+
+【专业参数与锚点】
+- grid_ratio
+- radius_px
+- title_weight
+
+【边界与约束】
+- 布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值
+
+【布局与信息结构】
+多彩错列布局
+
+【专业术语】
+- 非对称双列
+- 大卡主位
+- 多彩卡片
+- 斜纹/实心状态
+
+【视觉规范】
+background：近黑
+palette：
+  - 珊瑚
+  - 长春花
+  - 冰蓝
+  - 鼠尾草
+hierarchy：大卡主位，斜纹/实心区分状态
+
+【执行与事件】
+- 事件：select_day
+  示例（非全局默认）：点击 Thu
+  写入状态：
+    - selectedDay
+  更新视图：
+    - barSeries
+    - dayLabel
+  保持不变：
+    - capacitySelection
+- 事件：toggle_capacity
+  示例（非全局默认）：独立切换容量圆点
+  写入状态：
+    - capacitySelection
+  更新视图：
+    - capacityDots
+  保持不变：
+    - selectedDay
+
+【状态模型】
+model_status：proposed_implementation
+来源：
+  selectedDay：用户选择的日期；不预设初值
+  capacitySelection：独立容量选择
+derived：
+  barSeries：data[selectedDay].bars
+  dayLabel：selectedDay
+  capacityDots：capacitySelection
+invariants：
+  - 日期仅驱动柱形与标签；不改变容量选择
+  - 容量操作不改变日期或柱形数据
+
+【设计变量】
+scope：provided_example
+values：
+  grid_ratio：
+    - 1.42
+    - 1
+  radius_px：26
+  title_weight：800
+
+【证据与确认状态】
+状态：provided
+来源：user_dashboard_brief
+状态模型边界：实现建议，不宣称为原始产品已有逻辑
+
+【scope】
+general
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+---
+
+## 工业分区布局
+
+# 工业分区布局
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 实现建议，不宣称为原始产品已有逻辑
+
+【名称】
+工业分区布局
+
+【白话解释】
+右侧固定操作区；左侧状态筛选；玻璃表格；选中态联动
+
+【适用场景】
+需要工业分区布局的信息结构、视觉参数与交互联动规范时
+
+【专业参数与锚点】
+- accent_hex
+- secondary_accent_hex
+- grid_ratio
+- first_row_px
+- row_height_px
+
+【边界与约束】
+- 布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值
+
+【布局与信息结构】
+工业分区布局
+
+【专业术语】
+- 右侧固定操作区
+- 左侧状态筛选
+- 玻璃表格
+- 选中态联动
+
+【视觉规范】
+background：雾灰
+材质：玻璃表格
+布局与信息结构：左侧筛选 / 中部表格 / 右侧固定操作区
+
+【执行与事件】
+- 事件：filter_low_stock
+  写入状态：
+    - stockFilter
+  赋值：
+    stockFilter：2
+  更新视图：
+    - visibleRows
+  保持不变：
+    - replenishmentCount
+- 事件：select_item
+  示例（非全局默认）：选中 Prime 85mm
+  写入状态：
+    - selectedItemId
+  更新视图：
+    - replenishmentCard
+  保持不变：
+    - replenishmentCount
+- 事件：add_to_replenishment
+  写入状态：
+    - replenishmentItems
+  更新视图：
+    - replenishmentCount
+  示例状态变化：
+    之前：7
+    之后：8
+  前置条件：成功加入一个新项目才增加；重复、失败与空选择不得重复计数
+
+【状态模型】
+model_status：proposed_implementation
+来源：
+  stockFilter：st 筛选码；低库存 st=2
+  selectedItemId：稳定物料 ID，不用行号
+  replenishmentItems：待补货集合
+derived：
+  visibleRows：items filtered by stockFilter
+  replenishmentCard：items[selectedItemId]
+  replenishmentCount：count(replenishmentItems)
+invariants：
+  - 筛选不应伪装成新增补货
+  - 选中物料与补货卡一致
+  - 7→8 是示例断言，不是写死计数；重复加入策略需确认
+
+【设计变量】
+scope：provided_example
+values：
+  accent_hex：#F3EB30
+  secondary_accent_hex：#FB9350
+  grid_ratio：
+    - 1.02
+    - 1
+    - 0.72
+  first_row_px：196
+  row_height_px：60
+
+【证据与确认状态】
+状态：provided
+来源：user_dashboard_brief
+状态模型边界：实现建议，不宣称为原始产品已有逻辑
+
+【scope】
+general
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+---
+
+## 中轴观测布局
+
+# 中轴观测布局
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 实现建议，不宣称为原始产品已有逻辑
+
+【名称】
+中轴观测布局
+
+【白话解释】
+中央主视图；双侧信息栏；共享选中态；时间轴预览
+
+【适用场景】
+需要中轴观测布局的信息结构、视觉参数与交互联动规范时
+
+【专业参数与锚点】
+- text_hex
+- accent_hex
+- columns
+- timeline_px
+
+【边界与约束】
+- 布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值
+
+【布局与信息结构】
+中轴观测布局
+
+【专业术语】
+- 中央主视图
+- 双侧信息栏
+- 共享选中态
+- 时间轴预览
+
+【视觉规范】
+background：深蓝暮色
+typography：衬线大编号配等宽读数
+布局与信息结构：两侧固定宽度，中央主视图自适应
+
+【执行与事件】
+- 事件：select_target
+  示例（非全局默认）：选中 M33
+  写入状态：
+    - selectedTargetId
+  更新视图：
+    - queueSelection
+    - readings
+    - starMap
+    - curve
+  保持不变：
+    - previewTime
+- 事件：scrub_timeline
+  写入状态：
+    - previewTime
+  更新视图：
+    - queueSelection
+    - readings
+    - starMap
+    - curve
+  保持不变：
+    - selectedTargetId
+  前置条件：每个面板使用同一目标与预览时间；过期异步响应不可覆盖当前选择
+
+【状态模型】
+model_status：proposed_implementation
+来源：
+  selectedTargetId：共享目标 ID
+  previewTime：共享预览时间
+derived：
+  queueSelection：selectedTargetId at previewTime
+  readings：derive(selectedTargetId, previewTime)
+  starMap：derive(selectedTargetId, previewTime)
+  curve：derive(selectedTargetId, previewTime)
+invariants：
+  - 选中 M33 时队列、读数、星图、曲线一致
+  - 拖动时间轴后整页使用同一时间，不混用旧请求结果
+
+【设计变量】
+scope：provided_example
+values：
+  text_hex：#E9E4D8
+  accent_hex：#F2B24C
+  columns：
+    - 292px
+    - minmax(0, 1fr)
+    - 292px
+  timeline_px：196
+
+【证据与确认状态】
+状态：provided
+来源：user_dashboard_brief
+状态模型边界：实现建议，不宣称为原始产品已有逻辑
+
+【scope】
+general
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+---
+
+## 玻璃点阵布局
+
+# 玻璃点阵布局
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 实现建议，不宣称为原始产品已有逻辑
+
+【名称】
+玻璃点阵布局
+
+【白话解释】
+浅灰玻璃；点阵读数；月份切换；指标趋势联动
+
+【适用场景】
+需要玻璃点阵布局的信息结构、视觉参数与交互联动规范时
+
+【专业参数与锚点】
+- radius_px
+- gap_px
+
+【边界与约束】
+- 布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值
+
+【布局与信息结构】
+玻璃点阵布局
+
+【专业术语】
+- 浅灰玻璃
+- 点阵读数
+- 月份切换
+- 指标趋势联动
+
+【视觉规范】
+background：浅灰
+材质：玻璃
+accent：荧光黄绿
+readout：点阵读数
+
+【执行与事件】
+- 事件：select_month
+  写入状态：
+    - selectedMonth
+  更新视图：
+    - metricReadout
+    - trendSeries
+  保持不变：
+    - selectedMetric
+- 事件：select_monthly_metric
+  示例（非全局默认）：点击 8 月评分指标
+  写入状态：
+    - selectedMonth
+    - selectedMetric
+  示例值：
+    selectedMonth：8
+    selectedMetric：score
+  更新视图：
+    - metricReadout
+    - trendSeries
+  前置条件：月份与指标在同一次状态转换中提交
+- 事件：select_carbon_metric
+  示例（非全局默认）：选择二氧化碳
+  写入状态：
+    - selectedMetric
+    - trendVisible
+  示例值：
+    selectedMetric：co2
+    trendVisible：是
+  更新视图：
+    - metricReadout
+    - trendSeries
+  保持不变：
+    - selectedMonth
+
+【状态模型】
+model_status：proposed_implementation
+来源：
+  selectedMonth：共享月份
+  selectedMetric：共享指标
+  trendVisible：趋势浮层可见状态
+derived：
+  metricReadout：metrics[selectedMonth][selectedMetric]
+  trendSeries：series[selectedMonth][selectedMetric]
+invariants：
+  - 点 8 月评分后所有月份视图回到 8 月
+  - 切换二氧化碳不丢失月份，趋势与读数使用同一指标
+  - 关闭趋势浮层不重置月份或指标
+
+【设计变量】
+scope：provided_example
+values：
+  radius_px：30
+  gap_px：14
+
+【证据与确认状态】
+状态：provided
+来源：user_dashboard_brief
+状态模型边界：实现建议，不宣称为原始产品已有逻辑
+
+【scope】
+general
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+---
+
+## 暖色三栏布局
+
+# 暖色三栏布局
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 实现建议，不宣称为原始产品已有逻辑
+- 执行逻辑尚未确认：仅已确认的布局和视觉可参考；候选联动不得直接实现。
+
+【名称】
+暖色三栏布局
+
+【白话解释】
+深浅分区；三栏控制台；模式与单位同步
+
+【适用场景】
+需要暖色三栏布局的信息结构、视觉参数与交互联动规范时
+
+【专业参数与锚点】
+- column_sizing
+
+【边界与约束】
+- 布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值
+
+【布局与信息结构】
+暖色三栏布局
+
+【专业术语】
+- 深浅分区
+- 三栏控制台
+- 模式与单位同步
+
+【视觉规范】
+background：奶油
+sidebar：炭黑
+accent：琥珀
+布局与信息结构：两侧固定，中间自适应；缺少固定宽度与窄屏断点数值
+
+【执行与事件】
+- 事件：select_room
+  状态：needs_confirmation
+  待确认候选逻辑（不得默认执行）：点击卧室房名、照片或温度卡，联动中间房间详情与右侧控制
+  写入状态：
+    - selectedRoomId
+  更新视图：
+    - roomDetails
+    - roomControls
+- 事件：change_mode
+  状态：needs_confirmation
+  待确认候选逻辑（不得默认执行）：切换模式同步单位与读数，但模式枚举、单位映射与换算规则未知
+  写入状态：
+    - mode
+  更新视图：
+    - displayUnit
+    - displayReading
+  前置条件：确认映射前不推定模式切换等于摄氏/华氏切换
+
+【状态模型】
+model_status：proposed_implementation
+来源：
+  selectedRoomId：候选共享房间 ID，待确认
+  mode：模式枚举待确认
+  canonicalReading：基础物理量与存储单位待确认
+derived：
+  roomDetails：candidate: rooms[selectedRoomId]
+  roomControls：candidate: rooms[selectedRoomId]
+  displayUnit：blocked: mode-to-unit mapping required
+  displayReading：blocked: unit conversion rule required
+invariants：
+  - 交互建议不得当成已确认需求
+  - 单位变化时数值必须按明确规则同步换算；不可只替换单位文字
+  - 确认前只使用已提供的布局与视觉信息
+
+【设计变量】
+scope：provided_example
+values：
+  column_sizing：
+    - fixed
+    - fluid
+    - fixed
+
+【证据与确认状态】
+状态：needs_confirmation
+来源：user_dashboard_brief
+状态模型边界：实现建议，不宣称为原始产品已有逻辑
+已确认层：
+  - layout
+  - termSkill
+  - uiSkill
+待确认输入：
+  - 房名/照片/温度卡点击后的完整逻辑
+  - 模式枚举及单位映射、换算规则
+
+【scope】
+general
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/layout-patterns.json
+
+---
+
+## 液滴粘连拖拽
+
+# 液滴粘连拖拽
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+液滴粘连拖拽
+
+【白话解释】
+拖动元素与原位之间生成液态粘连连接，距离增大时颈部收缩，超过阈值后断开并弹性回圆。
+
+【适用场景】
+需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本
+
+【专业参数与锚点】
+- SVG path/metaball
+- Canvas
+- 贝塞尔曲线
+- spring
+
+【边界与约束】
+- 动效必须可中断
+- 优先 transform/opacity
+- 不得以视觉效果掩盖可读性
+
+【性能预算】
+- 粘连距离必须有上限
+- 断裂阈值要有迟滞避免抖动
+- 断裂后两端分别回弹
+
+【回退路径】
+- 不支持 SVG/Canvas 时退化为连接线或无粘连拖拽
+- 高负载时降低采样频率
+
+【移动端降级】
+- 移动端减少路径采样点
+- 拖动期间阻止页面滚动但允许取消
+
+【减少动态效果】
+- 减少动态时取消粘连形变，保留拖拽和命中结果
+
+【验收标准】
+- 滚动或拖拽保持 60fps 目标
+- 降级后主任务仍可完成
+- 视觉层不影响文本对比度
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/liquid-adhesion-drag.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/liquid-adhesion-drag.json
+
+---
+
+## 液态玻璃栏
+
+# 液态玻璃栏
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+液态玻璃栏
+
+【白话解释】
+固定导航使用背景模糊、轻微折射和随滚动位移的高光，底色与文字对比度随背景亮度平滑调整。
+
+【适用场景】
+需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本
+
+【专业参数与锚点】
+- backdrop-filter
+- SVG displacement
+- 高光层
+- 亮度采样
+- scroll-driven animation
+
+【边界与约束】
+- 动效必须可中断
+- 优先 transform/opacity
+- 不得以视觉效果掩盖可读性
+
+【性能预算】
+- 桌面端优先使用 GPU 合成
+- 高光和折射必须限制在导航区域
+- 文字对比度持续满足可读性
+
+【回退路径】
+- 不支持 backdrop-filter 时退化为不透明底色
+- 低端设备关闭折射只保留模糊或纯色
+
+【移动端降级】
+- 移动端降低模糊半径
+- 滚动中避免逐帧读取布局
+
+【减少动态效果】
+- prefers-reduced-motion 下停用高光流动，保留静态玻璃层
+
+【验收标准】
+- 滚动或拖拽保持 60fps 目标
+- 降级后主任务仍可完成
+- 视觉层不影响文本对比度
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/liquid-glass-bar.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/visual-effects/liquid-glass-bar.json
+
+---
+
+## Liquid 液态滑块
+
+# Liquid 液态滑块
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Liquid 液态滑块
+
+【白话解释】
+轨道、滑钮和数值使用同一弹簧同步变化。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- 同一 spring
+- 零延迟跟手
+- 轨道与数值同步
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/liquid-slider.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/liquid-slider.json
+
+---
+
+## 列表切换网格
+
+# 列表切换网格
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+列表切换网格
+
+【白话解释】
+记录旧布局，切换布局后反转并播放到新位置，避免重载和跳变。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- First/Last/Invert/Play
+- transform 优先
+- 支持快速切换
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- list
+- switching
+- grid
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/list-grid-flip.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/list-grid-flip.json
+
+---
+
+## Light/Dark 活样式指南
+
+# Light/Dark 活样式指南
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+Light/Dark 活样式指南
+
+【白话解释】
+用可直接打开的预览把色板、字体层级、组件状态和设计令牌映射到真实页面效果。
+
+【适用场景】
+需要让设计评审和 AI 在写代码前先确认视觉方向
+
+【专业参数与锚点】
+- Light/Dark 双主题
+- 色板与语义色
+- 字体排印层级
+- 按钮/输入框/卡片
+- hover/click/disabled
+- token 到页面效果映射
+
+【边界与约束】
+- 预览状态必须可复现
+- 颜色不能是唯一状态表达
+- 外部预览站和品牌资料保持待核验标记
+
+【核验清单】
+- 色板、排印、组件状态齐全
+- 浅色和深色对比度通过
+- 交互状态与 token 一致
+- 截图或浏览器验收后再发布
+
+【外部参考（需核验）】
+- kind：preview-site
+  状态：pending-verification
+  url：https://awesome-design-md-preview.vercel.app
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【scope】
+general
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【外部参考政策】
+外部预览资源只作待核验线索，不作为运行时事实
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/design-system/living-style-guide-preview.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/design-system/living-style-guide-preview.json
+
+---
+
+## 长按浮起预览
+
+# 长按浮起预览
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+长按浮起预览
+
+【白话解释】
+长按列表项打开上下文预览，选中项浮起，菜单在局部空间内展开。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 450–600ms
+- 移动超过 10px 取消
+- 背景 blur 8px
+- 虚拟列表卸载时关闭
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- pressing
+- preview
+- menu
+- closing
+
+【可访问性】
+- Enter 打开
+- 焦点陷阱
+- ESC 返回列表项
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/long-press-preview.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/long-press-preview.json
+
+---
+
+## 磁吸游标与滚动码表
+
+# 磁吸游标与滚动码表
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+磁吸游标与滚动码表
+
+【白话解释】
+折线图拖拽时数据点磁吸，顶部数值使用 Odometer 按位滚动，拖拽、吸附和数值用 lerp+spring 联动。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- magnetic snap
+- odometer
+- tabular-nums
+- lerp
+- spring follow
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/magnetic-cursor-odometer.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/magnetic-cursor-odometer.json
+
+---
+
+## 管理机制
+
+# 管理机制
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+管理机制
+
+【白话解释】
+把机制、复盘、资源配置和组织动作落到可观察的流程。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 机制
+- 触发条件
+- 参与者
+- 输出
+- 复盘
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/management-mechanism.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/management-mechanism.json
+
+---
+
+## 材质与反射
+
+# 材质与反射
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+材质与反射
+
+【白话解释】
+用可观察的表面属性描述材质，例如高光泽釉面、短植绒、哑光纸张和半通透胶带。
+
+【适用场景】
+产品渲染、角色周边和材质迁移
+
+【专业参数与锚点】
+- roughness
+- specular
+- translucency
+- texture
+
+【边界与约束】
+- 材质词不能替代主体和结构约束
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/material-style/material-library.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/material-style/material-library.json
+
+---
+
+## 极简数据型
+
+# 极简数据型
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+极简数据型
+
+【白话解释】
+以灰阶和一个强调色组织数据，去网格线和多余标签。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 灰阶为主
+- 胶囊柱状图
+- 标签精简
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/minimal-data.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/minimal-data.json
+
+---
+
+## Morph 汉堡变叉
+
+# Morph 汉堡变叉
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Morph 汉堡变叉
+
+【白话解释】
+使用同路径或线段位移旋转完成图标变形。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- 200–300ms
+- 同点数或明确线段映射
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/morph-icon.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/morph-icon.json
+
+---
+
+## 撤销按钮可读标签
+
+# 撤销按钮可读标签
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+撤销按钮可读标签
+
+【白话解释】
+按钮要读出操作和剩余时间，例如撤销删除，剩余 5 秒。
+
+【适用场景】
+撤销条、倒计时按钮
+
+【专业参数与锚点】
+- aria-label 动态更新
+- 键盘可聚焦和触发
+
+【边界与约束】
+- 不要每秒通过 aria-live 播报倒计时
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/accessibility.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/accessibility.json
+
+---
+
+## 轻量状态播报
+
+# 轻量状态播报
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+轻量状态播报
+
+【白话解释】
+用 aria-live=polite 提示已删除、可撤销等关键状态。
+
+【适用场景】
+操作结果需要被读屏用户感知
+
+【专业参数与锚点】
+- 只播报状态变化
+- 焦点不被撤销条抢走
+
+【边界与约束】
+- 不重复播报相同状态
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/accessibility.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/accessibility.json
+
+---
+
+## 方向/速度/幅度/节奏
+
+# 方向/速度/幅度/节奏
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+方向/速度/幅度/节奏
+
+【白话解释】
+明确主体怎么动、镜头怎么动、速度和幅度如何变化。
+
+【适用场景】
+文生视频、产品动效和角色动作延展
+
+【专业参数与锚点】
+- direction
+- speed
+- amplitude
+- rhythm
+- follow
+
+【边界与约束】
+- 动作必须可观察，避免只写情绪形容词
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/motion-control/motion-language.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/motion-control/motion-language.json
+
+---
+
+## 结构/材质/一致性负面词
+
+# 结构/材质/一致性负面词
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+结构/材质/一致性负面词
+
+【白话解释】
+把不希望出现的变形、额外肢体、颜色漂移、重复主体和低清晰度写成约束。
+
+【适用场景】
+角色一致性、产品渲染和批量出图
+
+【专业参数与锚点】
+- 结构禁用
+- 材质禁用
+- 画面质量禁用
+
+【边界与约束】
+- 负面词不能掩盖主体描述不完整
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/negative-prompt/negative-constraints.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/negative-prompt/negative-constraints.json
+
+---
+
+## 可观测性契约
+
+# 可观测性契约
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+可观测性契约
+
+【白话解释】
+将 SLI/SLO、日志、指标、追踪、告警和故障演练绑定到服务目标。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- SLI
+- SLO
+- logs
+- metrics
+- traces
+- alerts
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/observability-contract.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/observability-contract.json
+
+---
+
+## 景随图换轮播
+
+# 景随图换轮播
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+景随图换轮播
+
+【白话解释】
+拖动距离或速度达到阈值后切换，中心项放大，侧边项透视缩小。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 距离超过 20% 或速度超过 0.5px/ms
+- perspective 1000px
+- 侧项 scale 0.85
+- 无限循环无跳帧
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- dragging
+- snapping
+- switching
+
+【可访问性】
+- aria-roledescription=carousel
+- aria-current
+- 图片失败降级
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/perspective-carousel.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/perspective-carousel.json
+
+---
+
+## 卡片层叠轮播
+
+# 卡片层叠轮播
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+卡片层叠轮播
+
+【白话解释】
+三张卡片以缩放和 Y 轴偏移形成层叠，顶层跟随拖拽并轻微旋转，达到距离或速度阈值后飞出，下层补位。
+
+【适用场景】
+需要卡片层级、拖拽跟手、飞出切换和循环补位的移动端轮播
+
+【专业参数与锚点】
+- scale 0.92/0.96/1
+- Y 偏移 16/8/0
+- 顶层最大旋转 8°
+- 拖过 1/3 宽度或速度 > 500 触发
+- spring 280/26
+- 只剩一张时循环补位
+
+【边界与约束】
+- 未达距离和速度阈值时回弹
+- 顶层飞出后下层平滑补位
+- 快速连滑不叠加旧回调
+- 卡片内容和操作区不能因旋转不可达
+
+【交互状态机】
+- idle
+- dragging
+- projecting
+- flying-out
+- promoting
+- snapping
+- settled
+
+【动画顺序】
+- top card follows pointer
+- threshold decision
+- fly out or spring back
+- next card promotes
+- loop refill
+
+【空间锚点】
+- 三层卡片共享中心轴
+- Y 偏移按层级递减
+- 下层露边保持层级可见
+
+【可访问性】
+- 键盘左右切换
+- aria-roledescription=carousel
+- aria-current 标记当前卡片
+- 减少动态时取消旋转和飞出
+
+【验收标准】
+- 拖拽 1:1 跟手
+- 阈值判断稳定
+- 飞出后下层无跳帧补位
+- 只剩一张时循环不中断
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/perspective-carousel.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/perspective-carousel.json
+
+---
+
+## 按住蓄力确认
+
+# 按住蓄力确认
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+按住蓄力确认
+
+【白话解释】
+按住危险操作按钮达到 800–1200ms 才确认，未满松手或移动超限则取消。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 800–1200ms
+- 移动超过 10px 取消
+- 多点触控只认第一指
+- 进度环与按压时间一致
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- pressing
+- charging
+- confirmed
+- cancel
+
+【可访问性】
+- 键盘 Space/Enter
+- ESC 取消
+- aria-describedby
+- 替代二次确认
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/press-and-hold-confirm.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/press-and-hold-confirm.json
+
+---
+
+## 主体/材质/光线/构图/质量模块
+
+# 主体/材质/光线/构图/质量模块
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+主体/材质/光线/构图/质量模块
+
+【白话解释】
+把图像提示词拆为可重排模块，先锁主体，再补材质、光线、构图和质量。
+
+【适用场景】
+文生图、参考图重绘和产品效果图
+
+【专业参数与锚点】
+- subject
+- material
+- lighting
+- composition
+- quality
+
+【边界与约束】
+- 不要把所有风格词混成一段无层级文本
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/image-prompt/prompt-blocks.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/image-prompt/prompt-blocks.json
+
+---
+
+## 弧形快捷菜单
+
+# 弧形快捷菜单
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+弧形快捷菜单
+
+【白话解释】
+长按悬浮按钮展开弧形子菜单，子项沿弧线交错弹出并支持边缘翻转。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 长按 400–500ms
+- 移动超过 10px 取消
+- stagger 30–50ms
+- 边缘翻转弧线方向
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- pressing
+- open
+- closing
+
+【可访问性】
+- aria-expanded
+- role=menuitem
+- ESC 焦点返回
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/radial-menu.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/radial-menu.json
+
+---
+
+## 圆形扩散转场
+
+# 圆形扩散转场
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+圆形扩散转场
+
+【白话解释】
+从真实点击位置捕获圆心，以 clip-path circle 扩散覆盖屏幕，完全覆盖后再显示新页面内容。
+
+【适用场景】
+用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时
+
+【专业参数与锚点】
+- 捕获 pointer x/y
+- 最大半径覆盖最远屏幕角
+- 扩散 duration 300–500ms
+- easing ease-out
+- 新页面在覆盖完成后进入
+
+【边界与约束】
+- 避免生硬切换
+- 动画顺序必须可验证
+- 必须支持中断和反向回退
+
+【交互状态机】
+- capture origin
+- circle expand
+- screen covered
+- new content enter
+- settled
+- reverse on back
+
+【动画顺序】
+- capture origin
+- circle expand
+- screen covered
+- new content enter
+- settled
+- reverse on back
+
+【空间锚点】
+- 圆心等于触点坐标
+- 半径取触点到最远角距离
+- 新旧页面共享同一转场层
+- 返回时沿反向路径收回
+
+【可访问性】
+- 键盘触发使用按钮中心作为安全圆心
+- 焦点在新页面可交互后移动
+- prefers-reduced-motion 时取消扩散但保留状态切换
+
+【验收标准】
+- 圆心不偏离触点
+- 覆盖完成前不暴露新旧页面混合帧
+- 返回操作可逆
+- 视口变化时重新计算最大半径
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/radial-reveal-transition.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/radial-reveal-transition.json
+
+---
+
+## 沿原路径反向归位
+
+# 沿原路径反向归位
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+沿原路径反向归位
+
+【白话解释】
+撤销时沿删除动画的反方向回到原位置，而不是重新淡入。
+
+【适用场景】
+列表删除后恢复原项
+
+【专业参数与锚点】
+- 删除缩小+位移+淡出，撤销放大+反向位移+淡入
+- 删除 200–300ms，撤销 180–240ms
+
+【边界与约束】
+- 必须保留原索引、尺寸和位置上下文
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/reverse-animation.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/reverse-animation.json
+
+---
+
+## 归位确认高亮
+
+# 归位确认高亮
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+归位确认高亮
+
+【白话解释】
+元素回到原位后增加短暂高亮或脉冲，确认它确实回来了。
+
+【适用场景】
+撤销后的状态需要被快速识别
+
+【专业参数与锚点】
+- 高亮 500–700ms
+- 不改变布局
+
+【边界与约束】
+- 不要用强烈闪烁造成干扰
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/reverse-animation.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/reverse-animation.json
+
+---
+
+## 减少动态降级
+
+# 减少动态降级
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+减少动态降级
+
+【白话解释】
+减少动态时保留进度、状态和结果，不强制播放位移动画。
+
+【适用场景】
+用户开启 prefers-reduced-motion
+
+【专业参数与锚点】
+- 保留明确状态变化
+- 取消复杂路径和粒子
+
+【边界与约束】
+- 不可因为降级而丢失撤销入口
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/reverse-animation.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/reverse-animation.json
+
+---
+
+## Ripple 水波按钮
+
+# Ripple 水波按钮
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Ripple 水波按钮
+
+【白话解释】
+从真实触点向最远角扩散水波，不把点击中心固定在控件中心。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- 400–600ms
+- 半径覆盖最远角
+- 移动端用 worklet/WXS 获取坐标
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/ripple-button.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/ripple-button.json
+
+---
+
+## 旋钮转盘
+
+# 旋钮转盘
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+旋钮转盘
+
+【白话解释】
+拖动或用键盘旋转旋钮，释放后吸附到最近刻度，中心数值同步变化。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- -135° 到 +135°
+- 步进 1 或 5
+- 小于 0.35 步长磁吸
+- touch-action: none
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- dragging
+- snapping
+- idle
+
+【可访问性】
+- role=slider
+- aria-valuemin/max/now
+- Home/End 到极值
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/rotary-knob.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/rotary-knob.json
+
+---
+
+## 扩展策略
+
+# 扩展策略
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+扩展策略
+
+【白话解释】
+按无状态实例、缓存、分片和异步队列拆解增长路径。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- horizontal scaling
+- sharding
+- cache
+- async
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/scaling-strategies.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/scaling-strategies.json
+
+---
+
+## 顶栏随滚动收起
+
+# 顶栏随滚动收起
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+顶栏随滚动收起
+
+【白话解释】
+滚动进度驱动搜索栏和顶栏收缩，反向滚动恢复。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- scrollY 归一化 0–1
+- requestAnimationFrame
+- 滚动方向迟滞
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- expanded
+- collapsing
+- collapsed
+- expanding
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/scroll-header-collapse.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/scroll-header-collapse.json
+
+---
+
+## 搜索框展开
+
+# 搜索框展开
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+搜索框展开
+
+【白话解释】
+图标与输入框共用容器，展开后自动聚焦，关闭时沿原路径收回。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- transform-origin: left
+- focus 延迟 80–120ms
+- 图标淡出
+- 关闭后焦点返回触发器
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- idle
+- expanded
+- closing
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/search-expand.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/search-expand.json
+
+---
+
+## 分段进度条
+
+# 分段进度条
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+分段进度条
+
+【白话解释】
+按住暂停，点击左右区域切换上一项或下一项，进度与内容同步。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 200ms 内抬起判定点击
+- 左右 35% 切换
+- 中间 30% 暂停
+- 最后一项循环
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- playing
+- paused
+- switching
+
+【可访问性】
+- 左右箭头
+- Space 暂停
+- aria-live 当前项
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/segmented-progress.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/segmented-progress.json
+
+---
+
+## 服务边界与状态
+
+# 服务边界与状态
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+服务边界与状态
+
+【白话解释】
+把服务职责、同步/异步边界、状态归属和数据一致性写清楚。
+
+【适用场景】
+后端或平台方案需要拆解质量属性时
+
+【专业参数与锚点】
+- service ownership
+- sync/async
+- state ownership
+- consistency
+
+【边界与约束】
+- 不要把质量属性当作无边界承诺
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/service-boundary.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/software-engineering/service-boundary.json
+
+---
+
+## 共享元素无缝展开
+
+# 共享元素无缝展开
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+共享元素无缝展开
+
+【白话解释】
+列表卡片到详情页使用同一 layoutId，图片、标题和容器连续缩放，背景遮罩淡入，避免跳变。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- shared element transition
+- layoutId
+- matched geometry
+- continuous scale
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/shared-element-expand.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/shared-element-expand.json
+
+---
+
+## 单深色单强调色 Dashboard
+
+# 单深色单强调色 Dashboard
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+单深色单强调色 Dashboard
+
+【白话解释】
+整页只保留一条深色侧边栏和一个强调色，当前项、主按钮和命中图表共享同一强调色。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 唯一深色侧边栏
+- 单一强调色
+- 侧栏底部强调色卡片
+- 其余区域保持浅色
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/single-dark-accent-dashboard.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/single-dark-accent-dashboard.json
+
+---
+
+## Shimmer 骨架落位
+
+# Shimmer 骨架落位
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Shimmer 骨架落位
+
+【白话解释】
+骨架尺寸与真实内容一致，内容到达后平滑替换。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- 1.2–1.6s 循环
+- 高度、行高、间距一致
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/skeleton-shimmer.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/skeleton-shimmer.json
+
+---
+
+## 滑动确认组件
+
+# 滑动确认组件
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+滑动确认组件
+
+【白话解释】
+滑块超过 80% 才确认，不足松手则弹回，确认只触发一次。
+
+【适用场景】
+需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互
+
+【专业参数与锚点】
+- 80% 阈值
+- 达到阈值加速到末端
+- spring 回弹
+- 移动端阻止页面滚动
+
+【边界与约束】
+- 未达到阈值不能触发
+- 快速重复操作不叠加
+- 组件卸载时清理定时器和动画
+
+【交互状态机】
+- dragging
+- threshold
+- confirmed
+- returning
+
+【可访问性】
+- role=slider
+- Enter/Space 确认
+- 危险操作提供替代确认
+
+【验收标准】
+- 60fps
+- 手势和键盘结果一致
+- 取消后状态完全复位
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/slide-to-confirm.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/advanced/slide-to-confirm.json
+
+---
+
+## 吸附
+
+# 吸附
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+吸附
+
+【白话解释】
+松手后把连续输入收敛到明确落点。
+
+【适用场景】
+滚轮、底部抽屉、滑块和拖拽
+
+【专业参数与锚点】
+- 根据位置和速度选择锚点
+- 终点接管要平滑
+
+【边界与约束】
+- 不要硬跳到终点
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/snap.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/snap.json
+
+---
+
+## 吸附卡加画线
+
+# 吸附卡加画线
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+吸附卡加画线
+
+【白话解释】
+卡片先减速吸附到最近目标，停稳后时间线再从起点逐段绘制到对应卡片位置。
+
+【适用场景】
+用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时
+
+【专业参数与锚点】
+- 先吸附后绘制
+- 卡片停止后延迟 80–160ms
+- timeline duration 300–600ms
+- stroke-dasharray
+- stroke-dashoffset
+- 卡片最终 Y 轴位置
+
+【边界与约束】
+- 避免生硬切换
+- 动画顺序必须可验证
+- 必须支持中断和反向回退
+
+【交互状态机】
+- drag or scroll
+- decelerating
+- snap to nearest card
+- settled
+- timeline draw
+- complete
+
+【动画顺序】
+- drag or scroll
+- decelerating
+- snap to nearest card
+- settled
+- timeline draw
+- complete
+
+【空间锚点】
+- 吸附目标由最近卡片决定
+- 时间线起点固定在轨道起点
+- 终点对齐卡片中心或锚点
+- 线段绘制方向与滚动方向一致
+
+【可访问性】
+- 键盘切换卡片时同样触发落位反馈
+- aria-current 标记当前卡片
+- 减少动态时显示完整时间线
+
+【验收标准】
+- 时间线绝不早于卡片停稳
+- 吸附目标稳定不抖动
+- 线终点准确对齐卡片
+- 取消或快速切换不会残留旧线段
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/snap-card-timeline.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/snap-card-timeline.json
+
+---
+
+## Spring 按压回弹
+
+# Spring 按压回弹
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Spring 按压回弹
+
+【白话解释】
+按下缩到 0.96–0.98，松手用弹簧回到 1 并允许 1.02–1.04 的轻微过冲。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- scale 0.96–0.98
+- overshoot 2%–4%
+- 可叠加内阴影或明度变化
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/spring-press.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/spring-press.json
+
+---
+
+## 物理弹簧交错流
+
+# 物理弹簧交错流
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+物理弹簧交错流
+
+【白话解释】
+列表子项按 index*0.03–0.06s 交错，从 y:20、opacity:0 进入并带轻微 spring。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- staggerChildren
+- spring cascade
+- y-offset
+- stagger delay
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/spring-stagger-flow.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/spring-stagger-flow.json
+
+---
+
+## Squash 弹性开关
+
+# Squash 弹性开关
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Squash 弹性开关
+
+【白话解释】
+开关起步横向拉伸、纵向压缩，再回到正常比例。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- scaleX 1.08
+- scaleY 0.94
+- 180–240ms
+- transform-origin 与方向一致
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/squash-toggle.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/squash-toggle.json
+
+---
+
+## Stack 卡片抽走
+
+# Stack 卡片抽走
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+Stack 卡片抽走
+
+【白话解释】
+抽走前卡时露出后卡的缩放和位移层级。
+
+【适用场景】
+需要高级反馈但仍要保持可理解的操作结果
+
+【专业参数与锚点】
+- scale 0.94/0.88
+- translateY 8/16
+- 后卡必须露边
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/stack-card.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/stack-card.json
+
+---
+
+## 叠卡展开
+
+# 叠卡展开
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+叠卡展开
+
+【白话解释】
+叠放卡片点击或下滑后扇出成完整铺排，再沿原空间路径叠回，展开期间锁定下方卡片误触。
+
+【适用场景】
+用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时
+
+【专业参数与锚点】
+- Y 轴位移按卡片间距递增
+- 旋转角度按扇出方向分配
+- 缩放比例逐层收敛到 1
+- Z 轴层级从前到后重排
+- 展开/收回使用同一锚点
+
+【边界与约束】
+- 避免生硬切换
+- 动画顺序必须可验证
+- 必须支持中断和反向回退
+
+【交互状态机】
+- collapsed stack
+- fan out
+- content reveal
+- expanded layout
+- reverse stack
+
+【动画顺序】
+- collapsed stack
+- fan out
+- content reveal
+- expanded layout
+- reverse stack
+
+【空间锚点】
+- 首张卡片作为展开原点
+- 卡片沿预设扇形或垂直轨迹排列
+- 每张卡片保留可点击区域
+- 关闭时回到原重叠位置
+
+【可访问性】
+- 键盘 Enter/Space 展开
+- aria-expanded 表达状态
+- 减少动态时直接切换布局但保留层级
+
+【验收标准】
+- 展开前后首张卡位置连续
+- 卡片不互相遮挡关键内容
+- 展开期间下层卡片不可误触
+- 关闭沿原路回叠
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/stack-card-expand.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/stack-card-expand.json
+
+---
+
+## 提交状态反馈
+
+# 提交状态反馈
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+提交状态反馈
+
+【白话解释】
+按钮容器固定，通过状态机切换 loading、success 和 result，避免按钮位移。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- idle → loading → success → result
+- 固定按钮宽度
+- 只替换内部内容
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- idle
+- loading
+- success
+- result
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/submit-state-machine.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/submit-state-machine.json
+
+---
+
+## 保存按钮变进度环
+
+# 保存按钮变进度环
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+保存按钮变进度环
+
+【白话解释】
+胶囊保存按钮点击后收缩为正圆，文字淡出并在同一容器内绘制进度环，完成后画勾并展开为已保存。
+
+【适用场景】
+保存、上传或提交操作需要把进行中、完成和结果连续表达在同一按钮内
+
+【专业参数与锚点】
+- 按钮 120×44、圆角 22
+- 收缩到 44×44
+- 文字淡出 240ms ease-out
+- 进度环 1.2s linear
+- stroke 3、round cap
+- 完成勾选 200ms
+- 已保存展开 300ms spring
+
+【边界与约束】
+- 进行中禁用重复点击
+- 中途取消必须清理进度动画和回调
+- 按钮宽度变化不能造成周围布局跳动
+- 减少动态时保留进行中与完成状态
+
+【交互状态机】
+- idle
+- saving
+- progress-ring
+- success-check
+- saved
+- cancelled
+
+【动画顺序】
+- capsule to circle
+- label fade out
+- ring draw
+- check draw
+- expand to saved
+
+【空间锚点】
+- 进度环沿按钮外圈绘制
+- 勾选与圆环共享中心
+- 文字恢复在原容器内
+
+【可访问性】
+- 键盘 Enter/Space 触发
+- aria-busy 表达保存中
+- 完成状态通过 aria-live=polite 通知
+
+【验收标准】
+- 保存中只触发一次
+- 取消后可再次保存
+- 进度环不提前完成
+- 完成后按钮回到可读结果
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/submit-state-machine.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/submit-state-machine.json
+
+---
+
+## 标签指示条
+
+# 标签指示条
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+标签指示条
+
+【白话解释】
+指示条先拉向新位置，再收缩归位，轻微超调但不影响点击判断。
+
+【适用场景】
+需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件
+
+【专业参数与锚点】
+- spring 或 cubic-bezier
+- 超调 5%–10%
+- 指示条不重建
+
+【边界与约束】
+- 动画必须可中断
+- 支持 prefers-reduced-motion
+- 状态变化不能重复触发回调
+
+【交互状态机】
+- idle
+- moving
+- settled
+
+【验收标准】
+- 状态切换无跳变
+- 快速操作不产生竞态
+- 键盘和触摸路径结果一致
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/tab-indicator-spring.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/continuous/tab-indicator-spring.json
+
+---
+
+## ThreeUI 组件目录研究
+
+# ThreeUI 组件目录研究
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 工具专属：原文指定平台；不能推广为所有工具的通用行为。
+- 含待核验的外部信息；使用前核验当前官方文档，不视为已验证事实。
+
+【名称】
+ThreeUI 组件目录研究
+
+【白话解释】
+目录分类用于检索组件，不代表所有组件都适合生产环境。
+
+【适用场景】
+用户明确询问指定平台或组件目录
+
+【专业参数与锚点】
+- Landing Pages
+- Hero
+- Backgrounds
+- Buttons
+- Text Animation
+- Three.js
+- UI Elements
+- CSS/Motion/Sections
+
+【边界与约束】
+- 必须标注 provider-specific
+- 检索时优先官方来源
+- verified_at 未设置时不得当作确定事实
+
+【scope】
+provider-specific
+
+【不得泛化】
+是
+
+【已核验日期】
+未提供 / 待核验
+
+【需要核验】
+是
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/platform-research/three-ui-catalog.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/platform-research/three-ui-catalog.json
+
+---
+
+## 阈值
+
+# 阈值
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+阈值
+
+【白话解释】
+达到位移、速度或双条件后才触发状态切换。
+
+【适用场景】
+半屏弹层、长按拖拽、粘连断开
+
+【专业参数与锚点】
+- 明确位移阈值
+- 明确速度阈值
+- 可加入迟滞避免抖动
+
+【边界与约束】
+- 不轻易触发，也不突然失效
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/threshold.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/threshold.json
+
+---
+
+## 3D 倾斜光影面板
+
+# 3D 倾斜光影面板
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+3D 倾斜光影面板
+
+【白话解释】
+监听 pointermove/touchmove 计算 rotateX/rotateY，最大倾斜 8–12°，叠加随指针移动的径向高光，松手用 Spring 回正。
+
+【适用场景】
+需要给 AI 编程或设计工具描述可复用组件
+
+【专业参数与锚点】
+- pointer tracking
+- perspective
+- preserve-3d
+- radial-gradient
+- spring damping
+
+【边界与约束】
+
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/tilt-light-panel.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/component-design/tilt-light-panel.json
+
+---
+
+## 底色/强调色/层级/材质/主角五变量
+
+# 底色/强调色/层级/材质/主角五变量
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+底色/强调色/层级/材质/主角五变量
+
+【白话解释】
+Dashboard 的审美方向主要由底色、强调色、布局层级、材质和内容主角决定。
+
+【适用场景】
+需要让 AI 生成非模板化后台或设计系统
+
+【专业参数与锚点】
+- 背景色
+- 主强调色
+- 文字层级
+- 圆角/阴影
+- 卡片材质
+- 内容主角
+
+【边界与约束】
+- 先定 token 再定组件，不要每张卡单独发明规则
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/design-tokens/token-system.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/design-tokens/token-system.json
+
+---
+
+## 暗底明度分层 Dashboard
+
+# 暗底明度分层 Dashboard
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+暗底明度分层 Dashboard
+
+【白话解释】
+近黑底上只用明度区分卡片层级，不画描边；主读数放大，日期用圆点阵列表达。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- 近黑底
+- 卡片亮一档
+- 无描边
+- 超大主读数
+- 圆点阵列+斜纹空格
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/tonal-dark-dashboard.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/tonal-dark-dashboard.json
+
+---
+
+## 通用/Midjourney/SD 适配
+
+# 通用/Midjourney/SD 适配
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+通用/Midjourney/SD 适配
+
+【白话解释】
+把同一套提示词拆成通用正文、画幅参数和工具专用控制字段。
+
+【适用场景】
+需要在多个生图工具间复用提示词
+
+【专业参数与锚点】
+- aspect_ratio
+- style
+- negative_prompt
+- controlnet
+
+【边界与约束】
+- 工具参数是适配层，不改变核心语义
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/tool-adapter/tool-parameters.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/tool-adapter/tool-parameters.json
+
+---
+
+## 可逆操作时间窗口
+
+# 可逆操作时间窗口
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+可逆操作时间窗口
+
+【白话解释】
+删除后保留一段明确的可撤销时间，让用户有机会反悔。
+
+【适用场景】
+删除、归档、批量移除等可逆操作
+
+【专业参数与锚点】
+- 窗口默认 5s；高风险操作 8–10s
+- 过期后按钮禁用并完成最终删除
+
+【边界与约束】
+- 不要让过期后仍看起来可点击
+
+【scope】
+general
+
+【加载说明】
+撤销功能只需加载本叶子和反向动画，不加载全部动效
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/undo-window.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/undo-window.json
+
+---
+
+## 线性进度反馈
+
+# 线性进度反馈
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+线性进度反馈
+
+【白话解释】
+进度条或进度环的完成时间与撤销窗口完全一致。
+
+【适用场景】
+需要让剩余时间可见
+
+【专业参数与锚点】
+- 动画使用 linear
+- 数字可每秒更新，进度动画保持连续
+
+【边界与约束】
+- 不能用缓动制造错误的剩余时间感
+
+【scope】
+general
+
+【加载说明】
+撤销功能只需加载本叶子和反向动画，不加载全部动效
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/undo-window.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/undo-window.json
+
+---
+
+## 聚焦暂停窗口
+
+# 聚焦暂停窗口
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+聚焦暂停窗口
+
+【白话解释】
+用户悬停或键盘聚焦撤销控件时暂停倒计时。
+
+【适用场景】
+误操作成本高且需要可访问性增强的场景
+
+【专业参数与锚点】
+- 暂停状态必须可见
+- 失焦后继续倒计时
+
+【边界与约束】
+- 不能无限暂停导致资源长期占用
+
+【scope】
+general
+
+【加载说明】
+撤销功能只需加载本叶子和反向动画，不加载全部动效
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/undo-window.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/undo-window.json
+
+---
+
+## 速度继承
+
+# 速度继承
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+速度继承
+
+【白话解释】
+松手后继续沿当前速度运动，再减速并吸附。
+
+【适用场景】
+惯性滚动、抽屉和抛物线飞入
+
+【专业参数与锚点】
+- 保存释放瞬间速度
+- 设置 friction 和最大位移
+
+【边界与约束】
+- 速度必须有上限，避免失控
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/velocity-inheritance.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/interaction/velocity-inheritance.json
+
+---
+
+## 镜头/主体运动/声音三层描述
+
+# 镜头/主体运动/声音三层描述
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+镜头/主体运动/声音三层描述
+
+【白话解释】
+视频提示词至少拆成景别、镜头运动、主体动作、节奏和声音。
+
+【适用场景】
+文生视频和分镜生成
+
+【专业参数与锚点】
+- shot
+- camera_motion
+- subject_motion
+- tempo
+- sound
+
+【边界与约束】
+- 不要只写电影感而不说明可观察的镜头行为
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/video-prompt/video-direction.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/video-prompt/video-direction.json
+
+---
+
+## 暖调留白型
+
+# 暖调留白型
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+暖调留白型
+
+【白话解释】
+奶油底色、单一黄色强调、细边框和弱阴影，保留呼吸感。
+
+【适用场景】
+Dashboard 需要有明确审美方向且避免模板化
+
+【专业参数与锚点】
+- #F7F3EA
+- 一个主强调色
+- 圆角克制
+- 弱阴影
+
+【边界与约束】
+- 不要所有卡片一样大
+- 不要默认蓝紫渐变
+- 不要模板化侧边栏+四张 KPI 卡
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/warm-minimal.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/dashboard/warm-minimal.json
+
+---
+
+## 动作延展
+
+# 动作延展
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+生成挥手、蹦跳、抱爱心、奔跑、转圈圈、犯困打哈欠六个动作
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 六个动作设定
+  - 纯白背景
+  - 动作姿态清晰
+  - 3D 渲染马卡龙配色
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+3:4
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 3:4，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/action-sheet.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/action-sheet.json
+
+---
+
+## 珠光浅蓝 Q 版小胖恐龙
+
+# 珠光浅蓝 Q 版小胖恐龙
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/base-ip.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/base-ip.json
+
+---
+
+## 表情包合集
+
+# 表情包合集
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+生成开心、委屈、生气、比心、拜托、犯困六个表情
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 白底贴纸设计稿
+  - 六种不同表情
+  - 中文文字后期叠加
+  - 3D 潮玩手办质感
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+3:4
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 3:4，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/expression-sheet.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/expression-sheet.json
+
+---
+
+## 线稿转 3D
+
+# 线稿转 3D
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+根据黑白线稿锁定造型，转换为亮面糖胶 PVC 潮玩手办
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 黑白线稿为唯一造型参考
+  - 亮面光滑糖胶 PVC
+  - 高光泽釉面
+  - 无影棚柔光
+  - 3D OC 渲染
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+3:4
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 3:4，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/lineart-to-3d.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/lineart-to-3d.json
+
+---
+
+## 周边整合
+
+# 周边整合
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+生成统一 IP 的文创周边整套陈列效果图
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 钥匙扣、胶带、徽章、卡片、手办和立牌
+  - 分区陈列
+  - 材质区分清晰
+  - 商业品牌 IP 延展效果图
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+16:9
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 16:9，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/merchandise-set.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/merchandise-set.json
+
+---
+
+## 服装穿搭
+
+# 服装穿搭
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+生成四个不同造型并排站立的全身像
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 四套服装主题
+  - 横向并排
+  - 全身像
+  - 纯白背景
+  - 构图规整
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+4:3
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 4:3，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/outfit-sheet.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/outfit-sheet.json
+
+---
+
+## 毛绒质感
+
+# 毛绒质感
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+保持 IP 结构不变，转换为柔软短毛绒玩偶
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 短羊羔绒植绒面料
+  - 蓬松绒毛肌理
+  - 柔和哑光反射
+  - 浅浅软阴影
+  - 均匀棚拍柔光
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+3:4
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 3:4，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/plush-texture.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/plush-texture.json
+
+---
+
+## 标准三视图
+
+# 标准三视图
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+
+【基础角色设定（已展开依赖）】
+【名称】
+珠光浅蓝 Q 版小胖恐龙
+
+【说明】
+亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+
+【角色一致性】
+- 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+- 不得改变角色年龄感、体型和基础表情气质
+- 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+- 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【必要输入】
+参考图说明（请在目标 AI 中另行上传图片）：[待填写：参考图说明（请在目标 AI 中另行上传图片）]
+
+【目标】
+生成正面、侧面、背面三视图，轮廓和比例保持一致
+
+【提示词模块】
+主体：
+  - 亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。
+构图：
+  - 横向并排
+  - 正面、侧面、背面
+  - 标准角色设定图
+  - 无透视变形
+材质：
+
+光线：
+  - 柔和均匀的商业棚拍光线
+质量：
+  - 高细节
+  - 清晰边缘
+  - 统一比例
+边界与约束：
+  - 保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致
+  - 不得改变角色年龄感、体型和基础表情气质
+  - 不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型
+  - 不得出现额外肢体、比例失衡、颜色漂移或重复角色
+
+【画幅比例】
+4:3
+
+【负面约束】
+- 写实恐龙
+- 尖牙
+- 锋利爪子
+- 攻击性表情
+- 身体变形
+- 额外肢体
+- 颜色漂移
+- 重复角色
+- 模糊
+- 低清晰度
+
+【工具适配】
+通用（不绑定工具）
+【工具参数】
+画幅比例 4:3，高质量商业效果图
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/turnaround-3view.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/aigc/turnaround-3view.json
+
+---
+
+## Dashboard 审美 Skill
+
+# Dashboard 审美 Skill
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【适用边界】
+- 这是原始结构化模板的可读展开版；工具参数保留原文，使用前请核验目标工具的支持情况。
+- 原始资料第 5 例的执行逻辑待确认，第 6 例缺失；不补造案例，也不把候选逻辑默认落地。
+
+【必要输入】
+产品或使用场景：[待填写：产品或使用场景]
+内容优先级：[待填写：内容优先级]
+
+【选择的方向】
+暖调留白型
+【rule】
+奶油底色、单一黄色强调、细边框和弱阴影，保留呼吸感。
+
+【设计变量】
+- #F7F3EA
+- 一个主强调色
+- 圆角克制
+- 弱阴影
+
+【输出要求】
+- 页面结构
+- 色彩规范
+- 组件规范
+- 可直接给 AI 的提示词
+
+【字段含义】
+布局与信息结构：布局名称与信息结构；不新增同义叶子
+专业术语：专业术语与结构关系；引用现有分类
+视觉规范：视觉层级、栅格、材质、排版；不负责修改业务状态
+执行与事件：事件、前置条件、写入状态、派生视图与不受影响的状态
+状态模型：唯一事实源、派生关系、不变量；新增实现建议需明确标记
+设计变量：明确单位与适用范围；用户示例值不是全局默认值
+
+【共享执行规范】
+执行流程：
+  - 事件
+  - 校验/前置条件
+  - 一次状态转换
+  - 派生所有关联视图
+  - 验收
+规则：
+  - 共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。
+  - 展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。
+  - 颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。
+  - 键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。
+  - 固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。
+验收标准：
+  - 事件前/后真实截图覆盖受影响与不受影响区域
+  - 端到端验证状态联动、独立性、错误/快速切换与键盘路径
+  - 截图只验证可见结果，状态一致性同时用断言验证
+
+【原始资料缺口（不得补造）】
+- 原稿位置：5
+  状态：needs_confirmation
+  条目：warm-three-column-dashboard
+  缺失项：完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地
+- 原稿位置：6
+  状态：missing
+  缺失项：第六个 Dashboard 的三层提示词原文
+  处理边界：不创建空叶子、不生成虚构案例，不声称六例完整
+
+【禁止的默认做法】
+- 默认蓝紫渐变
+- 所有卡片一样大
+- 满屏圆角矩形
+- 过多颜色和图标
+- 模板化侧边栏+顶栏+四张 KPI 卡
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/dashboard/dashboard-style-system.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/templates/dashboard/dashboard-style-system.json

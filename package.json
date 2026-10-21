@@ -37,8 +37,12 @@
     "fix-image-refs": "node scripts/fix-image-refs.js",
     "migrate-en-files": "node scripts/migrate-en-files.js",
     "sitemap": "node scripts/generate-sitemap.js",
-    "build": "npm run check && npm run index && npm run llms && npm run docs:build && npm run fix-urls && npm run sitemap",
-    "test": "echo \"No tests yet\" && exit 0"
+    "build": "npm run jargon:build && npm run test:jargon && npm run check && npm run index && npm run llms && npm run docs:build && npm run fix-urls && npm run sitemap && npm run jargon:verify",
+    "test": "npm run test:jargon",
+    "jargon:sync": "node scripts/jargon/sync.mjs",
+    "jargon:build": "node scripts/jargon/generate.mjs",
+    "test:jargon": "node --test tests/jargon/*.test.mjs",
+    "jargon:verify": "node scripts/jargon/check-dist.mjs"
   },
   "devDependencies": {
     "exa-js": "^2.8.0",

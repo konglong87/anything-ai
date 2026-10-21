@@ -6427,6 +6427,2386 @@
     ]
   },
   {
+    "title": "专业提示词 · 把感觉说清楚",
+    "path": "prompts/jargon/README.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "农林/食品/烹饪",
+    "path": "prompts/jargon/domains/agri-food-cooking.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "AI/AIGC/元技能",
+    "path": "prompts/jargon/domains/ai-aigc-meta-skills.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "建筑/土木/空间",
+    "path": "prompts/jargon/domains/architecture-civil-space.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "艺术/美学/传统设计",
+    "path": "prompts/jargon/domains/arts-aesthetics-design.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "天文/地学/环境",
+    "path": "prompts/jargon/domains/astronomy-earth-environment.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "生物/医学/健康",
+    "path": "prompts/jargon/domains/biology-medicine-health.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "通信/电子/硬件工程",
+    "path": "prompts/jargon/domains/communications-electronics-hardware.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "数字产品与交互设计（UI/UX）",
+    "path": "prompts/jargon/domains/digital-product-uiux.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "经济/管理/金融",
+    "path": "prompts/jargon/domains/economics-management-finance.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "教育/体育/运动",
+    "path": "prompts/jargon/domains/education-sports.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "历史/地理/旅游",
+    "path": "prompts/jargon/domains/history-geography-travel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "工业/机械/制造",
+    "path": "prompts/jargon/domains/industrial-mechanical-manufacturing.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "语言/文学/写作",
+    "path": "prompts/jargon/domains/language-literature-writing.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "政法/军事/法律",
+    "path": "prompts/jargon/domains/law-politics-military.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "数理/化学/统计",
+    "path": "prompts/jargon/domains/math-chemistry-statistics.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "新闻/传媒/广告",
+    "path": "prompts/jargon/domains/news-media-advertising.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "哲学/心理/宗教",
+    "path": "prompts/jargon/domains/philosophy-psychology-religion.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "软件工程与架构",
+    "path": "prompts/jargon/domains/software-engineering-architecture.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "职场沟通与组织协作",
+    "path": "prompts/jargon/domains/workplace-communication.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "专业提示词使用方法",
+    "path": "prompts/jargon/guide.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "农林/食品/烹饪领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--agri-food-cooking.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "AIGC 影像与提示词需求澄清术语包 · 旧版原文",
+    "path": "prompts/jargon/reference/terms--aigc.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "建筑/土木/空间领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--architecture-civil-space.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "艺术/美学/传统设计领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--arts-aesthetics-design.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "天文/地学/环境领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--astronomy-earth-environment.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "后端与软件工程需求澄清术语包（幂等子域草案） · 旧版原文",
+    "path": "prompts/jargon/reference/terms--backend.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "生物/医学/健康领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--biology-medicine-health.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "通信/电子/硬件工程领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--communications-electronics-hardware.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "经济/管理/金融领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--economics-management-finance.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "教育/体育/运动领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--education-sports.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "历史/地理/旅游领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--history-geography-travel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "工业/机械/制造领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--industrial-mechanical-manufacturing.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "语言/文学/写作领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--language-literature-writing.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "政法/军事/法律领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--law-politics-military.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "数理/化学/统计领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--math-chemistry-statistics.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "新闻/传媒/广告领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--news-media-advertising.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "哲学/心理/宗教领域需求澄清术语包（草案） · 草稿参考",
+    "path": "prompts/jargon/reference/terms--philosophy-psychology-religion.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "网页 UI/UX 需求澄清术语包 · 旧版原文",
+    "path": "prompts/jargon/reference/terms--uiux.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "职场模糊表达与专业化解释术语包 · 旧版原文",
+    "path": "prompts/jargon/reference/terms--workplace.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "执行项",
+    "path": "prompts/jargon/scenes/action-item--action-item.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "高可用模式",
+    "path": "prompts/jargon/scenes/availability-patterns--availability-patterns.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "前后对比滑块",
+    "path": "prompts/jargon/scenes/before-after-slider--before-after-slider.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "阻尼弹性底部抽屉",
+    "path": "prompts/jargon/scenes/bottom-sheet--bottom-sheet.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Burst 点击爆散",
+    "path": "prompts/jargon/scenes/burst-feedback--burst-feedback.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "按钮变步进器",
+    "path": "prompts/jargon/scenes/button-stepper-morph--button-stepper-morph.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "景别/机位/焦段/运镜",
+    "path": "prompts/jargon/scenes/camera-language--camera-language.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "并发容量模型",
+    "path": "prompts/jargon/scenes/capacity-model--capacity-model.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "3D 卡片翻面",
+    "path": "prompts/jargon/scenes/card-flip--card-flip.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "基础 IP 设定",
+    "path": "prompts/jargon/scenes/character-ip--base-ip.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "场景增量模块",
+    "path": "prompts/jargon/scenes/character-ip--scene-module.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "勾选联动",
+    "path": "prompts/jargon/scenes/checkbox-cascade--checkbox-cascade.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "主体位置与视觉动线",
+    "path": "prompts/jargon/scenes/composition-language--composition-language.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "卡片错位/大图主导/非对称/层叠/留白/破格出血",
+    "path": "prompts/jargon/scenes/composition-patterns--composition-patterns.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Count 数字滚动",
+    "path": "prompts/jargon/scenes/count-animation--count-animation.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "封面取色氛围光",
+    "path": "prompts/jargon/scenes/cover-color-ambient-glow--cover-color-ambient-glow.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "跨平台渲染边界",
+    "path": "prompts/jargon/scenes/cross-platform-rendering--cross-platform-rendering.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "圆柱卷收列表",
+    "path": "prompts/jargon/scenes/cylindrical-list--cylindrical-list.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "阻尼弹性抽屉",
+    "path": "prompts/jargon/scenes/damped-bottom-sheet--damped-bottom-sheet.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "撕线弹出面板",
+    "path": "prompts/jargon/scenes/damped-bottom-sheet--tear-line-panel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "项目依赖对齐",
+    "path": "prompts/jargon/scenes/dependency-alignment--dependency-alignment.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "景深分层滚动",
+    "path": "prompts/jargon/scenes/depth-layer-scroll--depth-layer-scroll.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "动态弥散光晕边框",
+    "path": "prompts/jargon/scenes/diffused-glow-border--diffused-glow-border.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "拖到目标吸入",
+    "path": "prompts/jargon/scenes/drag-to-absorb--drag-to-absorb.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Draw 成功勾选",
+    "path": "prompts/jargon/scenes/draw-success--draw-success.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "吸边悬浮球",
+    "path": "prompts/jargon/scenes/edge-docked-fab--edge-docked-fab.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "弹性微缩触觉反馈",
+    "path": "prompts/jargon/scenes/elastic-press-feedback--elastic-press-feedback.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "加号展开面板",
+    "path": "prompts/jargon/scenes/fab-panel-morph--fab-panel-morph.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "First Last Invert Play",
+    "path": "prompts/jargon/scenes/flip-reentry--flip.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "占位与真实节点回插",
+    "path": "prompts/jargon/scenes/flip-reentry--placeholder.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "流体胶囊形变",
+    "path": "prompts/jargon/scenes/fluid-capsule-morph--fluid-capsule-morph.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "跟随",
+    "path": "prompts/jargon/scenes/follow--follow.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "前端平台边界",
+    "path": "prompts/jargon/scenes/frontend-runtime--frontend-runtime.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "菜单铺满全屏",
+    "path": "prompts/jargon/scenes/fullscreen-reveal-menu--fullscreen-reveal-menu.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "目标与指标",
+    "path": "prompts/jargon/scenes/goal-metric--goal-metric.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GPUIX 桌面与 Web 平台研究",
+    "path": "prompts/jargon/scenes/gpui-desktop-web--gpui-desktop-web.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GPUIX 移动端平台研究",
+    "path": "prompts/jargon/scenes/gpui-mobile--gpui-mobile.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "方格纸玻璃卡 Dashboard",
+    "path": "prompts/jargon/scenes/grid-glass-dashboard--grid-glass-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "分组侧边栏 Dashboard",
+    "path": "prompts/jargon/scenes/grouped-sidebar-dashboard--grouped-sidebar-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP Core",
+    "path": "prompts/jargon/scenes/gsap-core--gsap-core.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP 框架适配",
+    "path": "prompts/jargon/scenes/gsap-frameworks--gsap-frameworks.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP 性能边界",
+    "path": "prompts/jargon/scenes/gsap-performance--gsap-performance.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP Plugins",
+    "path": "prompts/jargon/scenes/gsap-plugins--gsap-plugins.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP React 生命周期",
+    "path": "prompts/jargon/scenes/gsap-react-lifecycle--gsap-react-lifecycle.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP ScrollTrigger",
+    "path": "prompts/jargon/scenes/gsap-scrolltrigger--gsap-scrolltrigger.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "GSAP Timeline",
+    "path": "prompts/jargon/scenes/gsap-timeline--gsap-timeline.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "强对比视觉型",
+    "path": "prompts/jargon/scenes/high-contrast--high-contrast.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "图标变形",
+    "path": "prompts/jargon/scenes/icon-morph--icon-morph.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "幂等契约",
+    "path": "prompts/jargon/scenes/idempotency-contract--idempotency-contract.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "图卡内容型",
+    "path": "prompts/jargon/scenes/image-led-content--image-led-content.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "氛围沉浸型",
+    "path": "prompts/jargon/scenes/immersive-atmosphere--immersive-atmosphere.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "惯性滚轮",
+    "path": "prompts/jargon/scenes/inertial-wheel--inertial-wheel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "信息层级",
+    "path": "prompts/jargon/scenes/information-hierarchy--information-hierarchy.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "列表展开详情",
+    "path": "prompts/jargon/scenes/inline-detail-expand--inline-detail-expand.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "可中断与恢复",
+    "path": "prompts/jargon/scenes/interruption--interruption.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "职场黑话翻译",
+    "path": "prompts/jargon/scenes/jargon-translation--jargon-translation.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "中轴观测布局",
+    "path": "prompts/jargon/scenes/layout-patterns--axial-observatory-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "多彩错列布局",
+    "path": "prompts/jargon/scenes/layout-patterns--color-staggered-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "玻璃点阵布局",
+    "path": "prompts/jargon/scenes/layout-patterns--glass-dot-matrix-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "工业分区布局",
+    "path": "prompts/jargon/scenes/layout-patterns--industrial-zones-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "高级布局模式",
+    "path": "prompts/jargon/scenes/layout-patterns--layout-patterns.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "暖色三栏布局",
+    "path": "prompts/jargon/scenes/layout-patterns--warm-three-column-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "液滴粘连拖拽",
+    "path": "prompts/jargon/scenes/liquid-adhesion-drag--liquid-adhesion-drag.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "液态玻璃栏",
+    "path": "prompts/jargon/scenes/liquid-glass-bar--liquid-glass-bar.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Liquid 液态滑块",
+    "path": "prompts/jargon/scenes/liquid-slider--liquid-slider.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "列表切换网格",
+    "path": "prompts/jargon/scenes/list-grid-flip--list-grid-flip.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Light/Dark 活样式指南",
+    "path": "prompts/jargon/scenes/living-style-guide-preview--living-style-guide-preview.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "长按浮起预览",
+    "path": "prompts/jargon/scenes/long-press-preview--long-press-preview.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "磁吸游标与滚动码表",
+    "path": "prompts/jargon/scenes/magnetic-cursor-odometer--magnetic-cursor-odometer.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "管理机制",
+    "path": "prompts/jargon/scenes/management-mechanism--management-mechanism.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "材质与反射",
+    "path": "prompts/jargon/scenes/material-library--material-library.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "极简数据型",
+    "path": "prompts/jargon/scenes/minimal-data--minimal-data.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Morph 汉堡变叉",
+    "path": "prompts/jargon/scenes/morph-icon--morph-icon.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "撤销按钮可读标签",
+    "path": "prompts/jargon/scenes/motion-accessibility--undo-aria.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "轻量状态播报",
+    "path": "prompts/jargon/scenes/motion-accessibility--undo-live.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "方向/速度/幅度/节奏",
+    "path": "prompts/jargon/scenes/motion-language--motion-language.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "结构/材质/一致性负面词",
+    "path": "prompts/jargon/scenes/negative-constraints--negative-constraints.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "可观测性契约",
+    "path": "prompts/jargon/scenes/observability-contract--observability-contract.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "景随图换轮播",
+    "path": "prompts/jargon/scenes/perspective-carousel--perspective-carousel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "卡片层叠轮播",
+    "path": "prompts/jargon/scenes/perspective-carousel--stacked-card-carousel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "按住蓄力确认",
+    "path": "prompts/jargon/scenes/press-and-hold-confirm--press-and-hold-confirm.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "主体/材质/光线/构图/质量模块",
+    "path": "prompts/jargon/scenes/prompt-blocks--prompt-blocks.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "弧形快捷菜单",
+    "path": "prompts/jargon/scenes/radial-menu--radial-menu.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "圆形扩散转场",
+    "path": "prompts/jargon/scenes/radial-reveal-transition--radial-reveal-transition.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "减少动态降级",
+    "path": "prompts/jargon/scenes/reverse-animation--reduced-motion.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "归位确认高亮",
+    "path": "prompts/jargon/scenes/reverse-animation--reentry-highlight.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "沿原路径反向归位",
+    "path": "prompts/jargon/scenes/reverse-animation--reverse-path.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Ripple 水波按钮",
+    "path": "prompts/jargon/scenes/ripple-button--ripple-button.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "旋钮转盘",
+    "path": "prompts/jargon/scenes/rotary-knob--rotary-knob.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "扩展策略",
+    "path": "prompts/jargon/scenes/scaling-strategies--scaling-strategies.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "顶栏随滚动收起",
+    "path": "prompts/jargon/scenes/scroll-header-collapse--scroll-header-collapse.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "搜索框展开",
+    "path": "prompts/jargon/scenes/search-expand--search-expand.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "分段进度条",
+    "path": "prompts/jargon/scenes/segmented-progress--segmented-progress.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "服务边界与状态",
+    "path": "prompts/jargon/scenes/service-boundary--service-boundary.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "共享元素无缝展开",
+    "path": "prompts/jargon/scenes/shared-element-expand--shared-element-expand.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "单深色单强调色 Dashboard",
+    "path": "prompts/jargon/scenes/single-dark-accent-dashboard--single-dark-accent-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Shimmer 骨架落位",
+    "path": "prompts/jargon/scenes/skeleton-shimmer--skeleton-shimmer.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "滑动确认组件",
+    "path": "prompts/jargon/scenes/slide-to-confirm--slide-to-confirm.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "吸附",
+    "path": "prompts/jargon/scenes/snap--snap.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "吸附卡加画线",
+    "path": "prompts/jargon/scenes/snap-card-timeline--snap-card-timeline.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Spring 按压回弹",
+    "path": "prompts/jargon/scenes/spring-press--spring-press.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "物理弹簧交错流",
+    "path": "prompts/jargon/scenes/spring-stagger-flow--spring-stagger-flow.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Squash 弹性开关",
+    "path": "prompts/jargon/scenes/squash-toggle--squash-toggle.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Stack 卡片抽走",
+    "path": "prompts/jargon/scenes/stack-card--stack-card.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "叠卡展开",
+    "path": "prompts/jargon/scenes/stack-card-expand--stack-card-expand.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "保存按钮变进度环",
+    "path": "prompts/jargon/scenes/submit-state-machine--save-progress-ring.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "提交状态反馈",
+    "path": "prompts/jargon/scenes/submit-state-machine--submit-state-machine.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "标签指示条",
+    "path": "prompts/jargon/scenes/tab-indicator-spring--tab-indicator-spring.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "动作延展",
+    "path": "prompts/jargon/scenes/template--action-sheet.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Dashboard 审美 Skill",
+    "path": "prompts/jargon/scenes/template--dashboard-style-system.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "表情包合集",
+    "path": "prompts/jargon/scenes/template--expression-sheet.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "线稿转 3D",
+    "path": "prompts/jargon/scenes/template--lineart-to-3d.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "周边整合",
+    "path": "prompts/jargon/scenes/template--merchandise-set.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "服装穿搭",
+    "path": "prompts/jargon/scenes/template--outfit-sheet.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "珠光浅蓝 Q 版小胖恐龙",
+    "path": "prompts/jargon/scenes/template--pastel-blue-dino.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "毛绒质感",
+    "path": "prompts/jargon/scenes/template--plush-texture.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "标准三视图",
+    "path": "prompts/jargon/scenes/template--turnaround-3view.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "ThreeUI 组件目录研究",
+    "path": "prompts/jargon/scenes/three-ui-catalog--three-ui-catalog.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "阈值",
+    "path": "prompts/jargon/scenes/threshold--threshold.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "3D 倾斜光影面板",
+    "path": "prompts/jargon/scenes/tilt-light-panel--tilt-light-panel.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "底色/强调色/层级/材质/主角五变量",
+    "path": "prompts/jargon/scenes/token-system--token-system.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "暗底明度分层 Dashboard",
+    "path": "prompts/jargon/scenes/tonal-dark-dashboard--tonal-dark-dashboard.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "通用/Midjourney/SD 适配",
+    "path": "prompts/jargon/scenes/tool-parameters--tool-parameters.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "聚焦暂停窗口",
+    "path": "prompts/jargon/scenes/undo-window--pause-on-focus.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "线性进度反馈",
+    "path": "prompts/jargon/scenes/undo-window--progress-feedback.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "可逆操作时间窗口",
+    "path": "prompts/jargon/scenes/undo-window--undo-window.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "速度继承",
+    "path": "prompts/jargon/scenes/velocity-inheritance--velocity-inheritance.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "镜头/主体运动/声音三层描述",
+    "path": "prompts/jargon/scenes/video-direction--video-direction.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "暖调留白型",
+    "path": "prompts/jargon/scenes/warm-minimal--warm-minimal.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
+    "title": "Jargon 来源、覆盖与许可证",
+    "path": "prompts/jargon/sources.md",
+    "difficulty": "beginner",
+    "roles": [
+      "everyone"
+    ],
+    "type": "guide",
+    "duration": "5min",
+    "tags": [
+      "提示词",
+      "Jargon"
+    ]
+  },
+  {
     "title": "System Prompt Guide",
     "path": "prompts/system-prompts.en.md",
     "difficulty": "intermediate",

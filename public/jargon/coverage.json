@@ -1,0 +1,1567 @@
+{
+  "source": {
+    "repository": "https://github.com/konglong87/feeling-to-jargon",
+    "commit": "4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d",
+    "importedAt": "2026-10-21T02:15:58.967Z",
+    "license": "MIT"
+  },
+  "stats": {
+    "domains": 19,
+    "leaves": 105,
+    "entries": 120,
+    "templates": 9,
+    "legacy": 19,
+    "drafts": 15
+  },
+  "totalFiles": 215,
+  "sceneCount": 129,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "88c950402f9ef2e92eaecfea5a30c0b79bf22dc83c6c5cba7d9c50ce8e2a8388",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "866504ae4413379757247851144543c0549f0063012f727939d2e81cb3cd7d79",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "README.md",
+      "sha256": "222c70fc2aad4259c9d7d1ff17ba9c5b26b4716723afa906d87ec35b4e63d17a",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/agri-food-cooking.json",
+      "sha256": "7b32b8cda634b64da798dd2dfa627cbad54993ff8078fbb93719b902e6a7c34b",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/ai-aigc-meta-skills.json",
+      "sha256": "2fd56cebbc026487f378e09cead6e8e8ce0b7156e811dd27ddc0628230211aaf",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/architecture-civil-space.json",
+      "sha256": "f3de4b727702e655f747a868cbe3f83fbf5a012fec6875822ac32e8554d4a1a1",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/arts-aesthetics-design.json",
+      "sha256": "5116ae1154a14f6f4f5b77833f180ed0260f1ff7facccb2fde511f6682bad016",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/astronomy-earth-environment.json",
+      "sha256": "b93d63ea3a6d1f4912a391ff7e64caa4198a58e03ab5f121d623465e5df6bc15",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/biology-medicine-health.json",
+      "sha256": "34ae31ae6ec006b1311b9b11dea226fc684bbfeda5edd2c385e70a37afa9acf9",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/communications-electronics-hardware.json",
+      "sha256": "721cdf8462783ff05b3f4d65a636cb1ef7eb1d1a412bca019b60d1ea1e563191",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/digital-product-uiux.json",
+      "sha256": "cb76ef39a32707327acb38dc33bc05e7bad5f696745d747c3f3384644b2b1b81",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/economics-management-finance.json",
+      "sha256": "d837810bd14027da3f99a494e191ee98ff957ef833557e51567a2747ac47d7af",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/education-sports.json",
+      "sha256": "ac0f7b7bf97fbc97924ade3a4d6ef92e8ba77639964939ab84e2d4ee651123d0",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/history-geography-travel.json",
+      "sha256": "32f79213df1170224c53a61d9c1624a34e5c5f0aa215a04b7292270f79e6bc8e",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/industrial-mechanical-manufacturing.json",
+      "sha256": "f384b1594c5bd69de9146acdf43d29a8aa5182ce6006c030f24d8b3ae4285d96",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/language-literature-writing.json",
+      "sha256": "b8cfee9d0f5caf4d79152da88c166aba9d985a8a5762c43bb58e751e3f530c2e",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/law-politics-military.json",
+      "sha256": "13f7f94bc2e80828b6c5ac24e12f2f5003438bc39483359c1b6dcfd368c7607e",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/math-chemistry-statistics.json",
+      "sha256": "33da1862e0804fb54c294e66b2e8fb4f28f19bf66bb5b308d5fd75d7bfff3040",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/news-media-advertising.json",
+      "sha256": "21a0e4a394ea2ac729ea903fdc5cf530a259dc3db7517f89b4f77756d5fabba5",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/philosophy-psychology-religion.json",
+      "sha256": "4ecd5ea73b6051446194220f0bc933d8f66f313cf379832dc241bcccd3b38d97",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/software-engineering-architecture.json",
+      "sha256": "0492fed0bb8705d1736f89aa34fa3feda70a37da6e052355ce513f97ae4c1b87",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/domains/workplace-communication.json",
+      "sha256": "6dfd75433e93578f720aac7dc037808b33ed4790f3e7ed7afccffac9ec399517",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/agri-food-cooking/core.json",
+      "sha256": "93771e153353d230ae456f36606b429fb88b9807bf7f7470dca6179d41957781",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/camera-language.json",
+      "sha256": "7f788c0fc13e8313eb398fc8674bc49afd1b00cd1447a99d0b9577fc9013ea3c",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/character-ip.json",
+      "sha256": "778961544dbca40626182f64c99ee1ca9984d8884dc3e6eecbb79695b3e6aa18",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/composition.json",
+      "sha256": "a6dbb35d68bbc43e3eeb8cf72ad39d24079046c484cf992fffa321f01c82cb5c",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/image-prompt.json",
+      "sha256": "a333cac9e709849a617582fd33197cca4195105d8f10c761f2e91fceb15b7f3a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/material-style.json",
+      "sha256": "e69b7ea43326208c33bd001feff62ff31786a5fcf674b5b36f7eccc42f4f5e37",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/motion-control.json",
+      "sha256": "84ead2d11d7533532f8a8be66432891dcf2c93da88262e3450cbc775664a4ac6",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/negative-prompt.json",
+      "sha256": "b482f63871975bea6ff666fe70ad8d33e6fd92090772b63f327a1ba504178cdc",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/tool-adapter.json",
+      "sha256": "2da7dc5e6eec9a380fba9dd5057176820abb3552b7bb58667e2b813e88af3ea0",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/ai-aigc-meta-skills/video-prompt.json",
+      "sha256": "b1dc29341e07c7f39b77045c008446e346deddc64e59c64e6fddf400945e8f6a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/architecture-civil-space/core.json",
+      "sha256": "bf383b04647bb4377622360540c1fd0decc21e1e179fd05bddb5ee649cb58ae1",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/arts-aesthetics-design/core.json",
+      "sha256": "0a7dd464916afc84a46f197c367ecda0ceac24bd3c649be7eddce36cbe51f1ad",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/astronomy-earth-environment/core.json",
+      "sha256": "31c4fb475fc71c4e8e243030e80e618df162b46d0be76fdbbbd2b9ee0d3fa235",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/biology-medicine-health/core.json",
+      "sha256": "347417814df972ef4ee0299182b02fc41f8e93d3aec0cf9c336429679ff75a55",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/communications-electronics-hardware/core.json",
+      "sha256": "33483f75f6eea984c8bb6bd735aa659bfe8913b7bb7195944289810b7aadb39b",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/3d-web-interface.json",
+      "sha256": "1a5fcab59579acffb384f995b33e9d6be023cb15bba6d9be47e95c513c0fb5e3",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/accessibility.json",
+      "sha256": "7f914f7b3f4e1d7ea0e3e3cca1b7c20e2ca4fd8fd1bcec3cc83214a567032590",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/animation-tool-adapter.json",
+      "sha256": "9443f9503dba2713659991a41e996d33d7628bb3650f6e779f8c7675a0dc1a74",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/component-design.json",
+      "sha256": "7cabf509e190652331fb8a6f8c4cb93a8d8407a538cf45d68c01633ea2545891",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/continuous-interaction.json",
+      "sha256": "3e05dd859b7f15360b850a7c4f31af37f94b08092072d23f6afa22f08c7a145e",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/dashboard-design.json",
+      "sha256": "cfbd6845a2451af75ed87ee7aafa299ec1ef7e37187d79ae4b57e76c09aa0d62",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/design-system.json",
+      "sha256": "a7e3e2a8a740ed4e5a4afe19d27a46b2f752c6894e616baa17e9018059c16be1",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/design-tokens.json",
+      "sha256": "b68d4acdbda0fb6f4d413b006f191ff7c00bff1aa22a57446e88a020dfcd769a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/gesture-interaction.json",
+      "sha256": "b37e61fa72703eb200e3cadc6f3c2d0cd20e18b98baedc8e49629a0594d380c0",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/information-architecture.json",
+      "sha256": "57a633b77819dcb57a39804b574367b34061a7689a9ce1378b001761d7774a02",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/interaction-motion.json",
+      "sha256": "3a649b5b21251e1062fdbdf238a627d1f42bbf502445478cc5de5022edc48d68",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/visual-effects.json",
+      "sha256": "d098d6ee98554080d0ba75242bc2a8a65cd17dd1d4ef2dd6bbaee8d076d428af",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/digital-product-uiux/visual-layout.json",
+      "sha256": "5bed08588341384bbba5a943413245a12eca635f09f86386ad757abd7c9aeab2",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/economics-management-finance/core.json",
+      "sha256": "c3fc7d51608d28c14380850d66f6724ab0ef8daf48cdcad6d7f279aa566f0861",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/education-sports/core.json",
+      "sha256": "58cf6e216074ef4e3c7abfd05e469cf964fc2ce78641ad17a1fad7f03146843a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/history-geography-travel/core.json",
+      "sha256": "0c52869bcbb4db830b282c77fd21b70c220bb9f40bce4e0ab970ceb408be380b",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/industrial-mechanical-manufacturing/core.json",
+      "sha256": "79ac6df97f061f76a1336d3788727e06c908870ea0d208aa742f33707f08bb77",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/language-literature-writing/core.json",
+      "sha256": "3cb181c6b26abbf5805445728296f1a9b5c138a7ae0ce63c268384d4245084cc",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/law-politics-military/core.json",
+      "sha256": "adf352dcddf1fd394c4317c17d54b1c66972c7de6657c9ae3d658cc009ac58a4",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/math-chemistry-statistics/core.json",
+      "sha256": "fc1724e9f7d184fe649fdd793ca406a547f0d2aef4f2e44dfaa75c9bddc8d87a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/news-media-advertising/core.json",
+      "sha256": "445f8e7de5ad3bafd37c72e5b3dce68ec52d1d78829ec7fcc67ad600466fa504",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/philosophy-psychology-religion/core.json",
+      "sha256": "214f826877020c8a8b0e7d0f4c51b19321b53149747105aea59ec705d6322cac",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/backend-architecture.json",
+      "sha256": "a902ba1fbcb2903a15be3e249d476bb957688a901a9396910e432902dfb165a7",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/desktop-web-mobile.json",
+      "sha256": "f472f840051fb74a1b59d073e82db565fe8e89ed552827e3474f25d9819a0bc8",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/frontend-platform.json",
+      "sha256": "6d47d73be7f1999aa6f462256b3f52e0e34cbda8ea8a8d6ad670d4a790036322",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/high-availability.json",
+      "sha256": "6344afb8c2df9bff4b439d3783db3acdcf78ef4f78970a4be65295e165031237",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/high-concurrency.json",
+      "sha256": "d93702fcefd4dd407a868e2b468310b2236a5969624c1821ef03d5467ccaecef",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/idempotency.json",
+      "sha256": "467d7a509c870c793df4b71bdbce6eece7cb8e35a3c735da1cfe257c4d7e35de",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/observability.json",
+      "sha256": "90dc21e06d2a15e7815867c1b01323770418bb4f23b6d99e11156bc431cd07c2",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/software-engineering-architecture/scalability.json",
+      "sha256": "bc77a5a2322101b6ef6dfe068e5179189e0f68eeca9d8c54c09ed0e5dd25fdc9",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/workplace-communication/execution-language.json",
+      "sha256": "986cb6a99baf6fb0fc96cbad9a62990102622c994fc519111e66ef999664bfa0",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/workplace-communication/goal-alignment.json",
+      "sha256": "da55bf7347aa2345e1cfe7816610d1388d9d4eefa86b962625aeb40c1f1c433a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/workplace-communication/management-terms.json",
+      "sha256": "7aeef19d3f0b7751c39784b2c1e3b69e7dceb17c252c04982fe4f46428a33f11",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/workplace-communication/project-collaboration.json",
+      "sha256": "4fd960b6e91e49bcd84bcc8606c4c1e51fb45b6f0ff613d60462efe52fee0f3a",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/intents/workplace-communication/vague-expression.json",
+      "sha256": "705f5dc6a8276408c247dc1ad12ff5d558ab9392a11e1d84619613f5f71bcbbc",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/leaves.json",
+      "sha256": "58fa5c94a9d95064d3b753432c74e8c6ca6b3970c5d03e6251e47c7f8c848d16",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/packages.json",
+      "sha256": "2ff8d2bf93bc2bcd1cff586146a84dffd4d90317231a979595c714deaf772c56",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/root.json",
+      "sha256": "06d8c87a607b686677bcbe7cf96007fa0d899be15b28b59b1512738a36ba937f",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "index/runtime.json",
+      "sha256": "49c59494f03913aab5c5509826a8f1e20f916c31717da7cfe5d6b90e121198b1",
+      "role": "index",
+      "sceneIds": []
+    },
+    {
+      "path": "scripts/bootstrap-progressive-content.py",
+      "sha256": "b9ad84ee7947ec928f5a2c3a6b01396e2a1f385d9948aff6da5141b5a475570d",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "scripts/query-index.py",
+      "sha256": "39ce9b6276cc2a0a3e7d42acf69b3e080f34e6720f4272b58cd31a5a7f64fcc1",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "scripts/test-dashboard-patterns.py",
+      "sha256": "85c47af99ca8139b4f67f66796eef2a169a00414642b5e90138412f06728dec8",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "scripts/test-progressive-index.py",
+      "sha256": "011b1677c557bffc695361fdaa710c5fde753fbc48bc36f20c30683057215f66",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "scripts/validate-index.py",
+      "sha256": "dddc58af5554ced0c2f1ad2d69da5c4393404556c3e21830e54148ea2db93565",
+      "role": "supporting",
+      "sceneIds": []
+    },
+    {
+      "path": "skills/feeling-to-jargon/SKILL.md",
+      "sha256": "8001ddc5c9eaf492549701b957cab5681141502d1cf0f9b4db37ea51760df66f",
+      "role": "skill",
+      "sceneIds": []
+    },
+    {
+      "path": "templates/aigc/action-sheet.json",
+      "sha256": "416c3a68134a6230167ecb5d219a6f10101322bcb103154d0f2849357efbbd15",
+      "role": "template",
+      "sceneIds": [
+        "template--action-sheet"
+      ]
+    },
+    {
+      "path": "templates/aigc/base-ip.json",
+      "sha256": "e8a4dbde5bea06c1779a8ad6f79ae82aede8d1a3958611326c79c87b844a366b",
+      "role": "template",
+      "sceneIds": [
+        "template--action-sheet",
+        "template--pastel-blue-dino",
+        "template--expression-sheet",
+        "template--lineart-to-3d",
+        "template--merchandise-set",
+        "template--outfit-sheet",
+        "template--plush-texture",
+        "template--turnaround-3view"
+      ]
+    },
+    {
+      "path": "templates/aigc/expression-sheet.json",
+      "sha256": "fce8d52132cb15e40ff1bbf928817fa3c24c02c459460af8844f1182e442ae9e",
+      "role": "template",
+      "sceneIds": [
+        "template--expression-sheet"
+      ]
+    },
+    {
+      "path": "templates/aigc/lineart-to-3d.json",
+      "sha256": "5c965b7fe1f436bc50116a6d32f643942c23ec50596aae85ce7607a457f94887",
+      "role": "template",
+      "sceneIds": [
+        "template--lineart-to-3d"
+      ]
+    },
+    {
+      "path": "templates/aigc/merchandise-set.json",
+      "sha256": "909e2aa6c07bef42141c747de4560ab44623aeca176b993c846b84b94432d172",
+      "role": "template",
+      "sceneIds": [
+        "template--merchandise-set"
+      ]
+    },
+    {
+      "path": "templates/aigc/outfit-sheet.json",
+      "sha256": "2bf3b329badecd3e16638ba4e073651058b733e4f493e3f9577c5b8001429d82",
+      "role": "template",
+      "sceneIds": [
+        "template--outfit-sheet"
+      ]
+    },
+    {
+      "path": "templates/aigc/plush-texture.json",
+      "sha256": "73938af0391cf2baee5929389c29662f57cbecd9386c250a983f77a012a42668",
+      "role": "template",
+      "sceneIds": [
+        "template--plush-texture"
+      ]
+    },
+    {
+      "path": "templates/aigc/turnaround-3view.json",
+      "sha256": "ac53560c2401f10fe76d07176d4e76838c1ebac742162693c43969e8ba2074fd",
+      "role": "template",
+      "sceneIds": [
+        "template--turnaround-3view"
+      ]
+    },
+    {
+      "path": "templates/dashboard/dashboard-style-system.json",
+      "sha256": "ab4799375df0d194275abe5fca20aaf9b01ebcb326574f46cc439bdbea2f818d",
+      "role": "template",
+      "sceneIds": [
+        "layout-patterns--layout-patterns",
+        "layout-patterns--color-staggered-dashboard",
+        "layout-patterns--industrial-zones-dashboard",
+        "layout-patterns--axial-observatory-dashboard",
+        "layout-patterns--glass-dot-matrix-dashboard",
+        "layout-patterns--warm-three-column-dashboard",
+        "template--dashboard-style-system"
+      ]
+    },
+    {
+      "path": "terms/agri-food-cooking.json",
+      "sha256": "1c3588cccb5da78f4ae47646497117e7d3c5d9173477ab2800e9e25780c98568",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/aigc.json",
+      "sha256": "dd815ac88bb160438ae6cc894ec971d0dcd0bc3f38ead4fcb39b33bc0400b285",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-core.json",
+      "sha256": "5f7a4f3ec6a40658cec659edfe0ef7e22066bdeb990f4a22c7556e3d87b5685c",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-core--gsap-core"
+      ]
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-frameworks.json",
+      "sha256": "ab363e8b6a7c15b7efb4f7f213ffb1f08a83e34b78d4e54d66325daa8ec93278",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-frameworks--gsap-frameworks"
+      ]
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-performance.json",
+      "sha256": "72316598e9d71e48ee4dca7107ce819ce159c1f4ad375357d8a9cf3ca44c2468",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-performance--gsap-performance"
+      ]
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-plugins.json",
+      "sha256": "3c92126717eed9fb0e3c26e44638d7f7cbeb3af8e5b5b666a1bf388a06677185",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-plugins--gsap-plugins"
+      ]
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-react-lifecycle.json",
+      "sha256": "35fd30eb72ec85e07b00f93f231f313dd53181f026e82ff50a56226829afc064",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-react-lifecycle--gsap-react-lifecycle"
+      ]
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-scrolltrigger.json",
+      "sha256": "a37f0c8fe8dba3b036f52431f8abc0ed0e6d2247cd85bc77f6abe9e91a3bbe81",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-scrolltrigger--gsap-scrolltrigger"
+      ]
+    },
+    {
+      "path": "terms/animation-tool-adapter/gsap-timeline.json",
+      "sha256": "7251382012d9714cd5801034a334ad2dc3391cc4e7cf3d2cb7baf0621dec501e",
+      "role": "leaf",
+      "sceneIds": [
+        "gsap-timeline--gsap-timeline"
+      ]
+    },
+    {
+      "path": "terms/architecture-civil-space.json",
+      "sha256": "0a852715205b17d75e31c55681adf449ec278ce02533915836f872d2003b5780",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/arts-aesthetics-design.json",
+      "sha256": "71c4513f5dc1092bc7f11e694ed9be726dacbf887ff81bd4fbf3c432a1f0fada",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/astronomy-earth-environment.json",
+      "sha256": "0e9cd90f13a9bd500e53886f16a060ad3e86e9de6adb7020a44ede26a8f833e4",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/backend.json",
+      "sha256": "f59daafeb2afe8b54a22711edd8fac36165ac7f5c10bb808d7a5cee6d48da642",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/biology-medicine-health.json",
+      "sha256": "44c1dc579bf3d9f014fa17ba05a3bafb6fb86664555de44b40885df5041f2b31",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/camera-language/camera-language.json",
+      "sha256": "ee09b46913823a09956096092d990bcf4b46477a233c096fdd9705330f209089",
+      "role": "leaf",
+      "sceneIds": [
+        "camera-language--camera-language"
+      ]
+    },
+    {
+      "path": "terms/character-ip/character-ip.json",
+      "sha256": "d36a98ce592184d981ea1014301fa250077d798d8ecdd5f56e824aca5ef0245a",
+      "role": "leaf",
+      "sceneIds": [
+        "character-ip--base-ip",
+        "character-ip--scene-module"
+      ]
+    },
+    {
+      "path": "terms/communications-electronics-hardware.json",
+      "sha256": "e43e0b0187cf7f6fe4ce4bcd1b3395eb88e52f2dc7684ea5aa6f9245e8ab32f3",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/component-design/damped-bottom-sheet.json",
+      "sha256": "af7fa5671714ab22f85cf05c8264abd37356bff1c21bced0ac1e4342a8127619",
+      "role": "leaf",
+      "sceneIds": [
+        "damped-bottom-sheet--damped-bottom-sheet",
+        "damped-bottom-sheet--tear-line-panel"
+      ]
+    },
+    {
+      "path": "terms/component-design/diffused-glow-border.json",
+      "sha256": "a61acfec7e92a3a5459843e56591bfe1debd37938bef2b906c7f367fe2e52cb1",
+      "role": "leaf",
+      "sceneIds": [
+        "diffused-glow-border--diffused-glow-border"
+      ]
+    },
+    {
+      "path": "terms/component-design/elastic-press-feedback.json",
+      "sha256": "e2a4496e77ed83a234503a86302b17cf92cca3553210c7534ca9073828de9033",
+      "role": "leaf",
+      "sceneIds": [
+        "elastic-press-feedback--elastic-press-feedback"
+      ]
+    },
+    {
+      "path": "terms/component-design/fluid-capsule-morph.json",
+      "sha256": "75617db45e3f9ad839bad7a5200027fea98ad922b117526f02d3d1654098a49b",
+      "role": "leaf",
+      "sceneIds": [
+        "fluid-capsule-morph--fluid-capsule-morph"
+      ]
+    },
+    {
+      "path": "terms/component-design/magnetic-cursor-odometer.json",
+      "sha256": "4dc714e9d1d97758aed28e4e53d23c0ed7597046d26104ca843399d497323977",
+      "role": "leaf",
+      "sceneIds": [
+        "magnetic-cursor-odometer--magnetic-cursor-odometer"
+      ]
+    },
+    {
+      "path": "terms/component-design/shared-element-expand.json",
+      "sha256": "fd4bfdcfb22fd6b2f5115bae95b3b1a1c1f5c777e317cea6e6ffdf15ade278bd",
+      "role": "leaf",
+      "sceneIds": [
+        "shared-element-expand--shared-element-expand"
+      ]
+    },
+    {
+      "path": "terms/component-design/spring-stagger-flow.json",
+      "sha256": "c1f131c0f8bd5760b2ea66a9746e7a19b4032e58d543cb4b04dd250047d08413",
+      "role": "leaf",
+      "sceneIds": [
+        "spring-stagger-flow--spring-stagger-flow"
+      ]
+    },
+    {
+      "path": "terms/component-design/tilt-light-panel.json",
+      "sha256": "a77f17c5eed2005d0df05afed459f7cf27f030eca53f338c9d5fceb97fd592b9",
+      "role": "leaf",
+      "sceneIds": [
+        "tilt-light-panel--tilt-light-panel"
+      ]
+    },
+    {
+      "path": "terms/composition/composition-language.json",
+      "sha256": "14d294177a0ad7c60dbedbdc6def30efe0fa599e5b4694959ee5b7bc4341bf40",
+      "role": "leaf",
+      "sceneIds": [
+        "composition-language--composition-language"
+      ]
+    },
+    {
+      "path": "terms/dashboard/grid-glass-dashboard.json",
+      "sha256": "e216ab243256a7261fa5ae56ee7f147c2c5155195968c6d84cb122f8b31bab94",
+      "role": "leaf",
+      "sceneIds": [
+        "grid-glass-dashboard--grid-glass-dashboard"
+      ]
+    },
+    {
+      "path": "terms/dashboard/grouped-sidebar-dashboard.json",
+      "sha256": "eaf0802cf7a80fd6f38d76a239164bc55a9f16b2a11d4aad7ab5eb7cefce4d6d",
+      "role": "leaf",
+      "sceneIds": [
+        "grouped-sidebar-dashboard--grouped-sidebar-dashboard"
+      ]
+    },
+    {
+      "path": "terms/dashboard/high-contrast.json",
+      "sha256": "51b026a407fcbe795edde8318d8556f08cbbee924ee66a46a4831c272d7ec26e",
+      "role": "leaf",
+      "sceneIds": [
+        "high-contrast--high-contrast"
+      ]
+    },
+    {
+      "path": "terms/dashboard/image-led-content.json",
+      "sha256": "0e0697e63b7d07e99b25e3f20d3ceb06f4814384e7cbd3044799be300d89d250",
+      "role": "leaf",
+      "sceneIds": [
+        "image-led-content--image-led-content"
+      ]
+    },
+    {
+      "path": "terms/dashboard/immersive-atmosphere.json",
+      "sha256": "c39dd533b31bef6344b4c41208097efb847c9ebae79935564ce4721f3e14b3b1",
+      "role": "leaf",
+      "sceneIds": [
+        "immersive-atmosphere--immersive-atmosphere"
+      ]
+    },
+    {
+      "path": "terms/dashboard/layout-patterns.json",
+      "sha256": "6058d3f8dba8c412616237d404eda6d9b2ba05e95bfc62a405122bb237163f04",
+      "role": "leaf",
+      "sceneIds": [
+        "layout-patterns--layout-patterns",
+        "layout-patterns--color-staggered-dashboard",
+        "layout-patterns--industrial-zones-dashboard",
+        "layout-patterns--axial-observatory-dashboard",
+        "layout-patterns--glass-dot-matrix-dashboard",
+        "layout-patterns--warm-three-column-dashboard",
+        "template--dashboard-style-system"
+      ]
+    },
+    {
+      "path": "terms/dashboard/minimal-data.json",
+      "sha256": "34f48437b4bfa4e196d5235a3cb378e9ac8a3a9a02b39271484295e5ff507340",
+      "role": "leaf",
+      "sceneIds": [
+        "minimal-data--minimal-data"
+      ]
+    },
+    {
+      "path": "terms/dashboard/single-dark-accent-dashboard.json",
+      "sha256": "1955783c1665ca477b541cf0ab20918f9ea435baa9f46b80905fbe3388537547",
+      "role": "leaf",
+      "sceneIds": [
+        "single-dark-accent-dashboard--single-dark-accent-dashboard"
+      ]
+    },
+    {
+      "path": "terms/dashboard/tonal-dark-dashboard.json",
+      "sha256": "0a830418dc9d5970bc84124f3ad0e4058dddf893ef1db212149e051fb046f0db",
+      "role": "leaf",
+      "sceneIds": [
+        "tonal-dark-dashboard--tonal-dark-dashboard"
+      ]
+    },
+    {
+      "path": "terms/dashboard/warm-minimal.json",
+      "sha256": "a3ed35e9027197b22db8c5a0e185ce4bb526918be239e934fc12d158aaf4dee0",
+      "role": "leaf",
+      "sceneIds": [
+        "warm-minimal--warm-minimal"
+      ]
+    },
+    {
+      "path": "terms/design-system/living-style-guide-preview.json",
+      "sha256": "d52c511df3f672c250855558a15f244c41c031e6c2baa1bc1ca95cf47c1ac5ba",
+      "role": "leaf",
+      "sceneIds": [
+        "living-style-guide-preview--living-style-guide-preview"
+      ]
+    },
+    {
+      "path": "terms/design-tokens/token-system.json",
+      "sha256": "1f7f907f406924a8ffc8ec8519a0e436483992e431e1f7a9aa563df2c1af832d",
+      "role": "leaf",
+      "sceneIds": [
+        "token-system--token-system"
+      ]
+    },
+    {
+      "path": "terms/economics-management-finance.json",
+      "sha256": "8c49ee00f44ceff66699ad6f69b9c04ee771272b2a88b3126954a5a978117f27",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/education-sports.json",
+      "sha256": "29f021930916b8251ba4c30e5bf352efcc94e084d7822b3184e9864479be2d49",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/history-geography-travel.json",
+      "sha256": "047f6db1762742a262411d58e155aa3742bcde4d16c3c5fae99bfa943c57af31",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/image-prompt/prompt-blocks.json",
+      "sha256": "a8a56219672e0dd9d9cea61c5d1e1a37f2cb92abcc2ebbed779e4cd68f46152c",
+      "role": "leaf",
+      "sceneIds": [
+        "prompt-blocks--prompt-blocks"
+      ]
+    },
+    {
+      "path": "terms/industrial-mechanical-manufacturing.json",
+      "sha256": "8160eb690ee23b99b3e90843ecd41d26a00b602b39c45b4e2a59ef6db1655d58",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/information-architecture/information-hierarchy.json",
+      "sha256": "2c570a47cd2d39c3e82d35fcf26e1cc3d1cab02cb6c23af808dfab0340458210",
+      "role": "leaf",
+      "sceneIds": [
+        "information-hierarchy--information-hierarchy"
+      ]
+    },
+    {
+      "path": "terms/interaction/accessibility.json",
+      "sha256": "987725b026cda2a4561f4757e9ce70ee9ea1bca871065e7644a62d3737c55a90",
+      "role": "leaf",
+      "sceneIds": [
+        "motion-accessibility--undo-aria",
+        "motion-accessibility--undo-live"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/before-after-slider.json",
+      "sha256": "ab5e823e9c610fc3d792fe5bac9244197f5567466af351637a799dbd5b83e5d5",
+      "role": "leaf",
+      "sceneIds": [
+        "before-after-slider--before-after-slider"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/drag-to-absorb.json",
+      "sha256": "27e8a0724eafc88ba724183b14e8e4a17f5d4e9ca453f8010ae141ff8756d17d",
+      "role": "leaf",
+      "sceneIds": [
+        "drag-to-absorb--drag-to-absorb"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/edge-docked-fab.json",
+      "sha256": "f7b971d22fceeaa8c36cd602d6ce6dbefa699f8322786d8ce7673a018902c05b",
+      "role": "leaf",
+      "sceneIds": [
+        "edge-docked-fab--edge-docked-fab"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/inertial-wheel.json",
+      "sha256": "d75a5677731bbdc82b91bfd39327d0cf8e07d09cc8de7e95ba96ef00f0aff44b",
+      "role": "leaf",
+      "sceneIds": [
+        "inertial-wheel--inertial-wheel"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/long-press-preview.json",
+      "sha256": "b026aa6b809bdb39ac643d3c9af9c62af38af520a9d504debc0ab142d057de48",
+      "role": "leaf",
+      "sceneIds": [
+        "long-press-preview--long-press-preview"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/perspective-carousel.json",
+      "sha256": "d891c12eebafb9f37250a794f6030abc9ce79f43548eb452bfae4cb741223a4e",
+      "role": "leaf",
+      "sceneIds": [
+        "perspective-carousel--perspective-carousel",
+        "perspective-carousel--stacked-card-carousel"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/press-and-hold-confirm.json",
+      "sha256": "d9e4906458a2ded25f896a5fbf3ca3c46a6e47e5b27e9e38a0086bc41a6a11f7",
+      "role": "leaf",
+      "sceneIds": [
+        "press-and-hold-confirm--press-and-hold-confirm"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/radial-menu.json",
+      "sha256": "a4651a0ede49562ecdc853e3bb3df3ab32c2e70f990091b3baf531b6483a7ab5",
+      "role": "leaf",
+      "sceneIds": [
+        "radial-menu--radial-menu"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/rotary-knob.json",
+      "sha256": "1aa6768aa0648224b393b7dfea526d9562f2815fd2410a9ad9bdea2274fb2590",
+      "role": "leaf",
+      "sceneIds": [
+        "rotary-knob--rotary-knob"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/segmented-progress.json",
+      "sha256": "85ab994c7144c7c6c64b12b55ebc94e9db1bd3ce4f01faecfdb45c17fab3993a",
+      "role": "leaf",
+      "sceneIds": [
+        "segmented-progress--segmented-progress"
+      ]
+    },
+    {
+      "path": "terms/interaction/advanced/slide-to-confirm.json",
+      "sha256": "8f9986e5e7f808e64bcab02ce3f6d0f74364b9c38018d38fdbdcb56a914445b1",
+      "role": "leaf",
+      "sceneIds": [
+        "slide-to-confirm--slide-to-confirm"
+      ]
+    },
+    {
+      "path": "terms/interaction/bottom-sheet.json",
+      "sha256": "f82133d92958e0229d0ab51b28e314b31471bfd79d6313d42d76bea6af9a0024",
+      "role": "leaf",
+      "sceneIds": [
+        "bottom-sheet--bottom-sheet"
+      ]
+    },
+    {
+      "path": "terms/interaction/burst-feedback.json",
+      "sha256": "bb5ca0f12ca28cbb6be1e333d94a2272314f773e202299b3dbc4f65420eca670",
+      "role": "leaf",
+      "sceneIds": [
+        "burst-feedback--burst-feedback"
+      ]
+    },
+    {
+      "path": "terms/interaction/card-flip.json",
+      "sha256": "fc91c4bc9175e7909dd86acfde105d6983323e38815df777d52a1a854781b49f",
+      "role": "leaf",
+      "sceneIds": [
+        "card-flip--card-flip"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/button-stepper-morph.json",
+      "sha256": "548b04e50ecbb9c1441bb59d219419b4b6fb52fc21be478871faf482f7f6bbc6",
+      "role": "leaf",
+      "sceneIds": [
+        "button-stepper-morph--button-stepper-morph"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/checkbox-cascade.json",
+      "sha256": "000cbcd611a87b3299b683b24954b0496d2a87c618f50c2af0e54a622fb29460",
+      "role": "leaf",
+      "sceneIds": [
+        "checkbox-cascade--checkbox-cascade"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/fab-panel-morph.json",
+      "sha256": "17123c68684c269ed7d4d1ec77f5bace0a89d5648a5caa08144b82a57e293913",
+      "role": "leaf",
+      "sceneIds": [
+        "fab-panel-morph--fab-panel-morph"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/fullscreen-reveal-menu.json",
+      "sha256": "a168de9f2a10656c3950f1cafbc85c4350957bd85213d6b033ffd632c2eca7d6",
+      "role": "leaf",
+      "sceneIds": [
+        "fullscreen-reveal-menu--fullscreen-reveal-menu"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/icon-morph.json",
+      "sha256": "596fcf0f1b40c21d54266268c3d79bd25f0a80ccf96252519ad6cb3a798d4838",
+      "role": "leaf",
+      "sceneIds": [
+        "icon-morph--icon-morph"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/inline-detail-expand.json",
+      "sha256": "1e8b19e883723afe3e96fdb3d07c7faf9ec5f0842e368cddfe2894a856aae4ec",
+      "role": "leaf",
+      "sceneIds": [
+        "inline-detail-expand--inline-detail-expand"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/list-grid-flip.json",
+      "sha256": "7f903f919096265ae21fb2dd351b49f283ea5fb2957954053c4bc0e3a0d8ca2c",
+      "role": "leaf",
+      "sceneIds": [
+        "list-grid-flip--list-grid-flip"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/radial-reveal-transition.json",
+      "sha256": "1eadd6675e03037290d91bef1cb4839fb64b9b2754794f6af81e2756a251b6d5",
+      "role": "leaf",
+      "sceneIds": [
+        "radial-reveal-transition--radial-reveal-transition"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/scroll-header-collapse.json",
+      "sha256": "f0e28df16b51e1c99bbc8053101ec5524362e41bc56d1e9187ba6c401d201d57",
+      "role": "leaf",
+      "sceneIds": [
+        "scroll-header-collapse--scroll-header-collapse"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/search-expand.json",
+      "sha256": "920e2d7907ca671dd18e73f6a5af2e32fbd08be20dea31bd0f65b1021ecd3aa2",
+      "role": "leaf",
+      "sceneIds": [
+        "search-expand--search-expand"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/snap-card-timeline.json",
+      "sha256": "9f12271c5201f6f8a3d7677b6fefdd8410de56d70f7b99f757ac16b2696e1e7b",
+      "role": "leaf",
+      "sceneIds": [
+        "snap-card-timeline--snap-card-timeline"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/stack-card-expand.json",
+      "sha256": "48ae35f95538ff96b8508f17ce88a7c8f7c3e135fd9297991ed5c3909a4257e6",
+      "role": "leaf",
+      "sceneIds": [
+        "stack-card-expand--stack-card-expand"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/submit-state-machine.json",
+      "sha256": "39b7a7aaf5b0808cdd81ef4c94639adab8f6cb38dbc1e5c8651bad20d47db59c",
+      "role": "leaf",
+      "sceneIds": [
+        "submit-state-machine--submit-state-machine",
+        "submit-state-machine--save-progress-ring"
+      ]
+    },
+    {
+      "path": "terms/interaction/continuous/tab-indicator-spring.json",
+      "sha256": "a81dc2214125afbd3223425a5ba92698794e519300c259c7de1d695de70dca07",
+      "role": "leaf",
+      "sceneIds": [
+        "tab-indicator-spring--tab-indicator-spring"
+      ]
+    },
+    {
+      "path": "terms/interaction/count-animation.json",
+      "sha256": "e6460bcfe9bb2fcbd26c2a34380e9b367a9a0634078bf281ed387b2bbd940d90",
+      "role": "leaf",
+      "sceneIds": [
+        "count-animation--count-animation"
+      ]
+    },
+    {
+      "path": "terms/interaction/draw-success.json",
+      "sha256": "fdfde9d4268cab6c875af5cbd0af0695283e0c18367ef00a4ef34a096eaf77be",
+      "role": "leaf",
+      "sceneIds": [
+        "draw-success--draw-success"
+      ]
+    },
+    {
+      "path": "terms/interaction/flip-reentry.json",
+      "sha256": "3d1293ed1f259bbfc35952113d88631bc0fedd611d4c79859fe196439ea2e702",
+      "role": "leaf",
+      "sceneIds": [
+        "flip-reentry--flip",
+        "flip-reentry--placeholder"
+      ]
+    },
+    {
+      "path": "terms/interaction/follow.json",
+      "sha256": "c0a16810bb4a12b89ec690022271e50401c8ecdc43acba1319061f199cdcdcff",
+      "role": "leaf",
+      "sceneIds": [
+        "follow--follow"
+      ]
+    },
+    {
+      "path": "terms/interaction/interruption.json",
+      "sha256": "5d5ba17d9d599b45a5dd0178cac34a83e1c6e262b76a5d2db45ba648b3ce8311",
+      "role": "leaf",
+      "sceneIds": [
+        "interruption--interruption"
+      ]
+    },
+    {
+      "path": "terms/interaction/liquid-slider.json",
+      "sha256": "3c13bd23f981ae97ec0ceb8d25d1d78828908ebd8c458f35c95517d14176f2d3",
+      "role": "leaf",
+      "sceneIds": [
+        "liquid-slider--liquid-slider"
+      ]
+    },
+    {
+      "path": "terms/interaction/morph-icon.json",
+      "sha256": "e7c9374386766de3617a19d983efaaa57430156ddbd0f869145926b824a15f4d",
+      "role": "leaf",
+      "sceneIds": [
+        "morph-icon--morph-icon"
+      ]
+    },
+    {
+      "path": "terms/interaction/reverse-animation.json",
+      "sha256": "75ff7ff8cce0fe25de11b6eb1fdf817c802cd5a7d796fec3f4827ac70b06ddcb",
+      "role": "leaf",
+      "sceneIds": [
+        "reverse-animation--reverse-path",
+        "reverse-animation--reentry-highlight",
+        "reverse-animation--reduced-motion"
+      ]
+    },
+    {
+      "path": "terms/interaction/ripple-button.json",
+      "sha256": "f592bf2cc0590ae32a7d9f1d47fdea2375a51bd0aac4b725acfe6bd233710c17",
+      "role": "leaf",
+      "sceneIds": [
+        "ripple-button--ripple-button"
+      ]
+    },
+    {
+      "path": "terms/interaction/skeleton-shimmer.json",
+      "sha256": "06fc81612610a8fbfc69839752b4af2d972c5ebd84a273aa4159c1db69135dda",
+      "role": "leaf",
+      "sceneIds": [
+        "skeleton-shimmer--skeleton-shimmer"
+      ]
+    },
+    {
+      "path": "terms/interaction/snap.json",
+      "sha256": "60cd157f42ba6525667b52e3b95b78b69504b4c5edae23c3942a9b19adef3d4c",
+      "role": "leaf",
+      "sceneIds": [
+        "snap--snap"
+      ]
+    },
+    {
+      "path": "terms/interaction/spring-press.json",
+      "sha256": "f702dd7ec592a6b6155cdbf4e0c8eb1c475b9db7925d973b4f071d6e9840dfe0",
+      "role": "leaf",
+      "sceneIds": [
+        "spring-press--spring-press"
+      ]
+    },
+    {
+      "path": "terms/interaction/squash-toggle.json",
+      "sha256": "4433e5fdb0a29c690e6b650b1eb347ae9b9396efec3d3a23956283af4583b56b",
+      "role": "leaf",
+      "sceneIds": [
+        "squash-toggle--squash-toggle"
+      ]
+    },
+    {
+      "path": "terms/interaction/stack-card.json",
+      "sha256": "5f5026af52a1a87cf4b494c534d647cc909535551ae7e62042ce7456f18486a6",
+      "role": "leaf",
+      "sceneIds": [
+        "stack-card--stack-card"
+      ]
+    },
+    {
+      "path": "terms/interaction/threshold.json",
+      "sha256": "777597c9dd0b8a8bcb3dc1ac9348f5fd2003579f86bdc53d46454478a4b98ab0",
+      "role": "leaf",
+      "sceneIds": [
+        "threshold--threshold"
+      ]
+    },
+    {
+      "path": "terms/interaction/undo-window.json",
+      "sha256": "a93149f4735c9960b0c112b8483d7ad9c33b97a7be0fbe6132281064f6af5c94",
+      "role": "leaf",
+      "sceneIds": [
+        "undo-window--undo-window",
+        "undo-window--progress-feedback",
+        "undo-window--pause-on-focus"
+      ]
+    },
+    {
+      "path": "terms/interaction/velocity-inheritance.json",
+      "sha256": "4ae3ff6106498b836bbfe968beaac53b8dc3ce721524fb09dff02c977e7ccbe9",
+      "role": "leaf",
+      "sceneIds": [
+        "velocity-inheritance--velocity-inheritance"
+      ]
+    },
+    {
+      "path": "terms/language-literature-writing.json",
+      "sha256": "740f1d750c6a1bbccf61f3b17098ea745f443473025be46fb5bdd315664a8222",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/law-politics-military.json",
+      "sha256": "299ac418ca7d6c61b0558a8e20d0cbe33e927ba41284403cd309cf60c22525f0",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/material-style/material-library.json",
+      "sha256": "bb7d1e3f7429e69c2a325dda02ebedcccfa91c2a92c54aa5bacb03fcec46dcab",
+      "role": "leaf",
+      "sceneIds": [
+        "material-library--material-library"
+      ]
+    },
+    {
+      "path": "terms/math-chemistry-statistics.json",
+      "sha256": "9fa0bd9ecc3fe7434d269edd190f00c3041c118af08d8c395265d683aedfac09",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/motion-control/motion-language.json",
+      "sha256": "40fe88dbd8e28ed56fa388fba221a9be7037169bab0916d97017a187d7aa06b0",
+      "role": "leaf",
+      "sceneIds": [
+        "motion-language--motion-language"
+      ]
+    },
+    {
+      "path": "terms/negative-prompt/negative-constraints.json",
+      "sha256": "9060a32b14ac5f828f0c5fa1dfb50dda5acfb02cb685d83ca8ed4a47f260397f",
+      "role": "leaf",
+      "sceneIds": [
+        "negative-constraints--negative-constraints"
+      ]
+    },
+    {
+      "path": "terms/news-media-advertising.json",
+      "sha256": "a27e7b1e9b1c71aebf1a6120fe5f2b2ef9386d3e15a7c9581bc24f4f0ef34934",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/philosophy-psychology-religion.json",
+      "sha256": "d6b3061b490b09f3bd66466236955f4202dd5e10d0a3f3209411687730a6bbf9",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/platform-research/gpui-desktop-web.json",
+      "sha256": "68c3a970cebae27d29fee019f6b2bcd81bc8fba17daa8baf60cbd478d6fc2f6c",
+      "role": "leaf",
+      "sceneIds": [
+        "gpui-desktop-web--gpui-desktop-web"
+      ]
+    },
+    {
+      "path": "terms/platform-research/gpui-mobile.json",
+      "sha256": "e15e6204316225687b19de9fdec8dc16d55425d155e07e31831cc44adfee56de",
+      "role": "leaf",
+      "sceneIds": [
+        "gpui-mobile--gpui-mobile"
+      ]
+    },
+    {
+      "path": "terms/platform-research/three-ui-catalog.json",
+      "sha256": "4f67424d7f8bf5f2b82c35154e18f43b0fa56cd402528ce6cedb105e3319aed6",
+      "role": "leaf",
+      "sceneIds": [
+        "three-ui-catalog--three-ui-catalog"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/availability-patterns.json",
+      "sha256": "ca93e0c6337dbe2db2e48938da0e4c99caad0f8b2dee1cd40ea0b18da08f1ebd",
+      "role": "leaf",
+      "sceneIds": [
+        "availability-patterns--availability-patterns"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/capacity-model.json",
+      "sha256": "733a71c7d7127944bc935150f60038432d5aaa5f04def185908ac22ceeecf3dd",
+      "role": "leaf",
+      "sceneIds": [
+        "capacity-model--capacity-model"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/cross-platform-rendering.json",
+      "sha256": "d0a0f8744821a3d23c9be9a46325a6ecd2b5c83627af2acb449dba059c982d3f",
+      "role": "leaf",
+      "sceneIds": [
+        "cross-platform-rendering--cross-platform-rendering"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/frontend-runtime.json",
+      "sha256": "985d124c99059db0cbcaf8dc658603b9419a503d164df329a0df249cc9faf811",
+      "role": "leaf",
+      "sceneIds": [
+        "frontend-runtime--frontend-runtime"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/idempotency-contract.json",
+      "sha256": "d731e41f6cbffc060079a8fbb24374ab22f9b15235a0c33b1dbcd029380c41fd",
+      "role": "leaf",
+      "sceneIds": [
+        "idempotency-contract--idempotency-contract"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/observability-contract.json",
+      "sha256": "f7637151bceb728654f1d78317466b15e0046052386bacdddf51f76b0a217209",
+      "role": "leaf",
+      "sceneIds": [
+        "observability-contract--observability-contract"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/scaling-strategies.json",
+      "sha256": "2c5534d2a39bff24b86564eb7c669d37376f11ffb74d75c1567a42c525496572",
+      "role": "leaf",
+      "sceneIds": [
+        "scaling-strategies--scaling-strategies"
+      ]
+    },
+    {
+      "path": "terms/software-engineering/service-boundary.json",
+      "sha256": "b7fb8ad66d5d1352c673c34cd079cb837d81dacda606b5f22c2f51298c6812b4",
+      "role": "leaf",
+      "sceneIds": [
+        "service-boundary--service-boundary"
+      ]
+    },
+    {
+      "path": "terms/tool-adapter/tool-parameters.json",
+      "sha256": "6fadcfe2d9a0600c38a860206f143b89116db4078c2caa29036b76357bd31a83",
+      "role": "leaf",
+      "sceneIds": [
+        "tool-parameters--tool-parameters"
+      ]
+    },
+    {
+      "path": "terms/uiux.json",
+      "sha256": "f66fea8b2167b1f52252ebec06dcb926454b1d62080df7ce0e75645f7cd8132e",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/video-prompt/video-direction.json",
+      "sha256": "0982397ae545130f1eaeacfbb461b186ac38c1dab8b81e95ecfb8d8c1b4d6def",
+      "role": "leaf",
+      "sceneIds": [
+        "video-direction--video-direction"
+      ]
+    },
+    {
+      "path": "terms/visual-effects/cover-color-ambient-glow.json",
+      "sha256": "d27f172f4a39067e817bc7705d635f7a12bb7fc0a6a9ab46bd0e1e435110c3aa",
+      "role": "leaf",
+      "sceneIds": [
+        "cover-color-ambient-glow--cover-color-ambient-glow"
+      ]
+    },
+    {
+      "path": "terms/visual-effects/cylindrical-list.json",
+      "sha256": "f39ecf189c4bfd2be08580cbe0aacef5da48ba5c9e86ee409ae35948c6ea974a",
+      "role": "leaf",
+      "sceneIds": [
+        "cylindrical-list--cylindrical-list"
+      ]
+    },
+    {
+      "path": "terms/visual-effects/depth-layer-scroll.json",
+      "sha256": "a45b26fbbc8df335a04d31380dd95df9c67292d14f66821dfc763826d2d03f52",
+      "role": "leaf",
+      "sceneIds": [
+        "depth-layer-scroll--depth-layer-scroll"
+      ]
+    },
+    {
+      "path": "terms/visual-effects/liquid-adhesion-drag.json",
+      "sha256": "5226c9d59dc21237cc4cd86517d1295deaa357365d64b9ad8eda9f69d58d830c",
+      "role": "leaf",
+      "sceneIds": [
+        "liquid-adhesion-drag--liquid-adhesion-drag"
+      ]
+    },
+    {
+      "path": "terms/visual-effects/liquid-glass-bar.json",
+      "sha256": "bc79092e7be984aa7e3078f85b75722da54039a449e51d6ae9a49f9aa42b55e4",
+      "role": "leaf",
+      "sceneIds": [
+        "liquid-glass-bar--liquid-glass-bar"
+      ]
+    },
+    {
+      "path": "terms/visual-layout/composition-patterns.json",
+      "sha256": "8bb93fb7c0dce5f18fb7c659fb6e5b15047e76543a6a9d704e6ce04c1fadb7e9",
+      "role": "leaf",
+      "sceneIds": [
+        "composition-patterns--composition-patterns"
+      ]
+    },
+    {
+      "path": "terms/workplace.json",
+      "sha256": "d811a1c9cea3fdb3560f2d9ca117d816770d8d26518ebd5a6f56c20218f89fc3",
+      "role": "legacy-reference",
+      "sceneIds": []
+    },
+    {
+      "path": "terms/workplace/action-item.json",
+      "sha256": "05465925fe0a7ab0945f4b4a5f34889e7eeb362c9ddf2dfef730a9edd0e96d83",
+      "role": "leaf",
+      "sceneIds": [
+        "action-item--action-item"
+      ]
+    },
+    {
+      "path": "terms/workplace/dependency-alignment.json",
+      "sha256": "0641176f71fe8d399d11d054d373e7aedf06f4da519e74be253218e201423652",
+      "role": "leaf",
+      "sceneIds": [
+        "dependency-alignment--dependency-alignment"
+      ]
+    },
+    {
+      "path": "terms/workplace/goal-metric.json",
+      "sha256": "c581026147c6375a2f79502e78be43af42fed372cd926e9b614fa5814fc7ba7f",
+      "role": "leaf",
+      "sceneIds": [
+        "goal-metric--goal-metric"
+      ]
+    },
+    {
+      "path": "terms/workplace/jargon-translation.json",
+      "sha256": "b2a573e13fbd0e904f50c70b3939068455b2538be53b6a548fb16425c499cb79",
+      "role": "leaf",
+      "sceneIds": [
+        "jargon-translation--jargon-translation"
+      ]
+    },
+    {
+      "path": "terms/workplace/management-mechanism.json",
+      "sha256": "05e57dc368b8e3809e0eadc45dc421a36c54f2b2656a21d63fc02769d01de154",
+      "role": "leaf",
+      "sceneIds": [
+        "management-mechanism--management-mechanism"
+      ]
+    }
+  ]
+}

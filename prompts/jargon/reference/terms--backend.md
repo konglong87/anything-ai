@@ -1,0 +1,380 @@
+---
+title: "后端与软件工程需求澄清术语包（幂等子域草案） · 旧版原文"
+difficulty: beginner
+roles: [everyone]
+type: guide
+duration: 5min
+tags: [提示词, Jargon]
+---
+
+# 后端与软件工程需求澄清术语包（幂等子域草案）
+
+[返回所属领域](/prompts/jargon/domains/software-engineering-architecture.html) · [完整来源](../sources.md)
+
+::: warning 旧版聚合包，非新增模板
+本包与渐进式叶子有重叠；保留全部原文便于学习，不重复计入场景数量。
+:::
+
+## 原文
+
+
+````json
+{
+  "schema_version": "1.0.0",
+  "package_id": "backend-core",
+  "domain_id": "software-engineering-architecture",
+  "title": "后端与软件工程需求澄清术语包（幂等子域草案）",
+  "version": "0.1.0",
+  "status": "published",
+  "intents": [
+    {
+      "id": "design-write",
+      "action": "设计",
+      "object": "非支付写入 API 的重复处理契约"
+    },
+    {
+      "id": "diagnose-write",
+      "action": "排查",
+      "object": "重复写入或响应不明的现象"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "identity",
+      "name": "操作身份",
+      "definition": "约定哪一笔操作算同一笔；识别范围包括调用方或租户以及操作种类，不能仅由内容相同推断。",
+      "value_type": "selection"
+    },
+    {
+      "id": "retry",
+      "name": "结果不明时的重试策略",
+      "definition": "规定结果不明时是按已支持的契约复用请求身份，还是暂停自动提交并核实。",
+      "value_type": "selection"
+    },
+    {
+      "id": "payload",
+      "name": "同身份内容变化规则",
+      "definition": "同一操作身份再次出现时，如何处理影响业务意图的内容变化。",
+      "value_type": "selection"
+    },
+    {
+      "id": "concurrency",
+      "name": "处理中重复请求的响应方式",
+      "definition": "首个同身份操作尚未完成时，重复到达者得到处理中状态还是明确拒绝。",
+      "value_type": "selection"
+    },
+    {
+      "id": "retention",
+      "name": "重复识别记录保留窗口",
+      "definition": "从明确约定的起点保留操作识别记录的时长，以 h 表示；到期与清理行为需另述。",
+      "value_type": "continuous"
+    },
+    {
+      "id": "protection",
+      "name": "结果与写入记录保护",
+      "definition": "为重复请求记录可关联的结果，并要求识别记录和业务变更在声明边界内一致生效。",
+      "value_type": "multi_select"
+    },
+    {
+      "id": "symptom",
+      "name": "可观察的写入现象",
+      "definition": "记录时间线、请求身份是否相同、响应及可见写入结果；只保留观察，不把超时判断为失败。",
+      "value_type": "free_text"
+    },
+    {
+      "id": "availability",
+      "name": "高可用目标",
+      "definition": "系统在故障、发布或依赖异常时继续提供服务的目标与边界。",
+      "value_type": "selection"
+    },
+    {
+      "id": "capacity",
+      "name": "并发与流量模型",
+      "definition": "明确并发用户、请求速率、峰值、突发和延迟目标。",
+      "value_type": "selection"
+    },
+    {
+      "id": "scalability",
+      "name": "扩展策略",
+      "definition": "明确通过加机器、分片、缓存或异步化应对增长的方式。",
+      "value_type": "selection"
+    },
+    {
+      "id": "resilience",
+      "name": "容错与降级",
+      "definition": "明确超时、重试、熔断、限流和降级的组合。",
+      "value_type": "multi_select"
+    },
+    {
+      "id": "observability",
+      "name": "可观测性",
+      "definition": "明确指标、日志、追踪、告警和故障定位要求。",
+      "value_type": "multi_select"
+    }
+  ],
+  "terms": [
+    {
+      "id": "caller-key",
+      "term": "调用方提供的操作编号",
+      "plain_language": "每一笔新操作有自己的编号；重发同一笔时保留编号，内容相同的两笔操作仍可分开。",
+      "benefit": "调用方能明确表达是在重发还是创建另一笔。",
+      "cost": "双方要管理编号生成、传递、作用范围和生命周期。",
+      "dimension_id": "identity"
+    },
+    {
+      "id": "business-key",
+      "term": "业务唯一标识",
+      "plain_language": "按业务约定的唯一编号识别一笔操作，而不是只看提交内容是否一样。",
+      "benefit": "复用已有业务身份，便于核实对应记录。",
+      "cost": "编号重用、多次合法修改和不同操作可能冲突，需要业务裁定。",
+      "dimension_id": "identity"
+    },
+    {
+      "id": "retry-same-key",
+      "term": "同键重试",
+      "plain_language": "确认服务支持后，重发同一笔时沿用原编号和原业务内容，不因超时换新编号。",
+      "benefit": "减少结果不明时由调用方重复发起新操作的风险。",
+      "cost": "需要额外状态、故障恢复与窗口边界设计；不表示所有失败均可重试。",
+      "dimension_id": "retry"
+    },
+    {
+      "id": "manual-reconcile",
+      "term": "暂停自动重试并核实",
+      "plain_language": "先停止自动重复提交，查清原操作是否生效，再由负责人决定后续处理。",
+      "benefit": "在重试契约尚不明确时避免直接重复提交。",
+      "cost": "恢复较慢且需要人员参与；查询本身未必足以消除所有不确定性。",
+      "dimension_id": "retry"
+    },
+    {
+      "id": "reject-mismatch",
+      "term": "拒绝同身份内容不一致",
+      "plain_language": "同一编号再次提交时，约定参与比较的内容变了就拒绝，不悄悄覆盖原操作。",
+      "benefit": "暴露编号误用或不同业务意图。",
+      "cost": "需要保存可核对信息，调用方还要处理拒绝和业务修改流程。",
+      "dimension_id": "payload"
+    },
+    {
+      "id": "report-in-progress",
+      "term": "告知原操作处理中",
+      "plain_language": "原操作还在做，就告诉后来者仍在处理，不再启动一份，也不假装已经成功。",
+      "benefit": "调用方可以区分处理中与已完成。",
+      "cost": "需要处理中状态及后续获取结果的契约。",
+      "dimension_id": "concurrency"
+    },
+    {
+      "id": "reject-in-progress",
+      "term": "拒绝处理中重复请求",
+      "plain_language": "原操作还在做时，明确拒绝这次重复提交；这不说明原操作失败了。",
+      "benefit": "并发冲突明确暴露给调用方。",
+      "cost": "调用方需要处理冲突和后续核实，不能把拒绝当作可换新编号的证据。",
+      "dimension_id": "concurrency"
+    },
+    {
+      "id": "record-result",
+      "term": "保存可关联的操作结果",
+      "plain_language": "留下这笔操作的处理结果或可查询结果的关联记录，让重发者能知道原操作的结果。",
+      "benefit": "减少重复请求对原操作归属和结果的疑问。",
+      "cost": "需要结果存储或可恢复关联，并处理隐私、生命周期及状态变化。",
+      "dimension_id": "protection"
+    },
+    {
+      "id": "atomic-record",
+      "term": "识别记录与业务变更原子生效",
+      "plain_language": "在约定的服务写入边界内，操作识别记录与业务变更要么一起生效，要么都不生效。",
+      "benefit": "避免仅记住编号却未写入，或已写入却没有识别记录的间隙。",
+      "cost": "需要一致性与故障恢复设计和失败测试，不是加一个键就实现。",
+      "dimension_id": "protection"
+    },
+    {
+      "id": "ha-redundancy",
+      "term": "故障域冗余",
+      "plain_language": "关键组件跨实例、节点或可用区部署，单点故障不直接中断服务。",
+      "benefit": "提高故障承受能力。",
+      "cost": "成本、部署和数据一致性复杂度增加。",
+      "dimension_id": "availability"
+    },
+    {
+      "id": "ha-failover",
+      "term": "故障转移与恢复目标",
+      "plain_language": "明确 RTO、RPO、健康检查和切换方式。",
+      "benefit": "把高可用从口号变成可验证目标。",
+      "cost": "需要演练和监控。",
+      "dimension_id": "availability"
+    },
+    {
+      "id": "capacity-rps",
+      "term": "请求速率模型",
+      "plain_language": "用平均值、峰值、突发和增长率描述流量，而不是只说“高并发”。",
+      "benefit": "容量评估有输入依据。",
+      "cost": "需要真实或合理的流量数据。",
+      "dimension_id": "capacity"
+    },
+    {
+      "id": "capacity-p95",
+      "term": "P95/P99 延迟目标",
+      "plain_language": "明确接口、负载、统计窗口和 P95/P99 延迟目标。",
+      "benefit": "性能目标可测量。",
+      "cost": "目标越高，资源成本越大。",
+      "dimension_id": "capacity"
+    },
+    {
+      "id": "scale-horizontal",
+      "term": "水平扩展",
+      "plain_language": "通过增加无状态实例分摊请求。",
+      "benefit": "适合持续增长和弹性流量。",
+      "cost": "需要处理共享状态和数据瓶颈。",
+      "dimension_id": "scalability"
+    },
+    {
+      "id": "scale-sharding",
+      "term": "分片扩展",
+      "plain_language": "按租户、业务键或范围拆分数据与负载。",
+      "benefit": "突破单库或单节点容量边界。",
+      "cost": "跨分片查询和迁移更复杂。",
+      "dimension_id": "scalability"
+    },
+    {
+      "id": "resilience-timeout",
+      "term": "超时与限时",
+      "plain_language": "为依赖调用设置明确超时和截止时间。",
+      "benefit": "避免线程或连接长期占用。",
+      "cost": "过短会增加失败率。",
+      "dimension_id": "resilience"
+    },
+    {
+      "id": "resilience-circuit",
+      "term": "熔断与降级",
+      "plain_language": "依赖异常时停止放大故障，并返回受控的降级结果。",
+      "benefit": "降低级联故障风险。",
+      "cost": "部分功能不可用，需明确用户体验。",
+      "dimension_id": "resilience"
+    },
+    {
+      "id": "obs-sli",
+      "term": "SLI/SLO 指标",
+      "plain_language": "用可用性、延迟、错误率等指标和目标描述服务状态。",
+      "benefit": "告警和改进有依据。",
+      "cost": "需要稳定采集和误差预算。",
+      "dimension_id": "observability"
+    },
+    {
+      "id": "obs-trace",
+      "term": "分布式追踪",
+      "plain_language": "为跨服务请求关联 trace 和 span。",
+      "benefit": "更快定位链路瓶颈。",
+      "cost": "采集、存储和隐私治理成本增加。",
+      "dimension_id": "observability"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "每笔操作由调用方提供独立编号，同一笔保留编号",
+      "level": "L1",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "identity"
+      ],
+      "reason": "表达明确身份方向，尚未说明的重试、内容及并发规则仍需处理。"
+    },
+    {
+      "expression": "调用方每笔给编号，重发沿用原编号和内容；保存结果关联，识别记录与业务变更一起生效；内容不一致拒绝，原操作未完成就告知处理中",
+      "level": "L1",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "identity",
+        "retry",
+        "payload",
+        "concurrency",
+        "protection"
+      ],
+      "reason": "完整表达显式包含全部依赖和四个必填维度，不从单说重试偷加保护措施；窗口未给仍是待定。"
+    },
+    {
+      "expression": "按约定唯一的业务编号识别；结果不明先停下人工核实；内容不一致拒绝，仍在处理时拒绝重复提交",
+      "level": "L1",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "identity",
+        "retry",
+        "payload",
+        "concurrency"
+      ],
+      "reason": "独立候选组合，不与同键自动重试混合；仍须保留业务编号唯一范围前提。"
+    },
+    {
+      "expression": "重复编号记久一点",
+      "level": "L2",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "retention"
+      ],
+      "reason": "先问最长离线或补发时间；示例只说明单位和口径，不把 24 h 注入为用户选择。"
+    },
+    {
+      "expression": "稳定一点，不要重复创建",
+      "level": "L3",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "identity",
+        "retry",
+        "payload",
+        "concurrency",
+        "protection"
+      ],
+      "reason": "目标不能唯一决定实现方向；按缺失值澄清，不把稳定解释为性能或可用性承诺。"
+    },
+    {
+      "expression": "超时了就重试",
+      "level": "L3",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "identity",
+        "retry",
+        "protection"
+      ],
+      "reason": "未说明身份与保护不能直接映射成同键重试；需要核实服务契约和原操作结果。"
+    },
+    {
+      "expression": "排查为什么超时后出现两条记录",
+      "level": "L3",
+      "intent_ids": [
+        "diagnose-write"
+      ],
+      "dimension_ids": [
+        "symptom"
+      ],
+      "reason": "保留已知现象并追问时间线和关联证据，不给设计候选或预判根因。"
+    },
+    {
+      "expression": "大型后端、稳定、高并发、高扩展",
+      "level": "L3",
+      "intent_ids": [
+        "design-write"
+      ],
+      "dimension_ids": [
+        "availability",
+        "capacity",
+        "scalability",
+        "resilience",
+        "observability"
+      ],
+      "reason": "需要把稳定拆成可用性、流量模型、扩展策略、容错和可观测性。"
+    }
+  ]
+}
+````
+
+
+[查看固定版本来源](https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/backend.json)

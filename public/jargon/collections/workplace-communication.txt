@@ -1,0 +1,202 @@
+# 专业提示词素材合集
+
+这是独立模板素材合集，不是一个需要同时执行的任务。请按场景选择，勿混用互斥风格或工具参数。
+
+共 5 条；保留待填写项、来源和适用边界。
+
+## 执行项
+
+# 执行项
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+执行项
+
+【白话解释】
+每个执行项写清负责人、下一步、截止时间和完成证据。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- owner
+- next step
+- due date
+- evidence
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/action-item.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/action-item.json
+
+---
+
+## 项目依赖对齐
+
+# 项目依赖对齐
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+项目依赖对齐
+
+【白话解释】
+明确依赖方、输入、输出、阻塞风险和升级路径。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 依赖方
+- 输入
+- 输出
+- 截止时间
+- 升级路径
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/dependency-alignment.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/dependency-alignment.json
+
+---
+
+## 目标与指标
+
+# 目标与指标
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+目标与指标
+
+【白话解释】
+把方向性目标拆成可观察结果、指标口径、范围和优先级。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 目标
+- 指标
+- 口径
+- 范围
+- 优先级
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/goal-metric.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/goal-metric.json
+
+---
+
+## 职场黑话翻译
+
+# 职场黑话翻译
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+职场黑话翻译
+
+【白话解释】
+把“拉齐、抓手、闭环、赋能”等模糊词翻译为对象、动作、负责人和结果。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 原句
+- 真实对象
+- 动作
+- 负责人
+- 验收标准
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/jargon-translation.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/jargon-translation.json
+
+---
+
+## 管理机制
+
+# 管理机制
+
+我的任务：[待填写：任务目标与实际约束]
+
+下面是基于原始资料整理的执行提示词，不是原作者逐字提供的完整成品。请保留用户已给出的条件；未填写项先澄清，不虚构数值、业务逻辑或核验结果。示例参数不是全局默认或效果保证。候选方向按任务选择，不要求全部叠加。
+
+【名称】
+管理机制
+
+【白话解释】
+把机制、复盘、资源配置和组织动作落到可观察的流程。
+
+【适用场景】
+用户说出职场模糊表达或需要改写协作要求时
+
+【专业参数与锚点】
+- 机制
+- 触发条件
+- 参与者
+- 输出
+- 复盘
+
+【边界与约束】
+- 不替用户猜测未提供的事实
+
+【scope】
+general
+
+【输出要求】
+先说明采用的方向与待确认项，再给出满足约束的方案或内容，并附可验证的检查清单。
+
+【来源】
+https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/management-mechanism.json
+
+来源：https://github.com/konglong87/feeling-to-jargon/blob/4c245f7a43d143dcfbd194b768ee1c4d8aa8ff8d/terms/workplace/management-mechanism.json
