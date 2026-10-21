@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "industrial-mechanical-manufacturing-core",
+  "domain_id": "industrial-mechanical-manufacturing",
+  "title": "工业/机械/制造领域需求澄清术语包（草案）",
+  "version": "0.1.0",
+  "status": "draft",
+  "intents": [
+    {
+      "id": "design",
+      "action": "设计",
+      "object": "工业/机械/制造相关产物"
+    },
+    {
+      "id": "diagnose",
+      "action": "排查",
+      "object": "工业/机械/制造相关问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "scope",
+      "name": "产品与工艺",
+      "definition": "产品与工艺的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "method",
+      "name": "质量与安全",
+      "definition": "质量与安全的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "问题现象",
+      "definition": "用户观察到的具体问题、时间、范围和影响。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "core-1",
+      "term": "工艺路线",
+      "plain_language": "明确加工、装配、检测和维护步骤",
+      "benefit": "方便安排工序",
+      "cost": "流程约束更强",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-2",
+      "term": "材料性能",
+      "plain_language": "明确强度、耐温、耐腐蚀等要求",
+      "benefit": "选材更准确",
+      "cost": "成本可能提高",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-3",
+      "term": "公差配合",
+      "plain_language": "明确尺寸公差和装配关系",
+      "benefit": "减少装配问题",
+      "cost": "加工难度上升",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-4",
+      "term": "质量检验",
+      "plain_language": "明确测量方法、抽样和验收标准",
+      "benefit": "质量可追溯",
+      "cost": "需要检测资源",
+      "dimension_id": "method"
+    },
+    {
+      "id": "core-5",
+      "term": "安全防护",
+      "plain_language": "明确设备防护、锁定和作业风险",
+      "benefit": "降低事故风险",
+      "cost": "操作流程更严格",
+      "dimension_id": "method"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/做好一点",
+      "level": "L3",
+      "intent_ids": [
+        "design"
+      ],
+      "dimension_ids": [
+        "scope",
+        "method"
+      ],
+      "reason": "需要先明确领域对象和方法约束。"
+    }
+  ]
+}

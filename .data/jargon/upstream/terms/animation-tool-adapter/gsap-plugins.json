@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gsap-plugins",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "animation-tool-adapter",
+  "title": "GSAP Plugins",
+  "knowledge_type": "technique",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "implement-gsap",
+    "audit-gsap"
+  ],
+  "do_not_generalize": true,
+  "provider": "GSAP",
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gsap-plugins",
+      "name": "GSAP Plugins",
+      "plain_language": "按需使用 Flip、Draggable、Observer、SplitText 等插件，插件能力必须和交互目标一一对应。",
+      "when_to_use": "用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层",
+      "parameters": [
+        "Flip",
+        "Draggable",
+        "Observer",
+        "SplitText",
+        "registerPlugin"
+      ],
+      "related": [
+        "continuous-interaction",
+        "performance-budget",
+        "interruption"
+      ],
+      "constraints": [
+        "只注册实际使用的插件",
+        "拖拽和 Flip 必须有取消与回退路径"
+      ],
+      "aliases": [
+        "GSAP",
+        "gsap plugins"
+      ],
+      "provider": "GSAP",
+      "provider_specific": true,
+      "verification_required": true,
+      "verification_note": [
+        "插件 API 与授权边界以官方文档为准"
+      ],
+      "acceptance": [
+        "动画创建和销毁可追踪",
+        "快速交互不产生重复回调",
+        "未指定 GSAP 时不强制引入"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "service-boundary",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "backend-architecture",
+  "title": "服务边界与状态",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-backend",
+    "review-backend"
+  ],
+  "entries": [
+    {
+      "id": "service-boundary",
+      "name": "服务边界与状态",
+      "plain_language": "把服务职责、同步/异步边界、状态归属和数据一致性写清楚。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "service ownership",
+        "sync/async",
+        "state ownership",
+        "consistency"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

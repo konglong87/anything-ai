@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "management-terms",
+  "domain_id": "workplace-communication",
+  "intents": [
+    {
+      "id": "explain-term",
+      "action": "解释",
+      "object": "管理术语",
+      "leaf_refs": [
+        "management-mechanism"
+      ]
+    },
+    {
+      "id": "translate-jargon",
+      "action": "翻译",
+      "object": "组织黑话",
+      "leaf_refs": [
+        "management-mechanism"
+      ]
+    }
+  ]
+}

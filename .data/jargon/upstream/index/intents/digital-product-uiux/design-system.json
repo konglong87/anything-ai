@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "design-system",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "build-design-system",
+      "action": "建立",
+      "object": "设计系统",
+      "leaf_refs": [
+        "living-style-guide-preview"
+      ]
+    },
+    {
+      "id": "preview-design-system",
+      "action": "预览",
+      "object": "设计系统",
+      "leaf_refs": [
+        "living-style-guide-preview"
+      ]
+    },
+    {
+      "id": "audit-design-system",
+      "action": "验收",
+      "object": "视觉规范",
+      "leaf_refs": [
+        "living-style-guide-preview"
+      ]
+    }
+  ]
+}

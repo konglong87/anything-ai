@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "goal-alignment",
+  "domain_id": "workplace-communication",
+  "intents": [
+    {
+      "id": "define-goal",
+      "action": "定义",
+      "object": "目标",
+      "leaf_refs": [
+        "goal-metric"
+      ]
+    },
+    {
+      "id": "review-priority",
+      "action": "评审",
+      "object": "优先级",
+      "leaf_refs": [
+        "goal-metric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "composition-language",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "composition",
+  "title": "构图语言",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-image-prompt",
+    "audit-image-prompt"
+  ],
+  "entries": [
+    {
+      "id": "composition-language",
+      "name": "主体位置与视觉动线",
+      "plain_language": "用中心、三分、对称、留白、前中后景和视觉引导线描述构图。",
+      "when_to_use": "需要主体位置和画面平衡可控时",
+      "parameters": [
+        "subject placement",
+        "negative space",
+        "foreground/midground/background",
+        "leading lines"
+      ],
+      "related": [
+        "camera-language",
+        "prompt-blocks"
+      ],
+      "constraints": [
+        "构图要服务内容主角，不要为了术语堆叠"
+      ],
+      "aliases": []
+    }
+  ]
+}

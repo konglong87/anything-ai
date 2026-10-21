@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "immersive-atmosphere",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "氛围沉浸型",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "immersive-atmosphere",
+      "name": "氛围沉浸型",
+      "plain_language": "深色底、雾面渐变、玻璃卡片和轻微动态光斑。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "GPU 负载预算",
+        "移动端降级",
+        "模糊光斑"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": []
+    }
+  ]
+}

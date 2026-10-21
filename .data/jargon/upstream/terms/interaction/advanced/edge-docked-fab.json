@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "edge-docked-fab",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "吸边悬浮球",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "edge-docked-fab",
+      "name": "吸边悬浮球",
+      "plain_language": "毛玻璃悬浮球跟手拖拽，释放后吸附到最近左右边缘，闲置后缩成半透明贴边状态。",
+      "when_to_use": "需要可移动的悬浮入口，同时避免遮挡底部 Tab 和安全区内容",
+      "parameters": [
+        "56px 圆球",
+        "0.02 惯性",
+        "距边 12px",
+        "spring 300/30",
+        "无操作 3s 后缩小",
+        "滚动时 opacity 0.4",
+        "停止滚动 400ms 恢复",
+        "垂直位置限制在安全区"
+      ],
+      "related": [
+        "follow",
+        "velocity-inheritance",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [
+        "拖拽不能穿出安全区",
+        "吸附后仍保留可点击面积",
+        "页面滚动时不能遮挡底部 Tab",
+        "组件卸载时清理滚动监听和恢复定时器"
+      ],
+      "aliases": [
+        "吸边悬浮球",
+        "贴边悬浮按钮",
+        "edge docked fab"
+      ],
+      "state_machine": [
+        "idle",
+        "dragging",
+        "snapping",
+        "docked",
+        "shrunk",
+        "restoring"
+      ],
+      "animation_sequence": [
+        "follow pointer",
+        "project release velocity",
+        "snap to nearest edge",
+        "shrink after idle",
+        "restore after scroll"
+      ],
+      "spatial_anchor": [
+        "左右边缘为吸附锚点",
+        "距边 12px",
+        "垂直范围避开安全区和底部 Tab"
+      ],
+      "accessibility": [
+        "键盘焦点可达",
+        "方向键移动或提供设置入口替代拖拽",
+        "aria-label 描述悬浮入口",
+        "减少动态时取消缩小和惯性"
+      ],
+      "acceptance": [
+        "拖拽 1:1 跟手",
+        "释放后稳定吸边",
+        "滚动透明度反馈及时",
+        "不遮挡关键导航",
+        "快速拖拽不产生双重吸附"
+      ]
+    }
+  ]
+}

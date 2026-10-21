@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "camera-language",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-image-prompt",
+      "action": "编写",
+      "object": "镜头语言",
+      "leaf_refs": [
+        "camera-language"
+      ]
+    },
+    {
+      "id": "write-video-prompt",
+      "action": "编写",
+      "object": "镜头语言",
+      "leaf_refs": [
+        "camera-language"
+      ]
+    }
+  ]
+}

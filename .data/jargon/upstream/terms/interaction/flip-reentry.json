@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "flip-reentry",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "FLIP 反向归位",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "flip",
+      "name": "First Last Invert Play",
+      "plain_language": "记录删除前后布局，撤销时把真实节点插回原索引，再播放反向变换。",
+      "when_to_use": "列表重排、共享元素和复杂布局撤销",
+      "parameters": [
+        "First 记录原位置尺寸",
+        "Last 记录重排后位置",
+        "Invert 计算差值",
+        "Play 播放反向变换"
+      ],
+      "related": [
+        "reverse-path",
+        "shared-element-transition"
+      ],
+      "constraints": [
+        "节点已移除时保留 ghost/clone 或占位符"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "placeholder",
+      "name": "占位与真实节点回插",
+      "plain_language": "节点暂时移除后保留占位，撤销时按原索引插回真实节点。",
+      "when_to_use": "DOM 节点生命周期较短的列表",
+      "parameters": [
+        "恢复原索引",
+        "其他项让位动画"
+      ],
+      "related": [
+        "flip"
+      ],
+      "constraints": [
+        "不能把 ghost 当作最终业务节点"
+      ],
+      "aliases": []
+    }
+  ]
+}

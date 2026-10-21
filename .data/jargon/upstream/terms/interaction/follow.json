@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "follow",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "跟随",
+  "knowledge_type": "principle",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "follow",
+      "name": "跟随",
+      "plain_language": "元素连续继承输入位置或速度，不瞬间跳到新状态。",
+      "when_to_use": "拖拽、滚动、转场和惯性动作",
+      "parameters": [
+        "位置或速度 1:1 跟随",
+        "必要时使用 lerp 或 spring 收敛"
+      ],
+      "related": [
+        "threshold",
+        "velocity-inheritance"
+      ],
+      "constraints": [
+        "高频输入不能依赖昂贵布局重排"
+      ],
+      "aliases": []
+    }
+  ]
+}

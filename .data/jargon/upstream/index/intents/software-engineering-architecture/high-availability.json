@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "high-availability",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "design-ha",
+      "action": "设计",
+      "object": "高可用",
+      "leaf_refs": [
+        "availability-patterns"
+      ]
+    },
+    {
+      "id": "audit-ha",
+      "action": "演练",
+      "object": "故障恢复",
+      "leaf_refs": [
+        "availability-patterns"
+      ]
+    }
+  ]
+}

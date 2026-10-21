@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "layout-patterns",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "高级布局模式",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "layout-patterns",
+      "name": "高级布局模式",
+      "plain_language": "用错位、大图、非对称、层叠、留白和破格出血建立布局性格。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "错位按 8/12/16px 节奏",
+        "7:3 或 8:2 比例",
+        "只破一处网格",
+        "安全区内留信息"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": [
+        "Dashboard三层规范",
+        "术语视觉执行分层"
+      ],
+      "contract_ref": "templates/dashboard/dashboard-style-system.json"
+    },
+    {
+      "id": "color-staggered-dashboard",
+      "name": "多彩错列布局",
+      "plain_language": "非对称双列；大卡主位；多彩卡片；斜纹/实心状态",
+      "when_to_use": "需要多彩错列布局的信息结构、视觉参数与交互联动规范时",
+      "parameters": [
+        "grid_ratio",
+        "radius_px",
+        "title_weight"
+      ],
+      "related": [
+        "high-contrast"
+      ],
+      "constraints": [
+        "布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值"
+      ],
+      "aliases": [
+        "多彩错列",
+        "非对称双列",
+        "容量圆点独立切换"
+      ],
+      "contract_ref": "templates/dashboard/dashboard-style-system.json",
+      "layout": "多彩错列布局",
+      "termSkill": [
+        "非对称双列",
+        "大卡主位",
+        "多彩卡片",
+        "斜纹/实心状态"
+      ],
+      "uiSkill": {
+        "background": "近黑",
+        "palette": [
+          "珊瑚",
+          "长春花",
+          "冰蓝",
+          "鼠尾草"
+        ],
+        "hierarchy": "大卡主位，斜纹/实心区分状态"
+      },
+      "agentExec": [
+        {
+          "event": "select_day",
+          "example": "点击 Thu",
+          "writes": [
+            "selectedDay"
+          ],
+          "updates": [
+            "barSeries",
+            "dayLabel"
+          ],
+          "preserves": [
+            "capacitySelection"
+          ]
+        },
+        {
+          "event": "toggle_capacity",
+          "example": "独立切换容量圆点",
+          "writes": [
+            "capacitySelection"
+          ],
+          "updates": [
+            "capacityDots"
+          ],
+          "preserves": [
+            "selectedDay"
+          ]
+        }
+      ],
+      "state": {
+        "model_status": "proposed_implementation",
+        "source": {
+          "selectedDay": "用户选择的日期；不预设初值",
+          "capacitySelection": "独立容量选择"
+        },
+        "derived": {
+          "barSeries": "data[selectedDay].bars",
+          "dayLabel": "selectedDay",
+          "capacityDots": "capacitySelection"
+        },
+        "invariants": [
+          "日期仅驱动柱形与标签；不改变容量选择",
+          "容量操作不改变日期或柱形数据"
+        ]
+      },
+      "tokens": {
+        "scope": "provided_example",
+        "values": {
+          "grid_ratio": [
+            1.42,
+            1
+          ],
+          "radius_px": 26,
+          "title_weight": 800
+        }
+      },
+      "evidence": {
+        "status": "provided",
+        "source": "user_dashboard_brief",
+        "state_model": "实现建议，不宣称为原始产品已有逻辑"
+      }
+    },
+    {
+      "id": "industrial-zones-dashboard",
+      "name": "工业分区布局",
+      "plain_language": "右侧固定操作区；左侧状态筛选；玻璃表格；选中态联动",
+      "when_to_use": "需要工业分区布局的信息结构、视觉参数与交互联动规范时",
+      "parameters": [
+        "accent_hex",
+        "secondary_accent_hex",
+        "grid_ratio",
+        "first_row_px",
+        "row_height_px"
+      ],
+      "related": [
+        "grid-glass-dashboard"
+      ],
+      "constraints": [
+        "布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值"
+      ],
+      "aliases": [
+        "工业分区",
+        "玻璃表格",
+        "低库存筛选",
+        "选中物料联动补货卡"
+      ],
+      "contract_ref": "templates/dashboard/dashboard-style-system.json",
+      "layout": "工业分区布局",
+      "termSkill": [
+        "右侧固定操作区",
+        "左侧状态筛选",
+        "玻璃表格",
+        "选中态联动"
+      ],
+      "uiSkill": {
+        "background": "雾灰",
+        "material": "玻璃表格",
+        "layout": "左侧筛选 / 中部表格 / 右侧固定操作区"
+      },
+      "agentExec": [
+        {
+          "event": "filter_low_stock",
+          "writes": [
+            "stockFilter"
+          ],
+          "sets": {
+            "stockFilter": 2
+          },
+          "updates": [
+            "visibleRows"
+          ],
+          "preserves": [
+            "replenishmentCount"
+          ]
+        },
+        {
+          "event": "select_item",
+          "example": "选中 Prime 85mm",
+          "writes": [
+            "selectedItemId"
+          ],
+          "updates": [
+            "replenishmentCard"
+          ],
+          "preserves": [
+            "replenishmentCount"
+          ]
+        },
+        {
+          "event": "add_to_replenishment",
+          "writes": [
+            "replenishmentItems"
+          ],
+          "updates": [
+            "replenishmentCount"
+          ],
+          "example_transition": {
+            "before": 7,
+            "after": 8
+          },
+          "guard": "成功加入一个新项目才增加；重复、失败与空选择不得重复计数"
+        }
+      ],
+      "state": {
+        "model_status": "proposed_implementation",
+        "source": {
+          "stockFilter": "st 筛选码；低库存 st=2",
+          "selectedItemId": "稳定物料 ID，不用行号",
+          "replenishmentItems": "待补货集合"
+        },
+        "derived": {
+          "visibleRows": "items filtered by stockFilter",
+          "replenishmentCard": "items[selectedItemId]",
+          "replenishmentCount": "count(replenishmentItems)"
+        },
+        "invariants": [
+          "筛选不应伪装成新增补货",
+          "选中物料与补货卡一致",
+          "7→8 是示例断言，不是写死计数；重复加入策略需确认"
+        ]
+      },
+      "tokens": {
+        "scope": "provided_example",
+        "values": {
+          "accent_hex": "#F3EB30",
+          "secondary_accent_hex": "#FB9350",
+          "grid_ratio": [
+            1.02,
+            1,
+            0.72
+          ],
+          "first_row_px": 196,
+          "row_height_px": 60
+        }
+      },
+      "evidence": {
+        "status": "provided",
+        "source": "user_dashboard_brief",
+        "state_model": "实现建议，不宣称为原始产品已有逻辑"
+      }
+    },
+    {
+      "id": "axial-observatory-dashboard",
+      "name": "中轴观测布局",
+      "plain_language": "中央主视图；双侧信息栏；共享选中态；时间轴预览",
+      "when_to_use": "需要中轴观测布局的信息结构、视觉参数与交互联动规范时",
+      "parameters": [
+        "text_hex",
+        "accent_hex",
+        "columns",
+        "timeline_px"
+      ],
+      "related": [
+        "immersive-atmosphere"
+      ],
+      "constraints": [
+        "布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值"
+      ],
+      "aliases": [
+        "中轴观测",
+        "共享选中态",
+        "时间轴预览",
+        "M33联动"
+      ],
+      "contract_ref": "templates/dashboard/dashboard-style-system.json",
+      "layout": "中轴观测布局",
+      "termSkill": [
+        "中央主视图",
+        "双侧信息栏",
+        "共享选中态",
+        "时间轴预览"
+      ],
+      "uiSkill": {
+        "background": "深蓝暮色",
+        "typography": "衬线大编号配等宽读数",
+        "layout": "两侧固定宽度，中央主视图自适应"
+      },
+      "agentExec": [
+        {
+          "event": "select_target",
+          "example": "选中 M33",
+          "writes": [
+            "selectedTargetId"
+          ],
+          "updates": [
+            "queueSelection",
+            "readings",
+            "starMap",
+            "curve"
+          ],
+          "preserves": [
+            "previewTime"
+          ]
+        },
+        {
+          "event": "scrub_timeline",
+          "writes": [
+            "previewTime"
+          ],
+          "updates": [
+            "queueSelection",
+            "readings",
+            "starMap",
+            "curve"
+          ],
+          "preserves": [
+            "selectedTargetId"
+          ],
+          "guard": "每个面板使用同一目标与预览时间；过期异步响应不可覆盖当前选择"
+        }
+      ],
+      "state": {
+        "model_status": "proposed_implementation",
+        "source": {
+          "selectedTargetId": "共享目标 ID",
+          "previewTime": "共享预览时间"
+        },
+        "derived": {
+          "queueSelection": "selectedTargetId at previewTime",
+          "readings": "derive(selectedTargetId, previewTime)",
+          "starMap": "derive(selectedTargetId, previewTime)",
+          "curve": "derive(selectedTargetId, previewTime)"
+        },
+        "invariants": [
+          "选中 M33 时队列、读数、星图、曲线一致",
+          "拖动时间轴后整页使用同一时间，不混用旧请求结果"
+        ]
+      },
+      "tokens": {
+        "scope": "provided_example",
+        "values": {
+          "text_hex": "#E9E4D8",
+          "accent_hex": "#F2B24C",
+          "columns": [
+            "292px",
+            "minmax(0, 1fr)",
+            "292px"
+          ],
+          "timeline_px": 196
+        }
+      },
+      "evidence": {
+        "status": "provided",
+        "source": "user_dashboard_brief",
+        "state_model": "实现建议，不宣称为原始产品已有逻辑"
+      }
+    },
+    {
+      "id": "glass-dot-matrix-dashboard",
+      "name": "玻璃点阵布局",
+      "plain_language": "浅灰玻璃；点阵读数；月份切换；指标趋势联动",
+      "when_to_use": "需要玻璃点阵布局的信息结构、视觉参数与交互联动规范时",
+      "parameters": [
+        "radius_px",
+        "gap_px"
+      ],
+      "related": [
+        "grid-glass-dashboard"
+      ],
+      "constraints": [
+        "布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值"
+      ],
+      "aliases": [
+        "玻璃点阵",
+        "点阵读数",
+        "月份指标联动",
+        "二氧化碳趋势"
+      ],
+      "contract_ref": "templates/dashboard/dashboard-style-system.json",
+      "layout": "玻璃点阵布局",
+      "termSkill": [
+        "浅灰玻璃",
+        "点阵读数",
+        "月份切换",
+        "指标趋势联动"
+      ],
+      "uiSkill": {
+        "background": "浅灰",
+        "material": "玻璃",
+        "accent": "荧光黄绿",
+        "readout": "点阵读数"
+      },
+      "agentExec": [
+        {
+          "event": "select_month",
+          "writes": [
+            "selectedMonth"
+          ],
+          "updates": [
+            "metricReadout",
+            "trendSeries"
+          ],
+          "preserves": [
+            "selectedMetric"
+          ]
+        },
+        {
+          "event": "select_monthly_metric",
+          "example": "点击 8 月评分指标",
+          "writes": [
+            "selectedMonth",
+            "selectedMetric"
+          ],
+          "example_values": {
+            "selectedMonth": 8,
+            "selectedMetric": "score"
+          },
+          "updates": [
+            "metricReadout",
+            "trendSeries"
+          ],
+          "guard": "月份与指标在同一次状态转换中提交"
+        },
+        {
+          "event": "select_carbon_metric",
+          "example": "选择二氧化碳",
+          "writes": [
+            "selectedMetric",
+            "trendVisible"
+          ],
+          "example_values": {
+            "selectedMetric": "co2",
+            "trendVisible": true
+          },
+          "updates": [
+            "metricReadout",
+            "trendSeries"
+          ],
+          "preserves": [
+            "selectedMonth"
+          ]
+        }
+      ],
+      "state": {
+        "model_status": "proposed_implementation",
+        "source": {
+          "selectedMonth": "共享月份",
+          "selectedMetric": "共享指标",
+          "trendVisible": "趋势浮层可见状态"
+        },
+        "derived": {
+          "metricReadout": "metrics[selectedMonth][selectedMetric]",
+          "trendSeries": "series[selectedMonth][selectedMetric]"
+        },
+        "invariants": [
+          "点 8 月评分后所有月份视图回到 8 月",
+          "切换二氧化碳不丢失月份，趋势与读数使用同一指标",
+          "关闭趋势浮层不重置月份或指标"
+        ]
+      },
+      "tokens": {
+        "scope": "provided_example",
+        "values": {
+          "radius_px": 30,
+          "gap_px": 14
+        }
+      },
+      "evidence": {
+        "status": "provided",
+        "source": "user_dashboard_brief",
+        "state_model": "实现建议，不宣称为原始产品已有逻辑"
+      }
+    },
+    {
+      "id": "warm-three-column-dashboard",
+      "name": "暖色三栏布局",
+      "plain_language": "深浅分区；三栏控制台；模式与单位同步",
+      "when_to_use": "需要暖色三栏布局的信息结构、视觉参数与交互联动规范时",
+      "parameters": [
+        "column_sizing"
+      ],
+      "related": [
+        "warm-minimal",
+        "single-dark-accent-dashboard"
+      ],
+      "constraints": [
+        "布局、视觉和执行状态分层；具体参数只属于本例，不作为同类页面默认值"
+      ],
+      "aliases": [
+        "暖色三栏",
+        "三栏控制台",
+        "卧室房间联动",
+        "模式单位同步"
+      ],
+      "contract_ref": "templates/dashboard/dashboard-style-system.json",
+      "layout": "暖色三栏布局",
+      "termSkill": [
+        "深浅分区",
+        "三栏控制台",
+        "模式与单位同步"
+      ],
+      "uiSkill": {
+        "background": "奶油",
+        "sidebar": "炭黑",
+        "accent": "琥珀",
+        "layout": "两侧固定，中间自适应；缺少固定宽度与窄屏断点数值"
+      },
+      "agentExec": [
+        {
+          "event": "select_room",
+          "status": "needs_confirmation",
+          "candidate": "点击卧室房名、照片或温度卡，联动中间房间详情与右侧控制",
+          "writes": [
+            "selectedRoomId"
+          ],
+          "updates": [
+            "roomDetails",
+            "roomControls"
+          ]
+        },
+        {
+          "event": "change_mode",
+          "status": "needs_confirmation",
+          "candidate": "切换模式同步单位与读数，但模式枚举、单位映射与换算规则未知",
+          "writes": [
+            "mode"
+          ],
+          "updates": [
+            "displayUnit",
+            "displayReading"
+          ],
+          "guard": "确认映射前不推定模式切换等于摄氏/华氏切换"
+        }
+      ],
+      "state": {
+        "model_status": "proposed_implementation",
+        "source": {
+          "selectedRoomId": "候选共享房间 ID，待确认",
+          "mode": "模式枚举待确认",
+          "canonicalReading": "基础物理量与存储单位待确认"
+        },
+        "derived": {
+          "roomDetails": "candidate: rooms[selectedRoomId]",
+          "roomControls": "candidate: rooms[selectedRoomId]",
+          "displayUnit": "blocked: mode-to-unit mapping required",
+          "displayReading": "blocked: unit conversion rule required"
+        },
+        "invariants": [
+          "交互建议不得当成已确认需求",
+          "单位变化时数值必须按明确规则同步换算；不可只替换单位文字",
+          "确认前只使用已提供的布局与视觉信息"
+        ]
+      },
+      "tokens": {
+        "scope": "provided_example",
+        "values": {
+          "column_sizing": [
+            "fixed",
+            "fluid",
+            "fixed"
+          ]
+        }
+      },
+      "evidence": {
+        "status": "needs_confirmation",
+        "source": "user_dashboard_brief",
+        "state_model": "实现建议，不宣称为原始产品已有逻辑",
+        "confirmed_layers": [
+          "layout",
+          "termSkill",
+          "uiSkill"
+        ],
+        "missing_inputs": [
+          "房名/照片/温度卡点击后的完整逻辑",
+          "模式枚举及单位映射、换算规则"
+        ]
+      }
+    }
+  ],
+  "default_entry_id": "layout-patterns"
+}

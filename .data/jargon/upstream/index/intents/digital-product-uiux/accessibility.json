@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "accessibility",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "audit-accessibility",
+      "action": "审计",
+      "object": "可访问性",
+      "leaf_refs": [
+        "motion-accessibility"
+      ]
+    },
+    {
+      "id": "implement-accessibility",
+      "action": "实现",
+      "object": "无障碍能力",
+      "leaf_refs": [
+        "motion-accessibility"
+      ]
+    }
+  ]
+}

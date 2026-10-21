@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "snap-card-timeline",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "吸附卡加画线",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "snap-card-timeline",
+      "name": "吸附卡加画线",
+      "plain_language": "卡片先减速吸附到最近目标，停稳后时间线再从起点逐段绘制到对应卡片位置。",
+      "when_to_use": "用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时",
+      "parameters": [
+        "先吸附后绘制",
+        "卡片停止后延迟 80–160ms",
+        "timeline duration 300–600ms",
+        "stroke-dasharray",
+        "stroke-dashoffset",
+        "卡片最终 Y 轴位置"
+      ],
+      "related": [
+        "follow",
+        "snap",
+        "interruption",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "避免生硬切换",
+        "动画顺序必须可验证",
+        "必须支持中断和反向回退"
+      ],
+      "aliases": [
+        "吸附卡加画线",
+        "snap card timeline"
+      ],
+      "state_machine": [
+        "drag or scroll",
+        "decelerating",
+        "snap to nearest card",
+        "settled",
+        "timeline draw",
+        "complete"
+      ],
+      "animation_sequence": [
+        "drag or scroll",
+        "decelerating",
+        "snap to nearest card",
+        "settled",
+        "timeline draw",
+        "complete"
+      ],
+      "spatial_anchor": [
+        "吸附目标由最近卡片决定",
+        "时间线起点固定在轨道起点",
+        "终点对齐卡片中心或锚点",
+        "线段绘制方向与滚动方向一致"
+      ],
+      "accessibility": [
+        "键盘切换卡片时同样触发落位反馈",
+        "aria-current 标记当前卡片",
+        "减少动态时显示完整时间线"
+      ],
+      "acceptance": [
+        "时间线绝不早于卡片停稳",
+        "吸附目标稳定不抖动",
+        "线终点准确对齐卡片",
+        "取消或快速切换不会残留旧线段"
+      ]
+    }
+  ]
+}

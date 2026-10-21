@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "core",
+  "domain_id": "astronomy-earth-environment",
+  "intents": [
+    {
+      "id": "explore",
+      "action": "探索",
+      "object": "核心入口",
+      "leaf_refs": []
+    }
+  ]
+}

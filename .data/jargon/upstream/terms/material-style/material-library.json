@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "material-library",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "material-style",
+  "title": "材质风格词",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-image-prompt"
+  ],
+  "entries": [
+    {
+      "id": "material-library",
+      "name": "材质与反射",
+      "plain_language": "用可观察的表面属性描述材质，例如高光泽釉面、短植绒、哑光纸张和半通透胶带。",
+      "when_to_use": "产品渲染、角色周边和材质迁移",
+      "parameters": [
+        "roughness",
+        "specular",
+        "translucency",
+        "texture"
+      ],
+      "related": [
+        "prompt-blocks",
+        "character-ip"
+      ],
+      "constraints": [
+        "材质词不能替代主体和结构约束"
+      ],
+      "aliases": []
+    }
+  ]
+}

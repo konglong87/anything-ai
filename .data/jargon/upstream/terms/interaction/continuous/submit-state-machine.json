@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "submit-state-machine",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "提交状态反馈",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "submit-state-machine",
+      "name": "提交状态反馈",
+      "plain_language": "按钮容器固定，通过状态机切换 loading、success 和 result，避免按钮位移。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "idle → loading → success → result",
+        "固定按钮宽度",
+        "只替换内部内容"
+      ],
+      "related": [
+        "state-machine-driven-ui",
+        "interruption"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "idle",
+        "loading",
+        "success",
+        "result"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    },
+    {
+      "id": "save-progress-ring",
+      "name": "保存按钮变进度环",
+      "plain_language": "胶囊保存按钮点击后收缩为正圆，文字淡出并在同一容器内绘制进度环，完成后画勾并展开为已保存。",
+      "when_to_use": "保存、上传或提交操作需要把进行中、完成和结果连续表达在同一按钮内",
+      "parameters": [
+        "按钮 120×44、圆角 22",
+        "收缩到 44×44",
+        "文字淡出 240ms ease-out",
+        "进度环 1.2s linear",
+        "stroke 3、round cap",
+        "完成勾选 200ms",
+        "已保存展开 300ms spring"
+      ],
+      "related": [
+        "draw-success",
+        "progress-feedback",
+        "interruption"
+      ],
+      "constraints": [
+        "进行中禁用重复点击",
+        "中途取消必须清理进度动画和回调",
+        "按钮宽度变化不能造成周围布局跳动",
+        "减少动态时保留进行中与完成状态"
+      ],
+      "aliases": [
+        "保存按钮进度环",
+        "保存转进度",
+        "save progress ring"
+      ],
+      "state_machine": [
+        "idle",
+        "saving",
+        "progress-ring",
+        "success-check",
+        "saved",
+        "cancelled"
+      ],
+      "animation_sequence": [
+        "capsule to circle",
+        "label fade out",
+        "ring draw",
+        "check draw",
+        "expand to saved"
+      ],
+      "spatial_anchor": [
+        "进度环沿按钮外圈绘制",
+        "勾选与圆环共享中心",
+        "文字恢复在原容器内"
+      ],
+      "accessibility": [
+        "键盘 Enter/Space 触发",
+        "aria-busy 表达保存中",
+        "完成状态通过 aria-live=polite 通知"
+      ],
+      "acceptance": [
+        "保存中只触发一次",
+        "取消后可再次保存",
+        "进度环不提前完成",
+        "完成后按钮回到可读结果"
+      ]
+    }
+  ]
+}

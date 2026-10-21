@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "undo-window",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "撤销时间窗口",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "audit-motion"
+  ],
+  "loading_note": "撤销功能只需加载本叶子和反向动画，不加载全部动效",
+  "entries": [
+    {
+      "id": "undo-window",
+      "name": "可逆操作时间窗口",
+      "plain_language": "删除后保留一段明确的可撤销时间，让用户有机会反悔。",
+      "when_to_use": "删除、归档、批量移除等可逆操作",
+      "parameters": [
+        "窗口默认 5s；高风险操作 8–10s",
+        "过期后按钮禁用并完成最终删除"
+      ],
+      "related": [
+        "progress-feedback",
+        "reverse-animation"
+      ],
+      "constraints": [
+        "不要让过期后仍看起来可点击"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "progress-feedback",
+      "name": "线性进度反馈",
+      "plain_language": "进度条或进度环的完成时间与撤销窗口完全一致。",
+      "when_to_use": "需要让剩余时间可见",
+      "parameters": [
+        "动画使用 linear",
+        "数字可每秒更新，进度动画保持连续"
+      ],
+      "related": [
+        "undo-window"
+      ],
+      "constraints": [
+        "不能用缓动制造错误的剩余时间感"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "pause-on-focus",
+      "name": "聚焦暂停窗口",
+      "plain_language": "用户悬停或键盘聚焦撤销控件时暂停倒计时。",
+      "when_to_use": "误操作成本高且需要可访问性增强的场景",
+      "parameters": [
+        "暂停状态必须可见",
+        "失焦后继续倒计时"
+      ],
+      "related": [
+        "accessibility"
+      ],
+      "constraints": [
+        "不能无限暂停导致资源长期占用"
+      ],
+      "aliases": []
+    }
+  ]
+}

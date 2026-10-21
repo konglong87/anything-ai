@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "press-and-hold-confirm",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "按住蓄力确认",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "press-and-hold-confirm",
+      "name": "按住蓄力确认",
+      "plain_language": "按住危险操作按钮达到 800–1200ms 才确认，未满松手或移动超限则取消。",
+      "when_to_use": "需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互",
+      "parameters": [
+        "800–1200ms",
+        "移动超过 10px 取消",
+        "多点触控只认第一指",
+        "进度环与按压时间一致"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [
+        "未达到阈值不能触发",
+        "快速重复操作不叠加",
+        "组件卸载时清理定时器和动画"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "pressing",
+        "charging",
+        "confirmed",
+        "cancel"
+      ],
+      "accessibility": [
+        "键盘 Space/Enter",
+        "ESC 取消",
+        "aria-describedby",
+        "替代二次确认"
+      ],
+      "acceptance": [
+        "60fps",
+        "手势和键盘结果一致",
+        "取消后状态完全复位"
+      ]
+    }
+  ]
+}

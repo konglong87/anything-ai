@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "ripple-button",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "Ripple 水波按钮",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "ripple-button",
+      "name": "Ripple 水波按钮",
+      "plain_language": "从真实触点向最远角扩散水波，不把点击中心固定在控件中心。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "400–600ms",
+        "半径覆盖最远角",
+        "移动端用 worklet/WXS 获取坐标"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

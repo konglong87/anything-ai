@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "goal-metric",
+  "domain_id": "workplace-communication",
+  "subdomain_id": "goal-alignment",
+  "title": "目标与指标",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "define-goal",
+    "review-priority"
+  ],
+  "entries": [
+    {
+      "id": "goal-metric",
+      "name": "目标与指标",
+      "plain_language": "把方向性目标拆成可观察结果、指标口径、范围和优先级。",
+      "when_to_use": "用户说出职场模糊表达或需要改写协作要求时",
+      "parameters": [
+        "目标",
+        "指标",
+        "口径",
+        "范围",
+        "优先级"
+      ],
+      "related": [
+        "information-hierarchy",
+        "goal-metric"
+      ],
+      "constraints": [
+        "不替用户猜测未提供的事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "video-prompt",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-video-prompt",
+      "action": "编写",
+      "object": "视频提示词",
+      "leaf_refs": [
+        "video-direction"
+      ]
+    },
+    {
+      "id": "audit-video-prompt",
+      "action": "检查",
+      "object": "视频提示词",
+      "leaf_refs": [
+        "video-direction"
+      ]
+    }
+  ]
+}

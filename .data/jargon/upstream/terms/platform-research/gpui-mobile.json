@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gpui-mobile",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "3d-web-interface",
+  "title": "GPUIX 移动端平台研究",
+  "knowledge_type": "platform-research",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "compare-platform",
+    "choose-renderer"
+  ],
+  "do_not_generalize": true,
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gpui-mobile",
+      "name": "GPUIX 移动端平台研究",
+      "plain_language": "移动端支持状态需以官方仓库和版本为准；社区实现不能等同官方支持。",
+      "when_to_use": "用户明确询问指定平台或组件目录",
+      "parameters": [
+        "iOS/Metal",
+        "Android/Vulkan 或 GL",
+        "触摸、软键盘、安全区"
+      ],
+      "related": [],
+      "constraints": [
+        "必须标注 provider-specific",
+        "检索时优先官方来源",
+        "verified_at 未设置时不得当作确定事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

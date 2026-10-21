@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "component-design",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "generate-component",
+      "action": "生成",
+      "object": "UI 组件",
+      "leaf_refs": [
+        "damped-bottom-sheet",
+        "diffused-glow-border",
+        "elastic-press-feedback",
+        "fluid-capsule-morph",
+        "magnetic-cursor-odometer",
+        "shared-element-expand",
+        "spring-stagger-flow",
+        "tilt-light-panel"
+      ]
+    },
+    {
+      "id": "spec-component",
+      "action": "规范",
+      "object": "组件需求",
+      "leaf_refs": [
+        "damped-bottom-sheet",
+        "diffused-glow-border",
+        "elastic-press-feedback",
+        "fluid-capsule-morph",
+        "magnetic-cursor-odometer",
+        "shared-element-expand",
+        "spring-stagger-flow",
+        "tilt-light-panel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "negative-constraints",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "negative-prompt",
+  "title": "负面约束",
+  "knowledge_type": "guideline",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-image-prompt",
+    "audit-image-prompt"
+  ],
+  "entries": [
+    {
+      "id": "negative-constraints",
+      "name": "结构/材质/一致性负面词",
+      "plain_language": "把不希望出现的变形、额外肢体、颜色漂移、重复主体和低清晰度写成约束。",
+      "when_to_use": "角色一致性、产品渲染和批量出图",
+      "parameters": [
+        "结构禁用",
+        "材质禁用",
+        "画面质量禁用"
+      ],
+      "related": [
+        "character-ip",
+        "prompt-blocks"
+      ],
+      "constraints": [
+        "负面词不能掩盖主体描述不完整"
+      ],
+      "aliases": []
+    }
+  ]
+}

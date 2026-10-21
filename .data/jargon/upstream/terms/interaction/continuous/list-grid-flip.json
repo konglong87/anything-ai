@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "list-grid-flip",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "列表切换网格",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "list-grid-flip",
+      "name": "列表切换网格",
+      "plain_language": "记录旧布局，切换布局后反转并播放到新位置，避免重载和跳变。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "First/Last/Invert/Play",
+        "transform 优先",
+        "支持快速切换"
+      ],
+      "related": [
+        "flip-reentry",
+        "interruption"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "list",
+        "switching",
+        "grid"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

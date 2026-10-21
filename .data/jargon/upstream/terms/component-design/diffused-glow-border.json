@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "diffused-glow-border",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "动态弥散光晕边框",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "diffused-glow-border",
+      "name": "动态弥散光晕边框",
+      "plain_language": "用 conic-gradient 旋转描边，叠加 blur+opacity 呼吸背光，并用 mask 保留描边区域。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "conic-gradient",
+        "breathing glow",
+        "blur halo",
+        "mask composite"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "magnetic-cursor-odometer",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "磁吸游标与滚动码表",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "magnetic-cursor-odometer",
+      "name": "磁吸游标与滚动码表",
+      "plain_language": "折线图拖拽时数据点磁吸，顶部数值使用 Odometer 按位滚动，拖拽、吸附和数值用 lerp+spring 联动。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "magnetic snap",
+        "odometer",
+        "tabular-nums",
+        "lerp",
+        "spring follow"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

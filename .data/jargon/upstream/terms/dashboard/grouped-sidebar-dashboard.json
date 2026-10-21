@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "grouped-sidebar-dashboard",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "分组侧边栏 Dashboard",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "grouped-sidebar-dashboard",
+      "name": "分组侧边栏 Dashboard",
+      "plain_language": "把导航拆成三组并用大留白分隔，主区用超大细体字、三组数字和横向比例条建立节奏。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "三组导航",
+        "10px 大写灰字组名",
+        "底部头像/用量条",
+        "横向比例条替代饼图"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": []
+    }
+  ]
+}

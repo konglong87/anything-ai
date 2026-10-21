@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gpui-desktop-web",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "3d-web-interface",
+  "title": "GPUIX 桌面与 Web 平台研究",
+  "knowledge_type": "platform-research",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "compare-platform",
+    "choose-renderer"
+  ],
+  "do_not_generalize": true,
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gpui-desktop-web",
+      "name": "GPUIX 桌面与 Web 平台研究",
+      "plain_language": "待核验的桌面/Web 平台适配记录；不得推广为所有 GPU UI 框架事实。",
+      "when_to_use": "用户明确询问指定平台或组件目录",
+      "parameters": [
+        "macOS/Metal",
+        "Windows/DirectX",
+        "Linux/Vulkan",
+        "WebGPU/WebGL2 降级"
+      ],
+      "related": [],
+      "constraints": [
+        "必须标注 provider-specific",
+        "检索时优先官方来源",
+        "verified_at 未设置时不得当作确定事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

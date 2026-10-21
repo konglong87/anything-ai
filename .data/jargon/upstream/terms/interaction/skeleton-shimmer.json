@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "skeleton-shimmer",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "Shimmer 骨架落位",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "skeleton-shimmer",
+      "name": "Shimmer 骨架落位",
+      "plain_language": "骨架尺寸与真实内容一致，内容到达后平滑替换。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "1.2–1.6s 循环",
+        "高度、行高、间距一致"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

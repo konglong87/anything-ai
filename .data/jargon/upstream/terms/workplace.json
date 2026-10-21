@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "workplace-language",
+  "domain_id": "workplace-communication",
+  "title": "职场模糊表达与专业化解释术语包",
+  "version": "0.1.0",
+  "status": "published",
+  "intents": [
+    {
+      "id": "clarify-workplace-language",
+      "action": "解释",
+      "object": "职场模糊表达"
+    },
+    {
+      "id": "rewrite-workplace-request",
+      "action": "改写",
+      "object": "职场需求"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "meaning",
+      "name": "实际含义",
+      "definition": "这句话真正要求完成的事情。",
+      "value_type": "selection"
+    },
+    {
+      "id": "execution",
+      "name": "执行要求",
+      "definition": "负责人、动作、指标、期限和验收方式。",
+      "value_type": "selection"
+    }
+  ],
+  "terms": [
+    {
+      "id": "work-1",
+      "term": "赋能",
+      "plain_language": "提供资源、权限或能力支持",
+      "benefit": "明确需要谁提供什么资源和验收结果",
+      "cost": "减少空泛表达",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-2",
+      "term": "抓手",
+      "plain_language": "可执行的具体动作或机制",
+      "benefit": "把目标落成一个能负责和验收的动作",
+      "cost": "便于推进",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-3",
+      "term": "闭环",
+      "plain_language": "从目标、执行、反馈到复盘形成完整流程",
+      "benefit": "明确输入、负责人、结果和反馈回路",
+      "cost": "避免只做半段",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-4",
+      "term": "沉淀",
+      "plain_language": "把一次经验整理成可复用资产",
+      "benefit": "输出文档、模板、组件或规则",
+      "cost": "降低重复劳动",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-5",
+      "term": "对齐",
+      "plain_language": "让相关人对目标、口径和边界达成一致",
+      "benefit": "记录决策、负责人和截止时间",
+      "cost": "减少返工",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-6",
+      "term": "打通",
+      "plain_language": "消除流程、系统或团队之间的断点",
+      "benefit": "明确接口、数据流和责任交接",
+      "cost": "减少手工搬运",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-7",
+      "term": "落地",
+      "plain_language": "把方案变成实际执行结果",
+      "benefit": "补齐负责人、资源、时间和验收标准",
+      "cost": "让计划可执行",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-8",
+      "term": "复盘",
+      "plain_language": "根据结果和证据分析得失并改进",
+      "benefit": "区分事实、原因、行动项和负责人",
+      "cost": "持续改进有依据",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-9",
+      "term": "迭代",
+      "plain_language": "基于反馈逐步改进版本",
+      "benefit": "明确本轮目标、变更范围和退出条件",
+      "cost": "控制一次性变更风险",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-10",
+      "term": "颗粒度",
+      "plain_language": "信息或任务拆分的细致程度",
+      "benefit": "把任务拆到可估时、可负责、可验收",
+      "cost": "方便协作和排期",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-11",
+      "term": "优先级",
+      "plain_language": "不同事项的先后顺序",
+      "benefit": "按价值、成本、风险和依赖排序",
+      "cost": "资源使用更清楚",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-12",
+      "term": "资源倾斜",
+      "plain_language": "把更多人力、预算或时间给重点事项",
+      "benefit": "写明投入量、期限和预期收益",
+      "cost": "重点更容易突破",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-13",
+      "term": "降本增效",
+      "plain_language": "减少投入并提高产出",
+      "benefit": "分别列出成本指标、产出指标和基线",
+      "cost": "避免口号化",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-14",
+      "term": "结果导向",
+      "plain_language": "用可观察结果而非忙碌程度评价工作",
+      "benefit": "明确结果指标和验收证据",
+      "cost": "评价更直接",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-15",
+      "term": "快速迭代",
+      "plain_language": "缩短反馈周期，小范围连续试验",
+      "benefit": "限定试验范围、周期和停止条件",
+      "cost": "更快获得反馈",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-16",
+      "term": "协同",
+      "plain_language": "多个角色共同完成一个结果",
+      "benefit": "明确接口、依赖和单一责任人",
+      "cost": "减少职责空白",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-17",
+      "term": "兜底",
+      "plain_language": "为失败、异常或资源不足准备替代路径",
+      "benefit": "定义触发条件、备用方案和升级人",
+      "cost": "降低中断影响",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-18",
+      "term": "可控",
+      "plain_language": "风险、范围或结果处于可管理状态",
+      "benefit": "写明边界、阈值、监控和处置动作",
+      "cost": "便于管理风险",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-19",
+      "term": "心智",
+      "plain_language": "用户对品牌、产品或概念形成的稳定认知",
+      "benefit": "用认知对象和可观察行为描述",
+      "cost": "便于设计传播目标",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-20",
+      "term": "场景",
+      "plain_language": "需求发生的具体人、时、地和任务条件",
+      "benefit": "补充触发、用户、任务和限制",
+      "cost": "方案更贴近真实使用",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-21",
+      "term": "链路",
+      "plain_language": "从触达、操作到结果的连续过程",
+      "benefit": "画出节点、转化和流失位置",
+      "cost": "便于定位问题",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-22",
+      "term": "水位",
+      "plain_language": "团队或项目当前能力、进度或风险状态",
+      "benefit": "用指标和基线替代感觉",
+      "cost": "便于比较变化",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-23",
+      "term": "打法",
+      "plain_language": "在特定目标和场景下反复验证过的做法",
+      "benefit": "说明适用条件、步骤和证据",
+      "cost": "便于复用",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-24",
+      "term": "破冰",
+      "plain_language": "降低首次沟通或合作的进入门槛",
+      "benefit": "设计开场信息、共同点和下一步动作",
+      "cost": "提高开始沟通的成功率",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-25",
+      "term": "补位",
+      "plain_language": "承担原职责之外但影响结果的缺口",
+      "benefit": "明确缺口、临时负责人和交接时间",
+      "cost": "避免工作无人负责",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-26",
+      "term": "收口",
+      "plain_language": "结束讨论并形成明确决策",
+      "benefit": "记录结论、未决项、负责人和时间",
+      "cost": "减少反复讨论",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-27",
+      "term": "共识",
+      "plain_language": "相关参与者对目标和行动达成可追踪的一致",
+      "benefit": "记录谁同意什么、不同意什么",
+      "cost": "方便执行",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-28",
+      "term": "杠杆",
+      "plain_language": "用较小投入带来较大影响的关键因素",
+      "benefit": "说明投入、作用机制和验证指标",
+      "cost": "帮助集中资源",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-29",
+      "term": "方法论",
+      "plain_language": "可重复使用的问题解决框架",
+      "benefit": "写出步骤、适用范围和失败条件",
+      "cost": "便于培训和复用",
+      "dimension_id": "meaning"
+    },
+    {
+      "id": "work-30",
+      "term": "护城河",
+      "plain_language": "难以被竞争者复制的持续优势",
+      "benefit": "说明优势来源、持续机制和证据",
+      "cost": "帮助讨论长期竞争力",
+      "dimension_id": "meaning"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/推进一下/做好闭环",
+      "level": "L3",
+      "intent_ids": [
+        "clarify-workplace-language",
+        "rewrite-workplace-request"
+      ],
+      "dimension_ids": [
+        "meaning",
+        "execution"
+      ],
+      "reason": "把抽象职场表达转换为具体动作、责任、指标和验收。"
+    }
+  ]
+}

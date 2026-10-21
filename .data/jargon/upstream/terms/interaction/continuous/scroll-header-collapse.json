@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "scroll-header-collapse",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "顶栏随滚动收起",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "scroll-header-collapse",
+      "name": "顶栏随滚动收起",
+      "plain_language": "滚动进度驱动搜索栏和顶栏收缩，反向滚动恢复。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "scrollY 归一化 0–1",
+        "requestAnimationFrame",
+        "滚动方向迟滞"
+      ],
+      "related": [
+        "follow",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "expanded",
+        "collapsing",
+        "collapsed",
+        "expanding"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

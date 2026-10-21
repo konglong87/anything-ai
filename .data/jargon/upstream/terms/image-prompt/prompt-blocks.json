@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "prompt-blocks",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "image-prompt",
+  "title": "图像提示词模块",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-image-prompt",
+    "audit-image-prompt"
+  ],
+  "entries": [
+    {
+      "id": "prompt-blocks",
+      "name": "主体/材质/光线/构图/质量模块",
+      "plain_language": "把图像提示词拆为可重排模块，先锁主体，再补材质、光线、构图和质量。",
+      "when_to_use": "文生图、参考图重绘和产品效果图",
+      "parameters": [
+        "subject",
+        "material",
+        "lighting",
+        "composition",
+        "quality"
+      ],
+      "related": [
+        "character-ip",
+        "negative-constraints"
+      ],
+      "constraints": [
+        "不要把所有风格词混成一段无层级文本"
+      ],
+      "aliases": []
+    }
+  ]
+}

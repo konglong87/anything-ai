@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "card-flip",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "3D 卡片翻面",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "card-flip",
+      "name": "3D 卡片翻面",
+      "plain_language": "正反面围绕同一中心翻转，保持透视和背面隐藏。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "perspective 800–1200",
+        "backface-visibility hidden",
+        "iOS 加 webkit 前缀"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

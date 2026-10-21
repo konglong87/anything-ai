@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "search-expand",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "搜索框展开",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "search-expand",
+      "name": "搜索框展开",
+      "plain_language": "图标与输入框共用容器，展开后自动聚焦，关闭时沿原路径收回。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "transform-origin: left",
+        "focus 延迟 80–120ms",
+        "图标淡出",
+        "关闭后焦点返回触发器"
+      ],
+      "related": [
+        "focus-continuity",
+        "same-container-transition"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "idle",
+        "expanded",
+        "closing"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

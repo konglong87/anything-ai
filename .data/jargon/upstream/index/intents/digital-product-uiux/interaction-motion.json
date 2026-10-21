@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "interaction-motion",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "design-interaction",
+      "action": "设计",
+      "object": "交互动效",
+      "leaf_refs": [
+        "burst-feedback",
+        "card-flip",
+        "count-animation",
+        "draw-success",
+        "liquid-slider",
+        "morph-icon",
+        "ripple-button",
+        "skeleton-shimmer",
+        "spring-press",
+        "squash-toggle",
+        "stack-card",
+        "undo-window"
+      ]
+    },
+    {
+      "id": "implement-animation",
+      "action": "实现",
+      "object": "动画反馈",
+      "leaf_refs": [
+        "burst-feedback",
+        "card-flip",
+        "count-animation",
+        "draw-success",
+        "flip-reentry",
+        "liquid-slider",
+        "morph-icon",
+        "reverse-animation",
+        "ripple-button",
+        "skeleton-shimmer",
+        "spring-press",
+        "squash-toggle",
+        "stack-card"
+      ]
+    },
+    {
+      "id": "audit-motion",
+      "action": "评审",
+      "object": "动效质量",
+      "leaf_refs": [
+        "reverse-animation",
+        "undo-window"
+      ]
+    }
+  ]
+}

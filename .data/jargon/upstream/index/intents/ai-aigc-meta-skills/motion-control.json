@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "motion-control",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-video-prompt",
+      "action": "编写",
+      "object": "运动控制",
+      "leaf_refs": [
+        "motion-language"
+      ]
+    }
+  ]
+}

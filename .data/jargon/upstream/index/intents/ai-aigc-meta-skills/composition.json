@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "composition",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-image-prompt",
+      "action": "编写",
+      "object": "构图语言",
+      "leaf_refs": [
+        "composition-language"
+      ]
+    },
+    {
+      "id": "audit-image-prompt",
+      "action": "检查",
+      "object": "构图语言",
+      "leaf_refs": [
+        "composition-language"
+      ]
+    }
+  ]
+}

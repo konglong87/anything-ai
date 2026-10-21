@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "domain_id": "software-engineering-architecture",
+  "subdomains": [
+    {
+      "subdomain_id": "backend-architecture",
+      "title": "后端架构",
+      "description": "服务边界、状态和数据流",
+      "intent_index": "index/intents/software-engineering-architecture/backend-architecture.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "high-availability",
+      "title": "高可用",
+      "description": "冗余、故障域、RTO 和 RPO",
+      "intent_index": "index/intents/software-engineering-architecture/high-availability.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "high-concurrency",
+      "title": "高并发",
+      "description": "流量模型、延迟和资源隔离",
+      "intent_index": "index/intents/software-engineering-architecture/high-concurrency.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "scalability",
+      "title": "高扩展",
+      "description": "水平扩展、分片、缓存和异步化",
+      "intent_index": "index/intents/software-engineering-architecture/scalability.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "observability",
+      "title": "可观测性",
+      "description": "SLI、SLO、日志、指标和追踪",
+      "intent_index": "index/intents/software-engineering-architecture/observability.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "idempotency",
+      "title": "幂等",
+      "description": "操作身份、重试和重复请求",
+      "intent_index": "index/intents/software-engineering-architecture/idempotency.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "frontend-platform",
+      "title": "前端平台",
+      "description": "组件、构建、运行时和交付",
+      "intent_index": "index/intents/software-engineering-architecture/frontend-platform.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "desktop-web-mobile",
+      "title": "桌面 Web 移动端",
+      "description": "跨平台渲染与能力边界",
+      "intent_index": "index/intents/software-engineering-architecture/desktop-web-mobile.json",
+      "leaf_count": 1,
+      "status": "published"
+    }
+  ]
+}

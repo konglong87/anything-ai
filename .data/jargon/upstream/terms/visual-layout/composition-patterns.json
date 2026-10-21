@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "composition-patterns",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "visual-layout",
+  "title": "高级布局六式",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-layout",
+    "audit-layout"
+  ],
+  "entries": [
+    {
+      "id": "composition-patterns",
+      "name": "卡片错位/大图主导/非对称/层叠/留白/破格出血",
+      "plain_language": "用比例、层级和安全区建立页面性格；每次只让少数元素破格。",
+      "when_to_use": "首屏、活动页、详情页和内容信息流",
+      "parameters": [
+        "错位按 8/12/16px 节奏",
+        "主图可占半屏或出血",
+        "使用 7:3 或 8:2 非对称",
+        "只破一处网格，内容留在安全区"
+      ],
+      "related": [
+        "layout-patterns",
+        "design-tokens"
+      ],
+      "constraints": [
+        "错位无规律会像未对齐",
+        "出血过多会削弱秩序",
+        "留白必须仍有视觉焦点"
+      ],
+      "aliases": []
+    }
+  ]
+}

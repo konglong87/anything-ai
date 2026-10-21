@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "project-collaboration",
+  "domain_id": "workplace-communication",
+  "intents": [
+    {
+      "id": "align-collaboration",
+      "action": "对齐",
+      "object": "项目协作",
+      "leaf_refs": [
+        "dependency-alignment"
+      ]
+    },
+    {
+      "id": "resolve-dependency",
+      "action": "解决",
+      "object": "协作依赖",
+      "leaf_refs": [
+        "dependency-alignment"
+      ]
+    }
+  ]
+}

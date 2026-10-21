@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "grid-glass-dashboard",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "方格纸玻璃卡 Dashboard",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "grid-glass-dashboard",
+      "name": "方格纸玻璃卡 Dashboard",
+      "plain_language": "用 44px 方格纸做底，让半透明白玻璃卡透出底层网格，指标按数值形成阶梯。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "44px 网格底",
+        "半透明白玻璃",
+        "指标阶梯排列",
+        "实心/斜纹/渐变填充"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "morph-icon",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "Morph 汉堡变叉",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "morph-icon",
+      "name": "Morph 汉堡变叉",
+      "plain_language": "使用同路径或线段位移旋转完成图标变形。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "200–300ms",
+        "同点数或明确线段映射"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

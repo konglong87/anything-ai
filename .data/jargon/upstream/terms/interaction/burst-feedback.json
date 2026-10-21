@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "burst-feedback",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "Burst 点击爆散",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "burst-feedback",
+      "name": "Burst 点击爆散",
+      "plain_language": "关键点击用 6–12 个短寿命粒子表达完成或奖励。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "寿命 300–500ms",
+        "随机角度",
+        "轻微重力",
+        "只用于关键动作"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

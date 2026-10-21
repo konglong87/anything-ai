@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "domain_id": "workplace-communication",
+  "subdomains": [
+    {
+      "subdomain_id": "vague-expression",
+      "title": "模糊表达",
+      "description": "把职场黑话翻译成可执行需求",
+      "intent_index": "index/intents/workplace-communication/vague-expression.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "project-collaboration",
+      "title": "项目协作",
+      "description": "角色、依赖、风险和决策",
+      "intent_index": "index/intents/workplace-communication/project-collaboration.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "goal-alignment",
+      "title": "目标对齐",
+      "description": "目标、指标、范围和优先级",
+      "intent_index": "index/intents/workplace-communication/goal-alignment.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "execution-language",
+      "title": "执行语言",
+      "description": "下一步、负责人、截止时间和验收",
+      "intent_index": "index/intents/workplace-communication/execution-language.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "management-terms",
+      "title": "管理术语",
+      "description": "组织、机制、复盘和资源配置",
+      "intent_index": "index/intents/workplace-communication/management-terms.json",
+      "leaf_count": 1,
+      "status": "published"
+    }
+  ]
+}

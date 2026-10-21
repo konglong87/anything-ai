@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "information-architecture",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "design-information",
+      "action": "设计",
+      "object": "信息架构",
+      "leaf_refs": [
+        "information-hierarchy"
+      ]
+    },
+    {
+      "id": "audit-information",
+      "action": "评审",
+      "object": "信息层级",
+      "leaf_refs": [
+        "information-hierarchy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "living-style-guide-preview",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "design-system",
+  "title": "设计系统活样式预览",
+  "knowledge_type": "guideline",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "build-design-system",
+    "preview-design-system",
+    "audit-design-system"
+  ],
+  "verification_required": true,
+  "verified_at": null,
+  "external_reference_policy": "外部预览资源只作待核验线索，不作为运行时事实",
+  "entries": [
+    {
+      "id": "living-style-guide-preview",
+      "name": "Light/Dark 活样式指南",
+      "plain_language": "用可直接打开的预览把色板、字体层级、组件状态和设计令牌映射到真实页面效果。",
+      "when_to_use": "需要让设计评审和 AI 在写代码前先确认视觉方向",
+      "parameters": [
+        "Light/Dark 双主题",
+        "色板与语义色",
+        "字体排印层级",
+        "按钮/输入框/卡片",
+        "hover/click/disabled",
+        "token 到页面效果映射"
+      ],
+      "related": [
+        "design-tokens",
+        "dashboard-style-system",
+        "accessibility"
+      ],
+      "constraints": [
+        "预览状态必须可复现",
+        "颜色不能是唯一状态表达",
+        "外部预览站和品牌资料保持待核验标记"
+      ],
+      "aliases": [],
+      "verification_checklist": [
+        "色板、排印、组件状态齐全",
+        "浅色和深色对比度通过",
+        "交互状态与 token 一致",
+        "截图或浏览器验收后再发布"
+      ],
+      "external_references": [
+        {
+          "kind": "preview-site",
+          "status": "pending-verification",
+          "url": "https://awesome-design-md-preview.vercel.app"
+        }
+      ],
+      "verified_at": null,
+      "verification_required": true
+    }
+  ]
+}

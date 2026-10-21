@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "radial-reveal-transition",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "圆形扩散转场",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "radial-reveal-transition",
+      "name": "圆形扩散转场",
+      "plain_language": "从真实点击位置捕获圆心，以 clip-path circle 扩散覆盖屏幕，完全覆盖后再显示新页面内容。",
+      "when_to_use": "用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时",
+      "parameters": [
+        "捕获 pointer x/y",
+        "最大半径覆盖最远屏幕角",
+        "扩散 duration 300–500ms",
+        "easing ease-out",
+        "新页面在覆盖完成后进入"
+      ],
+      "related": [
+        "follow",
+        "snap",
+        "interruption",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "避免生硬切换",
+        "动画顺序必须可验证",
+        "必须支持中断和反向回退"
+      ],
+      "aliases": [
+        "圆形扩散转场",
+        "radial reveal transition"
+      ],
+      "state_machine": [
+        "capture origin",
+        "circle expand",
+        "screen covered",
+        "new content enter",
+        "settled",
+        "reverse on back"
+      ],
+      "animation_sequence": [
+        "capture origin",
+        "circle expand",
+        "screen covered",
+        "new content enter",
+        "settled",
+        "reverse on back"
+      ],
+      "spatial_anchor": [
+        "圆心等于触点坐标",
+        "半径取触点到最远角距离",
+        "新旧页面共享同一转场层",
+        "返回时沿反向路径收回"
+      ],
+      "accessibility": [
+        "键盘触发使用按钮中心作为安全圆心",
+        "焦点在新页面可交互后移动",
+        "prefers-reduced-motion 时取消扩散但保留状态切换"
+      ],
+      "acceptance": [
+        "圆心不偏离触点",
+        "覆盖完成前不暴露新旧页面混合帧",
+        "返回操作可逆",
+        "视口变化时重新计算最大半径"
+      ]
+    }
+  ]
+}

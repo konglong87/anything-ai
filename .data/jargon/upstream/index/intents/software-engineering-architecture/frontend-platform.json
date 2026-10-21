@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "frontend-platform",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "design-frontend",
+      "action": "设计",
+      "object": "前端平台",
+      "leaf_refs": [
+        "frontend-runtime"
+      ]
+    },
+    {
+      "id": "audit-frontend",
+      "action": "评审",
+      "object": "前端平台",
+      "leaf_refs": [
+        "frontend-runtime"
+      ]
+    }
+  ]
+}

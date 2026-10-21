@@ -1,0 +1,272 @@
+{
+  "schema_version": "2.0.0",
+  "packages": [
+    {
+      "domain_id": "agri-food-cooking",
+      "package_id": "agri-food-cooking-core",
+      "title": "农林/食品/烹饪领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/agri-food-cooking.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/agri-food-cooking.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "ai-aigc-meta-skills",
+      "package_id": "aigc-core",
+      "title": "AIGC 影像与提示词需求澄清术语包",
+      "status": "published",
+      "term_path": "terms/aigc.json",
+      "intents": [
+        "generate-image",
+        "generate-video",
+        "write-prompt"
+      ],
+      "subdomain_index": "index/domains/ai-aigc-meta-skills.json",
+      "leaf_count": 9,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "architecture-civil-space",
+      "package_id": "architecture-civil-space-core",
+      "title": "建筑/土木/空间领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/architecture-civil-space.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/architecture-civil-space.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "arts-aesthetics-design",
+      "package_id": "arts-aesthetics-design-core",
+      "title": "艺术/美学/传统设计领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/arts-aesthetics-design.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/arts-aesthetics-design.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "astronomy-earth-environment",
+      "package_id": "astronomy-earth-environment-core",
+      "title": "天文/地学/环境领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/astronomy-earth-environment.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/astronomy-earth-environment.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "software-engineering-architecture",
+      "package_id": "backend-core",
+      "title": "后端与软件工程需求澄清术语包（幂等子域草案）",
+      "status": "published",
+      "term_path": "terms/backend.json",
+      "intents": [
+        "design-write",
+        "diagnose-write"
+      ],
+      "subdomain_index": "index/domains/software-engineering-architecture.json",
+      "leaf_count": 8,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "biology-medicine-health",
+      "package_id": "biology-medicine-health-core",
+      "title": "生物/医学/健康领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/biology-medicine-health.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/biology-medicine-health.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "communications-electronics-hardware",
+      "package_id": "communications-electronics-hardware-core",
+      "title": "通信/电子/硬件工程领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/communications-electronics-hardware.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/communications-electronics-hardware.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "economics-management-finance",
+      "package_id": "economics-management-finance-core",
+      "title": "经济/管理/金融领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/economics-management-finance.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/economics-management-finance.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "education-sports",
+      "package_id": "education-sports-core",
+      "title": "教育/体育/运动领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/education-sports.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/education-sports.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "history-geography-travel",
+      "package_id": "history-geography-travel-core",
+      "title": "历史/地理/旅游领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/history-geography-travel.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/history-geography-travel.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "industrial-mechanical-manufacturing",
+      "package_id": "industrial-mechanical-manufacturing-core",
+      "title": "工业/机械/制造领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/industrial-mechanical-manufacturing.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/industrial-mechanical-manufacturing.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "language-literature-writing",
+      "package_id": "language-literature-writing-core",
+      "title": "语言/文学/写作领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/language-literature-writing.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/language-literature-writing.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "law-politics-military",
+      "package_id": "law-politics-military-core",
+      "title": "政法/军事/法律领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/law-politics-military.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/law-politics-military.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "math-chemistry-statistics",
+      "package_id": "math-chemistry-statistics-core",
+      "title": "数理/化学/统计领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/math-chemistry-statistics.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/math-chemistry-statistics.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "news-media-advertising",
+      "package_id": "news-media-advertising-core",
+      "title": "新闻/传媒/广告领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/news-media-advertising.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/news-media-advertising.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "philosophy-psychology-religion",
+      "package_id": "philosophy-psychology-religion-core",
+      "title": "哲学/心理/宗教领域需求澄清术语包（草案）",
+      "status": "draft",
+      "term_path": "terms/philosophy-psychology-religion.json",
+      "intents": [
+        "design",
+        "diagnose"
+      ],
+      "subdomain_index": "index/domains/philosophy-psychology-religion.json",
+      "leaf_count": 0,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "digital-product-uiux",
+      "package_id": "uiux-core",
+      "title": "网页 UI/UX 需求澄清术语包",
+      "status": "published",
+      "term_path": "terms/uiux.json",
+      "intents": [
+        "design-page",
+        "diagnose-usability"
+      ],
+      "subdomain_index": "index/domains/digital-product-uiux.json",
+      "leaf_count": 83,
+      "loading_policy": "progressive"
+    },
+    {
+      "domain_id": "workplace-communication",
+      "package_id": "workplace-language",
+      "title": "职场模糊表达与专业化解释术语包",
+      "status": "published",
+      "term_path": "terms/workplace.json",
+      "intents": [
+        "clarify-workplace-language",
+        "rewrite-workplace-request"
+      ],
+      "subdomain_index": "index/domains/workplace-communication.json",
+      "leaf_count": 5,
+      "loading_policy": "progressive"
+    }
+  ]
+}

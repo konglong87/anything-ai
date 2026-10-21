@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "squash-toggle",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "interaction-motion",
+  "title": "Squash 弹性开关",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-interaction",
+    "implement-animation"
+  ],
+  "entries": [
+    {
+      "id": "squash-toggle",
+      "name": "Squash 弹性开关",
+      "plain_language": "开关起步横向拉伸、纵向压缩，再回到正常比例。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "scaleX 1.08",
+        "scaleY 0.94",
+        "180–240ms",
+        "transform-origin 与方向一致"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

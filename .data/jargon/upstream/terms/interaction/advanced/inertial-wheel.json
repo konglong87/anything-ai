@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "inertial-wheel",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "惯性滚轮",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "inertial-wheel",
+      "name": "惯性滚轮",
+      "plain_language": "时间或数值滚轮在释放后继承速度惯性减速，越界时阻尼回弹并吸附到最近刻度。",
+      "when_to_use": "需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互",
+      "parameters": [
+        "手指阶段 1:1 跟手",
+        "释放后保存 velocity",
+        "friction 衰减",
+        "越界阻尼",
+        "spring 刚度/阻尼",
+        "最近刻度吸附",
+        "限制最大速度避免眩晕"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [
+        "未达到阈值不能触发",
+        "快速重复操作不叠加",
+        "组件卸载时清理定时器和动画"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "dragging",
+        "inertial",
+        "decelerating",
+        "overscrolling",
+        "snapping",
+        "settled"
+      ],
+      "accessibility": [
+        "role=slider",
+        "键盘离散步进",
+        "Home/End 到极值",
+        "减少动态时保留当前刻度"
+      ],
+      "acceptance": [
+        "60fps",
+        "手势和键盘结果一致",
+        "取消后状态完全复位"
+      ]
+    }
+  ]
+}

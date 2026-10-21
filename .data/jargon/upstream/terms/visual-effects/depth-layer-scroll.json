@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "depth-layer-scroll",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "visual-effects",
+  "title": "景深分层滚动",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-visual-effect",
+    "implement-visual-effect",
+    "audit-performance"
+  ],
+  "entries": [
+    {
+      "id": "depth-layer-scroll",
+      "name": "景深分层滚动",
+      "plain_language": "把内容拆为前、中、后三层，按滚动进度驱动不同速度、模糊和亮度，形成可控景深。",
+      "when_to_use": "需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本",
+      "parameters": [
+        "scroll progress",
+        "translateY",
+        "blur/brightness",
+        "lerp"
+      ],
+      "related": [
+        "performance-budget",
+        "progressive-degradation",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "动效必须可中断",
+        "优先 transform/opacity",
+        "不得以视觉效果掩盖可读性"
+      ],
+      "aliases": [],
+      "performance_budget": [
+        "后层速度更慢且更模糊",
+        "前层速度更快且更清晰",
+        "只动画 transform 和 opacity"
+      ],
+      "fallback": [
+        "不支持滤镜时只保留位移层级",
+        "滚动性能不足时关闭实时 blur"
+      ],
+      "mobile_degradation": [
+        "移动端减少层数至两层",
+        "使用 requestAnimationFrame 合并滚动采样"
+      ],
+      "reduced_motion": [
+        "减少动态时取消视差和模糊变化，保留静态层级"
+      ],
+      "acceptance": [
+        "滚动或拖拽保持 60fps 目标",
+        "降级后主任务仍可完成",
+        "视觉层不影响文本对比度"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "design-tokens",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "define-tokens",
+      "action": "定义",
+      "object": "设计令牌",
+      "leaf_refs": [
+        "token-system"
+      ]
+    },
+    {
+      "id": "audit-tokens",
+      "action": "审计",
+      "object": "令牌一致性",
+      "leaf_refs": [
+        "token-system"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "visual-layout",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "design-layout",
+      "action": "设计",
+      "object": "页面布局",
+      "leaf_refs": [
+        "composition-patterns"
+      ]
+    },
+    {
+      "id": "audit-layout",
+      "action": "评审",
+      "object": "布局问题",
+      "leaf_refs": [
+        "composition-patterns"
+      ]
+    }
+  ]
+}

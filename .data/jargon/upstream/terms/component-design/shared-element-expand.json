@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "shared-element-expand",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "共享元素无缝展开",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "shared-element-expand",
+      "name": "共享元素无缝展开",
+      "plain_language": "列表卡片到详情页使用同一 layoutId，图片、标题和容器连续缩放，背景遮罩淡入，避免跳变。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "shared element transition",
+        "layoutId",
+        "matched geometry",
+        "continuous scale"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

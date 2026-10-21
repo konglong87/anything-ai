@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "elastic-press-feedback",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "弹性微缩触觉反馈",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "elastic-press-feedback",
+      "name": "弹性微缩触觉反馈",
+      "plain_language": "按钮按压缩到 0.96 并增加内阴影，释放时 Spring 轻微超调回 1，支持快速连点。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "whileTap",
+        "scale 0.96",
+        "inset shadow",
+        "spring overshoot"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

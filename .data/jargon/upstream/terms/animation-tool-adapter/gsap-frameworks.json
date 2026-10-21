@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gsap-frameworks",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "animation-tool-adapter",
+  "title": "GSAP 框架适配",
+  "knowledge_type": "technique",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "implement-gsap",
+    "audit-gsap"
+  ],
+  "do_not_generalize": true,
+  "provider": "GSAP",
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gsap-frameworks",
+      "name": "GSAP 框架适配",
+      "plain_language": "在 Vue、Svelte 等框架中按生命周期创建和销毁上下文，隔离 SSR、hydration 与客户端动画。",
+      "when_to_use": "用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层",
+      "parameters": [
+        "onMounted/onUnmounted",
+        "onMount/onDestroy",
+        "SSR guard",
+        "hydration",
+        "context cleanup"
+      ],
+      "related": [
+        "continuous-interaction",
+        "performance-budget",
+        "interruption"
+      ],
+      "constraints": [
+        "只在客户端创建动画",
+        "路由切换时完整清理"
+      ],
+      "aliases": [
+        "GSAP",
+        "gsap 框架适配"
+      ],
+      "provider": "GSAP",
+      "provider_specific": true,
+      "verification_required": true,
+      "verification_note": [
+        "框架封装层不要隐藏 kill/revert 能力"
+      ],
+      "acceptance": [
+        "动画创建和销毁可追踪",
+        "快速交互不产生重复回调",
+        "未指定 GSAP 时不强制引入"
+      ]
+    }
+  ]
+}

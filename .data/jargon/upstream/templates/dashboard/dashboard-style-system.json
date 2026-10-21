@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0.0",
+  "template_id": "dashboard-style-system",
+  "name": "Dashboard 审美 Skill",
+  "type": "template",
+  "inputs": [
+    "product_or_scene",
+    "style_direction",
+    "content_priority"
+  ],
+  "style_directions": [
+    {
+      "id": "warm-minimal",
+      "name": "暖调留白型",
+      "rule": "奶油底色、单一黄色强调、细边框和弱阴影，保留呼吸感。",
+      "tokens": [
+        "#F7F3EA",
+        "一个主强调色",
+        "圆角克制",
+        "弱阴影"
+      ]
+    },
+    {
+      "id": "high-contrast",
+      "name": "强对比视觉型",
+      "rule": "一张主卡占据视觉中心，用高饱和对比和大数字建立层级。",
+      "tokens": [
+        "主卡占视觉中心",
+        "硬阴影",
+        "大数字",
+        "非对称"
+      ]
+    },
+    {
+      "id": "minimal-data",
+      "name": "极简数据型",
+      "rule": "以灰阶和一个强调色组织数据，去网格线和多余标签。",
+      "tokens": [
+        "灰阶为主",
+        "胶囊柱状图",
+        "标签精简"
+      ]
+    },
+    {
+      "id": "immersive-atmosphere",
+      "name": "氛围沉浸型",
+      "rule": "深色底、雾面渐变、玻璃卡片和轻微动态光斑。",
+      "tokens": [
+        "GPU 负载预算",
+        "移动端降级",
+        "模糊光斑"
+      ]
+    },
+    {
+      "id": "image-led-content",
+      "name": "图卡内容型",
+      "rule": "让真实图片成为主角，文字叠加且只保留一个强调色。",
+      "tokens": [
+        "大图卡片",
+        "文字叠加",
+        "单一 CTA 色"
+      ]
+    },
+    {
+      "id": "layout-patterns",
+      "name": "高级布局模式",
+      "rule": "用错位、大图、非对称、层叠、留白和破格出血建立布局性格。",
+      "tokens": [
+        "错位按 8/12/16px 节奏",
+        "7:3 或 8:2 比例",
+        "只破一处网格",
+        "安全区内留信息"
+      ]
+    },
+    {
+      "id": "grid-glass-dashboard",
+      "name": "方格纸玻璃卡 Dashboard",
+      "rule": "用 44px 方格纸做底，让半透明白玻璃卡透出底层网格，指标按数值形成阶梯。",
+      "tokens": [
+        "44px 网格底",
+        "半透明白玻璃",
+        "指标阶梯排列",
+        "实心/斜纹/渐变填充"
+      ]
+    },
+    {
+      "id": "grouped-sidebar-dashboard",
+      "name": "分组侧边栏 Dashboard",
+      "rule": "把导航拆成三组并用大留白分隔，主区用超大细体字、三组数字和横向比例条建立节奏。",
+      "tokens": [
+        "三组导航",
+        "10px 大写灰字组名",
+        "底部头像/用量条",
+        "横向比例条替代饼图"
+      ]
+    },
+    {
+      "id": "single-dark-accent-dashboard",
+      "name": "单深色单强调色 Dashboard",
+      "rule": "整页只保留一条深色侧边栏和一个强调色，当前项、主按钮和命中图表共享同一强调色。",
+      "tokens": [
+        "唯一深色侧边栏",
+        "单一强调色",
+        "侧栏底部强调色卡片",
+        "其余区域保持浅色"
+      ]
+    },
+    {
+      "id": "tonal-dark-dashboard",
+      "name": "暗底明度分层 Dashboard",
+      "rule": "近黑底上只用明度区分卡片层级，不画描边；主读数放大，日期用圆点阵列表达。",
+      "tokens": [
+        "近黑底",
+        "卡片亮一档",
+        "无描边",
+        "超大主读数",
+        "圆点阵列+斜纹空格"
+      ]
+    }
+  ],
+  "output_contract": [
+    "页面结构",
+    "色彩规范",
+    "组件规范",
+    "可直接给 AI 的提示词"
+  ],
+  "field_contract": {
+    "layout": "布局名称与信息结构；不新增同义叶子",
+    "termSkill": "专业术语与结构关系；引用现有分类",
+    "uiSkill": "视觉层级、栅格、材质、排版；不负责修改业务状态",
+    "agentExec": "事件、前置条件、写入状态、派生视图与不受影响的状态",
+    "state": "唯一事实源、派生关系、不变量；新增实现建议需明确标记",
+    "tokens": "明确单位与适用范围；用户示例值不是全局默认值"
+  },
+  "shared_execution_contract": {
+    "flow": [
+      "事件",
+      "校验/前置条件",
+      "一次状态转换",
+      "派生所有关联视图",
+      "验收"
+    ],
+    "rules": [
+      "共享的是选择 ID 与时间上下文，不是每个面板各自复制一份状态；独立控件不得误联动。",
+      "展示读数由状态派生；请求失败、空数据与快速连续切换不得留下混合视图，异步结果需校验当前上下文。",
+      "颜色/尺寸是当前示例的 token，不是行为触发条件；计数从集合派生，不写死 7→8。",
+      "键盘与指针操作保持同样状态结果；选中/加载/错误不能只靠颜色，动态效果提供减少动态路径。",
+      "固定栏不等于固定整个页面；窄屏策略与断点未提供时先标记建议，不臆造原稿数值。"
+    ],
+    "acceptance": [
+      "事件前/后真实截图覆盖受影响与不受影响区域",
+      "端到端验证状态联动、独立性、错误/快速切换与键盘路径",
+      "截图只验证可见结果，状态一致性同时用断言验证"
+    ]
+  },
+  "source_gaps": [
+    {
+      "slot": 5,
+      "status": "needs_confirmation",
+      "entry_id": "warm-three-column-dashboard",
+      "missing": "完整点击逻辑、模式与单位映射；候选执行逻辑不得默认落地"
+    },
+    {
+      "slot": 6,
+      "status": "missing",
+      "missing": "第六个 Dashboard 的三层提示词原文",
+      "policy": "不创建空叶子、不生成虚构案例，不声称六例完整"
+    }
+  ],
+  "pattern_refs": [
+    {
+      "entry_id": "color-staggered-dashboard",
+      "path": "terms/dashboard/layout-patterns.json",
+      "status": "provided"
+    },
+    {
+      "entry_id": "industrial-zones-dashboard",
+      "path": "terms/dashboard/layout-patterns.json",
+      "status": "provided"
+    },
+    {
+      "entry_id": "axial-observatory-dashboard",
+      "path": "terms/dashboard/layout-patterns.json",
+      "status": "provided"
+    },
+    {
+      "entry_id": "glass-dot-matrix-dashboard",
+      "path": "terms/dashboard/layout-patterns.json",
+      "status": "provided"
+    },
+    {
+      "entry_id": "warm-three-column-dashboard",
+      "path": "terms/dashboard/layout-patterns.json",
+      "status": "needs_confirmation"
+    }
+  ],
+  "forbidden_defaults": [
+    "默认蓝紫渐变",
+    "所有卡片一样大",
+    "满屏圆角矩形",
+    "过多颜色和图标",
+    "模板化侧边栏+顶栏+四张 KPI 卡"
+  ]
+}

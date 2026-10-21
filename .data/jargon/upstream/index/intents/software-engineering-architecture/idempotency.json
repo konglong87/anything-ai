@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "idempotency",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "design-idempotency",
+      "action": "设计",
+      "object": "幂等契约",
+      "leaf_refs": [
+        "idempotency-contract"
+      ]
+    },
+    {
+      "id": "diagnose-duplicate",
+      "action": "排查",
+      "object": "重复写入",
+      "leaf_refs": [
+        "idempotency-contract"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "fluid-capsule-morph",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "流体胶囊形变",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "fluid-capsule-morph",
+      "name": "流体胶囊形变",
+      "plain_language": "胶囊按钮通过 FLIP/shared layout 形变为弹窗，圆角从 999px 过渡到 24px，内容延迟淡入并带遮罩。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "fluid morph",
+        "FLIP",
+        "layout animation",
+        "border-radius morph"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

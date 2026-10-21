@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "character-ip",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "generate-character",
+      "action": "生成",
+      "object": "角色 IP",
+      "leaf_refs": [
+        "character-ip"
+      ]
+    },
+    {
+      "id": "extend-character",
+      "action": "延展",
+      "object": "角色周边",
+      "leaf_refs": [
+        "character-ip"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "visual-effects",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "design-visual-effect",
+      "action": "设计",
+      "object": "视觉效果",
+      "leaf_refs": [
+        "cover-color-ambient-glow",
+        "cylindrical-list",
+        "depth-layer-scroll",
+        "liquid-adhesion-drag",
+        "liquid-glass-bar"
+      ]
+    },
+    {
+      "id": "implement-visual-effect",
+      "action": "实现",
+      "object": "视觉效果",
+      "leaf_refs": [
+        "cover-color-ambient-glow",
+        "cylindrical-list",
+        "depth-layer-scroll",
+        "liquid-adhesion-drag",
+        "liquid-glass-bar"
+      ]
+    },
+    {
+      "id": "audit-performance",
+      "action": "评审",
+      "object": "视觉性能",
+      "leaf_refs": [
+        "cover-color-ambient-glow",
+        "cylindrical-list",
+        "depth-layer-scroll",
+        "liquid-adhesion-drag",
+        "liquid-glass-bar"
+      ]
+    }
+  ]
+}

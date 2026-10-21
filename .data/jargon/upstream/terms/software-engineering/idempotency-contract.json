@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "idempotency-contract",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "idempotency",
+  "title": "幂等契约",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-idempotency",
+    "diagnose-duplicate"
+  ],
+  "entries": [
+    {
+      "id": "idempotency-contract",
+      "name": "幂等契约",
+      "plain_language": "用操作身份、同键重试、内容一致性、并发响应和结果关联定义重复处理。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "operation key",
+        "retry",
+        "payload match",
+        "in-progress",
+        "result record"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "high-concurrency",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "model-capacity",
+      "action": "建模",
+      "object": "并发容量",
+      "leaf_refs": [
+        "capacity-model"
+      ]
+    },
+    {
+      "id": "tune-performance",
+      "action": "优化",
+      "object": "性能",
+      "leaf_refs": [
+        "capacity-model"
+      ]
+    }
+  ]
+}

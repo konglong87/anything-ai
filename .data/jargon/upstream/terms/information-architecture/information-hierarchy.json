@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "information-hierarchy",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "information-architecture",
+  "title": "信息层级与密度",
+  "knowledge_type": "principle",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-information",
+    "audit-information"
+  ],
+  "entries": [
+    {
+      "id": "information-hierarchy",
+      "name": "信息层级",
+      "plain_language": "先确定用户要做的决定，再按主次组织标题、数据、操作和辅助说明。",
+      "when_to_use": "复杂后台、内容页和移动端首页",
+      "parameters": [
+        "主任务优先",
+        "每屏保留一个视觉主角",
+        "用密度和留白表达层级"
+      ],
+      "related": [
+        "composition-patterns",
+        "token-system"
+      ],
+      "constraints": [
+        "不要用颜色和图标堆叠替代结构"
+      ],
+      "aliases": []
+    }
+  ]
+}

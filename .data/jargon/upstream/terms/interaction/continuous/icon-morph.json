@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "icon-morph",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "图标变形",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "icon-morph",
+      "name": "图标变形",
+      "plain_language": "菜单、播放等图标优先通过 SVG path 插值完成状态变化。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "路径点数一致",
+        "200–300ms",
+        "交叉淡入是降级方案"
+      ],
+      "related": [
+        "same-container-transition",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "default",
+        "transitioning",
+        "alternate"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gsap-scrolltrigger",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "animation-tool-adapter",
+  "title": "GSAP ScrollTrigger",
+  "knowledge_type": "technique",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "implement-gsap",
+    "audit-gsap"
+  ],
+  "do_not_generalize": true,
+  "provider": "GSAP",
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gsap-scrolltrigger",
+      "name": "GSAP ScrollTrigger",
+      "plain_language": "用 scrub、pin 和 start/end 将动画绑定到滚动进度，并避免把滚动逻辑散落在组件中。",
+      "when_to_use": "用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层",
+      "parameters": [
+        "ScrollTrigger",
+        "scrub",
+        "pin",
+        "start/end",
+        "refresh"
+      ],
+      "related": [
+        "continuous-interaction",
+        "performance-budget",
+        "interruption"
+      ],
+      "constraints": [
+        "滚动驱动优先使用 transform",
+        "动态内容变化后显式 refresh"
+      ],
+      "aliases": [
+        "GSAP",
+        "gsap scrolltrigger"
+      ],
+      "provider": "GSAP",
+      "provider_specific": true,
+      "verification_required": true,
+      "verification_note": [
+        "SSR 和无 DOM 环境不能初始化插件"
+      ],
+      "acceptance": [
+        "动画创建和销毁可追踪",
+        "快速交互不产生重复回调",
+        "未指定 GSAP 时不强制引入"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "tool-adapter",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-image-prompt",
+      "action": "编写",
+      "object": "工具适配",
+      "leaf_refs": [
+        "tool-parameters"
+      ]
+    },
+    {
+      "id": "write-video-prompt",
+      "action": "编写",
+      "object": "工具适配",
+      "leaf_refs": [
+        "tool-parameters"
+      ]
+    }
+  ]
+}

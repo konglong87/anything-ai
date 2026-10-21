@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "availability-patterns",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "high-availability",
+  "title": "高可用模式",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-ha",
+    "audit-ha"
+  ],
+  "entries": [
+    {
+      "id": "availability-patterns",
+      "name": "高可用模式",
+      "plain_language": "跨实例、节点或可用区部署关键组件，并定义 RTO/RPO 和故障转移。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "failure domain",
+        "redundancy",
+        "RTO",
+        "RPO",
+        "failover"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

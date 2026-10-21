@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "motion-language",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "motion-control",
+  "title": "动作与运动控制",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-video-prompt"
+  ],
+  "entries": [
+    {
+      "id": "motion-language",
+      "name": "方向/速度/幅度/节奏",
+      "plain_language": "明确主体怎么动、镜头怎么动、速度和幅度如何变化。",
+      "when_to_use": "文生视频、产品动效和角色动作延展",
+      "parameters": [
+        "direction",
+        "speed",
+        "amplitude",
+        "rhythm",
+        "follow"
+      ],
+      "related": [
+        "video-direction",
+        "velocity-inheritance"
+      ],
+      "constraints": [
+        "动作必须可观察，避免只写情绪形容词"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "tonal-dark-dashboard",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "暗底明度分层 Dashboard",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "tonal-dark-dashboard",
+      "name": "暗底明度分层 Dashboard",
+      "plain_language": "近黑底上只用明度区分卡片层级，不画描边；主读数放大，日期用圆点阵列表达。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "近黑底",
+        "卡片亮一档",
+        "无描边",
+        "超大主读数",
+        "圆点阵列+斜纹空格"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": []
+    }
+  ]
+}

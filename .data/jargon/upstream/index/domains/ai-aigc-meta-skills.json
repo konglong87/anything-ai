@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomains": [
+    {
+      "subdomain_id": "image-prompt",
+      "title": "图像提示词",
+      "description": "主体、材质、光线和构图",
+      "intent_index": "index/intents/ai-aigc-meta-skills/image-prompt.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "video-prompt",
+      "title": "视频提示词",
+      "description": "镜头、运动、声音和节奏",
+      "intent_index": "index/intents/ai-aigc-meta-skills/video-prompt.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "character-ip",
+      "title": "角色 IP",
+      "description": "角色一致性、三视图和衍生物",
+      "intent_index": "index/intents/ai-aigc-meta-skills/character-ip.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "material-style",
+      "title": "材质与风格",
+      "description": "毛绒、PVC、纸张和渲染质感",
+      "intent_index": "index/intents/ai-aigc-meta-skills/material-style.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "camera-language",
+      "title": "镜头语言",
+      "description": "景别、焦段、机位和运镜",
+      "intent_index": "index/intents/ai-aigc-meta-skills/camera-language.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "composition",
+      "title": "构图",
+      "description": "主体位置、留白和视觉动线",
+      "intent_index": "index/intents/ai-aigc-meta-skills/composition.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "motion-control",
+      "title": "运动控制",
+      "description": "动作、跟随、速度和镜头运动",
+      "intent_index": "index/intents/ai-aigc-meta-skills/motion-control.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "negative-prompt",
+      "title": "负面约束",
+      "description": "变形、漂移、重复和违规输出",
+      "intent_index": "index/intents/ai-aigc-meta-skills/negative-prompt.json",
+      "leaf_count": 1,
+      "status": "published"
+    },
+    {
+      "subdomain_id": "tool-adapter",
+      "title": "工具适配",
+      "description": "通用、Midjourney 和 Stable Diffusion 参数",
+      "intent_index": "index/intents/ai-aigc-meta-skills/tool-adapter.json",
+      "leaf_count": 1,
+      "status": "published"
+    }
+  ]
+}

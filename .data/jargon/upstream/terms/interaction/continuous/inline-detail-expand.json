@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "inline-detail-expand",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "列表展开详情",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "inline-detail-expand",
+      "name": "列表展开详情",
+      "plain_language": "选中列表项就地展开，其余项顺势下移，不跳转详情页。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "max-height 或 FLIP",
+        "保留选中项上下文",
+        "其他项让位"
+      ],
+      "related": [
+        "flip-reentry",
+        "interruption"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "collapsed",
+        "expanding",
+        "expanded",
+        "collapsing"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

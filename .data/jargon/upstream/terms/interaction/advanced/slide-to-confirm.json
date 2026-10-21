@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "slide-to-confirm",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "滑动确认组件",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "slide-to-confirm",
+      "name": "滑动确认组件",
+      "plain_language": "滑块超过 80% 才确认，不足松手则弹回，确认只触发一次。",
+      "when_to_use": "需要明确触发、阈值、取消、边界和键盘替代路径的复杂交互",
+      "parameters": [
+        "80% 阈值",
+        "达到阈值加速到末端",
+        "spring 回弹",
+        "移动端阻止页面滚动"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [
+        "未达到阈值不能触发",
+        "快速重复操作不叠加",
+        "组件卸载时清理定时器和动画"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "dragging",
+        "threshold",
+        "confirmed",
+        "returning"
+      ],
+      "accessibility": [
+        "role=slider",
+        "Enter/Space 确认",
+        "危险操作提供替代确认"
+      ],
+      "acceptance": [
+        "60fps",
+        "手势和键盘结果一致",
+        "取消后状态完全复位"
+      ]
+    }
+  ]
+}

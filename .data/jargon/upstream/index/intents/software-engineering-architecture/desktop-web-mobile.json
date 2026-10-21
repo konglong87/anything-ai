@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "desktop-web-mobile",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "compare-platform",
+      "action": "比较",
+      "object": "平台能力",
+      "leaf_refs": [
+        "cross-platform-rendering"
+      ]
+    },
+    {
+      "id": "choose-renderer",
+      "action": "选择",
+      "object": "渲染后端",
+      "leaf_refs": [
+        "cross-platform-rendering"
+      ]
+    }
+  ]
+}

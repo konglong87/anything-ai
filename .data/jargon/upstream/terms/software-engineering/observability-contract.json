@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "observability-contract",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "observability",
+  "title": "可观测性契约",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "define-slo",
+    "debug-production"
+  ],
+  "entries": [
+    {
+      "id": "observability-contract",
+      "name": "可观测性契约",
+      "plain_language": "将 SLI/SLO、日志、指标、追踪、告警和故障演练绑定到服务目标。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "SLI",
+        "SLO",
+        "logs",
+        "metrics",
+        "traces",
+        "alerts"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

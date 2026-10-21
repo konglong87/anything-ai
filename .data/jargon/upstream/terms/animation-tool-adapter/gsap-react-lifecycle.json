@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gsap-react-lifecycle",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "animation-tool-adapter",
+  "title": "GSAP React 生命周期",
+  "knowledge_type": "technique",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "implement-gsap",
+    "audit-gsap"
+  ],
+  "do_not_generalize": true,
+  "provider": "GSAP",
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gsap-react-lifecycle",
+      "name": "GSAP React 生命周期",
+      "plain_language": "在 React 中用 useGSAP 或 gsap.context 管理选择器作用域、动画创建和 ctx.revert 清理。",
+      "when_to_use": "用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层",
+      "parameters": [
+        "useGSAP",
+        "gsap.context",
+        "scope",
+        "ctx.revert",
+        "dependencies"
+      ],
+      "related": [
+        "continuous-interaction",
+        "performance-budget",
+        "interruption"
+      ],
+      "constraints": [
+        "动画创建绑定组件生命周期",
+        "依赖变化先清理旧动画"
+      ],
+      "aliases": [
+        "GSAP",
+        "gsap react 生命周期"
+      ],
+      "provider": "GSAP",
+      "provider_specific": true,
+      "verification_required": true,
+      "verification_note": [
+        "避免在 render 阶段创建动画"
+      ],
+      "acceptance": [
+        "动画创建和销毁可追踪",
+        "快速交互不产生重复回调",
+        "未指定 GSAP 时不强制引入"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "bottom-sheet",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "阻尼弹性底部抽屉",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture"
+  ],
+  "entries": [
+    {
+      "id": "bottom-sheet",
+      "name": "阻尼弹性底部抽屉",
+      "plain_language": "支持下拉、橡皮筋和多个锚点吸附。",
+      "when_to_use": "需要高级反馈但仍要保持可理解的操作结果",
+      "parameters": [
+        "closed/peek/half/full",
+        "按位移+速度选锚点",
+        "处理滚动穿透"
+      ],
+      "related": [
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "continuous-interaction",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "design-continuous",
+      "action": "设计",
+      "object": "连续交互",
+      "leaf_refs": [
+        "button-stepper-morph",
+        "checkbox-cascade",
+        "fab-panel-morph",
+        "fullscreen-reveal-menu",
+        "icon-morph",
+        "inline-detail-expand",
+        "list-grid-flip",
+        "radial-reveal-transition",
+        "scroll-header-collapse",
+        "search-expand",
+        "snap-card-timeline",
+        "stack-card-expand",
+        "submit-state-machine",
+        "tab-indicator-spring"
+      ]
+    },
+    {
+      "id": "implement-continuous",
+      "action": "实现",
+      "object": "连续组件",
+      "leaf_refs": [
+        "button-stepper-morph",
+        "checkbox-cascade",
+        "fab-panel-morph",
+        "fullscreen-reveal-menu",
+        "icon-morph",
+        "inline-detail-expand",
+        "list-grid-flip",
+        "radial-reveal-transition",
+        "scroll-header-collapse",
+        "search-expand",
+        "snap-card-timeline",
+        "stack-card-expand",
+        "submit-state-machine",
+        "tab-indicator-spring"
+      ]
+    },
+    {
+      "id": "audit-continuous",
+      "action": "评审",
+      "object": "连续性",
+      "leaf_refs": [
+        "button-stepper-morph",
+        "checkbox-cascade",
+        "fab-panel-morph",
+        "fullscreen-reveal-menu",
+        "icon-morph",
+        "inline-detail-expand",
+        "list-grid-flip",
+        "radial-reveal-transition",
+        "scroll-header-collapse",
+        "search-expand",
+        "snap-card-timeline",
+        "stack-card-expand",
+        "submit-state-machine",
+        "tab-indicator-spring"
+      ]
+    }
+  ]
+}

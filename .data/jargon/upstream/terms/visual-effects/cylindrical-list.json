@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "cylindrical-list",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "visual-effects",
+  "title": "圆柱卷收列表",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-visual-effect",
+    "implement-visual-effect",
+    "audit-performance"
+  ],
+  "entries": [
+    {
+      "id": "cylindrical-list",
+      "name": "圆柱卷收列表",
+      "plain_language": "根据列表项距视区中心的距离插值旋转、缩放、亮度和透明度，让中心项突出、边缘项自然卷入。",
+      "when_to_use": "需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本",
+      "parameters": [
+        "rotateX/rotateY",
+        "scale",
+        "opacity",
+        "中心距离",
+        "scroll snap"
+      ],
+      "related": [
+        "performance-budget",
+        "progressive-degradation",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "动效必须可中断",
+        "优先 transform/opacity",
+        "不得以视觉效果掩盖可读性"
+      ],
+      "aliases": [],
+      "performance_budget": [
+        "中心项必须保持清晰可读",
+        "旋转角度随距离连续变化",
+        "滚动停止后再交给 snap 接管"
+      ],
+      "fallback": [
+        "不支持 3D 时退化为缩放和透明度",
+        "低端设备关闭实时滤镜"
+      ],
+      "mobile_degradation": [
+        "移动端限制透视深度和可见项数量",
+        "虚拟列表避免为不可见项计算变换"
+      ],
+      "reduced_motion": [
+        "减少动态时保留中心突出，不播放卷收路径"
+      ],
+      "acceptance": [
+        "滚动或拖拽保持 60fps 目标",
+        "降级后主任务仍可完成",
+        "视觉层不影响文本对比度"
+      ]
+    }
+  ]
+}

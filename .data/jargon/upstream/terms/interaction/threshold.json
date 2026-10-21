@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "threshold",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "阈值",
+  "knowledge_type": "principle",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "threshold",
+      "name": "阈值",
+      "plain_language": "达到位移、速度或双条件后才触发状态切换。",
+      "when_to_use": "半屏弹层、长按拖拽、粘连断开",
+      "parameters": [
+        "明确位移阈值",
+        "明确速度阈值",
+        "可加入迟滞避免抖动"
+      ],
+      "related": [
+        "snap",
+        "follow"
+      ],
+      "constraints": [
+        "不轻易触发，也不突然失效"
+      ],
+      "aliases": []
+    }
+  ]
+}

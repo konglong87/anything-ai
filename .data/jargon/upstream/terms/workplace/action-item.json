@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "action-item",
+  "domain_id": "workplace-communication",
+  "subdomain_id": "execution-language",
+  "title": "执行项",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-action",
+    "review-status"
+  ],
+  "entries": [
+    {
+      "id": "action-item",
+      "name": "执行项",
+      "plain_language": "每个执行项写清负责人、下一步、截止时间和完成证据。",
+      "when_to_use": "用户说出职场模糊表达或需要改写协作要求时",
+      "parameters": [
+        "owner",
+        "next step",
+        "due date",
+        "evidence"
+      ],
+      "related": [
+        "information-hierarchy",
+        "goal-metric"
+      ],
+      "constraints": [
+        "不替用户猜测未提供的事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

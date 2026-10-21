@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "gsap-performance",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "animation-tool-adapter",
+  "title": "GSAP 性能边界",
+  "knowledge_type": "technique",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "implement-gsap",
+    "audit-gsap"
+  ],
+  "do_not_generalize": true,
+  "provider": "GSAP",
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "gsap-performance",
+      "name": "GSAP 性能边界",
+      "plain_language": "把高频动效限制在合成属性，批量更新并减少布局读取，给复杂效果设置设备降级策略。",
+      "when_to_use": "用户明确指定 GSAP，或项目已经采用 GSAP 作为动效实现层",
+      "parameters": [
+        "transform",
+        "opacity",
+        "batching",
+        "will-change",
+        "layout thrash"
+      ],
+      "related": [
+        "continuous-interaction",
+        "performance-budget",
+        "interruption"
+      ],
+      "constraints": [
+        "不要连续写 width/height/top/left",
+        "will-change 只在短时交互启用"
+      ],
+      "aliases": [
+        "GSAP",
+        "gsap 性能边界"
+      ],
+      "provider": "GSAP",
+      "provider_specific": true,
+      "verification_required": true,
+      "verification_note": [
+        "低端设备关闭粒子、滤镜或 3D 透视"
+      ],
+      "acceptance": [
+        "动画创建和销毁可追踪",
+        "快速交互不产生重复回调",
+        "未指定 GSAP 时不强制引入"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "management-mechanism",
+  "domain_id": "workplace-communication",
+  "subdomain_id": "management-terms",
+  "title": "管理机制",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "explain-term",
+    "translate-jargon"
+  ],
+  "entries": [
+    {
+      "id": "management-mechanism",
+      "name": "管理机制",
+      "plain_language": "把机制、复盘、资源配置和组织动作落到可观察的流程。",
+      "when_to_use": "用户说出职场模糊表达或需要改写协作要求时",
+      "parameters": [
+        "机制",
+        "触发条件",
+        "参与者",
+        "输出",
+        "复盘"
+      ],
+      "related": [
+        "information-hierarchy",
+        "goal-metric"
+      ],
+      "constraints": [
+        "不替用户猜测未提供的事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

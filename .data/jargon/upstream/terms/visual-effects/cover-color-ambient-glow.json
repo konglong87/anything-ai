@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "cover-color-ambient-glow",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "visual-effects",
+  "title": "封面取色氛围光",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-visual-effect",
+    "implement-visual-effect",
+    "audit-performance"
+  ],
+  "entries": [
+    {
+      "id": "cover-color-ambient-glow",
+      "name": "封面取色氛围光",
+      "plain_language": "从封面图提取主色生成外围柔光，换图时用连续插值过渡而不是颜色突变。",
+      "when_to_use": "需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本",
+      "parameters": [
+        "Canvas/ColorThief 取色",
+        "radial-gradient",
+        "CSS variables",
+        "颜色插值"
+      ],
+      "related": [
+        "performance-budget",
+        "progressive-degradation",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "动效必须可中断",
+        "优先 transform/opacity",
+        "不得以视觉效果掩盖可读性"
+      ],
+      "aliases": [],
+      "performance_budget": [
+        "采样结果需要做饱和度和亮度限幅",
+        "柔光不能降低正文对比度"
+      ],
+      "fallback": [
+        "取色失败时回退到主题色",
+        "设备性能不足时只保留静态渐变"
+      ],
+      "mobile_degradation": [
+        "移动端降低光晕半径和不透明度",
+        "图片切换只更新 CSS 变量"
+      ],
+      "reduced_motion": [
+        "减少动态时保留最终主色，取消颜色过渡"
+      ],
+      "acceptance": [
+        "滚动或拖拽保持 60fps 目标",
+        "降级后主任务仍可完成",
+        "视觉层不影响文本对比度"
+      ]
+    }
+  ]
+}

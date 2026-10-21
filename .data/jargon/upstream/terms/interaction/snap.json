@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "snap",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "吸附",
+  "knowledge_type": "principle",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "snap",
+      "name": "吸附",
+      "plain_language": "松手后把连续输入收敛到明确落点。",
+      "when_to_use": "滚轮、底部抽屉、滑块和拖拽",
+      "parameters": [
+        "根据位置和速度选择锚点",
+        "终点接管要平滑"
+      ],
+      "related": [
+        "threshold",
+        "velocity-inheritance"
+      ],
+      "constraints": [
+        "不要硬跳到终点"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "jargon-translation",
+  "domain_id": "workplace-communication",
+  "subdomain_id": "vague-expression",
+  "title": "职场黑话翻译",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "clarify-vague",
+    "rewrite-actionable"
+  ],
+  "entries": [
+    {
+      "id": "jargon-translation",
+      "name": "职场黑话翻译",
+      "plain_language": "把“拉齐、抓手、闭环、赋能”等模糊词翻译为对象、动作、负责人和结果。",
+      "when_to_use": "用户说出职场模糊表达或需要改写协作要求时",
+      "parameters": [
+        "原句",
+        "真实对象",
+        "动作",
+        "负责人",
+        "验收标准"
+      ],
+      "related": [
+        "information-hierarchy",
+        "goal-metric"
+      ],
+      "constraints": [
+        "不替用户猜测未提供的事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

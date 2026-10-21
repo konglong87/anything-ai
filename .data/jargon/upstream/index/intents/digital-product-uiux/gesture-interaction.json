@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "gesture-interaction",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "design-gesture",
+      "action": "设计",
+      "object": "手势交互",
+      "leaf_refs": [
+        "before-after-slider",
+        "bottom-sheet",
+        "drag-to-absorb",
+        "edge-docked-fab",
+        "follow",
+        "inertial-wheel",
+        "interruption",
+        "long-press-preview",
+        "perspective-carousel",
+        "press-and-hold-confirm",
+        "radial-menu",
+        "rotary-knob",
+        "segmented-progress",
+        "slide-to-confirm",
+        "snap",
+        "threshold",
+        "velocity-inheritance"
+      ]
+    },
+    {
+      "id": "implement-gesture",
+      "action": "实现",
+      "object": "手势组件",
+      "leaf_refs": [
+        "before-after-slider",
+        "bottom-sheet",
+        "drag-to-absorb",
+        "edge-docked-fab",
+        "follow",
+        "inertial-wheel",
+        "interruption",
+        "long-press-preview",
+        "perspective-carousel",
+        "press-and-hold-confirm",
+        "radial-menu",
+        "rotary-knob",
+        "segmented-progress",
+        "slide-to-confirm",
+        "snap",
+        "threshold",
+        "velocity-inheritance"
+      ]
+    },
+    {
+      "id": "audit-gesture",
+      "action": "评审",
+      "object": "手感问题",
+      "leaf_refs": [
+        "before-after-slider",
+        "drag-to-absorb",
+        "edge-docked-fab",
+        "follow",
+        "inertial-wheel",
+        "interruption",
+        "long-press-preview",
+        "perspective-carousel",
+        "press-and-hold-confirm",
+        "radial-menu",
+        "rotary-knob",
+        "segmented-progress",
+        "slide-to-confirm",
+        "snap",
+        "threshold",
+        "velocity-inheritance"
+      ]
+    }
+  ]
+}

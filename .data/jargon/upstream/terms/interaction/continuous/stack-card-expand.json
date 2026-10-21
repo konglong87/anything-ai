@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "stack-card-expand",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "叠卡展开",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "stack-card-expand",
+      "name": "叠卡展开",
+      "plain_language": "叠放卡片点击或下滑后扇出成完整铺排，再沿原空间路径叠回，展开期间锁定下方卡片误触。",
+      "when_to_use": "用户用自然语言描述联动、叠卡、吸附画线或圆形转场的感觉时",
+      "parameters": [
+        "Y 轴位移按卡片间距递增",
+        "旋转角度按扇出方向分配",
+        "缩放比例逐层收敛到 1",
+        "Z 轴层级从前到后重排",
+        "展开/收回使用同一锚点"
+      ],
+      "related": [
+        "follow",
+        "snap",
+        "interruption",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "避免生硬切换",
+        "动画顺序必须可验证",
+        "必须支持中断和反向回退"
+      ],
+      "aliases": [
+        "叠卡展开",
+        "stack card expand"
+      ],
+      "state_machine": [
+        "collapsed stack",
+        "fan out",
+        "content reveal",
+        "expanded layout",
+        "reverse stack"
+      ],
+      "animation_sequence": [
+        "collapsed stack",
+        "fan out",
+        "content reveal",
+        "expanded layout",
+        "reverse stack"
+      ],
+      "spatial_anchor": [
+        "首张卡片作为展开原点",
+        "卡片沿预设扇形或垂直轨迹排列",
+        "每张卡片保留可点击区域",
+        "关闭时回到原重叠位置"
+      ],
+      "accessibility": [
+        "键盘 Enter/Space 展开",
+        "aria-expanded 表达状态",
+        "减少动态时直接切换布局但保留层级"
+      ],
+      "acceptance": [
+        "展开前后首张卡位置连续",
+        "卡片不互相遮挡关键内容",
+        "展开期间下层卡片不可误触",
+        "关闭沿原路回叠"
+      ]
+    }
+  ]
+}

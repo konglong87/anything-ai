@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "dependency-alignment",
+  "domain_id": "workplace-communication",
+  "subdomain_id": "project-collaboration",
+  "title": "项目依赖对齐",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "align-collaboration",
+    "resolve-dependency"
+  ],
+  "entries": [
+    {
+      "id": "dependency-alignment",
+      "name": "项目依赖对齐",
+      "plain_language": "明确依赖方、输入、输出、阻塞风险和升级路径。",
+      "when_to_use": "用户说出职场模糊表达或需要改写协作要求时",
+      "parameters": [
+        "依赖方",
+        "输入",
+        "输出",
+        "截止时间",
+        "升级路径"
+      ],
+      "related": [
+        "information-hierarchy",
+        "goal-metric"
+      ],
+      "constraints": [
+        "不替用户猜测未提供的事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

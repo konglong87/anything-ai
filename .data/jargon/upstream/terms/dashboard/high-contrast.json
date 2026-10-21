@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "high-contrast",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "强对比视觉型",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "high-contrast",
+      "name": "强对比视觉型",
+      "plain_language": "一张主卡占据视觉中心，用高饱和对比和大数字建立层级。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "主卡占视觉中心",
+        "硬阴影",
+        "大数字",
+        "非对称"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "frontend-runtime",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "frontend-platform",
+  "title": "前端平台边界",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-frontend",
+    "audit-frontend"
+  ],
+  "entries": [
+    {
+      "id": "frontend-runtime",
+      "name": "前端平台边界",
+      "plain_language": "把组件、构建、运行时、发布和回滚能力作为平台契约。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "component API",
+        "build",
+        "runtime",
+        "release",
+        "rollback"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "scalability",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "design-scale",
+      "action": "设计",
+      "object": "扩展策略",
+      "leaf_refs": [
+        "scaling-strategies"
+      ]
+    },
+    {
+      "id": "plan-migration",
+      "action": "规划",
+      "object": "容量迁移",
+      "leaf_refs": [
+        "scaling-strategies"
+      ]
+    }
+  ]
+}

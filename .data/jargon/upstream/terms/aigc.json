@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "aigc-core",
+  "domain_id": "ai-aigc-meta-skills",
+  "title": "AIGC 影像与提示词需求澄清术语包",
+  "version": "0.1.0",
+  "status": "published",
+  "intents": [
+    {
+      "id": "generate-image",
+      "action": "生成",
+      "object": "图像"
+    },
+    {
+      "id": "generate-video",
+      "action": "生成",
+      "object": "视频"
+    },
+    {
+      "id": "write-prompt",
+      "action": "编写",
+      "object": "AIGC 提示词"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "subject",
+      "name": "主体描述",
+      "definition": "画面里具体出现什么对象或人物。",
+      "value_type": "free_text"
+    },
+    {
+      "id": "shot",
+      "name": "景别与镜头",
+      "definition": "画面框到主体哪里，以及视野宽窄。",
+      "value_type": "selection"
+    },
+    {
+      "id": "lighting",
+      "name": "光线",
+      "definition": "光从哪里来、软硬和明暗关系。",
+      "value_type": "selection"
+    },
+    {
+      "id": "composition",
+      "name": "构图",
+      "definition": "主体在画面中的位置和视觉平衡。",
+      "value_type": "selection"
+    },
+    {
+      "id": "color",
+      "name": "色调",
+      "definition": "画面整体偏暖、偏冷、鲜艳或克制。",
+      "value_type": "selection"
+    },
+    {
+      "id": "motion",
+      "name": "运动与运镜",
+      "definition": "主体怎么动、镜头怎么移动以及速度幅度。",
+      "value_type": "selection"
+    },
+    {
+      "id": "sound",
+      "name": "声音",
+      "definition": "人声、环境音和背景音乐的组成。",
+      "value_type": "selection"
+    },
+    {
+      "id": "style",
+      "name": "视觉风格",
+      "definition": "材质、媒介或影像风格的方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "aspect_ratio",
+      "name": "画幅比例",
+      "definition": "横屏、竖屏、方形或宽银幕比例。",
+      "value_type": "selection"
+    }
+  ],
+  "terms": [
+    {
+      "id": "shot-close",
+      "term": "特写",
+      "plain_language": "只拍脸或一个物件细节。",
+      "benefit": "突出表情或关键细节。",
+      "cost": "环境信息会减少。",
+      "dimension_id": "shot"
+    },
+    {
+      "id": "shot-medium",
+      "term": "中景",
+      "plain_language": "通常拍到膝盖以上并保留部分环境。",
+      "benefit": "人物和场景信息较平衡。",
+      "cost": "细节冲击弱于特写。",
+      "dimension_id": "shot"
+    },
+    {
+      "id": "shot-wide",
+      "term": "全景",
+      "plain_language": "拍到完整人物和环境。",
+      "benefit": "交代空间关系清楚。",
+      "cost": "人物细节更少。",
+      "dimension_id": "shot"
+    },
+    {
+      "id": "light-soft",
+      "term": "柔光",
+      "plain_language": "阴影边缘柔和，画面更平顺。",
+      "benefit": "适合人像和温和氛围。",
+      "cost": "戏剧冲突较弱。",
+      "dimension_id": "lighting"
+    },
+    {
+      "id": "light-hard",
+      "term": "硬光",
+      "plain_language": "阴影边缘锐利，明暗反差强。",
+      "benefit": "画面更有戏剧性。",
+      "cost": "容易显得生硬。",
+      "dimension_id": "lighting"
+    },
+    {
+      "id": "comp-center",
+      "term": "中心构图",
+      "plain_language": "主体放在画面正中。",
+      "benefit": "稳定、直接、容易理解。",
+      "cost": "画面变化和动势较少。",
+      "dimension_id": "composition"
+    },
+    {
+      "id": "color-warm",
+      "term": "暖色调",
+      "plain_language": "整体偏橙黄，感觉温暖。",
+      "benefit": "适合怀旧、亲近和日落氛围。",
+      "cost": "冷静疏离感较弱。",
+      "dimension_id": "color"
+    },
+    {
+      "id": "motion-static",
+      "term": "固定镜头",
+      "plain_language": "相机保持不动，主要看主体动作。",
+      "benefit": "画面稳定，便于观察。",
+      "cost": "动态冲击较少。",
+      "dimension_id": "motion"
+    },
+    {
+      "id": "motion-follow",
+      "term": "跟随运镜",
+      "plain_language": "镜头跟着主体移动。",
+      "benefit": "运动关系更强，沉浸感更高。",
+      "cost": "生成稳定性和构图控制要求更高。",
+      "dimension_id": "motion"
+    },
+    {
+      "id": "style-film",
+      "term": "电影感影像",
+      "plain_language": "通过光线、构图、色调和景深形成统一影像风格。",
+      "benefit": "整体气质更明确。",
+      "cost": "不能保证自动达到某部电影的具体效果。",
+      "dimension_id": "style"
+    },
+    {
+      "id": "ratio-landscape",
+      "term": "16:9 横屏",
+      "plain_language": "适合常规横屏视频和网页展示。",
+      "benefit": "横向空间充足。",
+      "cost": "手机竖屏展示需要裁切。",
+      "dimension_id": "aspect_ratio"
+    },
+    {
+      "id": "ratio-portrait",
+      "term": "9:16 竖屏",
+      "plain_language": "适合短视频和手机全屏观看。",
+      "benefit": "移动端占屏更充分。",
+      "cost": "横向场景信息更受限。",
+      "dimension_id": "aspect_ratio"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "电影感",
+      "level": "L3",
+      "intent_ids": [
+        "generate-image",
+        "generate-video",
+        "write-prompt"
+      ],
+      "dimension_ids": [
+        "shot",
+        "lighting",
+        "composition",
+        "color",
+        "style"
+      ],
+      "reason": "需要拆解镜头、光线、构图、色调和风格。"
+    }
+  ],
+  "template_refs": {
+    "base_ip": "templates/aigc/base-ip.json",
+    "scenes": [
+      "templates/aigc/lineart-to-3d.json",
+      "templates/aigc/plush-texture.json",
+      "templates/aigc/turnaround-3view.json",
+      "templates/aigc/expression-sheet.json",
+      "templates/aigc/action-sheet.json",
+      "templates/aigc/outfit-sheet.json",
+      "templates/aigc/merchandise-set.json"
+    ]
+  }
+}

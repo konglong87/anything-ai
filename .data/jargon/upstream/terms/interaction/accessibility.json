@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "motion-accessibility",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "accessibility",
+  "title": "动效可访问性",
+  "knowledge_type": "guideline",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "audit-accessibility",
+    "implement-accessibility"
+  ],
+  "entries": [
+    {
+      "id": "undo-aria",
+      "name": "撤销按钮可读标签",
+      "plain_language": "按钮要读出操作和剩余时间，例如撤销删除，剩余 5 秒。",
+      "when_to_use": "撤销条、倒计时按钮",
+      "parameters": [
+        "aria-label 动态更新",
+        "键盘可聚焦和触发"
+      ],
+      "related": [
+        "undo-window"
+      ],
+      "constraints": [
+        "不要每秒通过 aria-live 播报倒计时"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "undo-live",
+      "name": "轻量状态播报",
+      "plain_language": "用 aria-live=polite 提示已删除、可撤销等关键状态。",
+      "when_to_use": "操作结果需要被读屏用户感知",
+      "parameters": [
+        "只播报状态变化",
+        "焦点不被撤销条抢走"
+      ],
+      "related": [
+        "undo-aria"
+      ],
+      "constraints": [
+        "不重复播报相同状态"
+      ],
+      "aliases": []
+    }
+  ]
+}

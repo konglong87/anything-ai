@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "character-ip",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "character-ip",
+  "title": "角色 IP 一致性",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-character",
+    "extend-character"
+  ],
+  "entries": [
+    {
+      "id": "base-ip",
+      "name": "基础 IP 设定",
+      "plain_language": "先锁定角色体型、配色、五官、材质和负面约束，再按场景增量加载。",
+      "when_to_use": "同一角色需要生成三视图、动作、服装、表情或周边",
+      "parameters": [
+        "主体描述",
+        "一致性规则",
+        "负面提示词",
+        "参考图"
+      ],
+      "related": [
+        "lineart-to-3d",
+        "plush-texture",
+        "merchandise-set"
+      ],
+      "constraints": [
+        "一次只加载一个场景模板"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "scene-module",
+      "name": "场景增量模块",
+      "plain_language": "把材质、动作、镜头或周边作为独立模块叠加到基础 IP。",
+      "when_to_use": "需要复用角色但更换表现目标",
+      "parameters": [
+        "scene_id",
+        "aspect_ratio",
+        "tool_adapter"
+      ],
+      "related": [
+        "base-ip"
+      ],
+      "constraints": [
+        "不要重复复制完整基础 IP"
+      ],
+      "aliases": []
+    }
+  ]
+}

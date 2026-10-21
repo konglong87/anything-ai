@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "history-geography-travel-core",
+  "domain_id": "history-geography-travel",
+  "title": "历史/地理/旅游领域需求澄清术语包（草案）",
+  "version": "0.1.0",
+  "status": "draft",
+  "intents": [
+    {
+      "id": "design",
+      "action": "设计",
+      "object": "历史/地理/旅游相关产物"
+    },
+    {
+      "id": "diagnose",
+      "action": "排查",
+      "object": "历史/地理/旅游相关问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "scope",
+      "name": "对象与范围",
+      "definition": "对象与范围的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "method",
+      "name": "时间与证据",
+      "definition": "时间与证据的可确认方向。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "问题现象",
+      "definition": "用户观察到的具体问题、时间、范围和影响。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "core-1",
+      "term": "对象范围",
+      "plain_language": "明确地点、人物、事件或路线",
+      "benefit": "避免内容过宽",
+      "cost": "需要限定边界",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-2",
+      "term": "时代季节",
+      "plain_language": "明确历史时期或旅行季节",
+      "benefit": "叙述和计划更准确",
+      "cost": "需要核对资料",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-3",
+      "term": "证据来源",
+      "plain_language": "区分档案、地图、官方信息和传闻",
+      "benefit": "减少错误传播",
+      "cost": "研究时间更长",
+      "dimension_id": "scope"
+    },
+    {
+      "id": "core-4",
+      "term": "空间路线",
+      "plain_language": "明确距离、交通和区域关系",
+      "benefit": "行程更可执行",
+      "cost": "可能减少备选",
+      "dimension_id": "method"
+    },
+    {
+      "id": "core-5",
+      "term": "文化语境",
+      "plain_language": "说明当地习俗、禁忌和历史背景",
+      "benefit": "体验更尊重",
+      "cost": "需要本地资料",
+      "dimension_id": "method"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "专业一点/做好一点",
+      "level": "L3",
+      "intent_ids": [
+        "design"
+      ],
+      "dimension_ids": [
+        "scope",
+        "method"
+      ],
+      "reason": "需要先明确领域对象和方法约束。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "single-dark-accent-dashboard",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "dashboard-design",
+  "title": "单深色单强调色 Dashboard",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-dashboard",
+    "audit-dashboard"
+  ],
+  "entries": [
+    {
+      "id": "single-dark-accent-dashboard",
+      "name": "单深色单强调色 Dashboard",
+      "plain_language": "整页只保留一条深色侧边栏和一个强调色，当前项、主按钮和命中图表共享同一强调色。",
+      "when_to_use": "Dashboard 需要有明确审美方向且避免模板化",
+      "parameters": [
+        "唯一深色侧边栏",
+        "单一强调色",
+        "侧栏底部强调色卡片",
+        "其余区域保持浅色"
+      ],
+      "related": [
+        "design-tokens",
+        "layout-patterns"
+      ],
+      "constraints": [
+        "不要所有卡片一样大",
+        "不要默认蓝紫渐变",
+        "不要模板化侧边栏+四张 KPI 卡"
+      ],
+      "aliases": []
+    }
+  ]
+}

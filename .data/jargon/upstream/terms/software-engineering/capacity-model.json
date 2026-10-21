@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "capacity-model",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "high-concurrency",
+  "title": "并发容量模型",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "model-capacity",
+    "tune-performance"
+  ],
+  "entries": [
+    {
+      "id": "capacity-model",
+      "name": "并发容量模型",
+      "plain_language": "用平均值、峰值、突发、P95/P99 和增长率描述高并发，而不是只说高并发。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "RPS",
+        "burst",
+        "P95/P99",
+        "growth rate"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

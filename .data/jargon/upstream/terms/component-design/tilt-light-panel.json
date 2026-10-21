@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "tilt-light-panel",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "3D 倾斜光影面板",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "tilt-light-panel",
+      "name": "3D 倾斜光影面板",
+      "plain_language": "监听 pointermove/touchmove 计算 rotateX/rotateY，最大倾斜 8–12°，叠加随指针移动的径向高光，松手用 Spring 回正。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "pointer tracking",
+        "perspective",
+        "preserve-3d",
+        "radial-gradient",
+        "spring damping"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    }
+  ]
+}

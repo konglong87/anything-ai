@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "three-ui-catalog",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "3d-web-interface",
+  "title": "ThreeUI 组件目录研究",
+  "knowledge_type": "platform-research",
+  "scope": "provider-specific",
+  "status": "published",
+  "intent_ids": [
+    "compare-platform",
+    "choose-renderer"
+  ],
+  "do_not_generalize": true,
+  "verified_at": null,
+  "verification_required": true,
+  "entries": [
+    {
+      "id": "three-ui-catalog",
+      "name": "ThreeUI 组件目录研究",
+      "plain_language": "目录分类用于检索组件，不代表所有组件都适合生产环境。",
+      "when_to_use": "用户明确询问指定平台或组件目录",
+      "parameters": [
+        "Landing Pages",
+        "Hero",
+        "Backgrounds",
+        "Buttons",
+        "Text Animation",
+        "Three.js",
+        "UI Elements",
+        "CSS/Motion/Sections"
+      ],
+      "related": [],
+      "constraints": [
+        "必须标注 provider-specific",
+        "检索时优先官方来源",
+        "verified_at 未设置时不得当作确定事实"
+      ],
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "cross-platform-rendering",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "desktop-web-mobile",
+  "title": "跨平台渲染边界",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "compare-platform",
+    "choose-renderer"
+  ],
+  "entries": [
+    {
+      "id": "cross-platform-rendering",
+      "name": "跨平台渲染边界",
+      "plain_language": "按平台能力、渲染后端、输入方式和降级路径选择实现策略。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "desktop",
+        "web",
+        "mobile",
+        "renderer",
+        "fallback"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

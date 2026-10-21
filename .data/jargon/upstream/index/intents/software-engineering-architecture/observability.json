@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "observability",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "define-slo",
+      "action": "定义",
+      "object": "SLO",
+      "leaf_refs": [
+        "observability-contract"
+      ]
+    },
+    {
+      "id": "debug-production",
+      "action": "排障",
+      "object": "线上故障",
+      "leaf_refs": [
+        "observability-contract"
+      ]
+    }
+  ]
+}

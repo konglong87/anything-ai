@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "tab-indicator-spring",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "标签指示条",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "tab-indicator-spring",
+      "name": "标签指示条",
+      "plain_language": "指示条先拉向新位置，再收缩归位，轻微超调但不影响点击判断。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "spring 或 cubic-bezier",
+        "超调 5%–10%",
+        "指示条不重建"
+      ],
+      "related": [
+        "follow",
+        "snap"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "idle",
+        "moving",
+        "settled"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

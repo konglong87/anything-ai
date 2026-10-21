@@ -1,0 +1,177 @@
+{
+  "schema_version": "2.0.0",
+  "domains": [
+    {
+      "domain_id": "philosophy-psychology-religion",
+      "title": "哲学/心理/宗教",
+      "description": "思想、心理与信念相关的解释和表达",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/philosophy-psychology-religion.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "law-politics-military",
+      "title": "政法/军事/法律",
+      "description": "法律、政策、治理与军事相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/law-politics-military.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "economics-management-finance",
+      "title": "经济/管理/金融",
+      "description": "经济、组织管理和金融相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/economics-management-finance.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "education-sports",
+      "title": "教育/体育/运动",
+      "description": "教学、训练和运动相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/education-sports.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "language-literature-writing",
+      "title": "语言/文学/写作",
+      "description": "语言表达、文学和写作相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/language-literature-writing.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "arts-aesthetics-design",
+      "title": "艺术/美学/传统设计",
+      "description": "艺术、美学和传统设计相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/arts-aesthetics-design.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "digital-product-uiux",
+      "title": "数字产品与交互设计（UI/UX）",
+      "description": "界面、交互和数字产品相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/digital-product-uiux.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "history-geography-travel",
+      "title": "历史/地理/旅游",
+      "description": "历史、地理和旅行相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/history-geography-travel.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "news-media-advertising",
+      "title": "新闻/传媒/广告",
+      "description": "报道、媒体、广告和短视频相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/news-media-advertising.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "math-chemistry-statistics",
+      "title": "数理/化学/统计",
+      "description": "数学、化学和统计分析相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/math-chemistry-statistics.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "astronomy-earth-environment",
+      "title": "天文/地学/环境",
+      "description": "天文、地学和环境相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/astronomy-earth-environment.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "biology-medicine-health",
+      "title": "生物/医学/健康",
+      "description": "生物、医学和健康相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/biology-medicine-health.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "agri-food-cooking",
+      "title": "农林/食品/烹饪",
+      "description": "农业、食品和烹饪相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/agri-food-cooking.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "industrial-mechanical-manufacturing",
+      "title": "工业/机械/制造",
+      "description": "工业、机械、制造和汽修相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/industrial-mechanical-manufacturing.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "architecture-civil-space",
+      "title": "建筑/土木/空间",
+      "description": "建筑、土木工程和空间设计相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/architecture-civil-space.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "communications-electronics-hardware",
+      "title": "通信/电子/硬件工程",
+      "description": "通信、电子和硬件工程相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/communications-electronics-hardware.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "software-engineering-architecture",
+      "title": "软件工程与架构",
+      "description": "前后端开发、系统架构和运维相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/software-engineering-architecture.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "ai-aigc-meta-skills",
+      "title": "AI/AIGC/元技能",
+      "description": "文生图、文生视频和提示词工程相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/ai-aigc-meta-skills.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    },
+    {
+      "domain_id": "workplace-communication",
+      "title": "职场沟通与组织协作",
+      "description": "职场表达、目标对齐、项目协作和组织沟通相关产物",
+      "package_status": "indexed",
+      "subdomain_index": "index/domains/workplace-communication.json",
+      "loading_hint": "先匹配子域，再读取最小叶子包"
+    }
+  ],
+  "loading_policy": {
+    "strategy": "progressive",
+    "levels": [
+      "root",
+      "subdomain",
+      "intent",
+      "leaf",
+      "entry"
+    ],
+    "max_subdomains": 3,
+    "max_intents": 3,
+    "max_intents_scope": "per_subdomain",
+    "max_leaf_packages": 8,
+    "max_entries_per_leaf": 30,
+    "route_score_margin": 2,
+    "high_confidence_score": 6,
+    "high_confidence_margin": 1,
+    "min_route_score": 2,
+    "search_fallback": "ask-before-network"
+  }
+}

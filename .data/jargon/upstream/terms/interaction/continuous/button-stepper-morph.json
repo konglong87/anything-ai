@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "button-stepper-morph",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "continuous-interaction",
+  "title": "按钮变步进器",
+  "knowledge_type": "pattern",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-continuous",
+    "implement-continuous",
+    "audit-continuous"
+  ],
+  "entries": [
+    {
+      "id": "button-stepper-morph",
+      "name": "按钮变步进器",
+      "plain_language": "加号按钮原位展开为减号、数量和加号，数量归零后收回。",
+      "when_to_use": "需要状态切换连续、焦点稳定且避免跳页或突然替换容器的组件",
+      "parameters": [
+        "同一组件多状态布局",
+        "数量归零自动收回",
+        "保持触发器位置"
+      ],
+      "related": [
+        "state-machine-driven-ui",
+        "same-container-transition"
+      ],
+      "constraints": [
+        "动画必须可中断",
+        "支持 prefers-reduced-motion",
+        "状态变化不能重复触发回调"
+      ],
+      "aliases": [],
+      "state_machine": [
+        "add",
+        "expanded",
+        "decrementing",
+        "collapsed"
+      ],
+      "acceptance": [
+        "状态切换无跳变",
+        "快速操作不产生竞态",
+        "键盘和触摸路径结果一致"
+      ]
+    }
+  ]
+}

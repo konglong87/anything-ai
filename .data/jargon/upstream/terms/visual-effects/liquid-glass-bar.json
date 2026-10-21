@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "liquid-glass-bar",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "visual-effects",
+  "title": "液态玻璃栏",
+  "knowledge_type": "technique",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-visual-effect",
+    "implement-visual-effect",
+    "audit-performance"
+  ],
+  "entries": [
+    {
+      "id": "liquid-glass-bar",
+      "name": "液态玻璃栏",
+      "plain_language": "固定导航使用背景模糊、轻微折射和随滚动位移的高光，底色与文字对比度随背景亮度平滑调整。",
+      "when_to_use": "需要有视觉表现但必须同时控制 GPU、移动端和减少动态成本",
+      "parameters": [
+        "backdrop-filter",
+        "SVG displacement",
+        "高光层",
+        "亮度采样",
+        "scroll-driven animation"
+      ],
+      "related": [
+        "performance-budget",
+        "progressive-degradation",
+        "reduced-motion"
+      ],
+      "constraints": [
+        "动效必须可中断",
+        "优先 transform/opacity",
+        "不得以视觉效果掩盖可读性"
+      ],
+      "aliases": [],
+      "performance_budget": [
+        "桌面端优先使用 GPU 合成",
+        "高光和折射必须限制在导航区域",
+        "文字对比度持续满足可读性"
+      ],
+      "fallback": [
+        "不支持 backdrop-filter 时退化为不透明底色",
+        "低端设备关闭折射只保留模糊或纯色"
+      ],
+      "mobile_degradation": [
+        "移动端降低模糊半径",
+        "滚动中避免逐帧读取布局"
+      ],
+      "reduced_motion": [
+        "prefers-reduced-motion 下停用高光流动，保留静态玻璃层"
+      ],
+      "acceptance": [
+        "滚动或拖拽保持 60fps 目标",
+        "降级后主任务仍可完成",
+        "视觉层不影响文本对比度"
+      ]
+    }
+  ]
+}

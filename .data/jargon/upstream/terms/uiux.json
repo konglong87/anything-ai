@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "uiux-core",
+  "domain_id": "digital-product-uiux",
+  "title": "网页 UI/UX 需求澄清术语包",
+  "version": "0.1.0",
+  "status": "published",
+  "intents": [
+    {
+      "id": "design-page",
+      "action": "设计",
+      "object": "网页页面"
+    },
+    {
+      "id": "diagnose-usability",
+      "action": "排查",
+      "object": "页面使用问题"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "density",
+      "name": "信息密度",
+      "definition": "单位屏幕或版面承载的信息量、留白和层级节奏。",
+      "value_type": "selection"
+    },
+    {
+      "id": "typography",
+      "name": "字体与文字层级",
+      "definition": "字体家族、字重、字号、行高和标题正文层级的组合。",
+      "value_type": "selection"
+    },
+    {
+      "id": "contrast",
+      "name": "对比度方向",
+      "definition": "文字、背景、边界和重点元素之间的明暗与色彩区分。",
+      "value_type": "selection"
+    },
+    {
+      "id": "consistency",
+      "name": "组件一致性",
+      "definition": "按钮、表单、卡片、间距和状态反馈是否遵循统一规则。",
+      "value_type": "selection"
+    },
+    {
+      "id": "symptom",
+      "name": "使用现象",
+      "definition": "用户观察到的具体操作困难或视觉问题。",
+      "value_type": "free_text"
+    }
+  ],
+  "terms": [
+    {
+      "id": "density-focused",
+      "term": "高密度信息布局",
+      "plain_language": "同一屏展示更多有效信息，减少装饰性留白。",
+      "benefit": "适合后台、数据和效率型页面。",
+      "cost": "信息拥挤时阅读压力更高。",
+      "dimension_id": "density"
+    },
+    {
+      "id": "density-balanced",
+      "term": "平衡型信息布局",
+      "plain_language": "重点内容清楚，信息量和留白保持中等。",
+      "benefit": "适合多数产品页面，取舍较均衡。",
+      "cost": "个性和视觉冲击较弱。",
+      "dimension_id": "density"
+    },
+    {
+      "id": "density-breathing",
+      "term": "留白呼吸型布局",
+      "plain_language": "减少同屏信息，让内容之间有明显空间。",
+      "benefit": "更轻松、更强调单项内容。",
+      "cost": "用户需要更多滚动或跳转。",
+      "dimension_id": "density"
+    },
+    {
+      "id": "type-song",
+      "term": "宋体正文层级",
+      "plain_language": "使用宋体或同类衬线字体组织中文正文和标题层级。",
+      "benefit": "更有编辑感和传统阅读气质。",
+      "cost": "小字号和复杂终端上可能需要额外可读性检查。",
+      "dimension_id": "typography"
+    },
+    {
+      "id": "type-sans",
+      "term": "无衬线字体层级",
+      "plain_language": "使用无衬线字体建立清晰、现代的文字层级。",
+      "benefit": "屏幕阅读和界面扫描通常更直接。",
+      "cost": "文化和编辑气质较弱。",
+      "dimension_id": "typography"
+    },
+    {
+      "id": "contrast-high",
+      "term": "高对比度",
+      "plain_language": "提高文字、背景和重点控件的明暗区分。",
+      "benefit": "重点更容易被发现，适合信息复杂页面。",
+      "cost": "色彩更强，柔和感会降低。",
+      "dimension_id": "contrast"
+    },
+    {
+      "id": "contrast-soft",
+      "term": "柔和对比度",
+      "plain_language": "降低明暗和色彩冲突，让整体更柔和。",
+      "benefit": "视觉压力较低，适合内容展示。",
+      "cost": "弱化后可能影响信息分级。",
+      "dimension_id": "contrast"
+    },
+    {
+      "id": "consistency-system",
+      "term": "统一组件规则",
+      "plain_language": "按钮、卡片、间距、状态和交互反馈使用同一套规则。",
+      "benefit": "多页面体验更稳定，后续维护成本更低。",
+      "cost": "前期需要建立并遵守设计系统。",
+      "dimension_id": "consistency"
+    },
+    {
+      "id": "consistency-expressive",
+      "term": "局部表达变化",
+      "plain_language": "允许重点页面或品牌区域使用有限的组件变化。",
+      "benefit": "更有个性，适合品牌展示页。",
+      "cost": "跨页面学习成本和维护复杂度上升。",
+      "dimension_id": "consistency"
+    }
+  ],
+  "mappings": [
+    {
+      "expression": "有质感",
+      "level": "L3",
+      "intent_ids": [
+        "design-page"
+      ],
+      "dimension_ids": [
+        "density",
+        "typography",
+        "contrast",
+        "consistency"
+      ],
+      "reason": "需要先选择信息节奏、字体、对比度和组件规则。"
+    }
+  ]
+}

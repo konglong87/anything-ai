@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "tool-parameters",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "tool-adapter",
+  "title": "工具参数适配",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-image-prompt",
+    "write-video-prompt"
+  ],
+  "entries": [
+    {
+      "id": "tool-parameters",
+      "name": "通用/Midjourney/SD 适配",
+      "plain_language": "把同一套提示词拆成通用正文、画幅参数和工具专用控制字段。",
+      "when_to_use": "需要在多个生图工具间复用提示词",
+      "parameters": [
+        "aspect_ratio",
+        "style",
+        "negative_prompt",
+        "controlnet"
+      ],
+      "related": [
+        "prompt-blocks",
+        "negative-constraints"
+      ],
+      "constraints": [
+        "工具参数是适配层，不改变核心语义"
+      ],
+      "aliases": []
+    }
+  ]
+}

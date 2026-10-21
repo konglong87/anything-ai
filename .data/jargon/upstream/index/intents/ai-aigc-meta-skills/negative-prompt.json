@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "negative-prompt",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-image-prompt",
+      "action": "编写",
+      "object": "负面约束",
+      "leaf_refs": [
+        "negative-constraints"
+      ]
+    },
+    {
+      "id": "audit-image-prompt",
+      "action": "检查",
+      "object": "负面约束",
+      "leaf_refs": [
+        "negative-constraints"
+      ]
+    }
+  ]
+}

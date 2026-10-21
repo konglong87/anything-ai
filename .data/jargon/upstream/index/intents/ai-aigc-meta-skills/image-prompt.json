@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "image-prompt",
+  "domain_id": "ai-aigc-meta-skills",
+  "intents": [
+    {
+      "id": "write-image-prompt",
+      "action": "编写",
+      "object": "图像提示词",
+      "leaf_refs": [
+        "prompt-blocks"
+      ]
+    },
+    {
+      "id": "audit-image-prompt",
+      "action": "检查",
+      "object": "图像提示词",
+      "leaf_refs": [
+        "prompt-blocks"
+      ]
+    }
+  ]
+}

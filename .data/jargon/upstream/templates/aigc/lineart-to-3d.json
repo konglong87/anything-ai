@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "scene_id": "lineart-to-3d",
+  "name": "线稿转 3D",
+  "purpose": "根据黑白线稿锁定造型，转换为亮面糖胶 PVC 潮玩手办",
+  "required_inputs": [
+    "reference_image"
+  ],
+  "base_ip_ref": "templates/aigc/base-ip.json",
+  "prompt_blocks": {
+    "subject": [
+      "亮面珠光浅蓝 Q 版小胖恐龙，圆润身形，米白色肚皮与背刺，黑色大圆眼睛，粉嘟嘟圆形腮红，弯弯微笑小嘴，简约治愈卡通形象，马卡龙浅蓝与奶白柔和配色。"
+    ],
+    "composition": [
+      "黑白线稿为唯一造型参考",
+      "亮面光滑糖胶 PVC",
+      "高光泽釉面",
+      "无影棚柔光",
+      "3D OC 渲染"
+    ],
+    "material": [],
+    "lighting": [
+      "柔和均匀的商业棚拍光线"
+    ],
+    "quality": [
+      "高细节",
+      "清晰边缘",
+      "统一比例"
+    ],
+    "constraints": [
+      "保持体型、头身比例、眼睛大小、腮红位置、背刺数量和核心配色一致",
+      "不得改变角色年龄感、体型和基础表情气质",
+      "不得增加写实恐龙特征、尖牙、锋利爪子或攻击性造型",
+      "不得出现额外肢体、比例失衡、颜色漂移或重复角色"
+    ]
+  },
+  "aspect_ratio": "3:4",
+  "negative_prompt": [
+    "写实恐龙",
+    "尖牙",
+    "锋利爪子",
+    "攻击性表情",
+    "身体变形",
+    "额外肢体",
+    "颜色漂移",
+    "重复角色",
+    "模糊",
+    "低清晰度"
+  ],
+  "tool_adapters": {
+    "generic": {
+      "suffix": "画幅比例 3:4，高质量商业效果图"
+    },
+    "midjourney": {
+      "suffix": "--ar 3:4 --stylize 150"
+    },
+    "stable_diffusion": {
+      "positive_prompt_mode": "按 prompt_blocks 合并",
+      "negative_prompt_mode": "使用 negative_prompt",
+      "controlnet_hint": "参考图优先使用线稿或角色结构控制"
+    }
+  }
+}

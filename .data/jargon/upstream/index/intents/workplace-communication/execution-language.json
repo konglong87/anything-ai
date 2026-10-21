@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "execution-language",
+  "domain_id": "workplace-communication",
+  "intents": [
+    {
+      "id": "write-action",
+      "action": "编写",
+      "object": "执行项",
+      "leaf_refs": [
+        "action-item"
+      ]
+    },
+    {
+      "id": "review-status",
+      "action": "复盘",
+      "object": "状态汇报",
+      "leaf_refs": [
+        "action-item"
+      ]
+    }
+  ]
+}

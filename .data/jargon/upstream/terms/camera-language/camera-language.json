@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "camera-language",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "camera-language",
+  "title": "镜头语言",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-image-prompt",
+    "write-video-prompt"
+  ],
+  "entries": [
+    {
+      "id": "camera-language",
+      "name": "景别/机位/焦段/运镜",
+      "plain_language": "把电影感拆成可执行的景别、机位、焦段、景深和运动。",
+      "when_to_use": "想要电影感但需要稳定复现时",
+      "parameters": [
+        "close/medium/wide",
+        "high/low angle",
+        "lens",
+        "depth of field",
+        "camera motion"
+      ],
+      "related": [
+        "video-direction",
+        "composition"
+      ],
+      "constraints": [
+        "不要用受版权保护的具体作品名作为唯一指令"
+      ],
+      "aliases": []
+    }
+  ]
+}

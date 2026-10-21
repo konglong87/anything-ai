@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "velocity-inheritance",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "速度继承",
+  "knowledge_type": "principle",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "velocity-inheritance",
+      "name": "速度继承",
+      "plain_language": "松手后继续沿当前速度运动，再减速并吸附。",
+      "when_to_use": "惯性滚动、抽屉和抛物线飞入",
+      "parameters": [
+        "保存释放瞬间速度",
+        "设置 friction 和最大位移"
+      ],
+      "related": [
+        "follow",
+        "snap"
+      ],
+      "constraints": [
+        "速度必须有上限，避免失控"
+      ],
+      "aliases": []
+    }
+  ]
+}

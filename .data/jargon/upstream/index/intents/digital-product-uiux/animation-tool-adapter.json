@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "animation-tool-adapter",
+  "domain_id": "digital-product-uiux",
+  "intents": [
+    {
+      "id": "implement-gsap",
+      "action": "实现",
+      "object": "GSAP 动效",
+      "leaf_refs": [
+        "gsap-core",
+        "gsap-frameworks",
+        "gsap-performance",
+        "gsap-plugins",
+        "gsap-react-lifecycle",
+        "gsap-scrolltrigger",
+        "gsap-timeline"
+      ]
+    },
+    {
+      "id": "audit-gsap",
+      "action": "评审",
+      "object": "GSAP 集成",
+      "leaf_refs": [
+        "gsap-core",
+        "gsap-frameworks",
+        "gsap-performance",
+        "gsap-plugins",
+        "gsap-react-lifecycle",
+        "gsap-scrolltrigger",
+        "gsap-timeline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "vague-expression",
+  "domain_id": "workplace-communication",
+  "intents": [
+    {
+      "id": "clarify-vague",
+      "action": "澄清",
+      "object": "模糊表达",
+      "leaf_refs": [
+        "jargon-translation"
+      ]
+    },
+    {
+      "id": "rewrite-actionable",
+      "action": "改写",
+      "object": "可执行表达",
+      "leaf_refs": [
+        "jargon-translation"
+      ]
+    }
+  ]
+}

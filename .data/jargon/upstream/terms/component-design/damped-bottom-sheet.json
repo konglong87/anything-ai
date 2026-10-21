@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "damped-bottom-sheet",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "component-design",
+  "title": "阻尼弹性抽屉",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "generate-component",
+    "spec-component"
+  ],
+  "entries": [
+    {
+      "id": "damped-bottom-sheet",
+      "name": "阻尼弹性抽屉",
+      "plain_language": "Bottom Sheet 根据位移和速度在 closed/peek/half/full 锚点间吸附，越界呈 rubber band 回弹。",
+      "when_to_use": "需要给 AI 编程或设计工具描述可复用组件",
+      "parameters": [
+        "rubber band",
+        "velocity projection",
+        "snap points",
+        "spring snap"
+      ],
+      "related": [
+        "follow",
+        "interruption"
+      ],
+      "constraints": [],
+      "aliases": []
+    },
+    {
+      "id": "tear-line-panel",
+      "name": "撕线弹出面板",
+      "plain_language": "面板顶部用虚线撕口和锯齿 SVG 表达可拖拽边界，下拉跟手映射撕裂进度，超过阈值弹簧展开，未达则回弹。",
+      "when_to_use": "需要通过撕口下拉打开局部面板，并把撕裂感转成可衡量的位移和开口进度",
+      "parameters": [
+        "顶部 2px 虚线撕口",
+        "SVG path 锯齿",
+        "下拉超过 80px 展开",
+        "展开到 40% 屏高",
+        "spring stiffness 260",
+        "damping 28"
+      ],
+      "related": [
+        "damped-bottom-sheet",
+        "follow",
+        "threshold",
+        "snap",
+        "interruption"
+      ],
+      "constraints": [
+        "展开时页面禁止滚动",
+        "快速甩动按释放速度判定",
+        "中途松手未达阈值必须回弹",
+        "锯齿开口宽度与拖拽进度 0→1 同步"
+      ],
+      "aliases": [
+        "撕线面板",
+        "撕口弹出",
+        "tear line panel"
+      ],
+      "state_machine": [
+        "closed",
+        "dragging",
+        "expanded",
+        "returning"
+      ],
+      "animation_sequence": [
+        "grab tear line",
+        "follow drag",
+        "threshold decision",
+        "spring expand or return"
+      ],
+      "spatial_anchor": [
+        "撕口是唯一拖拽起点",
+        "面板从顶部边界展开",
+        "展开高度以视口百分比表达"
+      ],
+      "accessibility": [
+        "键盘 Enter/Space 打开",
+        "aria-expanded 表达面板状态",
+        "减少动态时直接切换并保留抓手提示"
+      ],
+      "acceptance": [
+        "跟手位移无延迟",
+        "80px 阈值稳定",
+        "未达阈值回弹无跳变",
+        "展开时不发生背景滚动"
+      ]
+    }
+  ]
+}

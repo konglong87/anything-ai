@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "video-direction",
+  "domain_id": "ai-aigc-meta-skills",
+  "subdomain_id": "video-prompt",
+  "title": "视频镜头与运动描述",
+  "knowledge_type": "template",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "write-video-prompt",
+    "audit-video-prompt"
+  ],
+  "entries": [
+    {
+      "id": "video-direction",
+      "name": "镜头/主体运动/声音三层描述",
+      "plain_language": "视频提示词至少拆成景别、镜头运动、主体动作、节奏和声音。",
+      "when_to_use": "文生视频和分镜生成",
+      "parameters": [
+        "shot",
+        "camera_motion",
+        "subject_motion",
+        "tempo",
+        "sound"
+      ],
+      "related": [
+        "camera-language",
+        "motion-language"
+      ],
+      "constraints": [
+        "不要只写电影感而不说明可观察的镜头行为"
+      ],
+      "aliases": []
+    }
+  ]
+}

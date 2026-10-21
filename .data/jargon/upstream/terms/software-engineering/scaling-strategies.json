@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "scaling-strategies",
+  "domain_id": "software-engineering-architecture",
+  "subdomain_id": "scalability",
+  "title": "扩展策略",
+  "knowledge_type": "term",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-scale",
+    "plan-migration"
+  ],
+  "entries": [
+    {
+      "id": "scaling-strategies",
+      "name": "扩展策略",
+      "plain_language": "按无状态实例、缓存、分片和异步队列拆解增长路径。",
+      "when_to_use": "后端或平台方案需要拆解质量属性时",
+      "parameters": [
+        "horizontal scaling",
+        "sharding",
+        "cache",
+        "async"
+      ],
+      "related": [
+        "high-availability",
+        "capacity-model",
+        "scaling-strategies",
+        "observability-contract",
+        "idempotency-contract"
+      ],
+      "constraints": [
+        "不要把质量属性当作无边界承诺"
+      ],
+      "aliases": []
+    }
+  ]
+}

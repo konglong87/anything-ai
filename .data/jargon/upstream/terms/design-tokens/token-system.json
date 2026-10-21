@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "token-system",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "design-tokens",
+  "title": "设计令牌系统",
+  "knowledge_type": "parameter",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "define-tokens",
+    "audit-tokens"
+  ],
+  "entries": [
+    {
+      "id": "token-system",
+      "name": "底色/强调色/层级/材质/主角五变量",
+      "plain_language": "Dashboard 的审美方向主要由底色、强调色、布局层级、材质和内容主角决定。",
+      "when_to_use": "需要让 AI 生成非模板化后台或设计系统",
+      "parameters": [
+        "背景色",
+        "主强调色",
+        "文字层级",
+        "圆角/阴影",
+        "卡片材质",
+        "内容主角"
+      ],
+      "related": [
+        "dashboard-style-system",
+        "composition-patterns"
+      ],
+      "constraints": [
+        "先定 token 再定组件，不要每张卡单独发明规则"
+      ],
+      "aliases": []
+    }
+  ]
+}

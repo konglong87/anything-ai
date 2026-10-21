@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "domain_id": "history-geography-travel",
+  "subdomains": [
+    {
+      "subdomain_id": "core",
+      "title": "核心入口",
+      "description": "该领域的渐进式术语入口，内容持续扩充",
+      "intent_index": "index/intents/history-geography-travel/core.json",
+      "leaf_count": 0,
+      "status": "skeleton"
+    }
+  ]
+}

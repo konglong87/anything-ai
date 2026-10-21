@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "subdomain_id": "backend-architecture",
+  "domain_id": "software-engineering-architecture",
+  "intents": [
+    {
+      "id": "design-backend",
+      "action": "设计",
+      "object": "后端架构",
+      "leaf_refs": [
+        "service-boundary"
+      ]
+    },
+    {
+      "id": "review-backend",
+      "action": "评审",
+      "object": "后端方案",
+      "leaf_refs": [
+        "service-boundary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "leaf_id": "interruption",
+  "domain_id": "digital-product-uiux",
+  "subdomain_id": "gesture-interaction",
+  "title": "可中断与恢复",
+  "knowledge_type": "principle",
+  "scope": "general",
+  "status": "published",
+  "intent_ids": [
+    "design-gesture",
+    "implement-gesture",
+    "audit-gesture"
+  ],
+  "entries": [
+    {
+      "id": "interruption",
+      "name": "可中断与恢复",
+      "plain_language": "动画中途再次输入时接管当前状态，而不是等待旧动画结束。",
+      "when_to_use": "可拖拽、可快速连点或可反悔的组件",
+      "parameters": [
+        "读取当前 transform",
+        "取消旧动画并从当前状态继续"
+      ],
+      "related": [
+        "follow",
+        "reverse-animation"
+      ],
+      "constraints": [
+        "不能产生双重回调或状态竞态"
+      ],
+      "aliases": []
+    }
+  ]
+}
