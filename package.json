@@ -45,7 +45,7 @@
     "jargon:verify": "node scripts/jargon/check-dist.mjs"
   },
   "devDependencies": {
-    "exa-js": "^2.8.0",
+    "exa-js": "^2.26.0",
     "gray-matter": "^4.0.3",
     "vitepress": "^1.6.4"
   },
