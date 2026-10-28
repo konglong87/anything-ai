@@ -149,6 +149,7 @@
 
 ## content-creator
 
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [Writing Scenario Prompts](en/prompts/by-scene/writing-prompts.md) - 20 min (beginner)
 - [Content Creator AI Application Guide](en/roles/content-creator/README.md) - 45min (beginner)
 - [Writing Scenario Prompts](prompts/by-scene/writing-prompts.md) - 20 min (beginner)
@@ -159,6 +160,7 @@
 
 ## designer
 
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [Omnimodal AI & Video Generation: From Text-to-Image to Any-to-Any](en/4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [UI Designer AI Application Guide](en/roles/designer/README.md) - 30min (beginner)
@@ -633,6 +635,7 @@
 - [Agent Development](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Agent开发](4-advanced-topics/agent-development.md) - 60 min (advanced)
 - [Codex Harness 深度拆解：从 Agent 内核、工具编排到可扩展架构](4-advanced-topics/codex-harness-architecture.md) - 45min (advanced)
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [Loop Engineering: From Writing Prompts to Designing Autonomous Workflows](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [Loop Engineering：从写提示词到设计自主工作流](4-advanced-topics/loop-engineering.md) - 30min (advanced)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
@@ -885,6 +888,7 @@
 - [AI Agents 全景指南](3-ai-agents/README.md) - 20min (beginner)
 - [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
 - [研究与分析类Skills](5-skills/research/README.md) - 40min (intermediate)

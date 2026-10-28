@@ -90,6 +90,7 @@
 - [Tool Selection Matrix](2-choose-tools/README.md) - 15min (beginner)
 - [工具选择矩阵](2-choose-tools/README.md) - 15min (beginner)
 - [Agent 类型全景：从 Coding Agent 到 Research Agent](3-ai-agents/agent-types.md) - 15min (beginner)
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [职场生存技能](5-skills/career/README.md) - 15min (intermediate)
 - [普通打工人在草台班子公司怎么反利用](5-skills/career/workplace-survival-guide.md) - 15min (intermediate)
 - [为什么不需要AI焦虑](en/0-start-here/ai-anxiety.md) - 15min (beginner)

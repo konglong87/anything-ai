@@ -1708,6 +1708,25 @@
     "duration": "10min"
   },
   {
+    "title": "交互式世界模拟：能力边界与评估清单",
+    "path": "4-advanced-topics/interactive-world-models.md",
+    "difficulty": "intermediate",
+    "roles": [
+      "student",
+      "programmer",
+      "designer",
+      "content-creator"
+    ],
+    "type": "guide",
+    "duration": "15min",
+    "tags": [
+      "世界模型",
+      "交互式生成",
+      "多模态",
+      "评估方法"
+    ]
+  },
+  {
     "title": "提示词工程与高级主题整合指南",
     "path": "4-advanced-topics/learning-path-integration.md",
     "difficulty": "advanced",

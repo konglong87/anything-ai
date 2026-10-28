@@ -693,6 +693,7 @@
 - [进阶主题](4-advanced-topics/README.md) - 1hour (advanced)
 - [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [编码标准 - 通用编码规范](5-skills/coding-standards/README.md) - 45min (beginner)
 - [安全审查 - 安全检查清单](5-skills/security-review/README.md) - 60min (advanced)
 - [TDD 工作流 - 测试驱动开发](5-skills/tdd-workflow/README.md) - 60min (intermediate)

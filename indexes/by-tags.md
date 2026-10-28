@@ -2738,6 +2738,7 @@
 
 ## 世界模型
 
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [世界模型与具身智能：从「生成内容」到「理解并行动」](4-advanced-topics/world-models.md) - 30min (advanced)
 
 ## 个性化教育
@@ -2747,6 +2748,10 @@
 ## 中国大模型
 
 - [中国大模型格局 2026：DeepSeek / GLM / Kimi / Qwen 怎么选](2-choose-tools/china-llm-landscape-2026.md) - 30min (intermediate)
+
+## 交互式生成
+
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 
 ## 产品经理
 
@@ -2882,6 +2887,7 @@
 
 ## 多模态
 
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [全模态与 AI 视频生成：从「文生图」到「任意到任意」](4-advanced-topics/multimodal-video.md) - 30min (intermediate)
 
 ## 奇门
@@ -3430,6 +3436,10 @@
 ## 记忆
 
 - [Agent 工作原理：感知→规划→行动→反思](3-ai-agents/agent-workflow.md) - 20min (intermediate)
+
+## 评估方法
+
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 
 ## 课堂管理
 

@@ -478,6 +478,7 @@ export default defineConfig({
                 { text: '深度研究指南', link: '/4-advanced-topics/deep-research-guide' },
                 { text: 'MCP 模型上下文协议', link: '/4-advanced-topics/mcp' },
                 { text: '世界模型与具身智能', link: '/4-advanced-topics/world-models' },
+                { text: '交互式世界模拟评估', link: '/4-advanced-topics/interactive-world-models' },
                 { text: '全模态与AI视频生成', link: '/4-advanced-topics/multimodal-video' },
                 { text: '深度学习', link: '/4-advanced-topics/deep-learning' },
                 { text: '机器学习基础', link: '/4-advanced-topics/ml-basics' },

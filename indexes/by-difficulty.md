@@ -470,6 +470,7 @@
 - [深度学习](4-advanced-topics/deep-learning.md) - 45 min (intermediate)
 - [Deep Research Feature Guide](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
 - [深度研究功能使用指南](4-advanced-topics/deep-research-guide.md) - 10min (intermediate)
+- [交互式世界模拟：能力边界与评估清单](4-advanced-topics/interactive-world-models.md) - 15min (intermediate)
 - [MCP 模型上下文协议：让 AI Agent 连通万物的开放标准](4-advanced-topics/mcp.md) - 30min (intermediate)
 - [Machine Learning Basics](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
 - [机器学习基础](4-advanced-topics/ml-basics.md) - 30 min (intermediate)
