@@ -41,14 +41,20 @@ assert.ok(home.includes('name="q"'),'Search form needs a native GET query field'
 assert.ok(library.includes(`id="${SEARCH_ANCHOR}"`),'Entry landing anchor is absent');
 const entry=home.match(/<section class="prompt-search-entry"[\s\S]*?<\/section>/)?.[0];
 assert.ok(entry,'Homepage entry was not server rendered');
+const skillLink=entry.match(/<a\b[^>]*data-testid="home-prompt-skill"[^>]*>[\s\S]*?<\/a>/)?.[0];
+assert.ok(skillLink,'Missing homepage Skill entry in production HTML');
+assert.ok(skillLink.includes('href="https://github.com/konglong87/feeling-to-jargon"'),'Incorrect Skill repository URL');
+assert.ok(skillLink.includes('target="_blank"'),'Skill entry must open a new tab');
+assert.ok(skillLink.includes('rel="noopener noreferrer"'),'Skill entry must protect the opener');
 for(const match of entry.matchAll(/(?:href|action)="([^"]+)"/g)) {
   const href=match[1].replace(/&amp;/g,'&');
   const url=new URL(href,'https://example.com');
+  if(url.origin!=='https://example.com')continue;
   assert.ok(url.pathname.startsWith('/anything-ai/'),'Homepage entry missing Pages base: '+href);
   assert.ok(existsSync(join(dist,url.pathname.slice('/anything-ai/'.length))),'Homepage entry target absent: '+href);
   const state=readSearchState(url.search,{domains:catalog.domains.map(d=>d.id),kinds:[...new Set(catalog.items.map(i=>i.kind))]});
   if(url.searchParams.has('domain'))assert.equal(state.domain,url.searchParams.get('domain'),'Invalid homepage domain');
 }
 assert.ok(!entry.includes('jargon-composer'),'Homepage must not embed the full library');
-console.log('Homepage SSR search form, shortcuts, Pages URLs and destination anchor verified.');
+console.log('Homepage SSR search form, shortcuts, Pages URLs, destination anchor and external Skill entry verified.');
 console.log(`Production HTML verified: ${pages.length} pages, ${catalog.items.length} SSR prompts, ${checkedLinks} internal links, base paths and downloads.`);

@@ -86,3 +86,15 @@ test('URL: copied search state always points back to the search panel', () => {
   const result = new URL(buildSearchUrl('https://example.com/anything-ai/prompts/jargon/README.html?q=后台', { query: '后台' }, options, { hash: SEARCH_ANCHOR }));
   assert.equal(result.hash, `#${SEARCH_ANCHOR}`);
 });
+
+test('Home: Skill download entry uses a centralized external URL and safe new-tab attributes', () => {
+  const component = readFileSync(new URL('../../.vitepress/theme/jargon/JargonSearchEntry.vue', import.meta.url), 'utf8');
+  assert.match(component, /const FEELING_TO_JARGON_URL = 'https:\/\/github\.com\/konglong87\/feeling-to-jargon'/);
+  const link = component.match(/<a\b[^>]*data-testid="home-prompt-skill"[^>]*>[\s\S]*?<\/a>/)?.[0];
+  assert.ok(link, 'Skill link must remain in the home entry');
+  assert.match(link, /:href="FEELING_TO_JARGON_URL"/);
+  assert.match(link, /target="_blank"/);
+  assert.match(link, /rel="noopener noreferrer"/);
+  assert.match(link, /aria-label="获取 feeling-to-jargon Skill（在新标签页打开 GitHub 安装说明）"/);
+  assert.match(link, /获取 feeling-to-jargon Skill/);
+});

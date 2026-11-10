@@ -5,6 +5,8 @@ import discovery from './discovery.json'
 import { buildSearchHref, GUIDE_PATH, HOME_EXAMPLES, LIBRARY_PATH, QUERY_LIMIT, SEARCH_ANCHOR, SEARCH_SHORTCUTS } from '../../../scripts/jargon/search-state.mjs'
 import './search-entry.css'
 
+const FEELING_TO_JARGON_URL = 'https://github.com/konglong87/feeling-to-jargon'
+
 const query = ref('')
 const router = useRouter()
 function submit() { void router.go(withBase(buildSearchHref({ query: query.value }))) }
@@ -35,6 +37,7 @@ function submit() { void router.go(withBase(buildSearchHref({ query: query.value
     <div class="prompt-entry-footer">
       <a :href="withBase(buildSearchHref())" data-testid="home-prompt-browse">按领域浏览 <span aria-hidden="true">→</span></a>
       <a :href="withBase(GUIDE_PATH)">查看使用方法</a>
+      <a :href="FEELING_TO_JARGON_URL" target="_blank" rel="noopener noreferrer" aria-label="获取 feeling-to-jargon Skill（在新标签页打开 GitHub 安装说明）" data-testid="home-prompt-skill">获取 feeling-to-jargon Skill <span aria-hidden="true">↗</span></a>
       <span>找文章与教程？请用顶部「站内搜索」。</span>
     </div>
   </section>
